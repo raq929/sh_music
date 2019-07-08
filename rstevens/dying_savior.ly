@@ -1,5 +1,4 @@
 \version "2.13.18"
-\include "..\SHRepeats_Dots.ly"
 
 global = {
 	\key c \major % really a minor
@@ -142,7 +141,6 @@ verseBass = \lyricmode
 		}
 		\context { \Staff
 			\override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 3)
-			\override BarLine #'stencil = #with-shapenote-repeats
 		}
 	}
 	\midi {

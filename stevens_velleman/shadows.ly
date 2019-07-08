@@ -156,7 +156,6 @@ verseBass = \lyricmode
 		}
 		\context { \Staff
 			\override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 3)
-			\override BarLine #'stencil = #with-shapenote-repeats
 		}
 	}
 	\midi {
