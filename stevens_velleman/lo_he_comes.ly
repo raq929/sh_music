@@ -69,6 +69,12 @@ tenorMusic = \relative c''
 bassMusic = \relative f
 {
 	\clef bass
+    a2 e e8 d e g a2 e
+    e4. fis8 g fis e g a2
+    a4. e8 g e d e a2 e
+    e4. e8 g e d c d2
+    e8.[ f16 e8 d] c2 g'8.[ a16 g8 f] e2 
+    a4. a8 g e d c a2
 	
 }
 
@@ -134,7 +140,7 @@ verseBass = \lyricmode
 	\midi {
 		\context {
 			\Score
-			tempoWholesPerMinute = #(ly:make-moment 80 4) %Sets the metronome speed and value of the beat
+			tempoWholesPerMinute = #(ly:make-moment 150 4) %Sets the metronome speed and value of the beat
 		}
 	}
 }
