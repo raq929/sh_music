@@ -100,12 +100,13 @@ verseTreble = \lyricmode
 
 }
 
+
 verseAlto = \lyricmode
 {
 	\set stanza = "2."
-	Ev' -- ry eye chall now be -- hold him
-	Rob'd in dread -- ful ma -- jes -- ty
-	Those who set at nought and sold him,
+	Ev' -- ry eye shall now be -- hold him
+	Robed in dread -- ful ma -- jes -- ty
+	Those who ri -- di -- culed and sold him,
 	Pierc'd and nail'd him to the tree,
 	Deep -- ly wail -- ing,
 	Shall the True Mes -- si -- ah see.
@@ -123,6 +124,7 @@ verseTenor = \lyricmode
 	Come to judge -- ment! come a -- way!
 }
 
+
 verseBass = \lyricmode
 {
 	\set stanza = "4."
@@ -133,6 +135,7 @@ verseBass = \lyricmode
 	Hal -- le -- lu -- jah!
 	See the day of God ap -- pear.
 }
+
 \score 
 {
 	\new StaffGroup <<
