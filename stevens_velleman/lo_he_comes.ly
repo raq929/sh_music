@@ -45,18 +45,22 @@ global = {
 
 trebleMusic = \relative c''
 {
-	a2 c e8 e e d a2 b
-	c4. d8 e d e d e2
-	a,4. a8 g a g a a2 a
-	e'8 [d c] a b c e d a2
-	e'2 e e a
-	a,4. e'8 d e e d e2
+    a2 c e8 e e d a2 b
+    c4. d8 e d e d e2
+    a,4. a8 g a g a a2 a
+    e'8[ d c] a b c e d d2
+    e2 e e a
+    a,4. e'8 d e e d e2
 }
 
 altoMusic = \relative c'
 {
-	
-	
+    e2 e g8 a a g e2 e
+    e4. f8 g f e d e2
+    e4. e8 d e d e e2 a
+    a4. a8 g a a g a2
+    a2 a g a 
+    c4. a8 g a a g a2
 }
 
 tenorMusic = \relative c''
@@ -75,11 +79,11 @@ bassMusic = \relative f
 {
 	\clef bass
     a2 e e8 d e g a2 e
-    e4. fis8 g fis e g a2
+    e4. f8 g f e g a2
     a4. e8 g e d e a2 e
-    e4. e8 g e c e d2
+    e4. e8 g e d c d2
     e8.[ f16 e8 d] c2 g'8.[ a16 g8 f] e2 
-    a4. a8 g e d e a2
+    a4. a8 g e d e <a a,>2
 	
 }
 
@@ -99,32 +103,50 @@ verseTreble = \lyricmode
 verseAlto = \lyricmode
 {
 	\set stanza = "2."
-
+	Ev' -- ry eye chall now be -- hold him
+	Rob'd in dread -- ful ma -- jes -- ty
+	Those who set at nought and sold him,
+	Pierc'd and nail'd him to the tree,
+	Deep -- ly wail -- ing,
+	Shall the True Mes -- si -- ah see.
 
 }
 
 verseTenor = \lyricmode
 {
 	\set stanza = "3."
-
+	Ev' -- ry is -- land, sea and moun -- tain,
+	Heav'n and earth, shall flee a -- way;
+	All who hate him must, con -- foun -- ded, 
+	Hear the trump pro -- claim the day;
+	Come to judge -- ment!
+	Come to judge -- ment! come a -- way!
 }
 
 verseBass = \lyricmode
 {
 	\set stanza = "4."
-	
+	Now re -- demp -- tion, long ex -- pec -- ted,
+	See in sol -- emn pomp ap -- pear;
+	All his saints, by man re -- jec -- ted, 
+	Now shall meet him in the air: 
+	Hal -- le -- lu -- jah!
+	See the day of God ap -- pear.
 }
-
 \score 
 {
 	\new StaffGroup <<
 		\new Staff = "treble" {	\global \trebleMusic }
 		\addlyrics { \verseTreble }
-		\new Staff = "alto" { \global \altoMusic }
 		\addlyrics { \verseAlto }
+		\new Staff = "alto" { \global \altoMusic }
+        \addlyrics { \verseTenor }
+		\addlyrics { \verseBass }
 		\new Staff = "tenor" { \global \tenorMusic }
 		\addlyrics { \verseTreble }
+		\addlyrics { \verseAlto }
 		\new Staff = "bass" { \global \bassMusic }
+        \addlyrics { \verseTenor }
 		\addlyrics { \verseBass }
 	>> 
 	\layout {
