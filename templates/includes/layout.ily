@@ -183,18 +183,18 @@ global = {
 % AUDIBLE SCORE
 %%%%%%%%%%%%%%%
 
-% #(load "swing.scm")
-%\score {
-%  \unfoldRepeats { <<                                                                              
-%    \new Staff \applySwing 8 #'(5 4) {\trebleMusic}
-%    \new Staff \applySwing 8 #'(5 4) {\altoMusic}
-%    \new Staff \applySwing 8 #'(5 4) {\tenorMusic}
-%    \new Staff \applySwing 8 #'(5 4) {\transpose c c, {\tenorMusic}}
-%    \new Staff \applySwing 8 #'(5 4) {\bassMusic}
-%  >> }
-%  \midi{
-%    \context {
-%      \Score tempoWholesPerMinute = #(ly:make-moment midiTempo 4)
-%    }
-%  }
-%}
+ #(load "../templates/includes/swing.scm")
+\score {
+  \unfoldRepeats { <<                                                                              
+    \new Staff \applySwing 8 #'(5 4) {\trebleMusic}
+    \new Staff \applySwing 8 #'(5 4) {\altoMusic}
+    \new Staff \applySwing 8 #'(5 4) {\tenorMusic}
+    \new Staff \applySwing 8 #'(5 4) {\transpose c c, {\tenorMusic}}
+    \new Staff \applySwing 8 #'(5 4) {\bassMusic}
+  >> }
+  \midi{
+    \context {
+      \Score tempoWholesPerMinute = #(ly:make-moment midiTempo 4)
+    }
+  }
+}
