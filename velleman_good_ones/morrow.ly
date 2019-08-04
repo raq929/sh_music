@@ -19,6 +19,7 @@ timeSignature = 4/4
 midiTempo = 150
 midiInstrument = "piano"
 systemCount = 1
+pageCount = 1
 staffSize = 20
 fontSize = 0
 
