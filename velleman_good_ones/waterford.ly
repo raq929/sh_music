@@ -10,9 +10,9 @@
 title = "Waterford P.M."
 meter = ""
 poet = "Charles Wesley"
-pdate = "????"
-composer = "????, arr. Leah Velleman"
-cdate = "????"
+pdate = ""
+composer = "arr. Leah Velleman"
+cdate = "2019"
 
 pitch = bf % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
@@ -31,11 +31,11 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-Fa2 Fa4 | so'2 Fa,4 | Fa( La) fa | so2 Fa,4 | Fa2 La4 | So2 So4 | La2 r4
+Fa2 Fa4 | so'2 La4 | Fa( La) fa | so2 Fa,4 | Fa2 La4 | So2 So4 | La2 r4
 Fa4.( la8) so4 | so'4.( La8) Fa4 | Fa( La) fa | so2 Fa,4 | Fa2 So4 | Fa2 la4 | <Fa so>2 r4
 mi4.( la8) so4 | Fa( So) La | La( fa) so | la2 r4
 so( La) fa | so( La) So | Fa( So) La | So2 r4
-Fa2 Fa4 | so'2 Fa,4 | Fa( La) fa | so2 Fa,4 | Fa2 La4 | So2 So4 | La2 r4
+Fa2 Fa4 | so'2 La4 | Fa( La) fa | so2 Fa,4 | Fa2 La4 | So2 So4 | La2 r4
 \bar"|."
 }
 
