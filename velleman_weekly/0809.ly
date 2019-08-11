@@ -7,9 +7,9 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = ""
-meter = ""
-poet = ""
+title = "Mount Elam"
+meter = "C.M."
+poet = "Isaac Watts"
 pdate = ""
 composer = "Leah Velleman"
 cdate = "2019"
@@ -42,7 +42,7 @@ trebleMusic = \fasola Fa'' {
 altoMusic = \fasola Fa' {
     r2 La | Fa4 Fa Fa so' | La La La Fa | La La La so | Fa,2.
     \repeat volta 2 {
-        r4 | r1 | r2. Fa4 | La La La Fa | so'2. La4 | so so la la | so La Fa2~ | Fa4 so' La La | so La Fa Fa | La La La so 
+        r4 | r1 | r2. Fa4 | La La La Fa | so'2. La4 | so so la la | so La Fa2~ | Fa4 so' so La | so La Fa Fa | La La La so 
     }
     \alternative { { \shortmeasure Fa,2. \longmeasure } { \longmeasure Fa1 } }
 }
@@ -71,10 +71,7 @@ bassMusic = \fasola Fa {
 A = \lyricmode { Rise up, my soul! Fly up and "run Through every" _ _ _ heav’n -- ly street, }
 B = \lyricmode { And "say, there’s naught be -" _ _ _ low the sun }
 C = \lyricmode { That's wor -- thy of thy feet. }
-D = \lyricmode { Why should my fool -- ish pas -- sions rove? Where can such sweet -- ness be }
-E = \lyricmode { As I have tas -- ted in thy love, }
-F = \lyricmode { As I have found in thee? }
-G = \lyricmode { Thus will we mount on "sacred wings," _ _ and tread the courts a -- bove; }
+G = \lyricmode { Thus will we mount on "sacred wings," _ _ And tread the courts a -- bove; }
 H = \lyricmode { Not earth, nor all her might -- iest things }
 I = \lyricmode { Shall tempt our mean -- est love. }
 X = \lyricmode { _ _ _ _ _ _ _ _ _ _ _ _ _ _ }
