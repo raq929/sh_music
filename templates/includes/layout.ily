@@ -116,6 +116,7 @@ global = {
           \new Voice = "one" {\global\trebleMusic}
           \new Lyrics \lyricsto "one" {\trebleWords}
           \new Lyrics \lyricsto "one" {\trebleWordsTwo}
+          \new Lyrics \lyricsto "one" {\trebleWordsThree}
         >>
       #})
       #(if (not (is-empty altoMusic)) #{
@@ -123,6 +124,7 @@ global = {
           \new Voice = "two" {\global\altoMusic}
           \new Lyrics \lyricsto "two" {\altoWords}
           \new Lyrics \lyricsto "two" {\altoWordsTwo}
+          \new Lyrics \lyricsto "two" {\altoWordsThree}
         >>
       #})
       #(if (not (is-empty tenorMusic)) #{
@@ -130,6 +132,7 @@ global = {
           \new Voice = "three" {\global\tenorMusic}
           \new Lyrics \lyricsto "three" {\tenorWords}
           \new Lyrics \lyricsto "three" {\tenorWordsTwo}
+          \new Lyrics \lyricsto "three" {\tenorWordsThree}
         >>
       #})
       #(if (not (is-empty bassMusic)) #{
@@ -137,6 +140,7 @@ global = {
           \new Voice = "four" {\clef bass \global\bassMusic}
           \new Lyrics \lyricsto "four" {\bassWords}
           \new Lyrics \lyricsto "four" {\bassWordsTwo}
+          \new Lyrics \lyricsto "four" {\bassWordsThree}
         >>
       #})
   >>
