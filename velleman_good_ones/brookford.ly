@@ -31,9 +31,9 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-        r2. \repeat volta 2 { Fa2. | so'2 la4 so2 La4 | La2 fa4 La2 Fa4 | Fa2 Fa4 la2 So4 | Fa2. } r2
+        r2. \repeat volta 2 { Fa2. | so'2 la4 so2 La4 | La2 fa4 La2 Fa4 | Fa2 Fa4 la( Fa) So4 | La2. } r2
         Fa4 | La2 so4 la( so) La4 | Fa( So) La La( So) Fa4 | la2 so4 so( la) Fa | So2. 
-        Fa2. | so'2 la4 so2 La4 | La2 So4 Fa2 la4 | so2 Fa4 La2 So4 | Fa1. \bar"|."
+        Fa2. | so'2 la4 so2 La4 | La2 So4 Fa2 la4 | so2 Fa4 La2 So4 | La1. \bar"|."
 }
 
 altoMusic = \fasola Fa' {
@@ -68,10 +68,16 @@ For all the ser -- vants of the king in earth and heav’n are one.
 trebleWordsTwo = \lyricmode {
 And on the ea -- gle wings of love to joys ce -- les -- tial rise.
 }
+trebleWordsThree = \lyricmode {
+
+}
 
 altoWords = \lyricmode {
 }
 altoWordsTwo = \lyricmode {
+}
+altoWordsThree = \lyricmode {
+
 }
 
 tenorWords = \lyricmode {
@@ -84,10 +90,16 @@ _
 tenorWordsTwo = \lyricmode {
 Though now di -- vi -- ded by the stream, The nar -- row stream of death;
 }
+tenorWordsThree = \lyricmode {
+
+}
 
 bassWords = \lyricmode {
 }
 bassWordsTwo = \lyricmode {
+}
+bassWordsThree = \lyricmode {
+
 }
 
 
