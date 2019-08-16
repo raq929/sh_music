@@ -33,13 +33,13 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa'' {
     r2 la | so4 so La2 | La so4 so | Fa1 | 
-    la2 la4 so | Fa2 mi | la4 La8[ fa] so2~ | so2
+    la2 la4 mi | Fa2 mi | la4 La8[ fa] so2~ | so2
     La2 | La4 so la2 | so la4 mi | Fa2. Fa4 | Fa la so fa | La2 so | la2. 
     \repeat volta 2 {
         r4 | r1 | r1 |
         r2. la4 | la8[( mi la so] la4) so | Fa( mi la) so | la( so La) So | La2. 
         so4 | la Fa mi la | so so so
-        la4 | so fa La2 | so La4 so | la1 | 
+        fa4 | La fa so2 | so La4 so | la1 | 
         Fa2 Fa4 la | so8[( la so fa] La4) So | La1 | La1 | 
     }
     \alternative {
@@ -75,7 +75,7 @@ tenorMusic = \fasola Fa'' {
         r4 | r2. La4 | La8[( fa La So] La2) | r4 Fa so'( fa | La2.) 
         so4 | la( so La) So | La2. 
         La4 | so so La So | Fa La so2~ | so2 
-        So | Fa4 So La2 | Fa La4 so | Fa1 | 
+        so | Fa,4 So La2 | Fa La4 so | Fa1 | 
         so2 so4 fa | La8([ fa La So] Fa4) So | 
         \newSpacingSection La1 | La1 
     }
@@ -93,9 +93,9 @@ bassMusic = \fasola Fa {
     \repeat volta 2 {
         la4 | la8[( mi la so] la2) | r4 so Fa( mi | la2.) 
         Fa4 | La8[( fa La So] Fa4) mi | la2. 
-        La4 | la2. so4 | Fa2. mi4 | Fa la so2~ | so
-        so2 | so4 la Fa2 | so La4 so | la1 | 
-        Fa2 so4 la | Fa2. So4 | Fa1 | La1
+        La4 | la2. so4 | Fa2. So4 | La Fa so2~ | so
+        So'2 | La4 So Fa2 | so Fa4 mi | la1 | 
+        so2 so4 la | Fa2. So4 | Fa1 | La1
     }
     \alternative {
         { \shortmeasure la,2. \longmeasure }
@@ -124,7 +124,7 @@ trebleWordsTwo = \lyricmode {
 
 altoWords = \lyricmode {
 \set stanza = "2."
-Oh, if my Lord "would come and meet," _ _ _
+Oh, if "my Lord would come and meet," _ _ _ _ _
 My "soul would stretch her" _ _ _ wings in haste,
 Fly "fearless through death's iron" _ _ _ _ _ gate,
 Nor feel the ter -- rors as she passed.
@@ -153,7 +153,7 @@ tenorWordsTwo = \lyricmode {
 
 bassWords = \lyricmode {
 \set stanza = "2."
-Oh, if my Lord "would come and meet," _ _ _
+Oh, if "my Lord would come and meet," _ _ _ _ _
 My "soul would stretch her" _ _ _ wings in haste,
 Fly "fearless through death's iron" _ _ _ _ _ gate,
 Nor feel the ter -- rors as she passed.
