@@ -42,24 +42,9 @@ textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp
 % Header components with custom fonts
 
 \header {
-  title = \markup { \override #'(font-name . "Minion Pro Bold") \larger \concat { #(string-upcase title) . " " \meter } }
-  poet = \markup {  \concat{
-                        \override #'(font-size . 0) 
-                        \override #'(font-name . "Minion Pro Bold")
-                        \markupKey
-                        " "
-                        \override #'(font-size . 0) 
-                        \override #'(font-name . "Minion Pro Italic")
-                        \hymnal                                         % TODO: Change this so we display hymnal dates
-                        \override #'(font-size . 0) 
-                        \override #'(font-name . "Minion Pro")
-                        {\poet , " " \pdate } 
-                    }
-                 }
-  composer = \markup { \override #'(font-name . "Minion Pro") 
-                       \override #'(font-size . 0) 
-                       \concat { \composer , " " \cdate }
-                     }
+  title = \markup{\concat{#(string-upcase title) . " " \meter}}
+  poet = \markup {\concat{\bold\markupKey " " \italic\hymnal \poet " " \pdate}}
+  composer = \markup {\concat{\composer , " " \cdate}}
   tagline = ##f % Remove lilypond version
 }
 
@@ -77,8 +62,8 @@ textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp
   evenHeaderMarkup = \markup {
     \column {
       \fill-line {
-        \override #'(font-name . "Minion Pro Condensed Bold")
         \fontsize #4
+        \bold
         \concat {
           \on-the-fly #not-first-page #(string-upcase title)
           \on-the-fly #not-first-page \on-the-fly #not-last-page " Continued."
@@ -159,9 +144,6 @@ global = {
     \context {
       \Staff
       \consists "Volta_engraver"
-      \override VoltaBracket #'font-name = #"Minion Pro Bold" 
-      \override VoltaBracket #'font-size = \fontSize
-      \override VoltaBracket #'font-features = #'("onum")
       \override VoltaBracket #'style = #'dashed-line
       \override VoltaBracket #'dash-period = #0
       \override VoltaBracket #'extra-offset = #'(0 . -0.5)
@@ -173,12 +155,9 @@ global = {
     }
     \context {
       \Lyrics
-      \override StanzaNumber #'font-name = #"Minion Pro Bold" 
-      \override StanzaNumber #'font-size = \fontSize
-      \override StanzaNumber #'font-features = #'("onum")
+      \override StanzaNumber #'font-size = -1
       \override VoltaBracket #'style = #'dashed-line
-      \override LyricText #'font-name = "Minion Pro Cond"
-      \override LyricText #'font-size = \fontSize
+      \override LyricText #'font-size = -1
       \override VerticalAxisGroup.nonstaff-nonstaff-spacing.minimum-distance = #2.5
     }
   }
@@ -187,7 +166,7 @@ global = {
 % AUDIBLE SCORE
 %%%%%%%%%%%%%%%
 
- #(load "../templates/includes/swing.scm")
+#(load "../templates/includes/swing.scm")
 \score {
   \unfoldRepeats { <<                                                                              
     \new Staff \applySwing 8 #'(5 4) {\trebleMusic}
