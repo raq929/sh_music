@@ -1,5 +1,6 @@
 \version "2.19.2"
 \include "../templates/includes/fasola.ily"
+\include "../templates/includes/setup.ily"
 \include "../templates/includes/barlines.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
