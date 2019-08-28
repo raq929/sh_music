@@ -79,7 +79,7 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-The saints shall hear the mid -- night cry; 
+"The saints shall hear the midnight cry;" _ _ _ _ _ _ _
 The lord will then ap -- pear,
 And vir -- gins rise with burn -- ing lamps
 To meet him in the air,
@@ -102,7 +102,7 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "1."
-The saints shall hear the mid -- night cry; 
+"The saints shall hear the midnight cry;" _ _ _ _ _ _ _
 The lord will then ap -- pear,
 And vir -- gins rise with burn -- ing lamps
 To meet him in the air,

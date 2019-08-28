@@ -28,7 +28,7 @@ textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp
        #{
          \markup {
            \concat { #(string (string-ref notes idx)) #accidental }
-           \concat { #major-minor "   " }
+           #major-minor
        } #})))
 
 % Function to detect nonfinal pages (for header layout)
@@ -43,8 +43,8 @@ textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp
 
 \header {
   title = \markup{\concat{#(string-upcase title) . " " \meter}}
-  poet = \markup {\concat{\bold\markupKey " " \italic\hymnal \poet " " \pdate}}
-  composer = \markup {\concat{\composer , " " \cdate}}
+  poet = \markup {\concat{\bold\markupKey "  " \italic\hymnal \poet , " " \pdate .}}
+  composer = \markup {\concat{\composer , " " \cdate .}}
   tagline = ##f % Remove lilypond version
 }
 
@@ -146,19 +146,21 @@ global = {
       \consists "Volta_engraver"
       \override VoltaBracket #'style = #'dashed-line
       \override VoltaBracket #'dash-period = #0
-      \override VoltaBracket #'extra-offset = #'(0 . -0.5)
+      \override VoltaBracket #'extra-offset = #'(-0 . -0.5)
+      \override VoltaBracket #'font-name = "LilyPond Serif"
+      \override VoltaBracket #'font-size = #-1
       \override TimeSignature #'style = #'numbered
       \override TimeSignature.break-visibility = #end-of-line-invisible
       \override BarLine #'stencil = #with-shapenote-repeats
       \override BarLine #'hair-thickness = #0.7
       \override NoteHead #'font-size = #0.5
+      \override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 3)
     }
     \context {
       \Lyrics
       \override StanzaNumber #'font-size = -1
-      \override VoltaBracket #'style = #'dashed-line
+      \override StanzaNumber #'font-series = #'medium
       \override LyricText #'font-size = -1
-      \override VerticalAxisGroup.nonstaff-nonstaff-spacing.minimum-distance = #2.5
     }
   }
 }

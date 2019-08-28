@@ -1,5 +1,6 @@
 \version "2.19.2"
 \include "../templates/includes/fasola.ily"
+\include "../templates/includes/setup.ily"
 \include "../templates/includes/barlines.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -55,9 +56,9 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-God of my life, look "gently down;" _ _
-"Behold the pains I" _ _ _ _ feel;
-But "I am dumb before Thy throne," _ _ _ _ _ _
+"God of my life, look gently down;" _ _ _ _ _ _ _
+"Behold the pains I feel;" _ _ _ _ _
+"But I am dumb before Thy throne," _ _ _ _ _ _ _
 "Nor dare dispute Thy will," _ _ _ _ _
 "Nor dare dispute Thy will." _ _ _ _ _
 }
@@ -71,8 +72,8 @@ altoWordsTwo = \lyricmode { }
 
 tenorWords = \lyricmode {
 \set stanza = "2."
-I'm but a so -- journ -- er be -- low,
-As all my "fathers were;" _ _
+"I'm but a" _ _ so -- journ -- er be -- low,
+"As all my fathers were;" _ _ _ _ _ 
 May I be well "prepared to go" _ _ _
 "When I the summons hear," _ _ _ _ _
 "When I the summons hear." _ _ _ _ _
@@ -82,13 +83,19 @@ tenorWordsTwo = \lyricmode { }
 
 bassWords = \lyricmode {
 \set stanza = "3."
-But if my life be "spared awhile" _ _ 
-"Before my last"  _ _ _ re -- move,
-Thy "praise shall be my business still, And I'll declare Thy love," _ _ _ _ _ _ _ _ _ _ _ _ 
+"But if my life be spared awhile" _ _ _ _ _ _ _
+"Before my last remove," _ _ _ _ _
+"Thy praise shall be my business still," _ _ _ _ _ _ _ 
+_ _ _ _ _ _
 "And I'll declare Thy love." _ _ _ _ _
 }
 
-bassWordsTwo = \lyricmode { }
+bassWordsTwo = \lyricmode { 
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _
+_ _ _ _ _ _ _ _
+"And I'll declare Thy love," _
+}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

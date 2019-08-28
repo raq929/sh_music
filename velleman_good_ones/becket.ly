@@ -22,7 +22,7 @@ timeSignature = 4/4
 midiTempo = 150
 midiInstrument = "piano"
 
-% systemCount = 1
+systemCount = 2
 pageCount = 1
 
 staffSize = 20
@@ -90,8 +90,7 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-In -- crease, O Lord, our faith and hope,
-And fit us to as -- cend,
+"Increase, O Lord, our faith and hope, And fit us to ascend," _ _ _ _ _ _ _ _ _ _ _ _ _
 "Where the assembly ne’er breaks up," _ _ _ _ _ _ _
 And Sab -- baths nev -- er end,
 "Where the assembly ne’er breaks up," _ _ _ _ _ _ _
@@ -99,8 +98,7 @@ And Sab -- baths nev -- er end.
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
-When I ap -- pear in yon -- der cloud,
-With all the sac -- red throng,
+"When I appear in yonder cloud, With all the sacred throng," _ _ _ _ _ _ _ _ _ _ _ _ _
 "Then will I sing more sweet, more loud," _ _ _ _ _ _ _
 And Christ will be my song,
 "Then will I sing more sweet, more loud," _ _ _ _ _ _ _
@@ -124,8 +122,7 @@ And Christ will be my song,
 
 tenorWords = \lyricmode {
 \set stanza = "1."
-In -- crease, O Lord, our faith and hope,
-And fit us to as -- cend,
+"Increase, O Lord, our faith and hope, And fit us to ascend," _ _ _ _ _ _ _ _ _ _ _ _ _
 "Where the assembly ne’er breaks up," _ _ _ _ _ _ _
 And Sab -- baths nev -- er end,
 Where the as -- sem -- bly ne’er breaks up,
@@ -134,8 +131,7 @@ And Sab -- baths nev -- er end.
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
-When I ap -- pear in yon -- der cloud,
-With all the sac -- red throng,
+"When I appear in yonder cloud, With all the sacred throng," _ _ _ _ _ _ _ _ _ _ _ _ _
 "Then will I sing more sweet, more loud," _ _ _ _ _ _ _
 And Christ will be my song,
 Then will I sing "more sweet, more loud," _ _ _

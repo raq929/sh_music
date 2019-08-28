@@ -22,7 +22,7 @@ timeSignature = 4/4
 midiTempo = 150
 midiInstrument = "piano"
 
-% systemCount = 1
+systemCount = 2
 pageCount = 1
 
 staffSize = 20
@@ -87,21 +87,21 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = #"1. "
-In ev -- ’ry land be -- gin the song;
-To ev -- ’ry "land the strains belong." _ _ _ _
+"In ev’ry land begin the song; To ev’ry land the strains belong." 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 In "cheerful sounds all" _ _ _ "voices raise," _ _
-"And fill the world with loudest praise, with loudest praise." _ _ _ _ _ _ _ _ _ _ _
-In "cheerful sounds all" _ _ _ voi -- ces raise,
-And fill the "world with loudest praise." _ _ _ _
+"And fill the world with loudest praise, with loudest praise. In cheerful sounds all voices raise,"
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+"And fill the world with loudest praise." _ _ _ _ _ _ _
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = #"2. "
-E -- tern -- al are Thy mer -- cies, Lord;
-E -- tern -- al "truth attends Thy word." _ _ _ _ 
+"Eternal are Thy mercies, Lord; Eternal truth attends Thy word."
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 "Thy praise shall sound from shore to shore," _ _ _ _ _ _ _
 "Till suns shall rise" _ _ _ "and set no more," _ _ _  "and set no more." _ _ _
 "Thy praise shall sound from shore to shore," _ _ _ _ _ _ _
-Till suns shall "rise and set" _ _ no more.
+"Till suns shall rise and set no more." _
 }
 
 altoWords = \lyricmode {
@@ -109,33 +109,33 @@ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 In "cheerful sounds all" _ _ _ "voices raise," _ _
 All "voices raise, And fill" _ _ _ _ the world with loud -- est praise.
-All voi -- ces raise, And fill the "world with loudest praise." _ _ _ _
+"All voices raise, And" _ _ _ _ fill the "world with loudest praise." _ _ _ _
 }
 altoWordsTwo = \lyricmode {
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 "Thy praise shall sound from shore to shore," _ _ _ _ _ _ _
 From "shore to shore, Till suns" _ _ _ _ shall rise and set no more.
-From shore to shore, Till suns shall "rise and set" _ _ no more.
+"From shore to shore, Till suns shall" _ _ _ _ _ _ "rise and set no more."  _
 }
 
 tenorWords = \lyricmode {
 \set stanza = #"1. "
-In ev -- ’ry land be -- gin the song;
-To ev -- ’ry "land the strains belong." _ _ _ _
+"In ev’ry land begin the song; To ev’ry land the strains belong." 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 In "cheerful sounds all" _ _ _ "voices raise," _ _
 All "voices raise, And fill the world with loudest praise." _ _ _ _ _ _ _ _ _ _
 In "cheerful sounds all" _ _ _ "voices raise," _ _
-And fill the "world with loudest praise." _ _ _ _
+"And fill the world with loudest praise." _ _ _ _ _ _ _
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
-E -- tern -- al are Thy mer -- cies, Lord;
-E -- tern -- al "truth attends Thy word." _ _ _ _ 
+"Eternal are Thy mercies, Lord; Eternal truth attends Thy word."
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 "Thy praise shall sound from shore to shore," _ _ _ _ _ _ _
 From "shore to shore Till suns shall rise and set no more" _ _ _ _ _ _ _ _ _ _
 "Thy praise shall sound from shore to shore," _ _ _ _ _ _ _
-Till suns shall "rise and set" _ _ no more.
+"Till suns shall rise and set no more." _
 }
 
 bassWords = \lyricmode {

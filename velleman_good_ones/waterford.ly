@@ -7,8 +7,8 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "Waterford P.M."
-meter = ""
+title = "Waterford"
+meter = "P.M."
 poet = "Charles Wesley"
 pdate = ""
 composer = "arr. Leah Velleman"
@@ -53,8 +53,8 @@ Fa2 Fa4 | so( Fa) La | so( La) Fa | So2 Fa4 | La4.( So8) Fa4 | So4.( Fa8) So4 | 
 bassMusic = \fasola Fa, {
 Fa2 Fa4 | so'2 so4 | Fa( mi) la4 | so2 fa4 | La4.( fa8) so4 | so4.( la8) so4 | Fa2 r4
 Fa2 Fa4 | Fa2 la4 | so( La) Fa4 | so'2 La4 | fa( so) la | la( Fa) la4 | Fa2 r4
-so2 so4 | so2 so4 | so2 so4 | Fa2 r4
-so2 so4 | so2 Fa4 | fa,4( so) la | so2 r4
+so2 so4 | Fa2 Fa4 | Fa2 Fa4 | <Fa fa,>2 r4
+Fa2 Fa4 | Fa2 la4 | fa4( so) la | so2 r4
 so2 so4 | Fa2 Fa4 | Fa( mi) la4 | so2 fa4 | La4.( fa8) so4 | so4.( la8) so4 | Fa,2 r4
 }
 
