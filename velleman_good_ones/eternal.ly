@@ -126,22 +126,22 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-"Descend from heav'n," _ _ _ im -- mort -- al Dove;
-"Stoop down and" _ _ take us on Thy wings, ""
-Up where e -- tern -- al ag -- es "roll; Where solid pleasures" _ _ _ _ _ nev -- er die,
-And fruits im -- mort -- al feast the soul.
+"Descend from heav'n, immort  –  al" _ _ _ _ _ _ Dove;
+"Stoop down and take" _ _ _ us on Thy wings, ""
+Up where e -- tern -- al ag -- es "roll; Where solid pleasures never die," _ _ _ _ _ _ _ _
+"And fruits im–mort   –" _ _ _ "al feast the soul." _ _ _
 }
 
 trebleWordsTwo = \lyricmode {
-"And mount, and bear" _ _ _  us far a -- bove
-"The reach"  _ of these in -- fer -- ior _ things:
+"And mount, and bear us" _ _ _ _ far a -- bove
+"The reach of"  _ _ these in -- fer -- ior _ things:
 }
 
 altoWords = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 Up where e -- tern -- al ag -- es roll;
 Where sol -- id pleas -- ures nev -- er die,
-And fruits im -- mort -- al feast the soul.
+"And fruits im–mort   –" _ _ _ "al feast the soul." _ _ _
 }
 
 altoWordsTwo = \lyricmode {
@@ -150,15 +150,15 @@ altoWordsTwo = \lyricmode {
 tenorWords = \lyricmode {
 \set stanza = "2."
 "When shall the day," _ _ _ dear Lord, ap -- pear,
-That I "shall mount" _ to dwell a -- bove, ""
+"That I" _ "shall mount to dwell" _ _ _ a -- bove, ""
 This low -- er sky,
 Up where e -- tern -- al ag -- es roll;
 Where sol -- id pleas -- ures nev -- er die,
-And fruits im -- mort -- al feast the soul.
+"And fruits im–mort   –" _ _ _ "al feast the soul." _ _ _
 }
 tenorWordsTwo = \lyricmode {
 "And stand" _ and bow a -- "mong them there," _ _
-And view Thy face, and sing, and _ love?
+"And view thy" _ _ "face, and sing, and" _ _ _ _ love?
 }
 
 bassWords = \lyricmode {
@@ -166,7 +166,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 Be -- yond, be -- yond this low -- er sky,
 Up where e -- tern -- al ag -- es roll;
 Where sol -- id pleas -- ures nev -- er die,
-And fruits im -- mort -- al feast the soul.
+"And fruits im–mort   –" _ _ _ "al feast the soul." _ _ _
 }
 
 bassWordsTwo = \lyricmode {

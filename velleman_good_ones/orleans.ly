@@ -77,15 +77,15 @@ bassMusic = \fasola Fa' {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-When for e -- tern -- al worlds we steer,
-And seas are calm and skies are clear,
+When for "e - tern - al worlds" _ _ _ we steer,
+And seas are calm "and skies are clear," _ _ _
 And faith in live -- ly ex -- er -- cise,
 And dis -- tant hills of Can -- aan rise,
-The soul for joy then claps her wings,
-And loud her love -- ly son -- net sings:
-“I’m go -- ing home!
-I’m go -- ing home!
-I’m go -- ing home!”
+The soul for "joy then claps her wings, And loud her love - ly" _ _ _ _ _ _ _ _ _
+son -- net 
+"sings: “I’m going home!" _ _ _ _
+I’m "going home!" _ _ 
+I’m "going home!" _ _ 
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
@@ -98,15 +98,15 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "1."
-When for e -- tern -- al worlds we steer,
-And seas are calm and skies are clear,
+When for "e - tern - al worlds" _ _ _ we steer,
+And seas are calm "and skies are clear," _ _ _
 And faith in live -- ly ex -- er -- cise,
 And dis -- tant hills of Can -- aan rise,
-The soul for joy then claps her wings,
-And loud her love -- ly son -- net sings:
-“I’m go -- ing home!
-I’m go -- ing home!
-I’m go -- ing home!”
+The soul for "joy then claps her wings, And loud her love - ly" _ _ _ _ _ _ _ _ _
+son -- net
+"sings: “I’m going home!" _ _ _ _
+I’m "going home!" _ _ 
+I’m "going home!" _ _ 
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."

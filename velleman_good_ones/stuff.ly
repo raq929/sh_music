@@ -71,64 +71,54 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-"Twas in the watches of the night I thought upon thy pow’r." 
-_ _ _ _ _ _ _ _ _ _ _ _ _
+Twas in the wat -- ches of the night I thought up -- on thy pow’r
 I kept thy love -- ly face in sight
-"Amidst the darkest hour." _ _ _ _ _
+A -- midst the dark -- est hour.
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
-"Thy mercy stretches o’er my head The shadow of thy wings;" 
-_ _ _ _ _ _ _ _ _ _ _ _ _
+Thy mer -- cy stret -- ches o’er my head The shad -- ow of thy wings;
 My heart re -- joi -- ces in thine aid,
-"My tongue awakes and sings." _ _ _ _ _
+My tongue a -- wakes and sings.
 }
 
 altoWords = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _
-I "kept thy lovely face in sight" _ _ _ _ _ _
-"Amidst the darkest hour," _ _ _ _ _
-"Amidst the darkest hour," _ _ _ _ _
-"Amidst the darkest hour." _ _ _ _ _
+I kept thy love -- ly face in sight
+A -- midst the dark -- est hour,
+A -- midst the dark -- est hour.
 }
 altoWordsTwo = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _
-"My heart rejoices in thine aid, My tongue awakes and sings," 
-_ _ _ _ _ _ _ _ _ _ _ _ _
-"My tongue awakes and sings," _ _ _ _ _
-"My tongue awakes and sings." _ _ _ _ _
+My heart re -- joi -- ces in thine aid,
+My tongue a -- wakes and sings,
+My tongue a -- wakes and sings.
 }
 
 tenorWords = \lyricmode {
 \set stanza = "1."
-"Twas in the watches of the night I thought upon thy pow’r." 
-_ _ _ _ _ _ _ _ _ _ _ _ _
-I "kept thy lovely face in sight" _ _ _ _ _ _
-"Amidst the darkest hour," _ _ _ _ _
-"Amidst the darkest hour." _ _ _ _ _
+Twas in the wat -- ches of the night I thought up -- on thy pow’r
+I kept thy love -- ly face in sight
+A -- midst the dark -- est hour,
+A -- midst the dark -- est hour.
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
-"Thy mercy stretches o’er my head The shadow of thy wings;" 
-_ _ _ _ _ _ _ _ _ _ _ _ _
-My "heart rejoices in thine aid," _ _ _ _ _ _ 
-"My tongue awakes and sings," _ _ _ _ _
-"My tongue awakes and sings." _ _ _ _ _
+Thy mer -- cy stret -- ches o’er my head The shad -- ow of thy wings;
+My heart re -- joi -- ces in thine aid,
+My tongue a -- wakes and sings,
+My tongue a -- wakes and sings.
 }
 
 bassWords = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _
-I "kept thy lovely face in sight" _ _ _ _ _ _
-"Amidst the darkest hour," _ _ _ _ _
-"Amidst the darkest hour," _ _ _ _ _
-"Amidst the darkest hour." _ _ _ _ _
+I kept thy love -- ly face in sight
+A -- midst the dark -- est hour,
 }
 bassWordsTwo = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _
-"My heart rejoices in thine aid, My tongue awakes and sings," 
-_ _ _ _ _ _ _ _ _ _ _ _ _
-"My tongue awakes and sings," _ _ _ _ _
-"My tongue awakes and sings." _ _ _ _ _
+My heart re -- joi -- ces in thine aid,
+My tongue a -- wakes and sings,
 }
 
 

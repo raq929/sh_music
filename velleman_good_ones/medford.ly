@@ -80,15 +80,15 @@ bassMusic = \fasola Fa, {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-And must I be to judg -- ment brought 
-And an -- swer in that day
-For ev -- 'ry vain and i -- dle thought
-And ev -- 'ry thing I say?
+"And must I be to judgment brought " _ _ _ _ _ _ _
+"And answer in" _ _ _ that day __
+For ev -- ’ry vain and "idle thought" _ _
+And ev -- ’ry "thing I say?" _ _ 
 \set stanza = "Cho."
-The judg -- ment day is roll -- ing round
-The judg -- ment day is roll -- ing round
-The judg -- ment day is roll -- ing round
-Pre -- pare to meet thy God!
+"The judgment day" _ _ _ "is   roll–ing round" _ _ _
+"The judgment day is rolling round" _ _ _ _ _ _ _
+"The judgment" _ _ day "is   roll–ing round" _ _ _
+Pre -- pare "to meet thy" _ _ God!
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
@@ -96,25 +96,25 @@ trebleWordsTwo = \lyricmode {
 
 altoWords = \lyricmode {
 \set stanza = "2."
-Thou aw -- ful judge of quick and dead
-Thy watch -- ful pow'r be -- stow;
-So shall I to my ways take heed,
-To all I speak and do.
+"Thou awful judge of quick" _ _ _ _ _ and dead,
+"Thy watchful pow'r bestow;" __ _ _ _ _ _
+So shall I to "my ways take heed," _ _ _
+To all "I speak and do." _ _ _
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-If now Thou stand -- est at the door,
-O let me feel Thee near,
-And make my peace with God be -- fore
+"If now Thou standest" _ _ _ _ at "the door," _ 
+O let "me feel Thee near," __ _ _ _
+"And make my peace with God before" _ _ _ _ _ _ _
 I at Thy bar ap -- pear.
 \set stanza = "Cho."
-The judg -- ment day is roll -- ing round
-The judg -- ment day is roll -- ing round
-The judg -- ment day is roll -- ing round
-Pre -- pare to meet thy God!
+"The judgment day" _ _ _ "is   roll–ing round" _ _ _
+"The judgment day is rolling round" _ _ _ _ _ _ _
+"The judgment" _ _ day "is   roll–ing round" _ _ _
+Pre -- pare "to meet thy" _ _ God!
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."

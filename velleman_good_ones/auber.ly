@@ -22,7 +22,7 @@ timeSignature = 4/4
 midiTempo = 150
 midiInstrument = "piano"
 
-systemCount = 2
+% systemCount = 2
 
 staffSize = 20
 fontSize = 0
@@ -90,14 +90,13 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-"He came in tongues of living flame," _ _ _ _ _ _ _
-To teach, con -- vince, sub -- due;
-"All pow’rful as the wind he came, All pow’rful as the wind" _ _ _ _ _ _ _ _ _ _ _ _ _
-he came,
+"He came in tongues" _ _ _ of liv -- ing "flame, To teach," _ _ con -- vince, sub -- due;
+All pow’r -- ful as the wind he came, 
+All pow’r -- ful as the wind he came, 
 As view -- less too.
-"And ev’ry virtue we possess," _ _ _ _ _ _ _
-"And ev’ry vict’ry won, And ev’ry thought," _ _ _ _ _ _ _ _ _
-"And ev’ry thought of" _ _ _ _ ho -- "liness, Are His alone." _ _ _ _ _
+And ev -- ’ry vir -- tue we pos -- sess, \bar""\break
+And ev -- ’ry vic -- t’ry won, And ev -- ’ry thought,
+And ev -- ’ry thought of ho -- li -- ness are his a -- lone.
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
@@ -109,23 +108,22 @@ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 _ _ _ _ _ wind __ 
 "he came, As" _ _ view -- less too.
-"And ev’ry virtue we possess," _ _ _ _ _ _ _
-"And ev’ry vict’ry won, And ev’ry thought" __ _ _ _ _ _ _ _ _ _
-of ho -- li -- "ness, Are His" _ _ a -- lone.
+And ev -- ’ry vir -- tue we pos -- sess, 
+And ev -- ’ry vic -- t’ry won,
+And ev -- ’ry thought of ho -- li -- ness are his a -- lone.
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
 \set stanza = "1."
-"He came in tongues of living flame," _ _ _ _ _ _ _
-To teach, con -- vince, sub -- due;
-"All pow’rful as the wind he came, All pow’rful as the wind" _ _ _ _ _ _ _ _ _ _ _ _ _
-he came,
+"He came in tongues" _ _ _ of liv -- ing "flame, To teach," _ _ con -- vince, sub -- due;
+All pow’r -- ful as the wind he came, 
+All pow’r -- ful as the wind he came, 
 As view -- less too.
-"And ev’ry virtue we possess," _ _ _ _ _ _ _
-"And ev’ry vict’ry won," _ _ _ _ _
-"And ev’ry thought of" _ _ _ _ ho -- "liness, Are His alone." _ _ _ _ _
+And ev -- ’ry vir -- tue we pos -- sess, 
+And ev -- ’ry vic -- t’ry won,
+And ev -- ’ry thought of ho -- li -- ness are his a -- lone.
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
@@ -137,9 +135,9 @@ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 _ _ _ _
-"And ev’ry virtue we possess," _ _ _ _ _ _ _
-"And ev’ry vict’ry won," _ _ _ _ _
-"And ev’ry thought of" _ _ _ _ ho -- "liness, Are His alone." _ _ _ _ _
+And ev -- ’ry vir -- tue we pos -- sess, 
+And ev -- ’ry vic -- t’ry won,
+And ev -- ’ry thought of ho -- li -- ness are his a -- lone.
 }
 bassWordsTwo = \lyricmode {
 }

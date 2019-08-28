@@ -91,7 +91,7 @@ trebleWords = \lyricmode {
 \set stanza = "1."
 There is a home, a peace -- ful home, 
 A home of joy and love,
-And them that bear a cross shall wear a crown,
+"And them that bear a cross" _ _ _ _ _ shall wear a crown,
 And them that bear a cross be -- low
 Shall wear a crown a -- bove.
 }
@@ -117,7 +117,7 @@ tenorWords = \lyricmode {
 \set stanza = "1."
 There is a home, a peace -- ful home, 
 A home of joy and love,
-And them that bear a cross be -- low
+"And them that bear a cross" _ _ _ _ _ be -- low
 Shall wear a crown
 Shall wear a crown
 And them that bear a cross be -- low
@@ -132,8 +132,7 @@ And know as we are known;
 bassWords = \lyricmode {
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ 
-And them that bear,
-And them that bear a cross be -- low
+"And them that bear, And them that bear a cross" _ _ _ _ _ _ _ _ _ be -- low
 Shall wear a crown
 And them that bear a cross be -- low
 Shall wear a crown a -- bove.

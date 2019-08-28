@@ -22,7 +22,7 @@ timeSignature = 4/4
 midiTempo = 150
 midiInstrument = "piano"
 
-% systemCount = 1
+systemCount = 3
 
 staffSize = 20
 fontSize = 0
@@ -35,7 +35,6 @@ trebleMusic = \fasola Fa'' {
         \repeat volta 2 {
         r4
         r1 r2. so4 | Fa Fa8[ la] so4 so | Fa Fa Fa So | La4.( So8) Fa4 r4
-        \break
         r2. Fa4 | so' so La8[ So] Fa4 | So So So La8[ So] | Fa4 Fa Fa Fa | Fa( So La) fa | so so La4.( So8) | Fa4 Fa( Fa8[ la]) so4 
         }
         \alternative {
@@ -55,7 +54,7 @@ altoMusic = \fasola Fa'' {
         so2 so4 fa | La La La la | so2. so4 | La La La so | la la so2~ | so2. 
         \repeat volta 2 {
             r4
-            r1 r1 r2. so4 | La La La fa | so so so so | la4.( so8) la4 la~ | la mi Fa8[ mi] la4 | so1
+            r1 r1 r2. so4 | La La La fa | so so so so | la4.( so8 la4) la | la mi Fa8[ mi] la4 | so1
             so2 so4 fa | La La La fa | so so Fa4.( la8) | so4 so4( so8[ la]) so4 | 
         }
         \alternative {
@@ -74,7 +73,7 @@ altoMusic = \fasola Fa'' {
 tenorMusic = \fasola Fa'' {
         so2 Fa4 Fa | la so la Fa | So2. Fa4 | La La So Fa | la8[ so] La4 so2~ | so2.
         \repeat volta 2 {
-            r4 | r2. so4 | Fa Fa8[ la] so4 so | la Fa So La8[ fa] | so4.( La8) Fa2 | r2. Fa4 | La4.( So8) Fa4 Fa4~ | Fa So La8[ So] Fa4 | So1
+            r4 | r2. so4 | Fa Fa8[ la] so4 so | la Fa So La8[ fa] | so4.( La8) Fa2 | r2. Fa4 | La4.( So8 Fa4) Fa4 | Fa So La8[ So] Fa4 | So1
             so,2 Fa4 Fa | la so la Fa | So La8[ fa] so4.( La8) | Fa4 La( La8[ So]) Fa4 
         }
         \alternative {
@@ -94,7 +93,7 @@ bassMusic = \fasola Fa {
         Fa2 so'4 fa | La so la la | so2. so4 | Fa Fa la so | fa la so2~ | so2.
         \bar":"
         \repeat volta 2 {
-            so4 | Fa Fa la so | fa la so so | Fa4( Fa8[ la]) so2 | r1 | r2. r4 | r2. La4 | Fa So La fa | so so so
+            so4 | Fa Fa la so | fa la so so | Fa4.( la8) so2 | r1 | r2. r4 | r2. La4 | Fa So La fa | so so so
             La8[ So] | Fa4 Fa so' fa | La( so la) la4 | so so Fa4.( la8) | so4 so( so8[ fa]) La4 
         }
         \alternative {
@@ -117,56 +116,52 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-"Might I enjoy the meanest place" _ _ _ _ _ _ _
-"Within thy house, O God of grace," _ _ _ _ _ _ _
-"Not tents of ease, nor thrones of pow’r," _ _ _ _ _ _ _
-Should tempt me,
-"Should tempt me to desert thy door." _ _ _ _ _ _ _
-"Not tents of ease, nor thrones" __ _ _ _ _ _ of pow’r 
-"Should tempt me to" __ _ _ _ de -- sert thy door.
+Might I en -- joy the mean -- est place
+With -- in thy house, O God of grace,
+Not tents of ease, nor thrones of pow’r, should tempt me,
+Should tempt me to de -- sert thy door.
+Not tents of ease, nor thrones __ of pow’r, 
+Should tempt me to __ de -- sert thy door.
 }
 trebleWordsTwo = \lyricmode {
-\set stanza = "1."
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
 }
 
 altoWords = \lyricmode {
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
-"Not tents of ease, nor thrones of pow’r, Should" _ _ _ _ _ _ _ _
-"tempt me" _ to de -- sert thy door.
-Not "tents of ease, nor thrones of pow’r" _ _ _ _ _ _
-"Should tempt me to" __ _ _ _ de -- sert thy door.
+Not tents of ease, nor thrones of pow’r, 
+Should tempt __ me to de -- sert thy door.
+Not tents of ease, nor thrones of pow’r, 
+Should tempt me to __ de -- sert thy door.
 }
 altoWordsTwo = \lyricmode {
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _
 }
 
 tenorWords = \lyricmode {
 \set stanza = "1."
-"Might I enjoy the meanest place" _ _ _ _ _ _ _
-"Within thy house, O God of grace," _ _ _ _ _ _ _
-"Not tents of ease, nor thrones of pow’r," _ _ _ _ _ _ _
-Should tempt me,
-Should "tempt me" _ to de -- sert thy door.
-Not "tents of ease, nor thrones of pow’r" _ _ _ _ _ _
-"Should tempt me to" __ _ _ _ de -- sert thy door.
+Might I en -- joy the mean -- est place
+With -- in thy house, O God of grace,
+Not tents of ease, nor thrones of pow’r, should tempt me, 
+Should tempt __ me to de -- sert thy door.
+Not tents of ease, nor thrones of pow’r, Should
+tempt me to __ de -- sert thy door.
 }
 tenorWordsTwo = \lyricmode {
-\set stanza = "2."
 }
 
 bassWords = \lyricmode {
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
-"Not tents of ease, nor thrones of pow’r," _ _ _ _ _ _ _ _ _ _
-"Should tempt me to desert thy door." _ _ _ _ _ _ _
-"Not tents of ease, nor thrones" __ _ _ _ _ _ of pow’r 
-"Should tempt me to" __ _ _ _ de -- sert thy door.
+Not tents of ease, nor thrones of pow’r, should tempt me, 
+Should tempt me to de -- sert thy door.
+Not tents of ease, nor thrones __ of pow’r, 
+Should tempt me to __ de -- sert thy door.
 }
 bassWordsTwo = \lyricmode {
-_ _ _ _ _ _ _ _
-_ _ _ _ _ _ _ _
-_ _ _ _ _ _ _ _
-"Should tempt me," _
 }
 
 
