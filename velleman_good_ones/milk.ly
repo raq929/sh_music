@@ -23,7 +23,6 @@ midiTempo = 150
 midiInstrument = "piano"
 
 systemCount = 3
-pageCount = 2
 
 staffSize = 20
 fontSize = 0

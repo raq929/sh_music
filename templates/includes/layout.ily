@@ -7,72 +7,94 @@
 %   Create the correct bar lines for song-final repeats, and check that we're creating
 %       the correct bar lines elsewhere. (What is the rule for this?)
 
-% PAGE LAYOUT AND HEADER
-%%%%%%%%%%%%%%%%%%%%%%%%
 
-% Constants and functions for written-out key name in header
+% SYMBOLS
+%%%%%%%%%
 
 textFlat = \markup { \hspace #0.2 \raise #0.3 \smaller \smaller \flat }
 
 textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp }
 
-#(define-markup-command (markupKey layout props ) ()
-   (let* ((notes "CDEFGAB")
-          (idx (ly:pitch-notename pitch))
-          (accidental (cond
-                       ((= -1/2 (ly:pitch-alteration pitch)) #{ \textFlat #})
-                       ((= 1/2 (ly:pitch-alteration pitch)) #{ \textSharp #})
-                       (else "")))
-          (major-minor (if isMajor "Major" "minor")))
-     (interpret-markup layout props
-       #{
-         \markup {
-           \concat { #(string (string-ref notes idx)) #accidental }
-           #major-minor
-       } #})))
 
-% Function to detect nonfinal pages (for header layout)
-
-#(define (not-last-page layout props arg)
-(if (and (chain-assoc-get 'page:is-bookpart-last-page props #f)
-         (chain-assoc-get 'page:is-last-bookpart props #f))
-   empty-stencil
-   (interpret-markup layout props arg)))
-
-% Header components with custom fonts
-
-\header {
-  title = \markup{\concat{#(string-upcase title) . " " \meter}}
-  poet = \markup {\concat{\bold\markupKey "  " \italic\hymnal \poet , " " \pdate .}}
-  composer = \markup {\concat{\composer , " " \cdate .}}
-  tagline = ##f % Remove lilypond version
-}
-
-% Page shape, system spacing on page, and header layout
+% PAGE LAYOUT AND HEADER
+%%%%%%%%%%%%%%%%%%%%%%%%
 
 \paper {
   paper-width = 11\in
   paper-height = 8.5\in
   top-margin = 0.3\in
   ragged-last = ##f
-  ragged-bottom = ##t
-  system-system-spacing.basic-distance = #20
-  system-count = #(if (> systemCount 0) systemCount)
-  page-count = #(if (> pageCount 0) pageCount)
-  evenHeaderMarkup = \markup {
-    \column {
+  ragged-bottom = ##f
+  print-page-number = ##f
+  max-systems-per-page = 2
+  min-systems-per-page = 2
+  markup-system-spacing = #'((basic-distance . 0) (minimum-distance . 0) (padding . 1) (stretchability . 0))
+  score-markup-spacing = #'((basic-distance . 20) (minimum-distance . 10) (padding . 3) (stretchability . 5))
+  last-bottom-spacing = #'((basic-distance . 20) (minimum-distance . 5) (padding . 1) (stretchability . 5))
+  system-system-spacing = #'((basic-distance . 20) (minimum-distance . 5) (padding . 1) (stretchability . 5))
+  #(define fonts
+    (make-pango-font-tree "Times New Roman"
+                          "Nimbus Sans"
+                          "Luxi Mono"
+                          (/ staff-height pt 20)))
+  scoreTitleMarkup = \markup {
+    \column{
       \fill-line {
-        \fontsize #4
-        \bold
-        \concat {
-          \on-the-fly #not-first-page #(string-upcase title)
-          \on-the-fly #not-first-page \on-the-fly #not-last-page " Continued."
-          \on-the-fly #not-first-page \on-the-fly #last-page " Concluded."
+        \null
+        \fontsize #6 \bold \concat{ \fromproperty #'header:title . " " \fromproperty #'header:meter }
+        \null
+      }
+      \fill-line {
+        \fontsize #0 \concat {
+          \bold \fromproperty #'header:key "    " 
+          \italic \fromproperty #'header:hymnal
+          \bold \concat {\fromproperty #'header:poet ", " \fromproperty #'header:pdate "." }
+        }
+        \null
+        \fontsize #0 \bold \concat {
+          \fromproperty #'header:composer ", " \bold \fromproperty #'header:cdate "." 
         }
       }
     }
+  }  
+  tagline = ##f
+}
+
+\layout {
+  indent = #0
+  \context {
+    \Score
+    \remove "Bar_number_engraver" 
+    \remove "Volta_engraver" 
+    \omit SpanBar 
+    startRepeatType = ":"
   }
-  oddHeaderMarkup = \evenHeaderMarkup
+  \context {
+    \Staff
+    \consists "Volta_engraver"
+    \override VoltaBracket #'style = #'dashed-line
+    \override VoltaBracket #'dash-period = #0
+    \override VoltaBracket #'extra-offset = #'(-0 . -0.5)
+    \override VoltaBracket #'font-name = "Times New Roman,"
+    \override VoltaBracket #'font-size = #0
+    \override TimeSignature.style = #'numbered
+    \override TimeSignature.break-visibility = #end-of-line-invisible
+    \override BarLine.stencil = #with-shapenote-repeats
+    \override BarLine #'hair-thickness = #0.7
+    \override NoteHead #'font-size = #0.5
+    \override VerticalAxisGroup.staff-staff-spacing = #'((basic-distance . 14) (minimum-distance . 7) (padding . 1) (stretchability . 5))
+  }
+  \context {
+    \Lyrics
+    \override StanzaNumber #'font-size = 0
+    \override StanzaNumber #'font-name = "Times New Roman,"
+    \override StanzaNumber #'font-series = #'medium
+    \override LyricText #'font-size = 0
+    \override LyricText #'font-name = "Times New Roman,"
+    \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 5) (padding . 0.5) (stretchability . 0.5))
+    \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((basic-distance . 0) (minimum-distance . 2) (padding . 0.2) (stretchability . 0))
+    \override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing = #'((basic-distance . 0) (minimum-distance . 2.5) (padding . 2) (stretchability . 5))
+  }
 }
 
 % VISIBLE SCORE
@@ -129,39 +151,29 @@ global = {
         >>
       #})
   >>
+  \header {
+    title = #(string-upcase title)
+    meter = \meter
+    key = \markup {
+      \concat{
+        #(string (string-ref "CDEFGAB" (ly:pitch-notename pitch)))
+        #(cond ((= -1/2 (ly:pitch-alteration pitch)) #{ \textFlat #})
+               ((= 1/2 (ly:pitch-alteration pitch)) #{ \textSharp #})
+               (else "")) 
+        " "
+        #(if isMajor "Major" "minor")
+        }
+    }
+    poet = \poet
+    hymnal = \hymnal
+    pdate = \pdate
+    composer = \composer
+    cdate = \cdate
+    tagline = ##f % Remove lilypond version
+  }
   \layout {
     #(layout-set-staff-size staffSize)
-    indent = #0
-    \context {
-      \Score
-      \remove "Bar_number_engraver" 
-      \remove "Volta_engraver" 
-      \override SpanBar #'transparent = ##t 
-      startRepeatType = #":"
-      endRepeatType = #":|"
-      doubleRepeatType = #":|:"
-    }
-    \context {
-      \Staff
-      \consists "Volta_engraver"
-      \override VoltaBracket #'style = #'dashed-line
-      \override VoltaBracket #'dash-period = #0
-      \override VoltaBracket #'extra-offset = #'(-0 . -0.5)
-      \override VoltaBracket #'font-name = "LilyPond Serif"
-      \override VoltaBracket #'font-size = #-1
-      \override TimeSignature #'style = #'numbered
-      \override TimeSignature.break-visibility = #end-of-line-invisible
-      \override BarLine #'stencil = #with-shapenote-repeats
-      \override BarLine #'hair-thickness = #0.7
-      \override NoteHead #'font-size = #0.5
-      \override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 3)
-    }
-    \context {
-      \Lyrics
-      \override StanzaNumber #'font-size = -1
-      \override StanzaNumber #'font-series = #'medium
-      \override LyricText #'font-size = -1
-    }
+    system-count = #(if (> systemCount 0) systemCount)
   }
 }
 
