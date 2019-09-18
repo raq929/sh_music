@@ -22,7 +22,7 @@ timeSignature = 4/4
 midiTempo = 150
 midiInstrument = "piano"
 
-% systemCount = 1
+systemCount = 1
 
 staffSize = 20
 fontSize = 0
@@ -35,16 +35,21 @@ trebleMusic = \relative c'' {
 	c2 d4 e g2 e d4 e8 [d] d2~ 1
 	e2 d4 e d2 e e4 d c2
 }
+
 altoMusic = \relative c {
 }
 
 tenorMusic = \relative c'' {
-	r2 c | e4 e a,2 | g c4 c | c1 | 
-	e2 d4 d | d2 e | g4 g g,2~ | 1 |
-	 a2 g4 g | g2 a2 | c4 d c2 \bar"|."
+    r2 c | e4 e a,2 | g c4 c | c1 | 
+    e2 g4 g | c,2 e | d4 c g2~ | 1 | 
+    a2 g4 g | g2 a2 | c4 d c2 \bar"|."
 }
 
 bassMusic = \relative c {
+    r2 c | e4 g a2 | g e4 d | c1 |
+    c2 d4 e | g2 g | a4 g g2~ | g1
+    c,2 d4 e | g2 c | a4 g c,2
+
 }
 
 
