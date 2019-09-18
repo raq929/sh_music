@@ -16,17 +16,17 @@ composer = "Leah Velleman"
 cdate = "2019"
 pitch = e % The written pitch
 isMajor = ##f   % Use ##t for major and ##f for minor
-timeSignature = 4/4
+timeSignature = 2/2
 midiTempo = 150
 midiInstrument = "piano"
 systemCount = 1
-pageCount = 1
 staffSize = 20
 fontSize = 0
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 trebleMusic = \fasola Fa' {
     r2 La2 | La4 so la2 | La So4 La | so1 | La2 Fa4 So | La2 so | La1 | 
     La2 La4 So | La2 la | so4 so La2 | So La4 So | Fa2 La | so1 | 
@@ -38,7 +38,8 @@ altoMusic = \fasola Fa' {
 }
 
 tenorMusic = \fasola Fa' {
-    r2 la2 | Fa4 mi la2 | la mi4 Fa | So1 | La2 so4 fa | La2 So | La1 | 
+    r2
+    la2 | Fa4 mi la2 | la mi4 Fa | So1 | La2 so4 fa | La2 So | La1 | 
     La2 so4 fa | La2 So | La4 so la2 | so so4 la | so2 La | So1 | 
     Fa2 La4 So | Fa2 mi | la1
 }
