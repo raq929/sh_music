@@ -39,7 +39,7 @@ global = {
 \header {
 	title = \markup { \caps "Lo! He comes" } %Tune name and hymn meter
 	poet = \markup { "A Minor.  C. Wesley" } %key and poet
-	composer = "L. Velleman & R. Stevens 2019" %Tune composer and date
+	composer = "R. Stevens & L. Velleman 2019" %Tune composer and date
 	tagline = ##f %Turns off annoying Lilypond version stamp on bottom of page
 }
 
