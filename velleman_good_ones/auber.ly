@@ -22,7 +22,7 @@ timeSignature = 4/4
 midiTempo = 150
 midiInstrument = "piano"
 
-% systemCount = 2
+systemCount = 3
 
 staffSize = 20
 fontSize = 0
@@ -75,7 +75,7 @@ bassMusic = \fasola Fa {
         r2 la2 | la4 la la so8[ La] | so4 so so8[ la] Fa4 | La2. Fa4 | la2. la4 | La2.
         la8[ mi] | Fa4 Fa Fa Fa8[ la] | so4 so so La8[ so] | la4 la la so8[ fa] | La2. La4 | la2. La4 | la4( mi Fa) So | La2.
         \repeat volta 2 {
-            Fa8[ So] | La4 La Fa Fa | la la8[ so] la2~ | la1~ | la2. la4 | Fa la La so | la4 r4 r4 la8[ mi] | Fa[ mi] la8[ so] La4 La | La2( la | Fa La4) Fa | So4 So La La, 
+            Fa8[ So] | La4 La Fa Fa | la la8[ so] la2~ | la1~ | la2. la4 | Fa la La so | la4 r4 r4 la8[ mi] | Fa[ mi] la8[ so] La4 La | La2( so | la4 mi Fa) La | So4 So La La, 
         }
         \alternative{
             {\shortmeasure la2. \longmeasure}

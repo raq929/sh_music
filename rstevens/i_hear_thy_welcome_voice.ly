@@ -45,33 +45,33 @@ global = {
 
 trebleMusic = \relative c''
 {
-	\partial 4 b4 b g e e8 [d] e2.
+	r2. b4 b g e e8 [d] e2.
 	g4 b d e c b2.
-	b4 e g8 [e] e4 e c b8 [a] g4 a g4. a8 g4 e4 e2.
+	b4 e g8 [e] e4 e c b8 [a] g4 a g4. a8 g4 e4 e1
 	\bar "|."
 }
 
 altoMusic = \relative c'
 {
-	\partial 4 e4 e e c8 [d] e [d] e2.
+	r2. e4 e e c8 [d] e [d] e2.
 	e4 d d e e e2.
-	e4 g g8 [e] e4 e g b8 [a] g4 fis e4. fis8 e4 e4 e2.
+	e4 g g8 [e] e4 e g b8 [a] g4 fis e4. fis8 e4 e4 e1
 	
 }
 
 tenorMusic = \relative c''
 {
-	\partial 4 e,4 e b' c b8 [a] b2.
+	r2. e,4 e b' c b8 [a] b2.
 	e,4 b' d b a b2.
-	e,4 e g8 [a] b4 b c b8 [a] b4 d e4. d8 b4 b b2.
+	e,4 e g8 [a] b4 b c b8 [a] b4 d e4. d8 b4 b b1
 }
 
 bassMusic = \relative f
 {
 	\clef bass
-	\partial 4 e4 e b e e e2.
+	r2. e4 e b e e e2.
 	e4 g fis e e e2.
-	e4 b c8 [d] e4 e8 [d] c4 b8 [a] b4 d c4. b8 b4 b e2.
+	e4 b c8 [d] e4 e8 [d] c4 b8 [a] b4 d c4. b8 b4 b e1
 }
 
 verseTreble = \lyricmode
@@ -79,7 +79,7 @@ verseTreble = \lyricmode
 	\set stanza = "1."
 	I hear thy wel -- come voice,
 	That calls me, Lord, to thee;
-	For clean -- sing in they pre -- cious blood,
+	For clean -- sing in thy pre -- cious blood,
 	That flowed on Cal -- va -- ry
 
 
@@ -90,7 +90,7 @@ verseAlto = \lyricmode
 	\set stanza = "2."
 
 	Though co -- ming weak and vile,
-	Thou dost my strenght as -- sure;
+	Thou dost my strength as -- sure;
 	Thou dost my vile -- ness ful -- ly cleanse,
 	Till spot -- less all, and pure.
 }

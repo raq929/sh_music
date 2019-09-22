@@ -3,25 +3,21 @@
 % v 0.5
 % Leland Paul Kusmer, 17 February 2011
 
-% Initialize bar line types. Not sure why, but this seems to be necessary in 2.19 and later
-%  -lbv
+\defineBarLine ":" #'("" "" "")
 
-\defineBarLine ":" #'("" ":" "")
-\defineBarLine "|:" #'("|" "|:" "")
-\defineBarLine ":|" #'("" "" "")
-\defineBarLine ":|:" #'("" "" "")
-\defineBarLine "'" #'("" "" "")
+% Updated for 2.19 lbv
 
-# (define (with-shapenote-repeats grob)  (let ((g-n (ly:grob-property grob 'glyph-name)))
-  (cond
-  	((string=? g-n ":") (dot grob))  
-  	((string=? g-n "|:") (barDot grob))     
-    ((string=? g-n ":|") (dotBar grob))     
-    ((string=? g-n "||") (dotDBar grob))   
-    ((string=? g-n ":|:") (dotBarDot grob)) 
-    ((string=? g-n "|.") (dBar grob))		
-    ((string=? g-n "'") (thickBar grob))	
-    (else (ly:bar-line::print grob))))) 
+# (define (with-shapenote-repeats grob)  
+    (let ((g-n (ly:grob-property grob 'glyph)))
+      (cond
+        ((string=? g-n ":") (dot grob))  
+        ((string=? g-n ".|:") (barDot grob))     
+        ((string=? g-n ":|.") (dotBar grob))     
+        ((string=? g-n "||") (dotDBar grob))   
+        ((string=? g-n ":|:") (dotBarDot grob)) 
+        ((string=? g-n "|.") (dBar grob))		
+        ((string=? g-n "'") (thickBar grob))	
+        (else (ly:bar-line::print grob))))) 
 
 % Dot Bar
 # (define (dot grob)

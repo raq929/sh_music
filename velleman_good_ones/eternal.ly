@@ -28,7 +28,6 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa'' {
         r2 
-        \bar":"
         \repeat volta 2 {
         so | la4 la so so | Fa Fa Fa2~ | Fa4 la so La | La so la so 
         }
@@ -36,14 +35,12 @@ trebleMusic = \fasola Fa'' {
             { 
                 \set Timing.measureLength = #(ly:make-moment 2/4)
                 so2 
-                \bar":|"
             }
             {
                 \set Timing.measureLength = #(ly:make-moment 4/4)
                 so2.
             }
         }
-        \bar":"
         \repeat volta 2 {
         r4 r1 r1 r2.
         so4 | la la Fa Fa | La La Fa Fa | la la so so | Fa Fa Fa2 | r2. so4 | La La La4.( fa8 | so4) so la so 
