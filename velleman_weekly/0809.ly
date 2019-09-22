@@ -37,6 +37,7 @@ trebleMusic = \fasola Fa'' {
         r4 | r1 | r1 | r2.  Fa4 | La2. Fa4 | La La Fa la | Fa Fa so2~ | so4 so la la | Fa2. Fa4 | La La Fa la 
     }
     \alternative { { \shortmeasure so2. \longmeasure } { \longmeasure so1 } }
+    \bar"|."
 }
 
 altoMusic = \fasola Fa' {
@@ -44,7 +45,7 @@ altoMusic = \fasola Fa' {
     \repeat volta 2 {
         r4 | r1 | r2. Fa4 | La La La Fa | so'2. La4 | so so la la | so La Fa2~ | Fa4 so' so La | so La Fa Fa | La La La so 
     }
-    \alternative { { \shortmeasure Fa,2. \longmeasure } { \longmeasure Fa1 } }
+    \alternative { { \shortmeasure La2. \longmeasure } { \longmeasure La1 } }
 }
 
 tenorMusic = \fasola Fa'' {
