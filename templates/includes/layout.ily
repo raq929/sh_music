@@ -93,7 +93,7 @@ textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp
     \override LyricText #'font-name = "Times New Roman,"
     \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 5) (padding . 0.5) (stretchability . 0.5))
     \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((basic-distance . 0) (minimum-distance . 2) (padding . 0.2) (stretchability . 0))
-    \override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing = #'((basic-distance . 0) (minimum-distance . 2.5) (padding . 2) (stretchability . 5))
+    \override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing = #'((padding . 0.5))
   }
 }
 

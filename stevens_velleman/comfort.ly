@@ -49,7 +49,6 @@ bassMusic = \relative c {
     r2 c | e4 g a2 | g e4 d | c1 |
     c2 d4 e | g2 g | a4 g g2~ | g1
     c,2 d4 e | g2 c | a4 g c,2
-
 }
 
 
