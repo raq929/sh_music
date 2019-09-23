@@ -31,7 +31,7 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-        r2 La | Fa4 Fa Fa La8[ fa] | so4 so so8[ la] Fa4 | la2. so4 | La2. Fa4 | so'2.
+        r2 La | La4 La la La8[ fa] | so4 so so8[ la] Fa4 | la2. so4 | La2. Fa4 | so'2.
         so8[ La] | Fa4 Fa Fa So8[ La] | so4 so so so8[ fa] | La4 La La So8[ La] | so4( La2) so4 | la2. so4 | La( So La) fa | so2.
         \bar ":"
         \repeat volta 2 {
@@ -47,8 +47,8 @@ trebleMusic = \fasola Fa' {
 }
 
 altoMusic = \fasola Fa' {
-         r2 Fa4.( mi8) | la4 la la Fa8[ la] | mi4 mi mi8[ la] so4 | Fa2. Fa4 | la2. la4 | mi2.
-         Fa8[ mi] | la4 la la Fa8[ la] | mi4 mi mi so8[ la] | Fa4 Fa Fa la8[ Fa] | La8[( fa La So] La[ So Fa mi] | la4) la la mi | Fa( mi la) la | mi2.
+         r2 la4.( mi8) | Fa4 la la Fa8[ la] | mi4 mi mi8[ la] so4 | Fa2. Fa4 | la2. la4 | mi2.
+         Fa8[ mi] | la4 la la Fa8[ la] | mi4 mi mi so8[ la] | Fa4 Fa Fa So | La8[( fa La So] La[ So Fa mi] | la4) la la mi | Fa( mi la) la | mi2.
          \repeat volta 2 {
              Fa8[ mi] | la4 la la la8[ mi] | Fa4 Fa8[ so] la2~ | la1~ | la2. la4 | Fa Fa Fa so | la la mi mi | Fa1( | la2.) la8[ mi] | Fa[ mi] la8[ so] la4 Fa | So2 mi 
         }
