@@ -48,7 +48,7 @@ trebleMusic = \fasola Fa' {
 
 altoMusic = \fasola Fa' {
          r2 la4.( mi8) | Fa4 la la Fa8[ la] | mi4 mi mi8[ la] so4 | Fa2. Fa4 | la2. la4 | mi2.
-         Fa8[ mi] | la4 la la Fa8[ la] | mi4 mi mi so8[ la] | Fa4 Fa Fa So | La8[( fa La So] La[ So Fa mi] | la4) la la mi | Fa( mi la) la | mi2.
+         la8[ mi] | Fa4 la la Fa8[ la] | mi4 mi mi so8[ la] | Fa4 Fa Fa So | La8[( fa La So] La[ So Fa mi] | la4) la la mi | Fa( mi la) la | mi2.
          \repeat volta 2 {
              Fa8[ mi] | la4 la la la8[ mi] | Fa4 Fa8[ so] la2~ | la1~ | la2. la4 | Fa Fa Fa so | la la mi mi | Fa1( | la2.) la8[ mi] | Fa[ mi] la8[ so] la4 Fa | So2 mi 
         }
