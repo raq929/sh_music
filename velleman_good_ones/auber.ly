@@ -31,7 +31,7 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-        r2 La | La4 La la La8[ fa] | so4 so so8[ la] Fa4 | la2. so4 | La2. Fa4 | so'2.
+        r2 La | La4 La la La8[ fa] | so4 so so8[ La] La4 | la2. so4 | La2. Fa4 | so'2.
         so8[ La] | Fa4 Fa Fa So8[ La] | so4 so so so8[ fa] | La4 La La So8[ La] | so4( La2) so4 | la2. so4 | La( So La) fa | so2.
         \bar ":"
         \repeat volta 2 {
