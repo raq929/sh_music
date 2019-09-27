@@ -31,12 +31,15 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \relative c'' {
-	r2 g c4 c c2 c e4 d c1
+	r2 g c4 c c2 d e4 d c1
 	c2 d4 e g2 e d4 e8 [d] d2~ 1
 	e2 d4 e d2 e e4 d c2
 }
 
-altoMusic = \relative c {
+altoMusic = \relative c'' {
+	r2 c, g'4 g a2 b a4 g c,1
+	g'2 g4 b c2 b a4 a8 [g8] g2~ 1 
+	c,2 g'4 g g2 g4 (e4) c4 d4 c2
 }
 
 tenorMusic = \relative c'' {
@@ -63,13 +66,14 @@ Or trem -- ble at the temp -- ter’s power?
 Je -- sus vouch -- safes to be my tower.
 }
 trebleWordsTwo = \lyricmode {
+
+}
+
+altoWords = \lyricmode {
 \set stanza = "2."
 Though hot the fight, why quit the field?
 Why must I ei -- ther fly or yield,
 Since Je -- sus is my might -- y shield?
-}
-
-altoWords = \lyricmode {
 }
 altoWordsTwo = \lyricmode {
 }
@@ -81,13 +85,13 @@ World -- lings may weep, but why should I?
 Je -- sus still lives, and still is nigh.
 }
 tenorWordsTwo = \lyricmode {
+}
+
+bassWords = \lyricmode {
 \set stanza = "4."
 I know not what may soon be -- tide,
 Or how my wants shall be sup -- plied;
 But Je -- sus knows, and will pro -- vide.
-}
-
-bassWords = \lyricmode {
 }
 bassWordsTwo = \lyricmode {
 }
