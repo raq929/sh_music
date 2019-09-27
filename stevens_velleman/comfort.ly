@@ -37,9 +37,9 @@ trebleMusic = \relative c'' {
 }
 
 altoMusic = \relative c'' {
-	r2 c, g'4 g a2 b a4 g c,1
+	r2 e, g4 g a2 b a4 g c,1
 	g'2 g4 b c2 b a4 a8 [g8] g2~ 1 
-	c,2 g'4 g g2 g4 (e4) c4 d4 c2
+	e2 g4 g g2 g4 (e4) c4 d4 e2
 }
 
 tenorMusic = \relative c'' {
