@@ -101,7 +101,7 @@ And say there’s naught be -- low the sun
 \C\C
 }
 tenorWordsTwo = \lyricmode {
-\set\stanza = "2."
+\set stanza = "2."
 \G\H\H\I\I
 }
 
