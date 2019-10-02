@@ -31,27 +31,27 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \relative c'' {
-	r2 g c4 c c2 d e4 d c1
+	 g2 c4 c c2 c e4 d c2
 	c2 d4 e g2 e d4 e8 [d] d2~ 1
-	e2 d4 e d2 e e4 d c2
+	e2 d4 e d2 e e4 d c2~ 1
 }
 
 altoMusic = \relative c'' {
-	r2 e, g4 g a2 b a4 g c,1
+	c,2 g'4 g a2 g a4 g c,2
 	g'2 g4 b c2 b a4 a8 [g8] g2~ 1 
-	e2 g4 g g2 g4 (e4) c4 d4 e2
+	c,2 g'4 g g2 g4 (e4) c4 d4 c2~ 1
 }
 
 tenorMusic = \relative c'' {
-    r2 c | e4 e a,2 | g c4 c | c1 | 
-    e2 g4 g | c,2 e | d4 c g2~ | 1 | 
-    a2 g4 g | g2 a2 | c4 d c2 \bar"|."
+    c2  e4 e a,2 | g c4 c | c2  
+    e2 g4 g | c,2 e | d4 c g2~ | 1| 
+    a2 g4 g | g2 a2 | c4 d c2~ 1 \bar"|."
 }
 
 bassMusic = \relative c {
-    r2 c | e4 g a2 | g e4 d | c1 |
+    c2  e4 g a2 | g e4 d | c2 |
     c2 d4 e | g2 g | a4 g g2~ | g1
-    c,2 d4 e | g2 c | a4 g c,2
+    c,2 d4 e | g2 c | a4 g c,2 ~1
 }
 
 
