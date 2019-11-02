@@ -47,8 +47,9 @@ textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp
       \fill-line {
         \fontsize #0 \concat {
           \bold \fromproperty #'header:key "    " 
-          \italic \fromproperty #'header:hymnal
-          \bold \concat {\fromproperty #'header:poet ", " \fromproperty #'header:pdate "." }
+          \bold \fromproperty #'header:poet " "
+          \italic \fromproperty #'header:hymnal ", " 
+          \bold \fromproperty #'header:pdate "." 
         }
         \null
         \fontsize #0 \bold \concat {
@@ -183,11 +184,11 @@ global = {
 #(load "../templates/includes/swing.scm")
 \score {
   \unfoldRepeats { <<                                                                              
-    \new Staff \applySwing 8 #'(5 4) {\trebleMusic}
-    \new Staff \applySwing 8 #'(5 4) {\altoMusic}
-    \new Staff \applySwing 8 #'(5 4) {\tenorMusic}
-    \new Staff \applySwing 8 #'(5 4) {\transpose c c, {\tenorMusic}}
-    \new Staff \applySwing 8 #'(5 4) {\bassMusic}
+    \new Staff \applySwing 8 #'(5 4) {\time\timeSignature\trebleMusic}
+    \new Staff \applySwing 8 #'(5 4) {\time\timeSignature\altoMusic}
+    \new Staff \applySwing 8 #'(5 4) {\time\timeSignature\tenorMusic}
+    \new Staff \applySwing 8 #'(5 4) {\time\timeSignature\transpose c c, {\tenorMusic}}
+    \new Staff \applySwing 8 #'(5 4) {\time\timeSignature\bassMusic}
   >> }
   \midi{
     \context {
