@@ -15,7 +15,7 @@ pdate = "1841"
 composer = "Leah Velleman"
 cdate = "2019"
 
-pitch = g % The written pitch
+pitch = f % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
 
 timeSignature = 3/4
@@ -42,8 +42,8 @@ r2 la4 | so2 La4 | Fa2 La8[ So] | La2 Fa4 | so'2
 la4 | so2 so8[ la] | Fa2 so8[ fa] | La2 Fa4 | so'2.
 r2
 Fa4 | la2 so8[ la] | Fa2 
-so4 | la2 so8[ la] | so2
-Fa4 | la2 so8[ La] | so2 la8[ so] | La2 So4 | Fa2. \bar"|."
+so4 | la2 so8[ La] | so2
+Fa4 | la2 Fa8[ la] | so2 la8[ so] | La2 So4 | Fa2. \bar"|."
 }
 
 bassMusic = \fasola Fa {
