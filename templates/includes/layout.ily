@@ -19,6 +19,8 @@ textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp
 % PAGE LAYOUT AND HEADER
 %%%%%%%%%%%%%%%%%%%%%%%%
 
+maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
+
 \paper {
   paper-width = 11\in
   paper-height = 8.5\in
@@ -47,9 +49,9 @@ textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp
       \fill-line {
         \fontsize #0 \concat {
           \bold \fromproperty #'header:key "    " 
-          \bold \fromproperty #'header:poet " "
-          \italic \fromproperty #'header:hymnal ", " 
-          \bold \fromproperty #'header:pdate "." 
+          \bold \fromproperty #'header:poet 
+          \maybeHymnal
+          ", " \bold \fromproperty #'header:pdate "." 
         }
         \null
         \fontsize #0 \bold \concat {
