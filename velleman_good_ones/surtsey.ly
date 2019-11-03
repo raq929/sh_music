@@ -54,7 +54,7 @@ altoMusic = \fasola Fa' {
 
 tenorMusic = \fasola Fa' {
         \override Voice.Accidental.stencil = ##f
-        r2 La2 | La4 fi so La | So So Fa4. mi8 | la4 la mi8[ la] so4 | Fa2.
+        r2 La2 | La4 fi so La | So So Fa4. mi8 | la4 la mi8[ la] so4 | la2.
         \repeat volta 2 {
             r4 | r2. Fa4 | La La so so | La8.[ So16] La8[ so] la2 | r2. La4 | so so La So | Fa2.
             La4 | so so so La | So So La( So8[ Fa] | mi2.)
