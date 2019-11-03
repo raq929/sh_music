@@ -36,7 +36,7 @@ trebleMusic = \fasola Fa' {
       r2
       r1 | r1 | r2 so2 | so2. so4 | <Fa La,>4 <mi La,> la so | La2. 
       So4 | La La so so La2~ }
-      \bar":|" La2 \bar"|."
+      La2 \bar"|."
 }
 
 altoMusic = \fasola Fa' {
