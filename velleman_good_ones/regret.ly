@@ -44,7 +44,6 @@ trebleMusic = \fasola Fa' {
         La La La2~ 
         \set Timing.measureLength = #(ly:make-moment 3/4)
         La2.
-        \bar":|"
         \set Timing.measureLength = #(ly:make-moment 4/4)
     }
     {
@@ -66,7 +65,6 @@ altoMusic = \fasola Fa' {
         la mi la2~ 
         \set Timing.measureLength = #(ly:make-moment 3/4)
         2.
-        \bar":|"
         \set Timing.measureLength = #(ly:make-moment 4/4)
     }
     {
@@ -87,7 +85,6 @@ tenorMusic = \fasola Fa' {
         Fa mi la2~ 
         \set Timing.measureLength = #(ly:make-moment 3/4)
         2.
-        \bar":|"
         \set Timing.measureLength = #(ly:make-moment 4/4)
     }
     {
@@ -108,7 +105,6 @@ bassMusic = \fasola Fa {
         La La <la la,>2~ 
         \set Timing.measureLength = #(ly:make-moment 3/4)
         2.
-        \bar":|"
         \set Timing.measureLength = #(ly:make-moment 4/4)
     }
     {
