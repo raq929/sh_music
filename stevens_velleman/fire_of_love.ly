@@ -31,7 +31,9 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleMusic = \fasola Fa' {
+trebleMusic = \fasola Fa'' {
+r2 la4 | Fa2 la4 | so2 La8[ So] Fa2 so'8[ fa] | La2 Fa4 | La2 La4 | so2 La8[ fa] | so2 La4 | So2. 
+r2 so4 | La2 so8[ fa] | La2 so4 | Fa2 mi4 | Fa2 so4 | La2 La8[ fa] | So2 Fa4  | La2 So4 | La2.
 }
 
 altoMusic = \fasola Fa' {
