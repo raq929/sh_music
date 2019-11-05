@@ -14,7 +14,7 @@ pdate = "1760"
 composer = "L Velleman & R Stevens"
 cdate = "2019"
 
-pitch = f % The written pitch
+pitch = fs % The written pitch
 isMajor = ##f   % Use ##t for major and ##f for minor
 
 timeSignature = 4/4
@@ -46,6 +46,10 @@ La2 so4 La | So2 Fa | so4 la la2
 }
 
 bassMusic = \fasola Fa {
+la2 la4 so | la2 Fa | So4 Fa la2
+r2 So2 | La4 So La2 | Fa2 la4 so8[ la] | La1
+la2 la4 so | la2 Fa | So4 Fa8[ So] La2
+La,2 Fa'4 mi | la2 Fa | so4 La la2
 }
 
 
