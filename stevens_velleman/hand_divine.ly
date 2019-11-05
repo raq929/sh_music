@@ -38,6 +38,10 @@ r2 La2 La4 so | So2 La | So4 La La1
 }
 
 altoMusic = \fasola Fa' {
+la2 Fa4 mi | la2 Fa | mi4 Fa8[ mi] la2 | 
+r2 so2 | la4 mi Fa2 | Fa La4 So | Fa1
+Fa2 Fa4 So | Fa2 so | so4 Fa mi2 |
+r2 la2 | Fa4 mi la2 | Fa mi4 Fa8[ mi] | la1
 }
 
 tenorMusic = \fasola Fa' {
@@ -50,9 +54,9 @@ r2 La2 so4 La | So2 Fa | so4 la la1
 
 bassMusic = \fasola Fa {
 la2 la4 so | la2 Fa | So4 Fa la2
-r2 So2 | La4 So La2 | Fa2 la4 so8[ la] | La1
-la2 la4 so | la2 Fa | So4 Fa8[ So] La2
-r2 La,2 Fa'4 mi | la2 Fa | so4 La la1
+r2 So2 | La4 So Fa2 | la2 la4 so | La1
+la2 so4 la | la2 Fa | So4 Fa8[ So] La2
+r2 La,2 Fa'4 mi | la2 La | so4 la la1
 }
 
 
