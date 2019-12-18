@@ -17,9 +17,9 @@ cdate = "2019"
 pitch = g % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
 
-timeSignature = 2/4
+timeSignature = 4/4
 
-midiTempo = 70
+midiTempo = 140
 midiInstrument = "piano"
 
 % systemCount = 1
@@ -31,32 +31,32 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa'' {
- so4 so8 fa so4 La8.( So16) Fa8 La16[ So] La4
- Fa so'8 fa La fa so la so4
- so4 so8 fa so4 La8.( So16) Fa8 So16 [Fa] | So4
- La so8 so16 (la) mi4 la4 so8 so so2
+ so2 so4 fa so2 La4.( So8) Fa4 La8[ So] La2
+ Fa so'4 fa La fa so la so2
+ so2 so4 fa so2 La4.( So8) Fa4 So8 [Fa] | So2
+ La so4 so8 (la) mi2 la2 so4 so so1
 }
 
 altoMusic = \fasola Fa' {
- so4 Fa8 Fa | mi4 Fa8.( mi16) | la8 so Fa4
- so4 Fa8 Fa | Fa Fa Fa16 [mi] la8 | mi4
- so4 Fa8 Fa mi4 Fa8.( mi16) la8 la mi4  
- Fa4 so8 so so4 la4 so8 so La2
+ so2 Fa4 Fa  mi2 Fa4.( mi8)  la4 so Fa2
+ so2 Fa4 Fa Fa Fa Fa8 [mi] la4 mi2
+ so2 Fa4 Fa mi2 Fa4.( mi8) la4 la mi2  
+ Fa2 so4 so so2 la2 so4 so La1
 }
 
 tenorMusic = \fasola Fa' {
- Fa4 La8 fa so4 la8.( so16) fa8 La16[ So] Fa4 
- Fa4 La8 fa | so fa La So16[ Fa] | So4
- Fa4 La8 fa so4 la La8 So16 [Fa] | So4
- Fa4 La8 So16 [Fa] | So4 La4 | Fa8 mi Fa2
+ Fa2 La4 fa so2 la4.( so8) fa4 La8[ So] Fa2 
+ Fa2 La4 fa | so fa La So8[ Fa] | So2
+ Fa2 La4 fa so2 la La4 So8 [Fa] | So2
+ Fa2 La4 So8 [Fa] So2 La Fa4 mi Fa1
  
 }
 
 bassMusic = \fasola Fa {
- Fa4 Fa8 so | so4 la | la8 so8 Fa,4 | 
- Fa so'8 fa | La fa La So | so4 
- Fa4 Fa8 so so4 la Fa8 So | so,4 
- Fa so8 La so4 la so8 so Fa,2
+ Fa2 Fa4 so so2 la la4 so4 Fa,2 | 
+ Fa so'4 fa | La fa La So | so2 
+ Fa2 Fa4 so so2 la Fa4 So | so,2 
+ Fa so4 La so2 la so4 so Fa,1
 }
 
 
@@ -79,7 +79,7 @@ altoWords = \lyricmode {
 \set stanza = "2."
 Thou see'st the tem -- pest of my soul,
 These rest -- less waves of fear and sin;
-Thy voice can all their rage con -- troul,
+Thy voice can all their rage con -- trol,
 And make a sa -- cred calm wi -- thin.
 }
 altoWordsTwo = \lyricmode {
@@ -90,7 +90,7 @@ tenorWords = \lyricmode {
 And can my vile un -- grate -- ful heart
 Still har -- bour black dis -- trust and fear?
 O bid these hea -- vy clouds de -- part,
-Bright sun of righ -- teous -- ness, ap --pear.
+Bright sun of righ -- teous -- ness, ap -- pear.
 }
 tenorWordsTwo = \lyricmode {
 
