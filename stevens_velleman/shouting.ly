@@ -38,7 +38,7 @@ altoMusic = \fasola Fa' {
 
 tenorMusic = \fasola Fa' {
     r2 Fa | la so4 la | Fa2 mi4 la | so2
-       Fa | la la4 Fa | So2 So4 La | la,2
+       Fa | la la4 Fa | So2 La4 La | la,2
        La'| So Fa4 So | La4.( fa8) so4 So | La2 So4 Fa | la2
        so | Fa So4 La | So2 La4 Fa | la1
     \bar"|."
