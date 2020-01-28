@@ -8,7 +8,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 title = "Crucifixion"
-meter = "L.M"
+meter = "L.M."
 poet = "R. Stevens"
 pdate = "2020"
 composer = "R. Stevens"
@@ -46,9 +46,9 @@ altoMusic = \fasola Fa' {
 
 tenorMusic = \fasola Fa' {
  la4 la so la2. la4 mi mi mi2.
- la4 mi Fa Fa La la4~ la4 La2 la,2.
- la4 la so la2. la4 mi mi mi2.
- la4 mi Fa Fa Fa Fa4~ Fa4 mi2 la2.
+ la4 mi Fa Fa La la4~ la4 La2 La2.
+ la,4 la8 [mi] la [so] la2. la4 mi8 [Fa] mi [la] mi2.
+ la4 mi Fa8 [La] La4 La Fa4~ Fa4 mi2 la2.
 }
 
 bassMusic = \fasola Fa {
@@ -65,47 +65,51 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
- My pre -- cious lord
- Was cru -- ci -- fied
- With -- out a shout or cry he died
+ My pre -- cious Lord
+ Was cru -- ci -- fied;
+ With -- out a shout or cry he died.
 
  The poun -- ding nails, 
- The pier -- cing spear
- His ling -- 'ring doubt that God was near
-
-
+ The pier -- cing spear,
+ His ling -- 'ring doubt that God was near.
 }
-trebleWordsTwo = \lyricmode {
-\set stanza = "2."
-}
+
 
 altoWords = \lyricmode {
 \set stanza = "2."
 That I could feel
 His ho -- ly pain,
-The hurt that heals my guil -- ty stains
+The hurt that heals my guil -- ty stains.
 
 Would I could see, 
 And un -- der -- stand
-That in the dark he holds my hand
-}
-altoWordsTwo = \lyricmode {
+That in the dark he holds my hand.
 }
 
 tenorWords = \lyricmode {
-\set stanza = "3."
+\set stanza = "1."
+ My pre -- cious Lord
+ Was cru -- ci -- fied;
+ With -- out a shout or cry he died.
 
-}
-tenorWordsTwo = \lyricmode {
+ The poun -- ding nails, 
+ The pier -- cing spear,
+ His ling -- 'ring doubt that God was near.
 
 }
 
 bassWords = \lyricmode {
-\set stanza = "4."
+\set stanza = "2."
+That I could feel
+His ho -- ly pain,
+The hurt that heals my guil -- ty stains.
+
+Would I could see, 
+And un -- der -- stand
+That in the dark he holds my hand.
 
 }
-bassWordsTwo = \lyricmode {
-}
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
