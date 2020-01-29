@@ -45,6 +45,11 @@ tenorMusic = \fasola Fa' {
 }
 
 bassMusic = \fasola Fa {
+    r2 Fa | Fa so4 La | Fa2 la4 la | so2
+       Fa | Fa la4 la | So2 La4 La | la2
+       la | fa la4 la | La2 so4 so | Fa2 so4 so | la2
+       so | Fa, Fa4 La | So2 La4 La | la,1 
+        
 }
 
 
