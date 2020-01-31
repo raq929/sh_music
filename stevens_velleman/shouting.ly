@@ -33,7 +33,11 @@ fontSize = 0
 trebleMusic = \fasola Fa' {
 }
 
-altoMusic = \fasola Fa' {
+altoMusic = \fasola Fa {
+    r2 La | la La4 La | so2 La4 La | so2
+       so | la La4 La | so2 so4 so | La2
+       La | la La4 la | Fa2 mi4 la | so2 la4 Fa | So2 
+       so, | la2 La4 La | so2 La4 La | La1
 }
 
 tenorMusic = \fasola Fa' {
