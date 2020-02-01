@@ -30,16 +30,16 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleMusic = \fasola Fa' {
-    r2 Fa | La4 so so2 | la La4 fa | so1 | 
+trebleMusic = \fasola Fa'' {
+    r2 la | La4 La La2 | La La4 fa | so1 | 
     la2 la4 mi | Fa2 mi | la4 La8[ fa] so2~ | so2
     La2 | La4 so la2 | so la4 mi | Fa2. Fa4 | Fa la so fa | La2 La | La2. 
     \repeat volta 2 {
         r4 | r1 | r1 |
-        r2. la4 | la8[( mi la so] la4) so | Fa( mi la) so | la( so La) La | so2. 
+        r2. la4 | la8[( mi la so] la4) so | Fa( mi la) so | la( so La) La | La2. 
         so4 | la Fa mi la | so so so
         fa4 | La fa so2 | so La4 so | la1 | 
-        Fa2 Fa4 la | so8[( la so fa] La4) So | La1 | La1 | 
+        Fa2 Fa4 la | so8[( la so fa] La4) So | La2 La | 
     }
     \alternative {
         { \shortmeasure La2. \longmeasure}
@@ -57,7 +57,7 @@ altoMusic = \fasola Fa' {
         r4 | r1 | r2. La4 | La8[( fa La So] La4) So | Fa2. 
         So4 | La( So Fa) mi | Fa2. La4 | La So Fa So | La La So2~ | So 
         So2 | La4 fa so2 | Fa, Fa4 So | La1 | 
-        Fa2 Fa4 So | La4.( So8 Fa4) So4 | Fa1 | mi1
+        Fa2 Fa4 So | La4.( So8 Fa4) So4 | Fa2 mi
     }
     \alternative {
         { \shortmeasure la2. \longmeasure }
@@ -76,7 +76,7 @@ tenorMusic = \fasola Fa'' {
         La4 | so so La So | Fa La so2~ | so2 
         so | Fa,4 So La2 | Fa La4 so | Fa1 | 
         so2 so4 fa | La8([ fa La So] Fa4) So | 
-        \newSpacingSection La1 | La1 
+        \newSpacingSection La2 La 
     }
     \alternative {
         { \shortmeasure la,2. \longmeasure }
@@ -85,7 +85,7 @@ tenorMusic = \fasola Fa'' {
 }
 
 bassMusic = \fasola Fa {
-    r2 la | La'4 La Fa2 | la so4 so | Fa1 | 
+    r2 la | so4 la Fa2 | la so4 so | Fa1 | 
     Fa2 Fa4 so | la2 so | Fa4 la so2~ | so2
     La2 | la4 mi Fa2 | so Fa4 So | La2. 
     Fa4 | so4 la Fa So | Fa2 La | la,2.
@@ -94,7 +94,7 @@ bassMusic = \fasola Fa {
         Fa4 | La8[( fa La So] Fa4) mi | la2. 
         La4 | la2. so4 | Fa2. So4 | Fa la so2~ | so
         so2 | so4 la Fa2 | so Fa4 mi | la1 | 
-        Fa2 so4 la | Fa2. So4 | Fa1 | La1
+        Fa2 so4 la | Fa2. So4 | Fa2 La
     }
     \alternative {
         { \shortmeasure la,2. \longmeasure }

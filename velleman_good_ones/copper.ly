@@ -47,7 +47,7 @@ trebleMusic = \fasola Fa'' {
 altoMusic = \fasola Fa' {
         Fa1 | La4 So Fa mi | la mi Fa2~ | Fa4 Fa La So | Fa Fa mi Fa | So2.
         \repeat volta 2 {
-            La4 | Fa Fa mi Fa8[ So] | La4 Fa La2~ | La2. r4 | r2. Fa4 | La So Fa Fa | La2 La | La2 La | <so La> <fa So> | La2. Fa4 | La So Fa Fa | La2 La | Fa4 mi Fa So 
+            La4 | Fa Fa mi Fa8[ So] | La4 Fa La2~ | La2. r4 | r2. Fa4 | La So Fa Fa | La2 La | La2 La | <so La> <fa So> | La2. Fa4 | La So Fa So | La8[( fa La So] La4) La | Fa4 mi Fa So 
         }
         \alternative {{
         \set Timing.measureLength = #(ly:make-moment 3/4)
@@ -116,7 +116,7 @@ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 "Thy praise shall sound from shore to shore," _ _ _ _ _ _ _
 From "shore to shore, Till suns" _ _ _ _ shall rise and set no more.
-"From shore to shore, Till suns shall" _ _ _ _ _ _ "rise and set no more."  _
+"From shore to shore, Till suns"  _ _ _ _ _ shall "rise and set no more."  _
 }
 
 tenorWords = \lyricmode {

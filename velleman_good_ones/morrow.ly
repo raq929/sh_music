@@ -34,8 +34,11 @@ trebleMusic = \fasola Fa' {
     \bar"|."
 }
 
-altoMusic = \fasola Fa' {
-}
+%altoMusic = \fasola Fa' {
+%    r2 la | la4 so la2 | Fa mi4 la | so1 | Fa2 Fa4 Fa | Fa2 mi | Fa1
+%    Fa2 Fa4 Fa | Fa2 So | Fa4 mi la2 | so2 so4 so | so2 so | so1
+%    so2 La4 so | la2 so | la1
+%}
 
 tenorMusic = \fasola Fa' {
     r2
@@ -64,14 +67,7 @@ trebleWords = \lyricmode {
 "Nor dare dispute Thy will." _ _ _ _ _
 }
 
-trebleWordsTwo = \lyricmode { }
-
-altoWords = \lyricmode {
-}
-
-altoWordsTwo = \lyricmode { }
-
-tenorWords = \lyricmode {
+trebleWordsTwo = \lyricmode { 
 \set stanza = "2."
 "I'm but a" _ _ so -- journ -- er be -- low,
 "As all my fathers were;" _ _ _ _ _ 
@@ -79,14 +75,23 @@ May I be well "prepared to go When I the summons hear," _ _ _ _ _ _ _ _ _
 "When I the summons hear." _ _ _ _ _
 }
 
-tenorWordsTwo = \lyricmode { }
+altoWords = \lyricmode {
+}
 
-bassWords = \lyricmode {
+altoWordsTwo = \lyricmode { }
+
+tenorWords = \lyricmode {
 \set stanza = "3."
 "But if my life be spared awhile" _ _ _ _ _ _ _
 "Before my last remove, Thy praise shall be my business still, And I'll declare thy love,"
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 "And I'll declare Thy love." _ _ _ _ _
+}
+
+tenorWordsTwo = \lyricmode { 
+}
+
+bassWords = \lyricmode {
 }
 
 bassWordsTwo = \lyricmode { 

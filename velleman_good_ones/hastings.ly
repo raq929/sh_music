@@ -30,12 +30,13 @@ staffSize = 20
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa'' {
+        \override NonMusicalPaperColumn.line-break-permission = ##f
         r2 la | la4 la La La | so2. Fa4 | la2. 
         la4 | Fa4 Fa8[ Fa] Fa4 Fa | Fa2 mi | la2.
-        so4 | La La la la | so2. 
+        so4 |\noBreak La La la la | so2. 
         \bar":"
         r4 | r1 | r2.
-        so4 | La La La Fa | La so la4 r | 
+        so4 | La La La Fa | La so la4 \bar""\break r | 
         r4 Fa Fa4 la8[ so] | La4 La La so | la Fa Fa2 | r4 Fa Fa2 | 
         r4 Fa Fa mi | la2. 
         so4 | so2. la4 | la la La La | la2.~ \bar":|" la4 \bar"|."
@@ -44,7 +45,7 @@ trebleMusic = \fasola Fa'' {
 altoMusic = \fasola Fa' {
         r2 La | La4 La Fa So | La2. Fa4 | La2. So4 | La La8[ So] Fa4 Fa | Fa2 La | La2.
         La4 | Fa Fa Fa La | So2.
-        r4 | r1 | r1 | r2.
+        r4 | r1 | r1 | r2. \bar""\break
         Fa4 | La La La So | La so so So | La La La So | Fa Fa Fa La | La2. 
         so4 | so fa La So | Fa La La2 | r4 so so fa | La2 La | La2.~ | La4
 }
@@ -76,8 +77,8 @@ trebleWords = \lyricmode {
 "Let me among Thy saints be found," _ _ _ _ _ _ _ 
 _ _ _ _ _ _ _ _ 
 "To see thy smiling face." _ _ _ _ _
-\once\override LyricText.self-alignment-X = #-0.5
-"Then loudest of the crowd I'll sing," "" _ _ _ _ _ _ _
+\once\override LyricText.self-alignment-X = #-0
+_ _ _ "Then loudest of the crowd I'll sing," "" _ _ _ _
 \once\override LyricText.self-alignment-X = #-0.6
 "While heaven’s resounding mansions ring with shouts," "" _ _ _ _ _ _ _ 
 \once\override LyricText.self-alignment-X = #-0.5
@@ -153,11 +154,12 @@ _ _ _ _ _ _ _
 
 bassWords = \lyricmode {
 \set stanza = #"2. "
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+"Thy pardoning voice, O let me hear, To still my unbelieving fear, nor let me fall, I pray."
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+ 
 "Then loudest of the crowd I'll sing," _ _ _ _ _ _ _
 \bar""\break
-\once\override LyricText.self-alignment-X = #-0.5
-"While heaven’s resounding" "" _ _ _
+"While heaven’s resounding" _ _ _ _
 man -- sions ring
 \once\override LyricText.self-alignment-X = #-0.5
 "with shouts," ""

@@ -35,9 +35,9 @@ fontSize = 0
 trebleMusic = 
     \relative c'' {
       	\repeat volta 2
-	{ g2 
+	{ d2 
         \newSpacingSection
-        | b8 b g g | g b d4~ | d8 b d e | g e d b | d4. b8 | d d d a 
+        | b8 b g g | g b d4~ | d8 g g e | d b g b | d4. b8 | d d d a 
 	}
 	\alternative { { 
 	b2 } { b4. } }
@@ -75,7 +75,7 @@ bassMusic =  \relative c' {
 	\alternative { { g2 } { g4.} }
 	\repeat volta 2 { 
         d8 | g g e d | 
-	d4. g8 | b b a g | g4.( e8 | g4.) 
+	d4. g8 | b b a g | g4.( e8 | d4.) 
 	g8 | b4 b | g8 e d d | e4. d8 | e e e d | <g g,>4.~ } 8
 }
 
@@ -192,177 +192,4 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 }
 
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%                                 Score                                     %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-textFlat = \markup { \hspace #0.2 \raise #0.3 \smaller \smaller \flat }
-
-textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp }
-
-#(define-markup-command (markupKey layout props ) ()
-   (let* ((notes "CDEFGAB")
-          (idx (ly:pitch-notename pitch))
-          (accidental (cond
-                       ((= -1/2 (ly:pitch-alteration pitch)) #{ \textFlat #})
-                       ((= 1/2 (ly:pitch-alteration pitch)) #{ \textSharp #})
-                       (else "")))
-          (major-minor (if isMajor "Major" "minor")))
-     (interpret-markup layout props
-       #{
-         \markup {
-           \concat { #(string (string-ref notes idx)) #accidental }
-           \concat { #major-minor "   " }
-       } #})))
-
-% Function to detect nonfinal pages (for header layout)
-
-#(define (not-last-page layout props arg)
-(if (and (chain-assoc-get 'page:is-bookpart-last-page props #f)
-         (chain-assoc-get 'page:is-last-bookpart props #f))
-   empty-stencil
-   (interpret-markup layout props arg)))
-
-% Header components with custom fonts
-
-\header {
-  title = \markup{\concat{#(string-upcase title) . " " \meter}}
-  poet = \markup {\concat{\bold\markupKey " " \italic\hymnal \poet " " \pdate}}
-  composer = \markup {\concat{\composer , " " \cdate}}
-  tagline = ##f % Remove lilypond version
-}
-
-% Page shape, system spacing on page, and header layout
-
-\paper {
-  paper-width = 11\in
-  paper-height = 8.5\in
-  top-margin = 0.3\in
-  ragged-last = ##f
-  ragged-bottom = ##t
-  system-system-spacing.basic-distance = #20
-  system-count = #(if (> systemCount 0) systemCount)
-  page-count = #(if (> pageCount 0) pageCount)
-  evenHeaderMarkup = \markup {
-    \column {
-      \fill-line {
-        \fontsize #4
-        \bold
-        \concat {
-          \on-the-fly #not-first-page #(string-upcase title)
-          \on-the-fly #not-first-page \on-the-fly #not-last-page " Continued."
-          \on-the-fly #not-first-page \on-the-fly #last-page " Concluded."
-        }
-      }
-    }
-  }
-  oddHeaderMarkup = \evenHeaderMarkup
-}
-
-% VISIBLE SCORE
-%%%%%%%%%%%%%%%
-
-% Boilerplate to add to each music expression
-
-global = {
-  \key \pitch #(if isMajor #{ \major #} #{ \minor #})
-  #(if isMajor #{ \sacredHarpHeads #} #{ \sacredHarpHeadsMinor #})
-  \time \timeSignature
-  \numericTimeSignature
-  \autoBeamOff
-}
-
-% Score layout and visible tweaks
-
-#(define (is-empty music)
-   "Does this music have no duration?"
-   (= 0 (ly:moment-main-numerator (ly:music-length music))))
-
-\score {
-  \new ChoirStaff <<
-      #(if (not (is-empty trebleMusic)) #{
-        <<
-          \new Voice = "one" {\global\trebleMusic}
-          \new Lyrics \lyricsto "one" {\trebleWords}
-          \new Lyrics \lyricsto "one" {\trebleWordsTwo}
-          \new Lyrics \lyricsto "one" {\trebleWordsThree}
-        >>
-      #})
-      #(if (not (is-empty altoMusic)) #{
-        <<
-          \new Voice = "two" {\global\altoMusic}
-          \new Lyrics \lyricsto "two" {\altoWords}
-          \new Lyrics \lyricsto "two" {\altoWordsTwo}
-          \new Lyrics \lyricsto "two" {\altoWordsThree}
-        >>
-      #})
-      #(if (not (is-empty tenorMusic)) #{
-        <<
-          \new Voice = "three" {\global\tenorMusic}
-          \new Lyrics \lyricsto "three" {\tenorWords}
-          \new Lyrics \lyricsto "three" {\tenorWordsTwo}
-          \new Lyrics \lyricsto "three" {\tenorWordsThree}
-        >>
-      #})
-      #(if (not (is-empty bassMusic)) #{
-        <<
-          \new Voice = "four" {\clef bass \global\bassMusic}
-          \new Lyrics \lyricsto "four" {\bassWords}
-          \new Lyrics \lyricsto "four" {\bassWordsTwo}
-          \new Lyrics \lyricsto "four" {\bassWordsThree}
-        >>
-      #})
-  >>
-  \layout {
-    #(layout-set-staff-size staffSize)
-    indent = #0
-    \context {
-      \Score
-      \remove "Bar_number_engraver" 
-      \remove "Volta_engraver" 
-      \override SpanBar #'transparent = ##t 
-      startRepeatType = #":"
-      endRepeatType = #":|"
-      doubleRepeatType = #":|:"
-    }
-    \context {
-      \Staff
-      \consists "Volta_engraver"
-      \override VoltaBracket #'style = #'dashed-line
-      \override VoltaBracket #'dash-period = #0
-      \override VoltaBracket #'extra-offset = #'(0 . -0.5)
-      \override TimeSignature #'style = #'numbered
-      \override TimeSignature.break-visibility = #end-of-line-invisible
-      \override BarLine #'stencil = #with-shapenote-repeats
-      \override BarLine #'hair-thickness = #0.7
-      \override NoteHead #'font-size = #0.5
-    }
-    \context {
-      \Lyrics
-      \override StanzaNumber #'font-size = -1
-      \override VoltaBracket #'style = #'dashed-line
-      \override LyricText #'font-size = -1
-      \override VerticalAxisGroup.nonstaff-nonstaff-spacing.minimum-distance = #1
-    }
-  }
-}
-
-% AUDIBLE SCORE
-%%%%%%%%%%%%%%%
-
-#(load "../templates/includes/swing.scm")
-\score {
-  \unfoldRepeats { <<                                                                              
-    \new Staff \applySwing 8 #'(5 4) {\trebleMusic}
-    \new Staff \applySwing 8 #'(5 4) {\altoMusic}
-    \new Staff \applySwing 8 #'(5 4) {\tenorMusic}
-    \new Staff \applySwing 8 #'(5 4) {\transpose c c, {\tenorMusic}}
-    \new Staff \applySwing 8 #'(5 4) {\bassMusic}
-  >> }
-  \midi{
-    \context {
-      \Score tempoWholesPerMinute = #(ly:make-moment midiTempo 4)
-    }
-  }
-}
-
+\include "../templates/includes/layout.ily"
