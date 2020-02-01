@@ -69,34 +69,35 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+"If souls disembodied can know," _ _ _ _ _ _ _
+"Or visit their brethren beneath," _ _ _ _ _ _ _
+"My spirit shall join you while singing you go," _ _ _ _ _ _ _ _ _ _
+"And leave all my cares in the grave." _ _ _ _ _ _ _
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
 }
 
 altoWords = \lyricmode {
-}
-altoWordsTwo = \lyricmode {
-}
-
-tenorWords = \lyricmode {
-\set stanza = "1."
-"If souls disembodied can know," _ _ _ _ _ _ _
-"Or visit their brethren beneath," _ _ _ _ _ _ _
-"My spirit shall join you while singing you go," _ _ _ _ _ _ _ _ _ _
-"And leave all my cares in the grave." _ _ _ _ _ _ _
-}
-tenorWordsTwo = \lyricmode {
 \set stanza = "2."
 "Immersed in the ocean of love," _ _ _ _ _ _ _
 "My soul like an angel shall sing," _ _ _ _ _ _ _
 "Till Christ shall descend with a shout from above, And make all creation to ring." _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 }
-tenorWordsThree = \lyricmode {
+altoWordsTwo = \lyricmode {
+}
+
+tenorWords = \lyricmode {
 \set stanza = "3."
 "Our bodies in dust shall obey, And swifter than thought shall arise;" _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 "Then, changed in a moment, go shouting away" _ _ _ _ _ _ _ _ _ _
 "To mansions of love in the skies." _ _ _ _ _ _ _
+}
+tenorWordsTwo = \lyricmode {
+
+}
+tenorWordsThree = \lyricmode {
+
 
 }
 bassWords = \lyricmode {
