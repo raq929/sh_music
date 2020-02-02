@@ -38,7 +38,7 @@ r2. Fa4 | La2 so4 La | So2 La4( So) | Fa2 Fa4 La | La2.
 }
 
 altoMusic = \fasola Fa' {
-r2. so4 | so2 so4 so | so2 Fa2 | Fa2 so4 La | so2.
+r2. so4 | so2 so4 so | so2 la4( mi) | Fa2 so4 La | so2.
     so4 | so2 so4 so | Fa2 Fa4( mi) | la2 la4 Fa | mi2.
     so4 | so2 so4 so | fa2 fa4 la | so2 La4 fa | so2.
     so4 | Fa2 Fa4 Fa | mi2 la4 mi | Fa2 Fa4 mi | so1
