@@ -85,8 +85,8 @@ altoWords = \lyricmode {
 This foun -- tain from guilt 
 Not on -- ly makes pure, 
 And gives soon as felt,
-An in -- fal -- li -- ble cure;
-But if guilt re -- moved, 
+In -- fal -- li -- ble cure;
+But if guilt re -- mov -- ed, 
 Re -- turn and re -- main,
 Its power may be prov -- ed 
 A -- gain and a -- gain. 
