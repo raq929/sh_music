@@ -9,8 +9,8 @@
 
 title = "Somethingorother"
 meter = "L.M."
-poet = ""
-pdate = ""
+poet = "Anne Steele"
+pdate = "1760"
 composer = "Leah Velleman and R. Stevens"
 cdate = "2019"
 
@@ -39,9 +39,12 @@ altoMusic = \fasola Fa' {
 tenorMusic = \fasola Fa'' {
 r2 so | la4 Fa Fa4.( la8 | so4) so la Fa | So so, La' fa | so La8[ So] Fa4 la | la2
    Fa | La4 so so4.( La8 | Fa4) Fa So La | la, so la Fa | So La8[ So] Fa4 Fa | Fa1
+    \bar"|."
 }
 
 bassMusic = \fasola Fa {
+r2 Fa | Fa4 La La4. (so8 | Fa,4) La Fa Fa | so' so la la | Fa mi la la | la2
+   Fa | so4 so La4. (So8 | Fa4) La so La | la so fa so | so so Fa, Fa | Fa1
 }
 
 
@@ -62,10 +65,11 @@ altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
-Here are some words that might be wrong,
-But fit the me -- ter of this song.
-I bet you can find bet -- ter ones,
-So I'm de -- clar -- ing my turn done.
+\set stanza = "1."
+Here let me search my in -- most mind,
+And try its re -- al state to find,
+The se -- cret springs of thought ex -- plore,
+And call my words and ac -- tions o'er.
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
