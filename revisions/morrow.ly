@@ -62,9 +62,9 @@ trebleWords = \lyricmode {
 \set stanza = "1."
 "God of my life, look gently down;" _ _ _ _ _ _ _
 "Behold the pains I feel;" _ _ _ _ _
-"But I am dumb before Thy throne," _ _ _ _ _ _ _
-"Nor dare dispute Thy will," _ _ _ _ _
-"Nor dare dispute Thy will." _ _ _ _ _
+"But I am dumb before thy throne," _ _ _ _ _ _ _
+"Nor dare dispute thy will," _ _ _ _ _
+"Nor dare dispute thy will." _ _ _ _ _
 }
 
 trebleWordsTwo = \lyricmode { 
@@ -85,7 +85,7 @@ tenorWords = \lyricmode {
 "But if my life be spared awhile" _ _ _ _ _ _ _
 "Before my last remove, Thy praise shall be my business still, And I'll declare thy love,"
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-"And I'll declare Thy love." _ _ _ _ _
+"And I'll declare thy love." _ _ _ _ _
 }
 
 tenorWordsTwo = \lyricmode { 

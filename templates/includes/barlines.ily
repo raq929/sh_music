@@ -4,6 +4,7 @@
 % Leland Paul Kusmer, 17 February 2011
 
 \defineBarLine ":" #'("" "" "")
+\defineBarLine ":|:" #'("" "" "")
 
 % Updated for 2.19 lbv
 

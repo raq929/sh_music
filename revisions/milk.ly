@@ -111,10 +111,10 @@ trebleWords = \lyricmode {
 \set stanza = "1."
 "Why should we start" _ _ _ and fear to die?
 What tim -- ’rous worms we mor -- tals are!
-Death is the gate to end -- less joys,
+Death is the gate to end -- less joy,
 And yet we dread to en -- ter there.
 The pains, the groans, the dy -- ing strife
-"Fright our approaching souls away, and we shrink back" _ _ _ _ _ _ _ _ _ _ _
+"Fright our approaching souls away, And we shrink back" _ _ _ _ _ _ _ _ _ _ _
 a -- gain to life,
 "Fond of our" _ _ pri -- son and our clay.
 }
@@ -125,7 +125,7 @@ altoWords = \lyricmode {
 \set stanza = "2."
 Oh, if "my Lord would come and meet," _ _ _ _ _
 My "soul would stretch her" _ _ _ wings in haste,
-Fly "fearless through death's iron" _ _ _ _ _ gate,
+Fly "fearless through death’s iron" _ _ _ _ _ gate,
 Nor feel the ter -- rors as she passed.
 The pains, the groans, the dy -- ing strife
 Fright "our approaching souls away," _ _ _ _ _ _
@@ -139,7 +139,7 @@ tenorWords = \lyricmode {
 \set stanza = "1."
 "Why should we start" _ _ _ and fear to die?
 What tim -- ’rous worms we mor -- tals are!
-Death is the gate to end -- less joys,
+Death is the gate to end -- less joy,
 And yet we dread to en -- ter there.
 The pains, the groans, the dy -- ing strife
 Fright "our approaching souls away," _ _ _ _ _ _
@@ -154,7 +154,7 @@ bassWords = \lyricmode {
 \set stanza = "2."
 Oh, if "my Lord would come and meet," _ _ _ _ _
 My "soul would stretch her" _ _ _ wings in haste,
-Fly "fearless through death's iron" _ _ _ _ _ gate,
+Fly "fearless through death’s iron" _ _ _ _ _ gate,
 Nor feel the ter -- rors as she passed.
 The pains, the groans, the dy -- ing strife
 Fright our ap -- proach -- ing souls a -- way,

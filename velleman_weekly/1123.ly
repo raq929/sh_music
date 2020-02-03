@@ -41,7 +41,7 @@ so4 | La So Fa so' | La La La2~ | 4 La La la | so so La La | La2.~
 }
 
 altoMusic = \fasola Fa' {
-la1 | la4 la Fa Fa | la mi Fa2~ | 4 Fa Fa la | la mi Fa la | mi2.
+la1 | la4 la Fa Fa | la mi Fa2~ | 4 mi Fa la | la mi Fa la | mi2.
 \repeat volta 2 {
 la4 | la la Fa2 | r2. So4 | La So Fa mi | Fa Fa Fa r
 r1 | r2. So4 | La So Fa mi | Fa Fa la2~ | 4 mi Fa la | so so la so | la2.~

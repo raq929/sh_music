@@ -42,7 +42,7 @@ altoMusic = \fasola Fa' {
 r2 la | la4 la Fa Fa8[ la] | so2. la4 | Fa4 Fa la so8[ la] | mi1 
 \repeat volta 2 {
 r2
-Fa4 Fa8 mi | la4 la Fa So | La La8 So Fa4 mi8[ la] | mi4 mi mi mi | Fa la Fa Fa | la1
+Fa4 Fa8 mi | la4 la Fa So | La La8 So Fa4 la | mi4 mi mi mi | Fa la Fa Fa | la1
 }
 }
 

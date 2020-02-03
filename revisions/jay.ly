@@ -41,9 +41,8 @@ trebleMusic =
 	}
 	\alternative { { 
 	b2 } { b4. } }
-        \break
 	\repeat volta 2 
-        { r8 | r4. r8 | 
+        { r8 | r4. \bar""\break r8 | 
 	r4. r8 | r4. g8 | b8( d4) e8 | g g e d | e4 g | 
 	g8 e d b | g4. b8 | d d d a | b4.~ } b8 \bar"|." 
     }
@@ -75,7 +74,7 @@ bassMusic =  \relative c' {
 	\alternative { { g2 } { g4.} }
 	\repeat volta 2 { 
         d8 | g g e d | 
-	d4. g8 | b b a g | g4.( e8 | d4.) 
+	d4. g8 | b b a g | d4.( e8 | g4.) 
 	g8 | b4 b | g8 e d d | e4. d8 | e e e d | <g g,>4.~ } 8
 }
 
@@ -86,18 +85,18 @@ bassMusic =  \relative c' {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-Come breth -- ren dear who know the Lord,
-and taste the sweet -- ness of his word,
-in Je -- sus' way go on: ""
+"Come, brethren, ye that love the Lord," _ _ _ _ _ _ _
+"Who taste the sweetness of his word," _ _ _ _ _ _ _
+In Je -- sus' way go on: _
 
 When we "arrive at home," _ _ _
 "Will only make us richer there" _ _ _ _ _ _ _
 "When we arrive at home." _ _ _ _ _
 }
 trebleWordsTwo = \lyricmode {
-Our troub -- les and our tri -- als here
-Will on -- ly make us rich -- er there
-When we ar -- rive at "" home,
+"Our troubles and our trials here" _ _ _ _ _ _ _
+"Will only make us richer there" _ _ _ _ _ _ _
+"When we arrive"  _ _ _ at _ home.
 
 For Je -- "sus bids us come, We soon shall meet each other there" _ _ _ _ _ _ _ _ _ _ _
 "For Jesus bids us come." _ _ _ _ _
@@ -111,45 +110,45 @@ Where we "shall part no more, To meet you in that holy land" _ _ _ _ _ _ _ _ _ _
 
 altoWords = \lyricmode {
  \set stanza = "2."
- Tis there we'll reign and shout and sing, 
- And make the up -- per reg -- ions ring, 
- When all the saints get home. ""
+ "Tis there we'll reign and shout and sing," _ _ _ _ _ _ _
+ "And make the upper regions ring," _ _ _ _ _ _ _
+ "When all the saints get home." _ _ _ _ _ _
 
 "When we arrive at home," _ _ _ _ _
-"When we arrive at home," __ _ _ _ _ _
+"When we arrive at home," _ _ _ _ _
 "When we arrive at home." _ _ _ _ _
 }
 altoWordsTwo = \lyricmode {
- Come on, come on my breth -- ren dear, 
- We soon shall meet each oth -- er there 
- For Je -- sus bids us "" come,
+ "Come on, come on my brethren dear," _ _ _ _ _ _ _
+ "We soon shall meet each other there" _ _ _ _ _ _ _
+ For Je -- sus bids us _ come.
 
 "For Jesus bids us come," _ _ _ _ _
-"For Jesus bids us come," __ _ _ _ _ _
+"For Jesus bids us come," _ _ _ _ _
 "For Jesus bids us come." _ _ _ _ _
 }
 
 altoWordsThree = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 "Where we shall part no more." _ _ _ _ _
-"Where we shall part no more." __ _ _ _ _ _
+"Where we shall part no more." _ _ _ _ _
 "Where we shall part no more." _ _ _ _ _
 }
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-A -- men! A -- men! my soul re -- plies, 
-I'm bound to meet you in the skies, 
-When all our toils are o'er: "" 
+“A -- men! "Amen!” my soul replies," _ _ _ _ _
+"I'm bound to meet you in the skies," _ _ _ _ _ _ _
+"When all our toils are o'er:" _ _ _ _ _ _
 "When we arrive at home," _ _ _ _ _
 "When we arrive at home," _ _ _ _ _
 "Will only make us richer there" _ _ _ _ _ _ _
 "When we arrive at home." _ _ _ _ _
 }
 tenorWordsTwo = \lyricmode {
-So here's my heart and here's my hand,
-To meet you in that ho -- ly land
-Where we shall part no _ more,
+"So here's my heart and here's my hand," _ _ _ _ _ _ _
+"To meet you in that holy land" _ _ _ _ _ _ _
+"Where we shall part no" _ _ _ _ _ more.
 "For Jesus bids us come," _ _ _ _ _
 "For Jesus bids us come," _ _ _ _ _
 "We soon shall meet each other there" _ _ _ _ _ _ _
@@ -168,7 +167,7 @@ bassWords = \lyricmode {
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _
-"When we arrive at home," _ _ _ _ _
+"When we arrive" _ _ _ at home,
 "When we arrive at home," _ _ _ _ _
 "Will only make us richer there" _ _ _ _ _ _ _
 "When we arrive at home." _ _ _ _ _
@@ -177,7 +176,7 @@ bassWordsTwo = \lyricmode {
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _
-"For Jesus bids us come," _ _ _ _ _
+"For Jesus bids" _ _ _ us come,
 "For Jesus bids us come," _ _ _ _ _
 "We soon shall meet each other there" _ _ _ _ _ _ _
 "For Jesus bids us come." _ _ _ _ _
@@ -185,10 +184,10 @@ _ _ _ _ _ _ _
 
 bassWordsThree = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-"Where we shall part no more." _ _ _ _ _
-"Where we shall part no more." _ _ _ _ _
+"Where we shall part" _ _ _ no more,
+"Where we shall part no more," _ _ _ _ _
 "To meet you in that holy land" _ _ _ _ _ _ _
-"Where we shall part no more." _ _ _ _ _
+"Where we shall part no more," _ _ _ _ _
 }
 
 

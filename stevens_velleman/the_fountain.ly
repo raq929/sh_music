@@ -11,10 +11,10 @@ title = "The Fountain"
 meter = ""
 poet = ""
 pdate = "1811"
-composer = "Leah Velleman and R. Stevens"
+composer = "R. Stevens and Leah Velleman"
 cdate = "2019"
 
-pitch = g % The written pitch
+pitch = bf % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
 
 timeSignature = 4/4
@@ -31,23 +31,34 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {    
+r2. Fa4 | La2 so4 La | So2 La4( So) | Fa2 Fa4 La | La2.
+    Fa4 | La2 so4 So | La4( So) Fa( mi) | la2 Fa4 La | So2.
+    Fa4 | La2 La4 La | So2 So4 Fa | La2 La4 fa | So2.
+    Fa4 | La2 so4 La | So2 La4 So | Fa2 La4 so | La1
 }
 
-altoMusic = \fasola Fa {
+altoMusic = \fasola Fa' {
+r2. so4 | so2 so4 so | so2 la4( mi) | Fa2 so4 La | so2.
+    so4 | so2 so4 so | Fa2 Fa4( mi) | la2 la4 Fa | mi2.
+    so4 | so2 so4 so | fa2 fa4 la | so2 La4 fa | so2.
+    so4 | Fa2 Fa4 Fa | mi2 la4 mi | Fa2 Fa4 mi | so1
 
 }
 
 tenorMusic = \fasola Fa' {
  r2. so4 | Fa2 Fa4 La | So2 La4 (fa) | La (Fa) Fa mi | Fa2.
- Fa4 | mi2 mi4 So | Fa2 la2 | la2 la4 Fa | mi2. 
- mi4 | Fa2 Fa4 La | So2 So4 fa | La (Fa) mi Fa | mi2.
- so4 | Fa2 Fa4 La | So2 La4 fa | La (Fa) Fa mi | Fa1
+ Fa4 | mi2 mi4 So | Fa2 la2 | la2 la4 Fa | so2. 
+ so4 | Fa2 Fa4 La | So2 So4 fa | La (Fa) mi Fa | So2.
+ so,4 | Fa2 Fa4 La | So2 La4 fa | La (Fa) Fa mi | Fa1
  
     \bar"|."
 }
 
 bassMusic = \fasola Fa {
-        
+  r2. so4 | Fa2 Fa,4 La | so2 la4( mi) | Fa2 so4 La | Fa2. 
+      La4 | so2 so4 so | la( mi) Fa( So) | La2 So4 Fa | So2.
+     so,4 | Fa2 Fa4 Fa | fa,2 fa4 la | so2 La4 fa | so2.
+      La4 | so2 so4 so | so2 la4 mi | Fa2 so4 La | Fa1
 }
 
 
@@ -57,18 +68,6 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-}
-trebleWordsTwo = \lyricmode {
-\set stanza = "2."
-}
-
-altoWords = \lyricmode {
-}
-altoWordsTwo = \lyricmode {
-}
-
-tenorWords = \lyricmode {
-\set stanza = "1."
 The foun -- tain of Christ, 
 Lord help us to sing,
  The blood of our Priest,
@@ -77,22 +76,25 @@ The foun -- tain that clean -- ses
 From sin and from filth, 
 And rich -- ly dis -- pen -- ses 
 Sal -- va -- tion and health. 
-
+}
+trebleWordsTwo = \lyricmode {
 }
 
-tenorWordsTwo = \lyricmode {
+altoWords = \lyricmode {
 \set stanza = "2."
 This foun -- tain from guilt 
-Not only makes pure, 
-And gives soon as felt ,
+Not on -- ly makes pure, 
+And gives soon as felt,
 In -- fal -- li -- ble cure;
-But if guilt re -- moved, 
+But if guilt re -- mov -- ed, 
 Re -- turn and re -- main,
-Its power may be proved 
+Its power may be prov -- ed 
 A -- gain and a -- gain. 
 }
+altoWordsTwo = \lyricmode {
+}
 
-tenorWordsThree = \lyricmode {
+tenorWords = \lyricmode {
 \set stanza = "3. "
 This foun -- tain un -- seal'd 
 Stands o -- pen for all 
@@ -102,6 +104,13 @@ Here's strength for the weak -- ly
 That hi -- ther are led; 
 Here's health for the sick -- ly, 
 And life for the dead. 
+
+}
+
+tenorWordsTwo = \lyricmode {
+}
+
+tenorWordsThree = \lyricmode {
 }
 
 bassWords = \lyricmode {

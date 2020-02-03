@@ -54,8 +54,9 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
           ", " \bold \fromproperty #'header:pdate "." 
         }
         \null
-        \fontsize #0 \bold \concat {
-          \fromproperty #'header:composer ", " \bold \fromproperty #'header:cdate "." 
+        \fontsize #0 \concat {
+          \bold \fromproperty #'header:composer ", " 
+          \bold \fromproperty #'header:cdate "." 
         }
       }
     }
@@ -71,6 +72,7 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
     \remove "Volta_engraver" 
     \omit SpanBar 
     startRepeatType = ":"
+    doubleRepeatType = ":|:"
   }
   \context {
     \Staff
@@ -186,11 +188,11 @@ global = {
 #(load "../templates/includes/swing.scm")
 \score {
   \unfoldRepeats { <<                                                                              
-    \new Staff \applySwing 8 #'(5 4) {\time\timeSignature\trebleMusic}
-    \new Staff \applySwing 8 #'(5 4) {\time\timeSignature\altoMusic}
-    \new Staff \applySwing 8 #'(5 4) {\time\timeSignature\tenorMusic}
-    \new Staff \applySwing 8 #'(5 4) {\time\timeSignature\transpose c c, {\tenorMusic}}
-    \new Staff \applySwing 8 #'(5 4) {\time\timeSignature\bassMusic}
+    \new Staff {\time\timeSignature\trebleMusic}
+    \new Staff {\time\timeSignature\altoMusic}
+    \new Staff {\time\timeSignature\tenorMusic}
+    \new Staff {\time\timeSignature\transpose c c, {\tenorMusic}}
+    \new Staff {\time\timeSignature\bassMusic}
   >> }
   \midi{
     \context {
