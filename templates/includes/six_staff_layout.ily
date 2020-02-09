@@ -7,7 +7,6 @@
 %   Create the correct bar lines for song-final repeats, and check that we're creating
 %       the correct bar lines elsewhere. (What is the rule for this?)
 
-#(set-global-staff-size 18)
 
 % SYMBOLS
 %%%%%%%%%
@@ -36,18 +35,32 @@ key = \markup {
     #(if isMajor "Major" "minor")
     }
 }
+tagline = \markup{\concat{"Copyright " \cdate " " \composer}}
 poet = \markup{\concat{\poet ", " \pdate}}
 composer = \markup{\concat{\composer ", " \cdate}}
+piece = \comment
 }
 
 \paper  {
+  #(set-paper-size "letter")
+  system-system-spacing.basic-distance = #20
+  ragged-bottom = ##t
   #(define fonts
     (make-pango-font-tree "Times New Roman"
                           "Nimbus Sans"
                           "Luxi Mono"
                           (/ staff-height pt 20)))
 }
-
+\layout {
+    \context {
+      \Lyrics
+      \override StanzaNumber #'font-size = 0
+      \override StanzaNumber #'font-name = "Times New Roman,"
+      \override StanzaNumber #'font-series = #'medium
+      \override LyricText #'font-size = 0
+      \override LyricText #'font-name = "Times New Roman,"
+    }
+}
 
 % VISIBLE SCORE
 %%%%%%%%%%%%%%%
@@ -69,17 +82,17 @@ global = {
 
 \score {
   \new ChoirStaff <<
-%    \new Staff <<
-%      \set Staff.instrumentName = #"Soprano 1"
-%      \new Voice = "one" {
-%        \global
-%        \trebleMusic
-%      }
-%      \new Lyrics \lyricsto "one" { \firstWords }
-%      \new Lyrics \lyricsto "one" { \secondWords }
-%    >>
     \new Staff <<
-      \set Staff.instrumentName = #"Soprano"
+      \set Staff.instrumentName = \markup\center-column{"Soprano 1" (Descant)}
+      \new Voice = "one" {
+        \global
+        \trebleMusic
+      }
+      \new Lyrics \lyricsto "one" { \firstWords }
+      \new Lyrics \lyricsto "one" { \secondWords }
+    >>
+    \new Staff <<
+      \set Staff.instrumentName = \markup\center-column{"Soprano 2" (Melody)}
       \new Voice = "two" {
         \global
         \tenorMusic
@@ -97,22 +110,13 @@ global = {
       \new Lyrics \lyricsto "three" { \secondWords }
     >>
     \new Staff <<
-      \set Staff.instrumentName = #"Tenor 1"
+      \set Staff.instrumentName = \markup\center-column{Tenor (Melody)}
       \new Voice = "four" {
-        \global
-        \trebleMusic
+        \global\clef "treble_8"
+        \transpose c c, \tenorMusic
       }
       \new Lyrics \lyricsto "four" { \firstWords }
       \new Lyrics \lyricsto "four" { \secondWords }
-    >>
-    \new Staff <<
-      \set Staff.instrumentName = #"Tenor 1"
-      \new Voice = "five" {
-        \global
-        \tenorMusic
-      }
-      \new Lyrics \lyricsto "five" { \firstWords }
-      \new Lyrics \lyricsto "five" { \secondWords }
     >>
     \new Staff <<
       \set Staff.instrumentName = #"Bass"
