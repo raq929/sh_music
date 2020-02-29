@@ -17,7 +17,7 @@ cdate = "2020"
 pitch = f % The written pitch
 isMajor = ##f   % Use ##t for major and ##f for minor
 
-timeSignature = 3/4
+timeSignature = 3/2
 
 midiTempo = 140
 midiInstrument = "piano"
@@ -31,29 +31,29 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
- La4 La4 So4 La2. La4 So4 Fa4 mi2. 
- La4 fa so la la La4~ La4 La2 La2.
+ r2. La4 La4 So4 La2. La4 So4 Fa4 mi2. 
+ La4 fa so la la La2 La2 La2.
  La4 La4 So4 La2. La4 So4 Fa4 mi2. 
  La4 fa so la la La4~ La4 So2 La2. \bar "|."
 }
 
 altoMusic = \fasola Fa' {
-  la4 Fa mi Fa2. Fa4 mi la so2.
-  la4 mi Fa la la la~ la so2 la2.
+  r2. la4 Fa mi Fa2. Fa4 mi la so2.
+  la4 mi Fa la la la2 so2 la2.
   la4 Fa mi Fa2. Fa4 mi la so2.
   la4 mi Fa la la la~ la so2 la2.
 }
 
 tenorMusic = \fasola Fa' {
- la4 la so la2. la4 mi mi mi2.
- la4 mi Fa Fa La la4~ la4 La2 La2.
+ r2 . la4 la so la2. la4 mi mi mi2.
+ la4 mi Fa Fa La la2 La2 La2.
  la,4 la8 [mi] la [so] la2. la4 mi8 [Fa] mi [la] mi2.
  la4 mi Fa8 [La] La4 La Fa4~ Fa4 mi2 la2.
 }
 
 bassMusic = \fasola Fa {
- la4 la mi la2. la4 so so La2.
- la4 mi Fa la <la Fa,> <la la,>~ <la la,> La2 <la la,>2.
+ r2. la4 la mi la2. la4 so so La2.
+ la4 mi Fa la <la Fa,> <la la,>2 La2 <la la,>2.
  la4 la mi la2. la4 so so La2.
  la4 mi Fa <la la,> <la la,> <la la,>~ <la la,> La2 la2.
 }
