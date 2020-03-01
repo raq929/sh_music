@@ -19,7 +19,7 @@ isMajor = ##f   % Use ##t for major and ##f for minor
 
 timeSignature = 4/4
 
-midiTempo = 80
+midiTempo = 120
 midiInstrument = "piano"
 
 % systemCount = 1
@@ -46,7 +46,7 @@ altoMusic = \fasola Fa' {
   la4 la Fa la mi so2. 
   la4 la Fa mi so la2. \repeat volta 2 { r4
   r2. La4 | la la la8 (mi) la (so) la4 so la
-  la Fa2 Fa4 (So) La8 (fa) La (So) La4 So La2. 
+  la Fa2 Fa4 (mi) mi8 (la) mi (So) La4 So La2. 
   La4 la,2 la Fa2 Fa la so la2. }
 }
 
@@ -85,6 +85,18 @@ My soul through ma -- ny chan -- ges goes
 His love no va -- ri -- a -- tion knows
 }
 
+trebleWordsTwo = \lyricmode {
+\set stanza = "2."
+Thou, Lord wilt car -- ry on,
+And per -- fe -- tcly per -- form
+The work thou hast be -- gun
+In me a sin -- ful worm;
+Midst all my fears, and sin and woe,
+Midst all my fears, and sin and woe,
+Thy spi -- rit will not let me go.
+
+}
+
 
 altoWords = \lyricmode {
 \set stanza = "1."
@@ -95,6 +107,18 @@ E -- ter -- nal -- ly the same
 My soul through ma -- ny chan -- ges goes
 My soul through ma -- ny chan -- ges goes
 His love no va -- ri -- a -- tion knows
+
+}
+
+altoWordsTwo = \lyricmode {
+\set stanza = "2."
+Thou, Lord wilt car -- ry on,
+And per -- fe -- tcly per -- form
+The work thou hast be -- gun
+In me a sin -- ful worm;
+Midst all my fears, and sin and woe,
+Midst all my fears, and sin and woe,
+Thy spi -- rit will not let me go.
 
 }
 
@@ -110,6 +134,18 @@ His love no va -- ri -- a -- tion knows
 
 }
 
+tenorWordsTwo = \lyricmode {
+\set stanza = "2."
+Thou, Lord wilt car -- ry on,
+And per -- fe -- tcly per -- form
+The work thou hast be -- gun
+In me a sin -- ful worm;
+Midst all my fears, and sin and woe,
+Midst all my fears, and sin and woe,
+Thy spi -- rit will not let me go.
+
+}
+
 bassWords = \lyricmode {
 \set stanza = "1."
  Un -- change -- a -- ble his will,
@@ -119,6 +155,18 @@ E -- ter -- nal -- ly the same
 My soul through ma -- ny chan -- ges goes
 My soul through ma -- ny ma -- ny chan -- ges goes
 His love no va -- ri -- a -- tion knows
+
+}
+
+bassWordsTwo = \lyricmode {
+\set stanza = "2."
+Thou, Lord wilt car -- ry on,
+And per -- fe -- tcly per -- form
+The work thou hast be -- gun
+In me a sin -- ful worm;
+Midst all my fears, and sin and woe,
+Midst all my fears, my fears and sin and woe,
+Thy spi -- rit will not let me go.
 
 }
 
