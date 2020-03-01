@@ -19,7 +19,7 @@ isMajor = ##f   % Use ##t for major and ##f for minor
 
 timeSignature = 4/4
 
-midiTempo = 140
+midiTempo = 80
 midiInstrument = "piano"
 
 % systemCount = 1
@@ -31,14 +31,20 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-  r1 r1 r1 r1 r1 r1 r1 r1 r1 r1
+  r2. la4 Fa La So La8 (so) la2. 
+  La4 | La Fa So La | La2. 
+  La4 | Fa La La fa | so2. 
+  La4 | La Fa So La | La2. r4 r1 
   r4 La4 | la la la8 (mi) la (so) la4 so la 
-  fa la la so8 (fa) La (So) La4 fa La2.
+  fa la2 La La8 (fa) La (So) La4 fa La
   la4 Fa2 la so4 (fa) so (la) la2 so2 la1	
 }
 
-altoMusic = \fasola Fa {
-  r1 r1 r1 r1 r1 r1 r1 r1 r1
+altoMusic = \fasola Fa' {
+  r2. la4 la Fa mi so la2. 
+  la4 Fa la la so la2. 
+  la4 la Fa la mi so2. 
+  la4 la Fa mi so la2. r4
   r2. La4 | la la la8 (mi) la (so) la4 so la
   la Fa2 So La8 (fa) La (So) La4 So La2. 
   La4 la,2 la Fa2 Fa la so la1
@@ -54,10 +60,11 @@ tenorMusic = \fasola Fa' {
   La4 la2 La La4 (fa) La (So) Fa2 mi la1 
 }
 
-bassMusic = \fasola Fa, {
-  r1 r1 r1 r1 r1 r1 r1 r1 
-  r2. La4 | la la la8 (mi) la (so) la4 so la 
-  la | la2 La | la8 (so) fa (La) So4 So la'2 so la2.
+bassMusic = \fasola Fa {
+  r2. la4 | la la mi mi | la2. la4 | Fa la La La | la2. 
+  la4 | Fa la so fa | La2. la4 | Fa la La La | la2. 
+  La4 | la la la8 (mi) la (so) la4 so la 
+  la | la2 La | la8 (so) fa (La) So4 So La2 La la2.
   la4 Fa2 la Fa la La La la1 
   
 }
@@ -69,12 +76,26 @@ bassMusic = \fasola Fa, {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
- 
+ \set stanza = "1."
+ Un -- change -- a -- ble his will,
+Though dark may be my frame;
+His lo -- ving heart is still
+E -- ter -- nal -- ly the same 
+My soul through ma -- ny chan -- ges goes
+My soul through ma -- ny chan -- ges goes
+His love no va -- ri -- a -- tion knows
 }
 
 
 altoWords = \lyricmode {
-\set stanza = "2."
+\set stanza = "1."
+ Un -- change -- a -- ble his will,
+Though dark may be my frame;
+His lo -- ving heart is still
+E -- ter -- nal -- ly the same 
+My soul through ma -- ny chan -- ges goes
+My soul through ma -- ny chan -- ges goes
+His love no va -- ri -- a -- tion knows
 
 }
 
@@ -92,6 +113,13 @@ His love no va -- ri -- a -- tion knows
 
 bassWords = \lyricmode {
 \set stanza = "1."
+ Un -- change -- a -- ble his will,
+Though dark may be my frame;
+His lo -- ving heart is still
+E -- ter -- nal -- ly the same 
+My soul through ma -- ny chan -- ges goes
+My soul through ma -- ny ma -- ny chan -- ges goes
+His love no va -- ri -- a -- tion knows
 
 
 }
