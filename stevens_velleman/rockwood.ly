@@ -42,7 +42,7 @@ so2 so4 mi | Fa la so so | so2 mi | Fa4 so la la | so2.
 
 tenorMusic = \fasola Fa' {
 Fa2 La4 so | so La8[ So] Fa4 So | La2 So | Fa4 So Fa la | so2.
-  \repeat volta 2 { r4 | r2. so4 | Fa Fa Fa4.( la8 | so2) Fa | La4 so so La | so4.( La8 Fa4) Fa | la Fa Fa so | Fa La So So | Fa2. }
+  \repeat volta 2 { r4 | r2. so4 | Fa Fa Fa4.( la8 | so2) Fa | La4 so so Fa, | La4.( So8 Fa4) so | la Fa Fa La | so La So So | Fa2. }
 }
 
 bassMusic = \fasola Fa {
