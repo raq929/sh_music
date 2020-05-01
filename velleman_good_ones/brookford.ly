@@ -22,16 +22,16 @@ timeSignature = 6/4
 midiTempo = 150
 midiInstrument = "piano"
 
-systemCount = 2
+systemCount = 1
 
-staffSize = 20
+staffSize = 18
 fontSize = 0
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-        r2. \repeat volta 2 { Fa2. | so'2 la4 so2 La4 | La2 fa4 La2 Fa4 | Fa2 Fa4 la( Fa) So4 | La2. } r2
+        r2. \repeat volta 2 { Fa2. | so'2 la4 so2 La4 | La2 fa4 La2 Fa4 | Fa2 Fa4 Fa2 So4 | La2. } r2
         Fa4 | La2 so4 la( so) La4 | Fa( So) La La( So) Fa4 | la2 so4 so( la) Fa | So2. 
         Fa2. | so'2 la4 so2 La4 | La2 So4 Fa2 la4 | so2 Fa4 La2 So4 | La1. \bar"|."
 }
@@ -49,8 +49,8 @@ tenorMusic = \fasola Fa' {
 }
 
 bassMusic = \fasola Fa {
-        r2. \repeat volta 2 { Fa2. | Fa2 la4 so2 Fa4 | Fa2 la4 so2 so4 | Fa,2 la'4 la2 so4 | Fa,2. } r2
-        Fa4 | so'2 so4 la2 so4 | fa4( so) la so( la) Fa | la2 so4 La( So) Fa4 | so'2.
+        r2. \repeat volta 2 { Fa2. | Fa2 la4 so2 Fa4 | Fa2 la4 so2 La4 | Fa2 la'4 la2 so4 | Fa,2. } r2
+        so'4 | Fa2 Fa4 Fa2 so4 | fa4( so) la so( la) Fa | la2 so4 La2  Fa4 | so'2.
         Fa2. | Fa2 la4 so2 Fa4 | Fa2 la4 so2 La4 | so2 la4 la2 so4 | Fa,1.
 }
 
@@ -60,43 +60,99 @@ bassMusic = \fasola Fa {
 %%                                 Verses                                    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
-\set stanza = "1."
-Come let us join our friends a -- bove who have at -- tained the prize,
-Let all the saints ter -- res -- trial sing with those to glo -- ry gone,
-For all the ser -- vants of the king in earth and heav’n are one.
+
+\set stanza = "1." 
+\override LyricText.self-alignment-X = #-0.7
+  
+"Come let us join our friends above who have attained the prize"
+"" _ _ _ _ _ _ _ _ _ _ _ _
+"Let all the saints terrestrial sing with those to glory gone,"
+_ 
 }
 trebleWordsTwo = \lyricmode {
-And on the ea -- gle wings of love to joys ce -- les -- tial rise.
+\override LyricText.self-alignment-X = #-0.65
+"And on the eagle wings of love to joys celestial rise."
+"" _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+\override LyricText.self-alignment-X = #0.8
+"For all the servants of the king in earth and heav’n are one."
+""
 }
 trebleWordsThree = \lyricmode {
 
 }
 
 altoWords = \lyricmode {
+\set stanza = "2." 
+\override LyricText.self-alignment-X = #-0.65
+"One family, we dwell in him, One church, above, beneath,"
+"" _ _ _ _ _ _ _ _ _ _ _ _
+"One people of the living God, to his command we bow;"
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_
 }
 altoWordsTwo = \lyricmode {
+
+\override LyricText.self-alignment-X = #-0.7
+
+"Though now divided by the stream, The narrow stream of death;"
+"" _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+\override LyricText.self-alignment-X = #0.8
+"Part of that host has crossed the flood, and part is crossing now."
+""
 }
 altoWordsThree = \lyricmode {
 
 }
 
 tenorWords = \lyricmode {
-\set stanza = "2."
-One fa -- mi -- ly, we dwell in him, One church, a -- bove, be -- neath,
-One peo -- ple of the liv -- ing God, to his com -- mand we bow;
-Part of that host has crossed the flood, and part is cross -- ing now.
-_
+
+\set stanza = "1." 
+\override LyricText.self-alignment-X = #-0.7
+  
+"Come let us join our friends above who have attained the prize"
+"" _ _ _ _ _ _ _ _ _ _ _ _
+"Let all the saints terrestrial sing with those to glory gone,"
+_ 
 }
 tenorWordsTwo = \lyricmode {
-Though now di -- vi -- ded by the stream, The nar -- row stream of death;
+\override LyricText.self-alignment-X = #-0.65
+"And on the eagle wings of love to joys celestial rise."
+"" _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+\override LyricText.self-alignment-X = #0.8
+"For all the servants of the king in earth and heav’n are one."
+""
 }
 tenorWordsThree = \lyricmode {
 
 }
 
 bassWords = \lyricmode {
+\set stanza = "2." 
+\override LyricText.self-alignment-X = #-0.65
+"One family, we dwell in him, One church, above, beneath,"
+"" _ _ _ _ _ _ _ _ _ _ _ _
+"One people of the living God, to his command we bow;"
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_
 }
 bassWordsTwo = \lyricmode {
+\override LyricText.self-alignment-X = #-0.7
+
+"Though now divided by the stream, The narrow stream of death;"
+"" _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _
+\override LyricText.self-alignment-X = #0.8
+"Part of that host has crossed the flood, and part is crossing now."
+""
 }
 bassWordsThree = \lyricmode {
 

@@ -35,7 +35,7 @@ trebleMusic = \fasola Fa' {
   La2 La4 So | Fa Fa8[ So] La4 so | La2 la | so4. fa8 La4 So | La2.
   \repeat volta 2 {
     r4 | r1 | r2. Fa4 | La La La fa | so so so La | Fa Fa Fa8[ So] La[ fa] | so2 r2
-    so4 so8 la so4 La | Fa Fa La Fa8[ So] | La8([ So La8 fa] La4) Fa | La2 so 
+    so4 so8 la so4 fa | La La La Fa8[ So] | La8([ So La8 fa] La4) Fa | La2 so 
   }
   \alternative { 
     { \shortmeasure La2. \longmeasure }
