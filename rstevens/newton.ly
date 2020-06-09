@@ -11,7 +11,7 @@ title = "Newton"
 meter = "C.M."
 poet = "Anne Steele"
 pdate = "1760"
-composer = "R. Stevens"
+composer = "L. Birch"
 cdate = "2019"
 
 pitch = g % The written pitch
@@ -19,7 +19,7 @@ isMajor = ##t   % Use ##t for major and ##f for minor
 
 timeSignature = 4/4
 
-midiTempo = 140
+midiTempo = 130
 midiInstrument = "piano"
 
 % systemCount = 1
@@ -34,13 +34,13 @@ trebleMusic = \fasola Fa'' {
  so2 so4 fa so2 La4.( So8) Fa4 La8[ So] La2
  Fa so'4 fa La fa so la so2
  so2 so4 fa so2 La4.( So8) Fa4 So8 [Fa] | So2
- La so4 so8 (la) mi2 la2 so4 so so1
+ La so4 so8 (la) mi2 la2 so4 so so1 \bar "|."
 }
 
 altoMusic = \fasola Fa' {
  so2 Fa4 Fa  mi2 Fa4.( mi8)  la4 so Fa2
- so2 Fa4 Fa Fa Fa Fa8 [mi] la4 mi2
- so2 Fa4 Fa mi2 Fa4.( mi8) la4 la mi2  
+ so2 Fa4 Fa Fa Fa Fa8 [mi] la4 so2
+ so2 Fa4 Fa mi2 Fa4.( mi8) la4 la so2  
  Fa2 so4 so so2 la2 so4 so La1
 }
 
@@ -78,7 +78,7 @@ trebleWordsTwo = \lyricmode {
 altoWords = \lyricmode {
 \set stanza = "2."
 Thou see'st the tem -- pest of my soul,
-These rest -- less waves of fear and sin;
+These rest -- less waves of fear and sin,
 Thy voice can all their rage con -- trol,
 And make a sa -- cred calm wi -- thin.
 }
