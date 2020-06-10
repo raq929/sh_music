@@ -74,25 +74,37 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Verses                                    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleWords = \lyricmode {
-\set stanza = "1."
- Un -- change -- a -- ble his will,
+
+
+plainTextOne = \lyricmode {
+Un -- change -- a -- ble his will,
 Though dark may be my frame;
 His lo -- ving heart is still
-E -- ter -- nal -- ly the same 
-My soul through ma -- ny chan -- ges goes
-My soul through ma -- ny chan -- ges goes
-His love no va -- ri -- a -- tion knows
+E -- ter -- nal -- ly the same:
+}
+
+plainTextTwo = \lyricmode {
+Thou, Lord, wilt car -- ry on,
+And per -- fect -- ly per -- form
+The work thou hast be -- gun
+In me a sin -- ful worm:
+}
+
+
+
+trebleWords = \lyricmode {
+\set stanza = "1."
+\plainTextOne
+My soul through ma -- ny chan -- ges goes;
+My soul through ma -- ny chan -- ges goes;
+His love no va -- ri -- a -- tion knows.
 }
 
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
-Thou, Lord wilt car -- ry on,
-And per -- fe -- ctly per -- form
-The work thou hast be -- gun
-In me a sin -- ful worm;
-Midst all my fears, and sin and woe,
-Midst all my fears, and sin and woe,
+\plainTextTwo
+Midst all my fears, and sin, and woe,
+Midst all my fears, and sin, and woe,
 Thy spi -- rit will not let me go.
 
 }
@@ -100,72 +112,54 @@ Thy spi -- rit will not let me go.
 
 altoWords = \lyricmode {
 \set stanza = "1."
- Un -- change -- a -- ble his will,
-Though dark may be my frame;
-His lo -- ving heart is still
-E -- ter -- nal -- ly the same 
-My soul through ma -- ny chan -- ges goes
-My soul through ma -- ny chan -- ges goes
-His love no va -- ri -- a -- tion knows
+\plainTextOne
+My soul through ma -- ny chan -- ges goes;
+My soul through ma -- ny chan -- ges goes;
+His love no va -- ri -- a -- tion knows.
 
 }
 
 altoWordsTwo = \lyricmode {
 \set stanza = "2."
-Thou, Lord wilt car -- ry on,
-And per -- fe -- ctly per -- form
-The work thou hast be -- gun
-In me a sin -- ful worm;
-Midst all my fears, and sin and woe,
-Midst all my fears, and sin and woe,
+\plainTextTwo
+Midst all my fears, and sin, and woe,
+Midst all my fears, and sin, and woe,
 Thy spi -- rit will not let me go.
 
 }
 
 tenorWords = \lyricmode {
 \set stanza = "1."
- Un -- change -- a -- ble his will,
-Though dark may be my frame;
-His lo -- ving heart is still
-E -- ter -- nal -- ly the same 
-My soul through ma -- ny chan -- ges goes
-My soul through ma -- ny chan -- ges goes
-His love no va -- ri -- a -- tion knows
+\plainTextOne
+My soul through ma -- ny chan -- ges goes;
+My soul through ma -- ny chan -- ges goes;
+His love no va -- ri -- a -- tion knows.
 
 }
 
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
-Thou, Lord wilt car -- ry on,
-And per -- fe -- ctly per -- form
-The work thou hast be -- gun
-In me a sin -- ful worm;
-Midst all my fears, and sin and woe,
-Midst all my fears, and sin and woe,
+\plainTextTwo
+Midst all my fears, and sin, and woe,
+Midst all my fears, and sin, and woe,
 Thy spi -- rit will not let me go.
 
 }
 
 bassWords = \lyricmode {
 \set stanza = "1."
- Un -- change -- a -- ble his will,
-Though dark may be my frame;
-His lo -- ving heart is still
-E -- ter -- nal -- ly the same 
-My soul through ma -- ny chan -- ges goes
-My soul through ma -- ny ma -- ny chan -- ges goes
-His love no va -- ri -- a -- tion knows
+\plainTextOne 
+My soul through ma -- ny chan -- ges goes;
+My soul through ma -- ny ma -- ny chan -- ges goes;
+His love no va -- ri -- a -- tion knows.
 
 }
 
 bassWordsTwo = \lyricmode {
 \set stanza = "2."
-Thou, Lord wilt car -- ry on,
-And per -- fe -- ctly per -- form
-The work thou hast be -- gun
-In me a sin -- ful worm;
-Midst all my fears, and sin and woe,
-Midst all my fears, my fears and sin and woe,
+\plainTextTwo
+Midst all my fears, and sin, and woe,
+Midst all my fears, my fears, and sin and woe,
 Thy spi -- rit will not let me go.
 
 }
