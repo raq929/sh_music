@@ -34,7 +34,7 @@ trebleMusic = \fasola Fa'' {
  so2 so4 fa so2 La4.( So8) Fa4 La8[ So] La2
  Fa so'4 fa La fa so la so2
  so2 so4 fa so2 La4.( So8) Fa4 So8 [Fa] | So2
- La so4 so8 (la) mi2 la2 so4 so so1 \bar "|."
+ La so4 so8 [la] mi2 la2 so4 so so1 \bar "|."
 }
 
 altoMusic = \fasola Fa' {
@@ -80,7 +80,7 @@ altoWords = \lyricmode {
 Thou see'st the tem -- pest of my soul,
 These rest -- less waves of fear and sin,
 Thy voice can all their rage con -- trol,
-And make a sa -- cred calm wi -- thin.
+And make a sa -- cred calm with -- in.
 }
 altoWordsTwo = \lyricmode {
 }
@@ -90,7 +90,7 @@ tenorWords = \lyricmode {
 And can my vile un -- grate -- ful heart
 Still har -- bour black dis -- trust and fear?
 O bid these hea -- vy clouds de -- part,
-Bright sun of righ -- teous -- ness, ap -- pear.
+Bright sun of right -- eous -- ness, ap -- pear.
 }
 tenorWordsTwo = \lyricmode {
 
