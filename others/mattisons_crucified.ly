@@ -33,15 +33,15 @@ fontSize = 0
 trebleMusic = \fasola Fa' {
 r1 r1 r1 r1 r1 
    r1 r1 r1 r2 \bar""\break
-   Fa4 So8 So | La2 so4 so | so2 La4 La | La2 la4 so | so2 so4 so 
-   Fa Fa so so | la la so so | La1 \bar"|."
+   Fa4 So8 So | La2 Fa4 La4 | so2 La4 so | Fa2 la4 so | so2 so4 so
+   La Fa La so | la la La La | La1 \bar"|."
 }
 
 altoMusic = \fasola Fa' {
-r2 la4 Fa | So La La La | So Fa Fa Fa | So La La La | Fa la
-   la  Fa | So La La La | So Fa Fa mi | Fa Fa So So | La2
+r2 la4 la | Fa La La La | So Fa Fa Fa | So La La La | Fa la
+   la  la | Fa La La La | So Fa Fa Fa | So La La So | Fa2
    Fa4 So8 So | La2 La4 So | Fa2 La4 La | La2 La4 So | Fa2 So4 So
-   La Fa Fa Fa | So La La Fa | la1
+   Fa Fa La La | So La La Fa | la1
 }
 
 tenorMusic = \fasola Fa' {
