@@ -37,7 +37,7 @@ global = {
 }
 
 \header {
-	title = \markup { \caps "I hear thy welcome voice." } %Tune name and hymn meter
+	title = \markup { "I Hear Thy Welcome Voice. S.M." } %Tune name and hymn meter
 	poet = \markup { "E Minor.  L. Hartsough, 1872." } %key and poet
 	composer = "L. Birch, 2019." %Tune composer and date
 	tagline = ##f %Turns off annoying Lilypond version stamp on bottom of page

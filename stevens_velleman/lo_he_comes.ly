@@ -38,34 +38,34 @@ global = {
 
 \header {
 	title = \markup { \caps "Lo! He comes" } %Tune name and hymn meter
-	poet = \markup { "A Minor.  C. Wesley" } %key and poet
-	composer = "R. Stevens & L. Velleman 2019" %Tune composer and date
+	poet = \markup { "A Minor.  C. Wesley, 1758." } %key and poet
+	composer = "L. Birch & L. Velleman, 2019" %Tune composer and date
 	tagline = ##f %Turns off annoying Lilypond version stamp on bottom of page
 }
 
 trebleMusic = \relative c''
 {
-    a2 c e8 e e d a2 b
+    a4. c8 e8 e e d a2 b
     c4. d8 e d e d e2
     a,4. a8 g a g a a2 a
-    e'8[ d c] a b c e d d2
+    e'8[ d c] e d e e d d2
     e2 e e a
     a,4. e'8 d e e d e2
 }
 
 altoMusic = \relative c'
 {
-    e2 e g8 a a g e2 e
+    e4. e8 g8 a a g e2 e
     e4. f8 g f e d e2
     e4. e8 d e d e e2 a
     a4. a8 g a a g a2
-    a2 a g a 
+    a2 a g8.[ a16 g8 e] a2 
     c4. a8 g a a g a2
 }
 
 tenorMusic = \relative c''
 {
-	a2 c e8 c a g a2 e
+	a4. c8 e8 c a g a2 e
 	a4. b8 c b a g a2
 	a4. e'8 d c d e e2 a,2
 	a4. e'8 d c a g a2
@@ -78,12 +78,12 @@ tenorMusic = \relative c''
 bassMusic = \relative f
 {
 	\clef bass
-    a2 e e8 d e g a2 e
+    a4. e8 g8 e d e a2 e
     e4. f8 g f e g a2
     a4. e8 g e d e a2 e
     e4. e8 g e d c d2
     e8.[ f16 e8 d] c2 g'8.[ a16 g8 f] e2 
-    a4. a8 g e d e <a a,>2
+    a4. e8 g e d e <a a,>2
 	
 }
 
@@ -133,7 +133,7 @@ verseBass = \lyricmode
 	All his saints, by man re -- jec -- ted, 
 	Now shall meet him in the air: 
 	Hal -- le -- lu -- jah!
-	See the day of God ap -- pear.
+	See the day of God ap -- pear!
 }
 
 \score 
@@ -170,7 +170,7 @@ verseBass = \lyricmode
 	\midi {
 		\context {
 			\Score
-			tempoWholesPerMinute = #(ly:make-moment 150 4) %Sets the metronome speed and value of the beat
+			tempoWholesPerMinute = #(ly:make-moment 120 4) %Sets the metronome speed and value of the beat
 		}
 	}
 }
