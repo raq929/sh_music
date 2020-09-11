@@ -37,17 +37,17 @@ global = {
 }
 
 \header {
-	title = \markup { \caps "I hear thy welcome voice." } %Tune name and hymn meter
-	poet = \markup { "E Minor.  L. Hartsough 1872" } %key and poet
-	composer = "R. Stevens 2019" %Tune composer and date
+	title = \markup { "I Hear Thy Welcome Voice. S.M." } %Tune name and hymn meter
+	poet = \markup { "E Minor.  L. Hartsough, 1872." } %key and poet
+	composer = "L. Birch, 2019." %Tune composer and date
 	tagline = ##f %Turns off annoying Lilypond version stamp on bottom of page
 }
 
 trebleMusic = \relative c''
 {
 	r2. b4 b g e e8 [d] e2.
-	g4 b d e c b2.
-	b4 e g8 [e] e4 e c b8 [a] g4 a g4. a8 g4 e4 e1
+	g4 b d e8 [d] c4 b2.
+	b4 e g8 [e] e4 e e b8 [a] g4 a g4. a8 g4 e4 e1
 	\bar "|."
 }
 
