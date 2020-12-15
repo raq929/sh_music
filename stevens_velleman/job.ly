@@ -49,6 +49,11 @@ Fa'8[ la] | so2 la8[ so] | La2 So4 | Fa2.
 }
 
 bassMusic = \fasola Fa {
+r2 Fa4 | Fa2 Fa4 | so2 so8[ la] | so2 so8[ la] | Fa2 
+Fa8[ la] | Fa2 Fa4 | La4.( So8) Fa4 | <So so,>2
+Fa4 | Fa2 Fa4 | so'2 La8[ So] | La4.( So8) Fa4 | so2
+so8[ la] | Fa2 Fa8[ la] | so2 Fa8[ So] | La4.( So8 Fa8[ la] | so2)
+Fa8[ So] | La2 Fa4 | la2 so4 | Fa2
 }
 
 
@@ -78,15 +83,20 @@ And man grows up to mourn.
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
-Had not thy word been my de -- light
-When earth -- ly joys were fled,
-My soul, op -- press’d with sor -- row’s weight,
-Had sunk a -- mongst the dead __ 
-Had sunk a -- mongst the dead.
+What shall I do? Shall I lay down
+And sink in deep de -- spair?
+Will he for -- ev -- er wear a frown,
+Nor hear my fee -- ble prayer __
+Nor hear my fee -- ble prayer?
 
 }
 tenorWordsThree = \lyricmode {
-
+\set stanza = "3."
+No; he will put his strength in me:
+He knows the way I've strolled,
+And when I'm tried suf -- fic -- ient -- ly
+I shall come forth as gold __
+I shall come forth as gold.
 }
 bassWords = \lyricmode {
 }
