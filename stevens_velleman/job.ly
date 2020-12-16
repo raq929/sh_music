@@ -30,7 +30,12 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleMusic = \fasola Fa' {
+trebleMusic = \fasola Fa'' {
+ r2 so4 | so2 so8 [La] | so2 La8 [so] | La2 so4 | la2
+ la4 | so2 la8 [mi] | (Fa4. mi8) Fa[ La] | so,2 
+ La4 | Fa2 Fa4 | Fa2 Fa4 | Fa2 so4 | Fa2
+ Fa4 | La2 la4 | so2 Fa8 [mi] | la4. (so8 la [Fa] | so2)
+ Fa8[ La] | Fa2 la8[ Fa] | la2 so4 | <Fa La,>2.
 }
 
 altoMusic = \fasola Fa' {
@@ -53,7 +58,7 @@ r2 Fa4 | Fa2 Fa4 | so2 so8[ la] | so2 so8[ la] | Fa2
 Fa8[ la] | Fa2 Fa4 | La4.( So8) Fa4 | <So so,>2
 Fa4 | Fa2 Fa4 | so'2 La8[ So] | La4.( So8) Fa4 | so2
 so8[ la] | Fa2 Fa8[ la] | so2 Fa8[ So] | La4.( So8 Fa8[ la] | so2)
-Fa8[ So] | La2 Fa4 | la2 so4 | Fa2
+Fa8[ So] | La2 Fa4 | la2 so4 | Fa2.
 }
 
 
@@ -63,40 +68,41 @@ Fa8[ So] | La2 Fa4 | la2 so4 | Fa2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-}
-trebleWordsTwo = \lyricmode {
-\set stanza = "2."
-}
-
-altoWords = \lyricmode {
-}
-altoWordsTwo = \lyricmode {
-}
-
-tenorWords = \lyricmode {
-\set stanza = "1."
 As sparks fly out from burn -- ing coals
 And still are up -- wards borne,
 So grief is root -- ed in our souls
 And man grows up to mourn __
 And man grows up to mourn.
 }
-tenorWordsTwo = \lyricmode {
+trebleWordsTwo = \lyricmode {
+\set stanza = "2."
+}
+
+altoWords = \lyricmode {
 \set stanza = "2."
 What shall I do? Shall I lay down
 And sink in deep de -- spair?
 Will he for -- ev -- er wear a frown,
 Nor hear my fee -- ble prayer __
 Nor hear my fee -- ble prayer?
-
 }
-tenorWordsThree = \lyricmode {
+altoWordsTwo = \lyricmode {
+}
+
+tenorWords = \lyricmode {
 \set stanza = "3."
 No; he will put his strength in me:
 He knows the way I've strolled,
 And when I'm tried suf -- fic -- ient -- ly
 I shall come forth as gold __
 I shall come forth as gold.
+}
+tenorWordsTwo = \lyricmode {
+
+
+}
+tenorWordsThree = \lyricmode {
+
 }
 bassWords = \lyricmode {
 }
