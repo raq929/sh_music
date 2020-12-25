@@ -31,6 +31,10 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
+r4. r4 Fa8 | La4 so8 so4 la8 | so4.~ so4
+so8 | Fa,4 So8 Fa4 So8 | so4.~ so4
+La8 | Fa4 La8 la[ so] fa | so[ fa] La | so4
+so8 | fa4 La8 fa [ La] so | so2. 
 
 
 }
@@ -51,7 +55,7 @@ so,8 | Fa4 La8 So[ Fa] mi | Fa2.
 bassMusic = \fasola Fa {
 r4. r4 Fa8 | so4 so8 so4 so8 | Fa4.~ 4 
 so8 | La4 so8 Fa4 la8 | so4.~ 4
-so8 | Fa4 Fa8 Fa4 so8 | la4 la8 la4
+so8 | Fa4 Fa8 Fa4 so8 | la4 la8 so4
 La8 | fa4 la8 so4 so8 | Fa,2.
 }
 
@@ -62,6 +66,10 @@ La8 | fa4 la8 so4 so8 | Fa,2.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+Be -- hold, the grace ap -- pears!
+The pro -- mise is ful -- filled;
+Ma -- ry, the won -- drous vir -- gin, bears,
+And Je -- sus is the child.
 
 }
 trebleWordsTwo = \lyricmode {
@@ -76,19 +84,15 @@ altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
-\set stanza = "1."
-Be -- hold, the grace ap -- pears!
-The pro -- mise is ful -- filled;
-Ma -- ry, the won -- drous vir -- gin, bears,
-And Je -- sus is the child.
-
-}
-tenorWordsTwo = \lyricmode {
 \set stanza = "2."
 To bring the glo -- rious news
 A heav'n -- ly form ap -- pears;
 He tells the shep -- herds of their joys,
 And ba -- ni -- shes their fears.
+
+}
+tenorWordsTwo = \lyricmode {
+
 
 
 
@@ -99,7 +103,7 @@ tenorWordsThree = \lyricmode {
 bassWords = \lyricmode {
 
 Go, hum -- ble swains, said he,
-To Da -- vid's city fly;
+To Da -- vid's ci -- ty fly;
 The pro -- mised in -- fant born to -- day
 Doth in a man -- ger lie.
 
