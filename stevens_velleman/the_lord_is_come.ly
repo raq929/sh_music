@@ -39,10 +39,10 @@ trebleMusic = \fasola Fa' {
 }
 
 altoMusic = \fasola Fa' {
-r4 la4 | so8 la Fa4 | la \once \override NoteHead #'color = #red La8 \once \override NoteHead #'color = #red La | la4
+r4 la4 | so8 la Fa4 | la La8 so | la4
 la4 | so8 la mi4 | la4 La8 so | la4
 la4 | so8 la mi4 | la4 la8 mi | Fa4
-la4 | so8 La so4 | la4 La8 so | la4
+la4 | so8 La so4 | la4 La8 so | la2
 
 } 
 
@@ -50,12 +50,14 @@ tenorMusic = \fasola Fa' {
 r4 la4 | Fa8 So La4 | La la8 so | La4
 La4 | so8 La So4 | So4  La8 Fa | la4
 la4 | Fa8 So La4 | So4 La8 fi | so4
-La4 | so8 la La4 | So4 La8 Fa | la2
-
+La4 | so8 la La4 | So4 La8 Fa | la2 \bar"|."
 }
 
 bassMusic = \fasola Fa {
-
+r4 la4 | so8 so la4 | la La8 so | la4
+La so8 la | so4 la | La8 La | la4
+Fa so8 La | La4 so la8 mi | Fa4 
+la | La8 La La4 | So La8 so | la2 
 }
 
 
@@ -72,23 +74,24 @@ trebleWordsTwo = \lyricmode {
 }
 
 altoWords = \lyricmode {
-}
-altoWordsTwo = \lyricmode {
-}
-
-tenorWords = \lyricmode {
 \set stanza = "1."
 The Lord is come; the heav'ns pro -- claim
 His birth; the na -- tions learn his name;
 An un -- known star di -- rects the road
 Of east -- ern sa -- ges to their God.
 }
-tenorWordsTwo = \lyricmode {
+altoWordsTwo = \lyricmode {
+}
+
+tenorWords = \lyricmode {
 \set stanza = "2."
 All ye bright ar -- mies of the skies,
 Go, wor -- ship where the Sa -- vior lies;
 An -- gels and kings be -- fore him bow,
 Those gods on high and gods be -- low.
+}
+tenorWordsTwo = \lyricmode {
+
 
 
 }
@@ -97,9 +100,9 @@ tenorWordsThree = \lyricmode {
 }
 bassWords = \lyricmode {
 \set stanza = "3."
-	Let idols tot -- ter to the ground,
+	Let i -- dols tot -- ter to the ground,
 And their own wor -- ship -- pers con -- found
-But Ju -- dah shout, but Zion sing,
+But Ju -- dah shout, but Zi -- on sing,
 And earth con -- fess her sov' -- reign King
 }
 bassWordsTwo = \lyricmode {
