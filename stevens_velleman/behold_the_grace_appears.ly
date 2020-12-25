@@ -41,15 +41,18 @@ altoMusic = \fasola Fa' {
 } 
 
 tenorMusic = \fasola Fa' {
-r4. r4 so8 | Fa4 La8 So( Fa) mi | Fa4.( Fa4) 
-La8 | La4 so8 fa4 So8 | La4. (La4)
-La8 | so4 la8 fa( La) So | La( So) Fa So4
-so,8 | Fa4 La8 So( Fa) mi | Fa2. 
+r4. r4 so8 | Fa4 La8 So[ Fa] mi | Fa4.~ Fa4
+La8 | La4 so8 fa4 So8 | La4.~ La4
+La8 | so4 la8 fa[ La] So | La[ So] Fa So4
+so,8 | Fa4 La8 So[ Fa] mi | Fa2. 
   \bar"|."
 }
 
 bassMusic = \fasola Fa {
-
+r4. r4 Fa8 | so4 so8 so4 so8 | Fa4.~ 4 
+so8 | La4 so8 Fa4 la8 | so4.~ 4
+so8 | Fa4 Fa8 Fa4 so8 | la4 la8 la4
+La8 | fa4 la8 so4 so8 | Fa,2.
 }
 
 
@@ -95,17 +98,17 @@ tenorWordsThree = \lyricmode {
 }
 bassWords = \lyricmode {
 
-"Go, hum -- ble swains," said he,
-"To Da -- vid's city fly;
+Go, hum -- ble swains, said he,
+To Da -- vid's city fly;
 The pro -- mised in -- fant born to -- day
-Doth in a man -- ger lie."
+Doth in a man -- ger lie.
 
 }
 bassWordsTwo = \lyricmode {
-"Glo -- ry to God on high!
+Glo -- ry to God on high!
 And heav'n -- ly peace on earth;
 Good -- will to men, to an -- gels joy,
-At the Re -- dee -- mer's birth!"
+At the Re -- dee -- mer's birth!
 }
 
 
