@@ -40,7 +40,7 @@ Fa | Fa8 La so4 | So4 La8 so | La2
 altoMusic = \fasola Fa' {
 r4 la4 | so8 la Fa4 | la La8 so | la4
 la4 | so8 la mi4 | la4 La8 so | la4
-la4 | so8 la Fa4 | la4 la8 mi | Fa4
+la4 | so8 la Fa4 | so4 la8 mi | Fa4
 Fa4 | so8 La so4 | la4 La8 so | la2
 
 } 
@@ -66,6 +66,10 @@ Fa | so8 la La4 | So La8 so | la2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+The Lord is come; the heav'ns pro -- claim
+His birth; the na -- tions learn his name;
+An un -- known star di -- rects the road
+Of east -- ern sa -- ges to their God.
 
 }
 trebleWordsTwo = \lyricmode {
@@ -73,21 +77,22 @@ trebleWordsTwo = \lyricmode {
 }
 
 altoWords = \lyricmode {
-\set stanza = "1."
-The Lord is come; the heav'ns pro -- claim
-His birth; the na -- tions learn his name;
-An un -- known star di -- rects the road
-Of east -- ern sa -- ges to their God.
-}
-altoWordsTwo = \lyricmode {
-}
-
-tenorWords = \lyricmode {
 \set stanza = "2."
 All ye bright ar -- mies of the skies,
 Go, wor -- ship where the Sa -- vior lies;
 An -- gels and kings be -- fore him bow,
 Those gods on high and gods be -- low.
+
+}
+altoWordsTwo = \lyricmode {
+}
+
+tenorWords = \lyricmode {
+\set stanza = "3."
+	Let i -- dols tot -- ter to the ground,
+And their own wor -- ship -- pers con -- found
+But Ju -- dah shout, but Zi -- on sing,
+And earth con -- fess her sov' -- reign King
 }
 tenorWordsTwo = \lyricmode {
 
@@ -98,11 +103,7 @@ tenorWordsThree = \lyricmode {
 
 }
 bassWords = \lyricmode {
-\set stanza = "3."
-	Let i -- dols tot -- ter to the ground,
-And their own wor -- ship -- pers con -- found
-But Ju -- dah shout, but Zi -- on sing,
-And earth con -- fess her sov' -- reign King
+
 }
 bassWordsTwo = \lyricmode {
 }
