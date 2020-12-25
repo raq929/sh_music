@@ -39,7 +39,7 @@ trebleMusic = \fasola Fa' {
 }
 
 altoMusic = \fasola Fa' {
-r4 la4 | so8 la Fa4 | la la8 so | la4
+r4 la4 | so8 la Fa4 | la \once \override NoteHead #'color = #red La8 \once \override NoteHead #'color = #red La | la4
 la4 | so8 la mi4 | la4 La8 so | la4
 la4 | so8 la mi4 | la4 la8 mi | Fa4
 la4 | so8 La so4 | la4 La8 so | la4
