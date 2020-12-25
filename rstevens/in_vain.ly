@@ -10,7 +10,7 @@
 title = "In Vain"
 meter = "CM"
 poet = "Anne Steel"
-pdate = ""
+pdate = "1760"
 composer = "Lael Birch"
 cdate = "2020"
 
