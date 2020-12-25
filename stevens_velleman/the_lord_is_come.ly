@@ -31,7 +31,10 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-
+r4 La4 | so8 la La4 | la La8 La | la4
+La4 | Fa8 La so4 | la4 La8 so | la4
+la4 | so8 la mi4 | la4 la8 mi | Fa4
+la4 | so8 La so4 | la4 La8 so | La4
 
 }
 
@@ -42,7 +45,7 @@ altoMusic = \fasola Fa' {
 tenorMusic = \fasola Fa' {
 r4 la4 | Fa8 So La4 | La la8 so | La4
 La4 | so8 La So4 | So4  La8 Fa | la4
-la4 | Fa8 So La4 | So4 La8 fa | so4
+la4 | Fa8 So La4 | So4 La8 fi | so4
 La4 | so8 la La4 | So4 La8 Fa | la2
 
 }
