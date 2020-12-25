@@ -42,7 +42,7 @@ altoMusic = \fasola Fa' {
 r4 la4 | so8 la Fa4 | la La8 so | la4
 la4 | so8 la mi4 | la4 La8 so | la4
 la4 | so8 la mi4 | la4 la8 mi | Fa4
-la4 | so8 La so4 | la4 La8 so | la2
+Fa4 | so8 La so4 | la4 La8 so | la2
 
 } 
 
@@ -57,7 +57,7 @@ bassMusic = \fasola Fa {
 r4 la4 | so8 so la4 | la La8 so | la4
 La so8 la | so4 la | La8 La | la4
 Fa so8 La | La4 so la8 mi | Fa4 
-la | La8 La La4 | So La8 so | la2 
+Fa | so8 La La4 | So La8 so | la2 
 }
 
 
