@@ -14,10 +14,10 @@ pdate = "1760"
 composer = "Lael Birch"
 cdate = "2020"
 
-pitch = e % The written pitch
+pitch = fs % The written pitch
 isMajor = ##f   % Use ##t for major and ##f for minor
 
-timeSignature = 6/8
+timeSignature = 3/4
 
 midiTempo = 80
 midiInstrument = "piano"
@@ -42,14 +42,16 @@ altoMusic = \fasola Fa' {
 } 
 
 tenorMusic = \fasola Fa' {
-r4. r4 La,8 | la4 mi8 Fa [mi] Fa | So [Fa] mi la4 
-mi8 | Fa4 So8 | La4 so8 fa[ La] So La4  
-La8 | la4 mi8 so4 la8 | fa[ La] So La4.
-La4. Fa4 mi8 | la2.
+r2 La,4 | la2 mi4 Fa (mi) Fa | So (Fa) mi la2 
+mi4 | Fa2 So4 | La2 so4 fa( La) So La2  
+La4 | la2 mi4 so2 la4 | fa( La) So La2.
+La2. Fa2 mi4 | la1.
   \bar"|."
 }
 
 bassMusic = \fasola Fa {
+r2 la4 | Fa8.[( mi16] la4) so4 | Fa2 Fa,4 | so'4.( la8) mi8[ Fa] | So4( Fa) mi | Fa8.[( mi16] la4) so4 | la2 Fa4 | Fa2 so4 | Fa,2
+so'4 | la2 La4 | so2 Fa4 | Fa4( la) so | Fa2. | La2. | La,2 La4 | la2.
 
 }
 
