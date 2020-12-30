@@ -11,7 +11,7 @@ title = "Vexatious World"
 meter = ""
 poet = "Anne Steel"
 pdate = "1760"
-composer = "Lael Birch"
+composer = "Lael Birch and Leah Velleman"
 cdate = "2020"
 
 pitch = fs % The written pitch
@@ -32,7 +32,7 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
 r2 la4 | Fa2 So4 | La (So) La | So2 So4 | So2 
-So4 | Fa8. ([So16] La4) so | so (fa) La | So (La) So | La2
+So4 | Fa4. (La8) so4 | so (fa) La | So4. (La8) So4 | La2
 La4 | Fa2 mi4 | Fa8. ([So16] La4) La | la2 so4 | Fa8. ([mi16] la2) |
 la2. | La2 La4 La2.  
 
@@ -42,8 +42,8 @@ la2. | La2 La4 La2.
 
 altoMusic = \fasola Fa' {
 
-r2 la4 | Fa8.[( mi16] la4) so | so2 Fa4 | so4.( la8) mi4 | la2 so4
-so2 so4 | so( Fa) Fa | So( Fa) mi | la2
+r2 la4 | Fa (la4) so | so2 Fa4 | so4.( la8) mi4 | la2 so4
+so2 so4 | so4 (Fa4) Fa | So( Fa) mi | la (Fa)
 Fa4 | Fa2 mi8[ la] | so8.[( la16] mi4) Fa | Fa2 mi8[ la] | la2.
 la2. | so2 so4 | la2.
 } 
@@ -51,14 +51,14 @@ la2. | so2 so4 | la2.
 tenorMusic = \fasola Fa' {
 r2 La,4 | la2 mi4 Fa (mi) Fa | So (Fa) mi la2 
 mi4 | Fa2 So4 | La2 so4 fa( La) So La2  
-La4 | la2 mi4 so2 la4 | fa( La) So La2.
+La4 | la2 mi4 so2 la8 [so] | fa4. ( La8) So4 La2.
 La2. Fa2 mi4 | la2.
   \bar"|."
 }
 
 bassMusic = \fasola Fa {
-r2 la4 | Fa8.[( mi16] la4) so4 | Fa2 Fa,4 | so'4.( la8) mi8[ Fa] | So4( Fa) mi | Fa8.[( mi16] la4) so4 | Fa2 Fa4 | la (La) so4 | la2
-so4 | la2 La4 | so2 Fa4 | Fa4( la) so | La2. | La'2. | La,2 La4 | la2.
+r2 la4 | Fa4 (la4) so4 | Fa2 Fa,4 | so'4.( la8) mi8[ Fa] | So4( Fa) mi | Fa8.[( mi16] la4) so4 | Fa2 Fa4 | la (La) so4 | la2
+so4 | Fa8.([mi16] la4) La4 | so2 Fa4 | Fa8.([mi16] la4) so | La2. | La'2. | La,2 La4 | la2.
 
 }
 
@@ -118,6 +118,7 @@ To thee I sigh.
 
 }
 bassWordsTwo = \lyricmode {
+\set stanza = "5."
 Those shi -- ning realms of end -- less day
 Could I one hap -- py mo -- ment view,
 Then should my soul with tran -- sport say,
