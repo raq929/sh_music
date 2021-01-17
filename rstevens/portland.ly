@@ -38,7 +38,7 @@ so8 fa | La4 fa so fa | La2
 
 So4 So | La2 La4. La8 | so so4.
 Fa4 la | la2 so4. Fa8 | Fa so4.
-so4 la | Fa2 so4. la8 | Fa so4.
+so4 la | Fa2 so4. la8 | Fa Fa4.
 so4 la | la2 so2 | so1 
 
 
@@ -65,8 +65,8 @@ La8 So | Fa4 Fa La So | Fa2
 
 so4 so | Fa2 Fa4. Fa8 | La8 La4.
 La4 So | Fa2 Fa4. Fa8 | la so4.
-so4 la | Fa2 Fa4. Fa8 | La8 La4. 
-La4 So | La2 So2 | Fa1   
+so4 la | Fa2 Fa4. Fa8 | La8 so4. 
+La4 So | Fa2 So2 | Fa1   
   \bar"|."
 }
 
