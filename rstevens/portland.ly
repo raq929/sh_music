@@ -91,22 +91,6 @@ Fa4 So | so,2 so | Fa1
 trebleWords = \lyricmode {
 \set stanza = "1."
 \set stanza = "1."
-
-
-}
-trebleWordsTwo = \lyricmode {
-\set stanza = "2."
-}
-
-altoWords = \lyricmode {
-\set stanza = "2."
-
-}
-altoWordsTwo = \lyricmode {
-}
-
-tenorWords = \lyricmode {
-\set stanza = "3."
 In the Chris -- tian's home in glo -- ry
 There re -- mains a land of rest
 There my Sa -- vior's gone be -- fore me, 
@@ -115,7 +99,39 @@ To ful -- fill my soul's re -- quest
 There is rest for the wea -- ry
 There is rest for the wea -- ry
 There is rest for the wea -- ry
+There is rest for you.
 
+}
+trebleWordsTwo = \lyricmode {
+\set stanza = "2."
+}
+
+altoWords = \lyricmode {
+\set stanza = "2."
+ He is fit -- ting up my man -- sion
+Which e -- ter -- nal -- ly shall stand,
+For my stay shall not be tran -- sient
+In that ho -- ly, hap -- py land.
+
+There is rest for the wea -- ry
+There is rest for the wea -- ry
+There is rest for the wea -- ry
+There is rest for you.
+
+}
+altoWordsTwo = \lyricmode {
+}
+
+tenorWords = \lyricmode {
+\set stanza = "3."
+Pain or sick -- ness ne'er shall en -- ter,
+Grief nor woe my lot shall share;
+But in that ce -- les -- tial cen -- ter,
+I a crown of life shall wear.
+
+There is rest for the wea -- ry
+There is rest for the wea -- ry
+There is rest for the wea -- ry
 There is rest for you.
 
 
@@ -131,7 +147,15 @@ tenorWordsThree = \lyricmode {
 }
 bassWords = \lyricmode {
 \set stanza = "4."
+ Death it -- self shall then be van -- quished,
+And its sting shall be with -- drawn;
+Shout for glad -- ness, O ye ran -- somed!
+Hail with joy the ri -- sing morn.
 
+There is rest for the wea -- ry
+There is rest for the wea -- ry
+There is rest for the wea -- ry
+There is rest for you.
 
 
 }
