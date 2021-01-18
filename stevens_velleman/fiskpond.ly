@@ -38,6 +38,10 @@ so | so8[ la] Fa4 So2 | so, la4 so | so1
 }
 
 altoMusic = \fasola Fa' {
+r2 La4. (Fa8) Fa4 Fa La2 | La So8 [Fa] So [Fa]  Fa2
+Fa2 Fa4 So La2 La So4 Fa mi2
+Fa4. (La8) | La4 La La2 La Fa4 Fa8 [So] La2
+So Fa4 la mi2 Fa la4 mi Fa1  
 }
 
 tenorMusic = \fasola Fa' {
