@@ -26,7 +26,7 @@ midiInstrument = "piano"
 
 staffSize = 20
 fontSize = 0
-
+git
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -37,7 +37,7 @@ La8 so | la4 la so so | so2 La4
 so8 fa | La4 fa so fa | La2
 
 \repeat volta 2 { So4 So | La2 La4. La8 | so so4.
-Fa4 la | la2 so4. Fa8 | Fa so4.
+La4 So | Fa2 Fa4. so'8 | la so4.
 so4 la | Fa2 so4. la8 | Fa Fa4.
 so4 la | la2 so2 | } 
 \alternative { 
@@ -56,7 +56,7 @@ Fa8 Fa | Fa4 la so so | Fa2
 
 \repeat volta 2 { So4 So | Fa2 so4. Fa8 | Fa8 Fa4.
 Fa4 so | fa2 fa4. so8 | Fa mi4.
-Fa4 La | La2 La4. Fa8 | Fa Fa4. 
+Fa4 La | La2 La4. Fa8 | Fa La4. 
 Fa4 So | Fa2 mi | } 
 \alternative { 
 { \shortmeasure Fa2 \longmeasure} 
@@ -71,9 +71,9 @@ La8 La | so4 La So La | So2.
 Fa8 So8 | Fa4 Fa So La | So2 La4
 La8 fa | Fa'4 Fa La, So | Fa2 
 \mark "Chorus"
-\repeat volta 2 { so4 so | Fa2 Fa4. Fa8 | La8 La4.
-La4 So | Fa2 Fa4. Fa8 | la so4.
-so4 la | Fa2 Fa4. Fa8 | La8 so4. 
+\repeat volta 2 { so4 so | Fa2 Fa4. Fa8 | La8 so4.
+Fa4 la | la2 so4. Fa8 | la so4.
+La4 Fa | Fa2 Fa4. Fa8 | La8 so4. 
 La4 So | Fa2 So2 | } 
 \alternative { 
 { \shortmeasure Fa2 \longmeasure} 
@@ -91,7 +91,7 @@ Fa8 So | La4 fa La so, | Fa2
 \repeat volta 2 { So4 So | Fa2 Fa4. La8 | Fa8 Fa4. 
 Fa4 so | fa2 fa4. so8 | fa so4.
 Fa4 la | so2 so4. la8 | Fa8 Fa4. 
-Fa4 So | so,2 so | } 
+Fa4 So | La2 so, | } 
 \alternative { 
 { \shortmeasure Fa2 \longmeasure} 
 { \longmeasure Fa1 } 
@@ -107,14 +107,14 @@ Fa4 So | so,2 so | }
 trebleWords = \lyricmode {
 \set stanza = "1."
 \set stanza = "1."
-In the Chris -- tian's home in glo -- ry
-There re -- mains a land of rest
-There my Sa -- vior's gone be -- fore me, 
-To ful -- fill my soul's re -- quest
+In the Chris -- tian's home in glo -- ry,
+There re -- mains a land of rest;
+There my Sa -- vior's gone be -- fore me
+To ful -- fill my soul's re -- quest.
 
-There is rest for the wea -- ry
-There is rest for the wea -- ry
-There is rest for the wea -- ry
+There is rest for the wea -- ry,
+There is rest for the wea -- ry,
+There is rest for the wea -- ry,
 There is rest for you.
 
 }
@@ -129,9 +129,9 @@ Which e -- ter -- nal -- ly shall stand,
 For my stay shall not be tran -- sient
 In that ho -- ly, hap -- py land.
 
-There is rest for the wea -- ry
-There is rest for the wea -- ry
-There is rest for the wea -- ry
+There is rest for the wea -- ry,
+There is rest for the wea -- ry,
+There is rest for the wea -- ry,
 There is rest for you.
 
 }
@@ -145,9 +145,9 @@ Grief nor woe my lot shall share;
 But in that ce -- les -- tial cen -- ter,
 I a crown of life shall wear.
 
-There is rest for the wea -- ry
-There is rest for the wea -- ry
-There is rest for the wea -- ry
+There is rest for the wea -- ry,
+There is rest for the wea -- ry,
+There is rest for the wea -- ry,
 There is rest for you.
 
 
@@ -168,9 +168,9 @@ And its sting shall be with -- drawn;
 Shout for glad -- ness, O ye ran -- somed!
 Hail with joy the ri -- sing morn.
 
-There is rest for the wea -- ry
-There is rest for the wea -- ry
-There is rest for the wea -- ry
+There is rest for the wea -- ry,
+There is rest for the wea -- ry,
+There is rest for the wea -- ry,
 There is rest for you.
 
 
