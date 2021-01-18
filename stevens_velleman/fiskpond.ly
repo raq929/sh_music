@@ -1,4 +1,4 @@
-\version "2.19.2"
+version "2.19.2"
 \include "../templates/includes/setup.ily"
 \include "../templates/includes/fasola.ily"
 \include "../templates/includes/barlines.ily"
@@ -30,7 +30,11 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleMusic = \fasola Fa' {
+trebleMusic = \fasola Fa'' {
+r2 so4.( fa8) | La4 so Fa2 | so2 so4 fa | La2
+La | so4 so8[ la] Fa2 | Fa mi4 la | so2
+so4.( fa8) | La4 so Fa2 | La2 So8[ Fa] la[ so] | la2
+so | so8[ la] Fa4 So2 | so, la4 so | so1
 }
 
 altoMusic = \fasola Fa' {
