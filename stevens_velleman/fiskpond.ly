@@ -12,7 +12,7 @@ meter = "L.M."
 poet = "Thomas Gibbons"
 pdate = "1789"
 composer = "Leah Velleman and Lael Birch"
-cdate = "2020"
+cdate = "2021"
 
 pitch = f % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
@@ -42,6 +42,9 @@ La4.( so8) | Fa4 Fa la2 | la2 so4 La8[ So] | Fa2 So | La4 La So2 | Fa La4 so | F
 }
 
 bassMusic = \fasola Fa {
+r2 Fa4. (so8) | Fa4 so la2 | Fa so4 so | Fa (so)
+la2 Fa4 so la2 la so4 la so2
+Fa4. (La8) | Fa4 so la2 | la Fa4 Fa8 [mi] Fa2 so Fa4 la so2 Fa la4 so Fa1  
 }
 
 
