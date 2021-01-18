@@ -17,7 +17,7 @@ cdate = "2019"
 pitch = g % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
 
-timeSignature = 4/4
+timeSignature = 12/8
 
 midiTempo = 150
 midiInstrument = "piano"
@@ -37,15 +37,15 @@ altoMusic = \fasola Fa' {
 }
 
 tenorMusic = \fasola Fa' {
-Fa4 Fa La so | so La So2 | La4 so so Fa, | La2 So
-Fa4 Fa La so | so La So2 | La4 so so Fa, | La2 Fa
-So4 So So So | La so2 la4 | so La So So | Fa1
+Fa4. Fa La so | so La So2. | La4. so so Fa, | La2. So
+Fa4. Fa La so | so La So2. | La4. so so Fa, | La2. Fa
+So4. So So So | La so2. la4. | so La So So | Fa1.
 }
 
 bassMusic = \fasola Fa {
-Fa4 Fa Fa Fa | so Fa so2 | r2 so8. so16 la8. Fa16 | La8.([ So16] Fa8.[ la16]) so2
-Fa4 Fa Fa Fa | so Fa so2 | r2 so8. so16 la8. Fa16 | La8.([ So16] Fa8.[ la16]) Fa8. Fa16 mi8. la16
-so2 so | Fa Fa4 La | Fa4 Fa la so | Fa1
+Fa4. Fa Fa Fa | so Fa so2. | r2. so4 so8 la4 Fa8 | La4( So8 Fa4 la8) so2.
+Fa4. Fa Fa Fa | so Fa so2. | r2. so4 so8 la4 Fa8 | La4( So8 Fa4 la8) Fa4 Fa8 mi4 la8
+so2. so | Fa Fa4. La | Fa4. Fa la so | Fa1.
 }
 
 
