@@ -11,15 +11,15 @@ title = ""
 meter = ""
 poet = ""
 pdate = ""
-composer = "Leah Velleman"
-cdate = "2019"
+composer = "Leah Velleman and Lael Birch"
+cdate = "2021"
 
 pitch = a % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
 
 timeSignature = 4/4
 
-midiTempo = 150
+midiTempo = 120
 midiInstrument = "piano"
 
 % systemCount = 1
@@ -37,6 +37,8 @@ so8[ La] | Fa4 Fa Fa8[ So] La[ fa] | so4 so so la | so8[ fa] La[ fa] so4 so | so
 }
 
 altoMusic = \fasola Fa' {
+r1 | r2. so4 | so so so Fa8 [mi] Fa4 mi8 [Fa] la [so] la [so] so2.
+Fa8 [la] so4 Fa Fa8 [mi] Fa4 Fa So Fa Fa Fa8 [mi] Fa [so] so4 la8 [mi] Fa1 
 }
 
 tenorMusic = \fasola Fa' {
@@ -57,7 +59,7 @@ trebleWords = \lyricmode {
 From com -- mon earth,
 By spe -- cial sov’ -- reign grace,
 En -- rich’d with plants of heav’n -- ly brith,
-The Church of Jesus is.
+The Church of Je -- sus is.
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
@@ -70,10 +72,10 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "1."
-A gar-- den fenc’d from com -- mon earth,
+A gar -- den fenc’d from com -- mon earth,
 By spe -- cial sov’ -- reign grace,
 En -- rich’d with plants of heav’n -- ly brith,
-The Church of Jesus is.
+The Church of Je -- sus is.
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
