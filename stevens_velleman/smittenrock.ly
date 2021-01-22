@@ -32,26 +32,26 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
 La4. so La Fa So La So2. | r2. Fa'4. la so2. so |
-La4. so La Fa So La So2. | r1. |La4. Fa Fa La so2. La
-so4. so so so so4 (fa8 La4 So8) Fa4. | La so la Fa4 (la8) so4. so1.
+La4. so La Fa So La So2. | r2. | La4. Fa Fa La so2. La
+so4 la8 mi4 Fa8 | Fa2. so4. La | so la Fa4 (la8) so4. so1.
 }
 
 altoMusic = \fasola Fa' {
 so4. so so Fa So Fa so2. | r2. Fa4 mi8 la4 so8 | Fa4. (la) so2.
-so4. so so Fa So Fa so2. | so4. Fa Fa La | Fa2. La | Fa4. (la) so2.
-so4 la8 mi4 Fa8 So4. So | Fa2. Fa4. Fa Fa la so so4 (la8)  Fa1.
+so4. so so Fa So Fa so2. | so4 so8 la4 Fa8 La4( So8 Fa4 la8) | Fa2. Fa4. (la) so2.
+so4 so8 so4 Fa8 | La4. Fa2. Fa4. Fa la so so4 (la8)  Fa1.
 }
 
 tenorMusic = \fasola Fa' {
 Fa4. Fa La so | so La So2. | La4. so so Fa, | La2. So
-Fa4. Fa La so | so La So2. | r1. | La4. so so Fa, | La2. Fa
-So4. So So So | La so2. la4. | so La So So | Fa1.
+Fa4. Fa La so | so La So2. | r2. | La4. so so Fa, | La2. Fa
+So4 So8 La4 fa8 so2. so4. la4. | so La So So | Fa1.
 }
 
 bassMusic = \fasola Fa {
 Fa4. Fa Fa Fa | so Fa so2. | r2. so4 so8 la4 Fa8 | La4( So8 Fa4 la8) so2.
-Fa4. Fa Fa Fa | so Fa so2. | r1. | r2. so4 so8 la4 Fa8 | La4( So8 Fa4 la8) Fa4 Fa8 mi4 la8
-so2. so | Fa Fa4. La | Fa4. Fa la so | Fa1.
+Fa4. Fa Fa Fa | so Fa so2. | r1. | so4 so8 la4 Fa8 | La4( So8 Fa4 la8) Fa4 Fa8 mi4 la8
+so4. so | Fa Fa2. La4. | Fa4. Fa la so | Fa1.
 }
 
 
@@ -77,7 +77,7 @@ Wat -- ers from the smit -- ten rock,
 Flow -- ing, gent -- ly flow -- ing,
 To re -- fresh the thirst -- y flock
 Through the des -- ert go -- ing, go -- ing
-Flow -- ing, it is flow -- ing, flow -- ing
+Flow -- ing, it is flow -- ing,
 ’Tis flow -- ing clear and free.
 }
 altoWordsTwo = \lyricmode {
