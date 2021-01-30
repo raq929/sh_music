@@ -7,8 +7,8 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = ""
-meter = ""
+title = "The Titanic"
+meter = "4/12"
 poet = ""
 pdate = ""
 composer = "Leah Velleman and Lael Birch"
