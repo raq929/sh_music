@@ -62,12 +62,21 @@ Fa4. (La8) | Fa4 so la2 | la Fa4 Fa8 [mi] Fa2 so Fa4 la so2 Fa la4 so Fa1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+Now let our souls, on wings sub -- lime,
+Rise from the van -- i -- ties of time,
+Draw back the part -- ing veil, and see
+The glor -- ies of e -- tern -- it -- y.
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
 }
 
 altoWords = \lyricmode {
+\set stanza = "2."
+Shall aught be -- guile us on the road,
+When we are walk -- ing back to God?
+For strang -- ers in -- to life we come,
+And dy -- ing is but go -- ing home.
 }
 altoWordsTwo = \lyricmode {
 }
@@ -80,16 +89,17 @@ Draw back the part -- ing veil, and see
 The glor -- ies of e -- tern -- it -- y.
 }
 tenorWordsTwo = \lyricmode {
-\set stanza = "2."
-Shall aught be -- guile us on the road,
-When we are walk -- ing back to God?
-For strang -- ers in -- to life we come,
-And dy -- ing is but go -- ing home.
+
 }
 
 bassWords = \lyricmode {
 }
 bassWordsTwo = \lyricmode {
+\set stanza = "2."
+Shall aught be -- guile us on the road,
+When we are walk -- ing back to God?
+For strang -- ers in -- to life we come,
+And dy -- ing is but go -- ing home.
 }
 
 
