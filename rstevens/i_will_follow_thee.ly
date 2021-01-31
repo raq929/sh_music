@@ -14,7 +14,7 @@ pdate = "1866"
 composer = "Lael Birch"
 cdate = "2021"
 
-pitch = b % The written pitch
+pitch = c % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
 
 timeSignature = 3/4
@@ -39,21 +39,28 @@ altoMusic = \fasola Fa' {
 
 }
 
-tenorMusic = \fasola Fa' {
+tenorMusic = \fasola Fa'' {
 r2 so8 so Fa4. Fa8 mi Fa la so4.
 so8 so La'4. So8 So16 [Fa] la8 so2
 so8 la So4 La so8 La So Fa4.
 Fa8 fa La4 Fa La8 So Fa2. 
 
-r2 Fa8 Fa8 La4. La8 So La So Fa4.
+r2 Fa8 Fa8 La4. Fa8 So La So Fa4.
 La8 La so4. Fa,8 La16 [So16] Fa8 So2
 so,8 la So4 La so8 La So Fa4.
 Fa8 fa La4 Fa La8 So Fa2. 
 }
 
 bassMusic = \fasola Fa {
+r2 Fa8 Fa La4. Fa8 So La fa so4.
+Fa,8 Fa la4. so8 Fa La so2 
+so8 fa so4 Fa, Fa8 la so Fa4.
+Fa8 Fa La4 fa so8 so Fa,2.
 
-
+r2 Fa8 So La4. fa8 so la so Fa,4. 
+La8 so Fa4. Fa8 la so so2
+so8 fa so4 Fa, Fa8 la so Fa4.
+Fa8 Fa La4 fa so8 so Fa,2.
 }
 
 
@@ -74,7 +81,7 @@ By thy grace I'll follow thee.
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
-Tho' the road be rough and thorny
+Tho' the road be rough and thor -- ny
 Track -- les as the foam -- ing sea;
 Thou hast trod this way be -- fore me, 
 And I glad -- ly fol -- low thee.
@@ -88,18 +95,20 @@ And re -- joice to fo -- low thee.
 
 }
 altoWordsTwo = \lyricmode {
-Tho' 'tis lone, and dark, and drea -- ry,
-Cheer -- less though my path may be;
-If thy voice I hear be -- for me, 
-Fear -- less -- ly I'll fol -- low thee.
+
 }
 
 tenorWords = \lyricmode {
 \set stanza = "2."
-Tho' thou lead'st me thro' af -- flic -- tion,
-Poor, for -- sa -- ken though I be;
-Thou wast de -- sti -- tute, af -- flic -- ted,
-And I on -- ly fol -- low thee.
+Tho' 'tis lone, and dark, and drea -- ry,
+Cheer -- less though my path may be;
+If thy voice I hear be -- for me, 
+Fear -- less -- ly I'll fol -- low thee.
+
+I will fol -- low thee, my Sa -- vior,
+Thou didst shed thy blood for me;
+And though all men should for -- sake thee, 
+By thy grace I'll fol -- low thee.
 
 }
 
@@ -110,7 +119,15 @@ tenorWordsTwo = \lyricmode {
 
 bassWords = \lyricmode {
 \set stanza = "4."
+Tho' thou lead'st me thro' af -- flic -- tion,
+Poor, for -- sa -- ken though I be;
+Thou wast de -- sti -- tute, af -- flic -- ted,
+And I on -- ly fol -- low thee.
 
+I will fol -- low thee, my Sa -- vior,
+Thou didst shed thy blood for me;
+And though all men should for -- sake thee, 
+By thy grace I'll fol -- low thee.
 }
 bassWordsTwo = \lyricmode {
 
