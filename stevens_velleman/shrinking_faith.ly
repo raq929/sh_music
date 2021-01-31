@@ -31,7 +31,10 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-
+r2 la | la4 la mi2 | la Fa4 so' | La1
+la,2 | la4 So so2 fi4 (La) La1
+r2 La | Fa4 la mi2 mi Fa4 So La1
+Fa2 La4 So4 La2 La La1
 
 }
 
@@ -50,7 +53,7 @@ bassMusic = \fasola Fa {
 r2 la | Fa4 la mi2 | la2 so4 La | la1
 La2 la4 La | so2 So | La1
 r2 Fa | La4 Fa so2' | La la4 so | so1
-La2 la4 mi | Fa2 \tuplet 3/2 { <So so,>4 <Fa so> <mi so>} | la1
+La2 la4 mi | Fa2 \tuplet 3/2 { <So so,>4 (<Fa so> <mi so>)} | la1
 
 
 }
@@ -65,7 +68,7 @@ trebleWords = \lyricmode {
 Oh, for a faith that will not shrink, 
 Though pressed by ev -- 'ry foe,
 That will not trem -- ble on the brink
-Of any earth -- ly woe!
+Of a -- ny earth -- ly woe!
 }
 trebleWordsTwo = \lyricmode {
 }
@@ -84,7 +87,7 @@ tenorWords = \lyricmode {
 A faith that shines more birght and clear 
 When tem -- pests rage with -- out
 That when in dan -- ger knows no fear 
-In dark -- nes feels no doubt;
+In dark -- ness feels no doubt;
 }
 
 tenorWordsTwo = \lyricmode {
