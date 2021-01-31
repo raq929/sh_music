@@ -47,6 +47,10 @@ la,2 Fa4 mi la2 so la1
 }
 
 bassMusic = \fasola Fa {
+r2 la | Fa4 la mi2 | la2 so4 La | la1
+La2 la4 La | so2 So | La1
+r2 Fa | La4 Fa so2' | La la4 so | so1
+La2 la4 mi | Fa2 \tuplet 3/2 { <So so,>4 <Fa so> <mi so>} | la1
 
 
 }
