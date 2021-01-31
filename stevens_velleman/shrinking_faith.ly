@@ -74,6 +74,7 @@ trebleWordsTwo = \lyricmode {
 }
 
 altoWords = \lyricmode {
+\set stanza = "2."
 That will not mur -- mur nor com -- plain
 Be -- neath the chast -- 'ning rod,
 But, in the hour of grief or pain,
@@ -83,7 +84,7 @@ altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
-\set stanza = "2."
+\set stanza = "3."
 A faith that shines more birght and clear 
 When tem -- pests rage with -- out
 That when in dan -- ger knows no fear 
