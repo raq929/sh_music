@@ -47,6 +47,8 @@ La8[ fa] | so4 fa La So | Fa mi Fa So | La8[ fa] La[ So] Fa4 mi | Fa1
 }
 
 bassMusic = \fasola Fa {
+r1 | r1 | r2. so4 | Fa so8[ La] fa[ La] So[ La] | so2.
+Fa4 | so so Fa8[ mi] la[ so] | so4 so Fa So | La8[ So] Fa[ la] so4 so | Fa,1
 }
 
 
