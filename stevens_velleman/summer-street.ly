@@ -7,10 +7,10 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = ""
-meter = ""
-poet = ""
-pdate = ""
+title = "Garden"
+meter = "C.M."
+poet = "Joseph Swain"
+pdate = "1817"
 composer = "Leah Velleman and Lael Birch"
 cdate = "2021"
 
@@ -65,9 +65,14 @@ The Church of Je -- sus is.
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
+The o -- pen sky,
+His love the shi -- ning sun:
+Ri -- vers of peace which ne -- ver dry,
+Through all this gar -- den run.
 }
 
 altoWords = \lyricmode {
+
 }
 altoWordsTwo = \lyricmode {
 }
@@ -81,11 +86,24 @@ The Church of Je -- sus is.
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
+His gos -- pel is the o -- pen sky,
+His love the shi -- ning sun:
+Ri -- vers of peace which ne -- ver dry,
+Through all this gar -- den run.
 }
 
 bassWords = \lyricmode {
+\set stanza = "1."
+By spe -- cial sov’ -- reign grace,
+En -- rich’d with plants of heav’n -- ly brith,
+The Church of Je -- sus is.
 }
 bassWordsTwo = \lyricmode {
+\set stanza = "2."
+
+His love the shi -- ning sun:
+Ri -- vers of peace which ne -- ver dry,
+Through all this gar -- den run.
 }
 
 
