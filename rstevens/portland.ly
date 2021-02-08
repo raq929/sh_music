@@ -31,14 +31,14 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa'' {
-r2. so8 so | so4 La so so | so2 La4
-so8 so | so4 so so Fa | so2.
+r2. so8 so | La4 La so so | so2 La4
+so8 so | La4 La so Fa | so2.
 La8 so | la4 la so so | so2 La4
 so8 fa | La4 fa so fa | La2
 
 \repeat volta 2 { So4 So | La2 La4. La8 | so so4.
 Fa4 la | la2 so4. Fa8 | Fa so4.
-so4 la | Fa2 so4. la8 | Fa Fa4.
+so4 La | Fa2 La4. La8 | so Fa4.
 so4 la | la2 so2 | } 
 \alternative { 
 { \shortmeasure so2 \longmeasure} 
@@ -51,13 +51,15 @@ so4 la | la2 so2 | }
 altoMusic = \fasola Fa' {
 r2. Fa8 so | so4 so so Fa | mi2 Fa4 
 La8 La Fa4 Fa mi Fa mi2.
-Fa8 so | fa4 fa so Fa mi2 Fa4
+Fa8 so | Fa4 Fa So Fa | mi2 Fa4
 Fa8 Fa | Fa4 la so so | Fa2
 
-\repeat volta 2 { So4 So | Fa2 so4. Fa8 | Fa8 Fa4.
-Fa4 so | fa2 fa4. so8 | Fa mi4.
-Fa4 La | La2 La4. Fa8 | Fa Fa4. 
-Fa4 So | Fa2 mi | } 
+\repeat volta 2 { 
+so4 so | Fa2 so4. Fa8 | Fa8 Fa4.
+Fa4 So | Fa2 Fa4. Fa8 | la so4.
+Fa4 la | Fa2 La4. Fa8 | Fa La4. 
+Fa4 So | Fa2 mi | 
+} 
 \alternative { 
 { \shortmeasure Fa2 \longmeasure} 
 { \longmeasure Fa1 } 
@@ -68,13 +70,15 @@ Fa4 So | Fa2 mi | }
 tenorMusic = \fasola Fa' {
 r2. Fa8 La | so4 La So La | So2 Fa4
 La8 so | La4 Fa So La | So2.
-Fa8 So8 | Fa4 Fa So La | So2 Fa4
+La8 so8 | fa4 fa so La | So2 Fa4
 La8 fa | Fa'4 Fa La, So | Fa2 
 \mark "Chorus"
-\repeat volta 2 { so4 so | Fa2 Fa4. Fa8 | La8 La4.
-La4 So | Fa2 Fa4. Fa8 | la so4.
-so4 la | Fa2 Fa4. Fa8 | La8 so4. 
-La4 So | Fa2 So2 | } 
+\repeat volta 2 { 
+So4 So | Fa2 Fa4. Fa8 | La8 La4.
+La4 so | fa2 fa4. So8 | Fa mi4.
+Fa4 La | so2 so4. la8 | Fa8 so4. 
+La4 So | Fa2 So2 | 
+} 
 \alternative { 
 { \shortmeasure Fa2 \longmeasure} 
 { \longmeasure Fa1 } 
