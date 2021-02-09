@@ -68,8 +68,8 @@ Fa4 So | Fa2 mi |
 } 
 
 tenorMusic = \fasola Fa' {
-r2. Fa8 La | so4 La So La | So2 Fa4
-La8 so | La4 Fa So La | So2.
+r2. Fa8 La | so4 so so La | So2 Fa4
+Fa8 La | so4 so so La | So2.
 La8 so8 | fa4 fa so La | So2 Fa4
 La8 fa | Fa'4 Fa La, So | Fa2 
 \mark "Chorus"
@@ -93,7 +93,7 @@ so8 so8 | fa4 fa so Fa | so2 Fa4
 Fa8 So | La4 fa La so, | Fa2
 
 \repeat volta 2 { So4 So | Fa2 Fa4. La8 | Fa8 Fa4. 
-Fa4 so | fa2 fa4. so8 | fa so4.
+Fa4 so | fa2 fa4. so8 | la so4.
 Fa4 la | so2 so4. la8 | Fa8 Fa4. 
 Fa4 So | La2 so, | } 
 \alternative { 
