@@ -41,6 +41,14 @@ La La4 so so La2. La2 So4 La so so la2.
 }
 
 altoMusic = \fasola Fa' {
+\repeat volta 2 {
+r2. Fa | mi4 Fa la so2. | la2 mi4 Fa la mi | Fa2.
+so2 Fa4 | Fa Fa la so la so so1.
+}
+so2. so4 Fa Fa | Fa2 Fa4 La Fa so la2.
+Fa2. so4 la so so la so so2. 
+la2. la4 so la mi2. Fa2 mi4 Fa la mi Fa2.
+Fa2. Fa4 Fa la so la so so1. 
 }
 
 tenorMusic = \fasola Fa' {
@@ -56,7 +64,7 @@ bassMusic = \fasola Fa {
 r2. Fa2. | so4 la Fa So2. | La2 So4 Fa la so | la2. so2 La4 | so so so so La so | Fa1.
 }
 Fa2. so4 La fa | so2 la4 so la Fa | So2. La2. | Fa4 Fa Fa Fa la Fa | so2.
-la2. | Fa4 Fa Fa La2. | Fa2 So4 Fa la so | la2. Fa | so4 so so so La so | Fa1.
+la2. | Fa4 Fa Fa La2. | la,2 So4 Fa la so | la2. Fa | so4 so so so La so | Fa1.
 }
 
 
@@ -78,18 +86,17 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "1."
-"Draw near, O ye" _ _ _ bless -- ed, "and help me to sing" _ _ _ _ 
-"Of the treasures for you laid in store," _ _ _ _ _ _ _
-_ 
-"O think with what rapturous shouts we will" _ _ _ _ _ _ _ _ rise, \bar""\break
+Draw near, O ye bless -- ed, and help me to sing
+Of the trea -- sures for you laid in store,
+O think with what rap -- turous shouts we will rise, \bar""\break
 To join with the glo -- rif -- ied choirs,
 When Jes -- u's bright char -- iot ap -- pears in the skies,
 And Death at his com -- ing ex -- pires. 
 
 }
 tenorWordsTwo = \lyricmode {
-"When soon you shall meet your dear shepherd and king,
-For to weep in this desert no" _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ more.
+When soon you shall meet your dear shep -- herd and king,
+For to weep in this de -- sert no more.
 
 }
 
