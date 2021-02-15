@@ -47,7 +47,7 @@ La4 | la2 la | so4 La Fa La | so La Fa'4.( la8 | so4) La So So | Fa2.~
 }
 
 bassMusic = \fasola Fa {
-Fa2 so4 la | Fa Fa Fa mi8[ la] | so2 so | Fa4 Fa la so | so2.
+Fa2 so4 la | Fa Fa Fa mi8[ la] | so2 La | Fa4 Fa' la so | so2.
 \repeat volta 2 {
 Fa4 | Fa2 so | Fa4 Fa So so, | Fa1~ | Fa2.
 Fa4 | La2 So | Fa4 Fa Fa mi8[ la] | so4 La fa4.( la8 | so4) Fa la so | Fa2.~
