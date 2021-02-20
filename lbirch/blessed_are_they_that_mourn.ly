@@ -7,15 +7,15 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "Twill all be over soon"
+title = "Blessed are they that mourn"
 meter = "8s & 6s"
 poet = "Charlotte Elliot"
 pdate = "1871"
 composer = "Lael Birch"
 cdate = "2021"
 
-pitch = a % The written pitch
-isMajor = ##f   % Use ##t for major and ##f for minor
+pitch = g % The written pitch
+isMajor = ##t   % Use ##t for major and ##f for minor
 
 timeSignature = 6/8
 
@@ -40,7 +40,10 @@ altoMusic = \fasola Fa' {
 }
 
 tenorMusic = \fasola Fa' {
-
+r4. so Fa4 So8 La4 So8 La4 So8 Fa4.
+So4 La16 So16 Fa4 La8 fa4 La8 So4.
+r4. so Fa4 la8 so4 fa8 La4 So8 Fa4.
+Fa4 Fa16 Fa16 Fa4 mi8 Fa2
 }
 
 bassMusic = \fasola Fa {
@@ -56,29 +59,30 @@ bassMusic = \fasola Fa {
 trebleWords = \lyricmode {
 \set stanza = "1."
 I heard the voice of Love divine,
-Ad -- dres -- sing man to trouble born;
+Ad -- dres -- sing man to trou -- ble born;
 Sa -- viour, what ac -- cents then were thine?
-"Blessed are they that mourn"
+Bles -- sed are they that mourn"
 }
 trebleWordsTwo = \lyricmode {
 }
 
 altoWords = \lyricmode {
+\set stanza = "2."
 Again it spoke - "Come un -- to Me
-"Thou with dis -- tress and la -- bor worn,
-"Rest and re -- fresh -- ment are for thee:
-"Bless -- ed are they that mourn."
+Thou with dis -- tress and la -- bor worn,
+Rest and re -- fresh -- ment are for thee:
+Bless -- ed are they that mourn.
 
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
-\set stanza = "2."
+\set stanza = "3."
 I heard an an -- gel voice pro -- claim,
-Yon vic -- tors bright, whom crowns adorn,
-"Thro' tri -- bu -- la -- tion great they came!
-"Bless -- ed are they that mourn"
+Yon vic -- tors bright, whom crowns a -- dorn,
+Thro' tri -- bu -- la -- tion great they came!
+Bless -- ed are they that mourn
 
 }
 
@@ -92,7 +96,7 @@ bassWords = \lyricmode {
 Why should I then for suf -- frings grieve,
 Since sor -- row leads to joy's bright bourne,
 Let me in -- deed the words be -- lieve,
-"Bless -- ed are they that mourn"
+Bless -- ed are they that mourn
 }
 bassWordsTwo = \lyricmode {
 
