@@ -62,17 +62,17 @@ trebleWords = \lyricmode {
 I heard the voice of Love divine,
 Ad -- dres -- sing man to trou -- ble born;
 Sa -- viour, what ac -- cents then were thine?
-Bles -- sed are they that mourn.
+“Bles -- sed are they that mourn.”
 }
 trebleWordsTwo = \lyricmode {
 }
 
 altoWords = \lyricmode {
 \set stanza = "2."
-Again it spoke - Come un -- to Me
+Again it spoke - “Come un -- to Me
 Thou with dis -- tress and la -- bor worn,
 Rest and re -- fresh -- ment are for thee:
-Bless -- ed are they that mourn.
+Bless -- ed are they that mourn.”
 
 }
 altoWordsTwo = \lyricmode {
@@ -81,9 +81,9 @@ altoWordsTwo = \lyricmode {
 tenorWords = \lyricmode {
 \set stanza = "3."
 I heard an an -- gel voice pro -- claim,
-/" Yon vic -- tors bright, whom crowns a -- dorn,
+“Yon vic -- tors bright, whom crowns a -- dorn,
 Thro' tri -- bu -- la -- tion great they came!
-Bless -- ed are they that mourn.
+Bless -- ed are they that mourn.”
 
 }
 
@@ -97,7 +97,7 @@ bassWords = \lyricmode {
 Why should I then for suf -- frings grieve,
 Since sor -- row leads to joy's bright bourne,
 Let me in -- deed the words be -- lieve,
-Bless -- ed are they that mourn.
+“Bless -- ed are they that mourn.”
 }
 bassWordsTwo = \lyricmode {
 
