@@ -58,7 +58,7 @@ la8 so Fa4 | Fa so8 La | so4.
 so8 la8. la16 so8 so | Fa4 so | la2
 la4. la8 so4 | so2 so4 | la2.
 la4. la8 so4 | Fa2 Fa4 | so2
-so4 | la2 la4 | so2 la8[ mi] | Fa2 so4 | fa2.
+so4 | la2 la4 | so2 la8[ mi] | Fa2 so4 | Fa2.
 la4. la8 la4 | so2 so4 | Fa2.
 }
 
