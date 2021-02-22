@@ -41,15 +41,25 @@ altoMusic = \fasola Fa' {
 
 tenorMusic = \fasola Fa' {
 r4 so4 Fa8 So8 La4 fa La8 So Fa4
-So4 La8 So Fa4 La fa8 La So2
-r4 so4 Fa4. la8 so4 fa4 La4 So Fa2
-\time 3/4 { Fa4. Fa8 Fa4 Fa2 mi4 Fa2. }
+So4 La8 So Fa4 La so8 La So4.
+so8 Fa8. la16 so8 fa8 La4 So Fa2
+\bar"."\newSpacingSection\break
+\time 3/4 { Fa4. Fa8 Fa4 Fa2 mi4 Fa2. 
+La4. La8 La4 | fa2 La4 | So2 
+so4 | Fa2 la4 | so2 fa4 | La2 so4 | la2.
+Fa,4. Fa8 fa4 | La2 So4 | Fa2.
+}
 \bar "|."
 }
 
 bassMusic = \fasola Fa {
-
-
+r4 so | so8 la Fa4 | Fa so8 La | <Fa Fa'>4 so'
+la8 so Fa4 | Fa so8 La | so4. 
+so8 la8. la16 so8 so | Fa4 so | la2
+la4. la8 so4 | so2 so4 | la2.
+la4. la8 so4 | Fa2 Fa4 | so2
+so4 | la2 la4 | so2 la8[ mi] | Fa2 so4 | fa2.
+la4. la8 la4 | so2 so4 | Fa2.
 }
 
 
@@ -82,6 +92,9 @@ tenorWords = \lyricmode {
 \set stanza = "3."
 I heard an an -- gel voice pro -- claim,
 “Yon vic -- tors bright, whom crowns a -- dorn,
+Thro' tri -- bu -- la -- tion great they came!
+Bless -- ed are they that mourn,
+Bless -- ed are they that mourn,
 Thro' tri -- bu -- la -- tion great they came!
 Bless -- ed are they that mourn.”
 
