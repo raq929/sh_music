@@ -11,7 +11,7 @@ title = "Blessed are they that mourn"
 meter = "8s & 6s"
 poet = "Charlotte Elliot"
 pdate = "1871"
-composer = "Lael Birch"
+composer = "Lael Birch and Leah Velleman"
 cdate = "2021"
 
 pitch = g % The written pitch
@@ -43,11 +43,11 @@ Fa,4. La8 La4 La2 So4 Fa2.
 }
 
 altoMusic = \fasola Fa' {
-r4 so Fa8 mi Fa4 la la8 so so4
+r4 so Fa8 mi Fa4 la so8 so so4
 mi Fa8 So La4 Fa So8 Fa mi4
 Fa Fa8 Fa So4 Fa la8 so la2
 
-la4. la8 la4 Fa2 so4 la2.
+la4. la8 so4 Fa2 so4 la2.
 la4. Fa8 Fa4 la2 la4 so2
 mi4 Fa2 Fa4 mi2 Fa4 Fa2 So4 La2.
 la,4. la8 la4 Fa2 so4 so2.
@@ -88,17 +88,21 @@ trebleWords = \lyricmode {
 I heard the voice of Love di -- vine,
 Ad -- dres -- sing man to trou -- ble born;
 Sa -- viour, what ac -- cents then were thine?
-“Bles -- sed are they that mourn.
+“Bles -- sed are they that mourn,
 Bles -- sed are they that mourn.”
 Sa -- viour, what ac -- cents then were thine?
+“Bles -- sed are they that mourn.”
 }
 trebleWordsTwo = \lyricmode {
 }
 
 altoWords = \lyricmode {
 \set stanza = "2."
-Again it spoke - “Come un -- to Me
+A -- gain it spoke “Come un -- to Me,
 Thou with dis -- tress and la -- bor worn,
+Rest and re -- fresh -- ment are for thee:
+Bless -- ed are they that mourn,
+Bless -- ed are they that mourn.
 Rest and re -- fresh -- ment are for thee:
 Bless -- ed are they that mourn.”
 
@@ -108,13 +112,13 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-I heard an an -- gel voice pro -- claim,
-“Yon vic -- tors bright, whom crowns a -- dorn,
-Thro' tri -- bu -- la -- tion great they came!
+Why should I then for suf -- frings grieve,
+Since sor -- row leads to joy's bright bourne,
+Let me in -- deed the words be -- lieve,
+“Bless -- ed are they that mourn,
 Bless -- ed are they that mourn,
-Bless -- ed are they that mourn,
-Thro' tri -- bu -- la -- tion great they came!
-Bless -- ed are they that mourn.”
+Let me in -- deed the words be -- lieve,
+“Bless -- ed are they that mourn.”
 
 }
 
@@ -125,10 +129,7 @@ tenorWordsTwo = \lyricmode {
 
 bassWords = \lyricmode {
 \set stanza = "4."
-Why should I then for suf -- frings grieve,
-Since sor -- row leads to joy's bright bourne,
-Let me in -- deed the words be -- lieve,
-“Bless -- ed are they that mourn.”
+
 }
 bassWordsTwo = \lyricmode {
 
