@@ -31,31 +31,35 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-la4 la8 la16 [so] Fa4 so8. (la16) so8 la Fa4
-So La8 So Fa16 (So) La8 So4
-La Fa8 Fa16 (so) la4 la8. (So16) La8 So La4
-So Fa8 mi La4 mi Fa2
+la4 la8 Fa16 [mi] la4 So8. [La16] so8 La Fa4
+So so8 so Fa,16 [So] La8 So4
+La Fa8 la16 [so] la4 la8. [So16] La8 So La4
+So Fa8 So La4 so La2
 
 }
 
-altoMusic = \fasola Fa' {
-
+altoMusic = \fasola Fa {
+La4 La8 La16 [So] La4
+So8. [La16] So8 La La4
+So4 La8 so Fa16 [mi] la8 so4
+la4 La8 La16 [So] La4 La8. [So16] La8 so la4
+so Fa8 mi la4 So, La2
 }
 
 tenorMusic = \fasola Fa' {
-La4 la,8 la16 [mi] Fa4 So8. (Fa16) mi8 la la4
-mi Fa8 So La16 (So) Fa8 mi4
-la Fa8 Fa16 [So] La4 La8. (So16) Fa8 so la4
+La4 la,8 la16 [mi] Fa4 So8. [Fa16] mi8 la la4
+mi Fa8 So La16 [So] Fa8 mi4
+la Fa8 Fa16 [So] La4 La8. [So16] Fa8 so la4
 so4 la8 mi Fa4 mi4 la2
 \bar "|."
 }
 
 bassMusic = \fasola Fa {
-la4 la8 La16 (So) La4
-So8. (<La la,>16) <so so,>8 <la la,> <la la,>4
-so4 la8 so La8 la so4
-la la8 La16 (so) la4 La La8 <so mi,> <la la,>4
-<so so,> <la la,>8 <so so,> Fa,4 <so' so,> <la la,>2
+la4 la8 La La4
+So8. [La16] So8 La la4
+so4 Fa8, So La8 la so4
+la la8 La16 [so] la4 la La8 So La4
+so la8 So, La4 La <la la,>2
 }
 
 
@@ -79,10 +83,10 @@ altoWords = \lyricmode {
 
 }
 altoWordsTwo = \lyricmode {
-But down to earth, alas! in vain
-We bend our weeping eyes,
+But down to earth, a -- las! in vain
+We bend our weep -- ing eyes,
 Ah! let us leave these seats of pain,
-And upwards learn to rise.
+And up -- wards learn to rise.
 }
 
 tenorWords = \lyricmode {
