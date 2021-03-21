@@ -1,3 +1,4 @@
+
 \version "2.19.2"
 \include "../templates/includes/setup.ily"
 \include "../templates/includes/fasola.ily"
@@ -7,19 +8,19 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "Newton"
-meter = "C.M."
-poet = "Anne Steele"
-pdate = "1760"
-composer = "L. Birch"
-cdate = "2019"
+title = "Holy City"
+meter = "L.M."
+poet = "H.L. Hastings"
+pdate = "1880"
+composer = "Lael Birch"
+cdate = "2021"
 
-pitch = g % The written pitch
+pitch = a % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
 
 timeSignature = 4/4
 
-midiTempo = 130
+midiTempo = 150
 midiInstrument = "piano"
 
 % systemCount = 1
@@ -30,33 +31,19 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleMusic = \fasola Fa' {
- La2 so4 fa so2 La4.( So8) Fa4 La8[ So] La2
- Fa so'4 fa La fa so la so2
- La2 so4 fa so2 La4.( So8) Fa4 So8 [Fa] | So2
- La so4 so8 [la] mi2 la2 so4 so <so La>1 \bar "|."
+trebleMusic = \fasola Fa' 
 }
 
 altoMusic = \fasola Fa' {
- so2 Fa4 Fa  mi2 Fa4.( mi8)  la4 so Fa2
- so2 Fa4 Fa Fa Fa Fa8 [mi] la4 so2
- so2 Fa4 Fa mi2 Fa4.( mi8) la4 la so2  
- Fa2 so4 so so2 la2 so4 so La1
+
 }
 
 tenorMusic = \fasola Fa' {
- Fa2 La4 fa so2 la4.( so8) fa4 La8[ So] Fa2 
- Fa2 La4 fa | so fa La So8[ Fa] | So2
- Fa2 La4 fa so2 la La4 So8 [Fa] | So2
- Fa2 La4 So8 [Fa] So2 La Fa4 mi Fa1
- 
+
 }
 
 bassMusic = \fasola Fa {
- Fa2 Fa4 so so2 la la4 so4 Fa,2 | 
- Fa so'4 fa | La fa La So | so2 
- Fa2 Fa4 so so2 la Fa4 So | so,2 
- Fa so4 La so2 la so4 so <Fa Fa,>1
+
 }
 
 
@@ -64,44 +51,41 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Verses                                    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 trebleWords = \lyricmode {
-\set stanza = "1."
- O'er -- whelm'd with rest -- less griefs and fears,
-Lord, I ap -- proach thy mer -- cy seat,
-With ach -- ing heart and flow -- ing tears,
-To pour my sor -- rows at thy feet.
+With jas -- per, gold, and gems a -- flame,
+The Ho -- ly Ci -- ty shall descend;
+And migh -- ty voi -- ces shall pro -- claim,
+Be -- hold God's dwell -- ing is with men!
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
 }
 
 altoWords = \lyricmode {
-\set stanza = "2."
-Thou see'st the tem -- pest of my soul,
-These rest -- less waves of fear and sin,
-Thy voice can all their rage con -- trol,
-And make a sa -- cred calm with -- in.
+No griefs nor anguish, pains nor sighs.
+No sin, no death, no curse, no tear,
+In vade that ci -- ty from the skies, 
+Through all the glad e -- ter -- nal years.
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
-\set stanza = "3."
-And can my vile un -- grate -- ful heart
-Still har -- bour black dis -- trust and fear?
-O bid these hea -- vy clouds de -- part,
-Bright sun of right -- eous -- ness, ap -- pear.
+There plea -- sures wait, and joys un -- known,
+For siants who earth in tears have trod;
+And crys -- tal wa --ters from the throne
+Make glad the Ci -- ty of our God!
 }
 tenorWordsTwo = \lyricmode {
-
+\set stanza = "2."
 }
 
 bassWords = \lyricmode {
-\set stanza = "4."
-Let thy en -- live -- ning heal -- ing voice,
-The kind as -- su -- rance of thy love,
-Re -- lieve my heart, re -- vive my joys,
-And all my sins and fears re -- move.
+O blest are they whose rai -- ment bright 
+Is washed from ev -- 'ry stain of sin;
+they shall to life's fair tree have right,
+ANd through the gates shall en -- ter in.
 }
 bassWordsTwo = \lyricmode {
 }

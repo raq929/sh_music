@@ -48,11 +48,11 @@ tenorMusic = \fasola Fa' {
 so2 Fa4 La so so so8 [fa] La [fa] so2
 so Fa4 so la fa so La So2
 Fa2 Fa8 [So] La [fa] so4 so la mi Fa2
-so Fa4 so la fa La2 So Fa1
+so Fa4 so la fa La2 So Fa1 \bar "|."
 }
 
 bassMusic = \fasola Fa {
-Fa2 La4 La Fa so so8 [Fa] la [mi] Fa2
+Fa2 La4 La Fa so Fa8 [mi] la [so] Fa2
 so Fa4 Fa la la Fa la so2
 Fa so8 [fa] La [So] Fa4 so' La so Fa2
 so Fa4 Fa la la la2 so <Fa Fa,>1
@@ -93,7 +93,7 @@ altoWordsTwo = \lyricmode {
 tenorWords = \lyricmode {
 \set stanza = "3."
 En -- ter with thank -- ful -- ness his gates,
-And tread his courts with sa-- cred praise;
+And tread his courts with sa -- cred praise;
 His bound-- les mer -- cy for us waits,
 His truth en -- dures to end -- less days.
 
@@ -108,7 +108,7 @@ tenorWordsTwo = \lyricmode {
 bassWords = \lyricmode {
 \set stanza = "2."
 
-O all ye lands, in God re -- joice
+O all ye lands, in God re -- joice!
 For he is good, a gra -- cious friend.
 Ex -- ult, ye peo -- ple of his choice,
 Praise him in strains that have no end.
