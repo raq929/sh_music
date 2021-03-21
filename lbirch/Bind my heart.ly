@@ -8,7 +8,7 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "Bind My Heat"
+title = "Bind My Heart"
 meter = "L.M."
 poet = "H.L. Hastings"
 pdate = "1865"
@@ -32,10 +32,17 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-
+r4 La4 Fa8 Fa16 [So] La4 Fa La8 So16 [La] so4
+so La8 So16 [La] so4 Fa la8 so16 [la] so2
+r4 so La8 Fa16 [So] La4 so La8 So16 [La] so4
+so La8 so16 [la] so4 Fa la8 so16 [la] so2
 }
 
 altoMusic = \fasola Fa' {
+r4 so Fa8 la16 [so] so4 Fa La8 So16 [La] La4
+so, Fa8 so16 [la] so4 Fa La8 La16 [la,] so2
+r4 so4 so8 Fa16 [la] so4 so Fa8 So16 [La] Fa4
+So La8 Fa16 [La] So4 La4 Fa8 La16 [So] La2
 
 }
 
@@ -60,7 +67,7 @@ So Fa8 So16 [La] So4 Fa La8 so,16 [la] Fa2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 trebleWords = \lyricmode {
-Sa -- viour the sor -- rows thou has know
+Sa -- viour the sor -- rows thou has known
 And borne for one so vile as me,
 Would melt to ten -- der -- ness a stone
 And bind my heart by love to thee.
