@@ -39,10 +39,10 @@ so La8 so16 [la] so4 Fa la8 so16 [la] so2
 }
 
 altoMusic = \fasola Fa' {
-r4 so Fa8 la16 [so] so4 Fa La8 So16 [La] La4
-so, Fa8 so16 [la] so4 Fa La8 La16 [la,] so2
-r4 so4 so8 Fa16 [la] so4 so Fa8 So16 [La] Fa4
-So La8 Fa16 [La] So4 La4 Fa8 La16 [So] La2
+r4 so4 so8 Fa16 [la] so4 Fa La8 So16 [La] Fa4
+So La8 Fa16 [La] So4 La4 Fa8 la16 [so] so2
+r4 so4 so8 Fa16 [la] so4 so Fa8 So16 [La] La4
+So so8 La16 [Fa] So4 La4 Fa8 Fa16 [So] Fa2
 
 }
 
@@ -67,6 +67,7 @@ So Fa8 So16 [La] So4 Fa La8 so,16 [la] Fa2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 trebleWords = \lyricmode {
+\set stanza = "1."
 Sa -- viour the sor -- rows thou has known
 And borne for one so vile as me,
 Would melt to ten -- der -- ness a stone
@@ -77,6 +78,7 @@ trebleWordsTwo = \lyricmode {
 }
 
 altoWords = \lyricmode {
+\set stanza = "2."
 But oh, the crimes that I have done 
 Have shar -- pened all thine a -- go -- ny;
 My sins thy blee -- ding hands have torn;
@@ -86,6 +88,7 @@ altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
+\set stanza = "3."
 Thy voice can all my fears con -- trol;
 Thy glance can make my sad -- ness flee;
 Oh, chase the mid -- night from my soul,
@@ -96,6 +99,7 @@ tenorWordsTwo = \lyricmode {
 }
 
 bassWords = \lyricmode {
+\set stanza = "4."
 O wee -- per in the gar -- den's gloom!
 O suf -- ferer on the shame -- ful tree!
 Great con -- queror of the van -- quished tomb,
