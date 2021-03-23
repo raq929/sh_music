@@ -44,7 +44,7 @@ altoMusic = \fasola Fa' {
 la4 la la8 [so] la4 Fa la8 [so] la2
 Fa4. so8 la4 la so la8 [so] la2
 Fa4 Fa8 [So] La4 Fa la8 [so] la4 so2
-so4. so8 la4 Fa la so la2
+so4. so8 la4 Fa la so Fa2
 so4. so8 la4. so8 Fa [mi] Fa4 So2
 La4 Fa8 [mi] la4 la Fa So la2
 
@@ -95,7 +95,7 @@ And the sounds of con -- flict cease;
 When each port is choked with wares,
 And each field its har -- vest bears;
 'Mid the world's pros -- pe -- ri -- ty,
-Chirst, our hope is all in thee!
+Christ, our hope is all in thee!
 }
 altoWordsTwo = \lyricmode {
 }
