@@ -13,7 +13,7 @@ title = "Song"
 meter = ""
 poet = "Christina Rossetti"
 pdate = "1848"
-composer = "Lael Birch"
+composer = "Lael Birch and Leah Velleman"
 cdate = "2021"
 
 pitch = d % The written pitch
@@ -32,8 +32,11 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleMusic = \fasola Fa' {
-
+trebleMusic = \fasola Fa'' {
+r2. so4 Fa Fa so so8 [la] Fa2 so4 Fa So Fa so la So,2.
+so4 Fa Fa8 [mi] so4 So so la so fa so la so4. Fa,8 Fa2
+La2 La4 so la so8 [fa] la2 so4 Fa La So Fa so8 [fa] so2.
+so4 la so La La La (fa) so4 la Fa la so4. La8 La1
 }
 
 altoMusic = \fasola Fa' {
@@ -55,8 +58,8 @@ la so La So4. Fa8 Fa1
 }
 
 bassMusic = \fasola Fa {
-r2. Fa4 | Fa Fa so' so | La4( So) Fa la | Fa Fa So La | so2. La4 | Fa Fa so' so | La4( So) Fa la | Fa Fa So4. La8 | fa2 la
-so4 so La So8[ Fa] | So2 Fa4 Fa | so' so La So8[ Fa] | So2.
+r2. Fa4 | Fa Fa so' so | La4( So) Fa la | Fa Fa So La | so2. La4 | Fa Fa so' so | La4 So Fa la | Fa Fa So4. La8 | fa2 la
+so4 so La So8[ Fa] | So2 Fa4 Fa | la' so La So8[ Fa] | So2.
 Fa4 | Fa Fa so' so | La( So) Fa la | Fa Fa So4. La8 | Fa1
 
 }
@@ -73,7 +76,7 @@ When I am dead, my dear -- est,
 Sing no sad songs for me;
 Plant thou no ro -- ses at my head,
 Nor sha -- dy cy -- press tree:
-Be the green grass above me
+Be the green grass a -- bove me
 With show'rs and dew -- drops wet;
 And if thou wilt, re -- mem -- ber,
 And if thou wilt, for -- get.
@@ -97,15 +100,7 @@ altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
-\set stanza = "1."
-When I am dead, my dear -- est,
-Sing no sad songs for me;
-Plant thou no ro -- ses at my head,
-Nor sha -- dy cy -- press tree:
-Be the green grass a -- bove me
-With show'rs and dew -- drops wet;
-And if thou wilt, re -- mem -- ber,
-And if thou wilt, for -- get.
+\trebleWords
 
 }
 tenorWordsTwo = \lyricmode {
@@ -113,7 +108,8 @@ tenorWordsTwo = \lyricmode {
 }
 
 bassWords = \lyricmode {
-\set stanza = "4."
+\set stanza = "2."
+\altoWords
 
 }
 bassWordsTwo = \lyricmode {
