@@ -83,10 +83,6 @@ And if thou wilt, for -- get.
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
-}
-
-altoWords = \lyricmode {
-\set stanza = "2."
 I shall not see the sha -- dows,
 I shall not feel the rain;
 I shall not hear the night -- in -- gale
@@ -96,6 +92,11 @@ That doth not rise nor set,
 Hap -- ly I may re -- mem -- ber,
 And hap -- ly may for -- get.
 }
+
+altoWords = \lyricmode {
+\set stanza = "2."
+
+}
 altoWordsTwo = \lyricmode {
 }
 
@@ -104,12 +105,11 @@ tenorWords = \lyricmode {
 
 }
 tenorWordsTwo = \lyricmode {
-\set stanza = "2."
+\trebleWordsTwo
 }
 
 bassWords = \lyricmode {
-\set stanza = "2."
-\altoWords
+
 
 }
 bassWordsTwo = \lyricmode {
