@@ -9,8 +9,8 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "Song"
-meter = ""
+title = "Remembrance"
+meter = "P.M."
 poet = "Christina Rossetti"
 pdate = "1848"
 composer = "Lael Birch and Leah Velleman"
@@ -33,9 +33,9 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa'' {
-r2. so4 La La so so8 [la] Fa2 so4 Fa So Fa so la So,2.
-La4 so la8 [so] La4 La La la so la Fa la so4. Fa,8 Fa2
-La2 La4 so la so8 [fa] la2 so4 Fa La So Fa so8 [fa] so2.
+r2. so4 La Fa so' so8 [la] Fa2 so4 Fa So Fa so la So,2.
+Fa4 so' la8 [so] La4 So La la so la Fa la so4. Fa,8 Fa2
+La2 Fa4 so' la so8 [fa] la2 so4 Fa La So Fa so8 [fa] so2.
 so4 la so La La La (fa) so4 la Fa la so4. La8 La1
 }
 
@@ -58,8 +58,8 @@ la so La So4. Fa8 Fa1
 }
 
 bassMusic = \fasola Fa {
-r2. Fa4 | Fa Fa so' so | La4( So) Fa la | Fa Fa So La | so2. La4 | Fa Fa so' so | La4 So Fa la | Fa Fa So4. La8 | fa2 la
-so4 so La So8[ Fa] | So2 Fa4 Fa | la' so La So8[ Fa] | So2.
+r2. Fa4 | Fa Fa so' so | La4( So) Fa la | so Fa So La | so2. La4 | Fa Fa so' so | La4 So Fa la | Fa Fa So4. La8 | fa2 la
+so4 so La So8[ Fa] | So2 Fa4 Fa | la' so La So8[ Fa] | so2.
 Fa4 | Fa Fa so' so | La( So) Fa la | Fa Fa So4. La8 | Fa1
 
 }
