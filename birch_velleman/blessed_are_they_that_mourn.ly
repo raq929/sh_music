@@ -33,7 +33,7 @@ fontSize = 0
 trebleMusic = \fasola Fa' {
 r4 So La8 So Fa4 Fa La8 so so4
 so la8 so so4 La4 So8 La so4
-so La8 La So4 Fa Fa8 So La2
+so La8 La So4 Fa Fa8 So La2\fermata
 
 Fa4. La8 La4 La2 So4 La2. 
 Fa4. Fa8 Fa4 | Fa2 Fa4 | So2 
@@ -45,7 +45,7 @@ Fa,4. La8 La4 La2 So4 Fa2.
 altoMusic = \fasola Fa' {
 r4 so Fa8 mi Fa4 la so8 so so4
 mi Fa8 So La4 Fa So8 Fa mi4
-Fa Fa8 Fa So4 Fa la8 so la2
+Fa Fa8 Fa So4 Fa la8 so la2\fermata
 
 la4. la8 so4 Fa2 so4 la2.
 la4. Fa8 Fa4 la2 la4 so2
@@ -56,7 +56,7 @@ la,4. la8 la4 Fa2 so4 so2.
 tenorMusic = \fasola Fa' {
 r4 so4 Fa8 So8 La4 fa La8 So Fa4
 So4 La8 So Fa4 La so8 La So4
-so4 Fa8 la so4 fa4 La8 So Fa2
+so4 Fa8 la so4 fa4 La8 So Fa2\fermata
 \bar"."\newSpacingSection\break
 \time 3/4 { 
 Fa4. Fa8 Fa4 Fa2 mi4 Fa2. 
@@ -70,7 +70,7 @@ Fa,4. Fa8 Fa4 Fa2 mi4 Fa2.
 bassMusic = \fasola Fa {
 r4 so | so8 la Fa4 | Fa so8 La | <Fa Fa'>4 so'
 la8 so Fa4 | Fa so8 La | so4 
-so4 la8 la so4 | la Fa8 so | la2
+so4 la8 la so4 | la Fa8 so | la2\fermata
 
 la4. la8 so4 | so2 so4 | la2.
 la4. la8 so4 | Fa2 Fa4 | so2
