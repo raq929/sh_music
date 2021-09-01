@@ -11,8 +11,8 @@ title = ""
 meter = ""
 poet = ""
 pdate = ""
-composer = "Leah Velleman"
-cdate = "2019"
+composer = "Leah Velleman and Lael Birch"
+cdate = "2021"
 
 pitch = a % The written pitch
 isMajor = ##f   % Use ##t for major and ##f for minor
