@@ -85,7 +85,7 @@ bassWords = \lyricmode {
 O blest are they whose rai -- ment bright 
 Is washed from ev -- 'ry stain of sin;
 they shall to life's fair tree have right,
-ANd through the gates shall en -- ter in.
+And through the gates shall en -- ter in.
 }
 bassWordsTwo = \lyricmode {
 }

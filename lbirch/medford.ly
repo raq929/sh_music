@@ -37,7 +37,7 @@ trebleMusic = \fasola Fa'' {
 
 altoMusic = \fasola Fa' {
 	r2  \repeat volta 2 { Fa2 so4 so la mi Fa2 so4 Fa so la la so so2 }
-	so so4 so la Fa8 (So) La2 Fa4 la Fa Fa mi Fa so2
+	so so4 so la Fa8 (So) La2 Fa4 la so Fa mi Fa so2
 	Fa2 so4 so la mi Fa2 so4 Fa so la la so so1
 }
 

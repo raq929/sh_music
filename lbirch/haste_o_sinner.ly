@@ -7,7 +7,7 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "Hear, O Sinner"
+title = "Haste, O Sinner"
 meter = "8s & 7s & 4s"
 poet = "Andrew Reed"
 pdate = "1862"
@@ -57,11 +57,12 @@ tenorMusic = \fasola Fa' {
 La4 La La8 (fa) so (fa) La4 So Fa so 
 La' La La8 (fa) so (fa) La4 So La2
 so4 so8 (la) so4 fa La So Fa so |
-Fa4 So La8 (fa) La (So) Fa4 mi Fa2 |
+Fa4 So La8 (fa) La (So) Fa4 mi Fa2 \bar ".|:"
+
 \repeat volta 2 {
 La2~La4 So4 La8 so4.~so2 so4 fa4 La8 (fa) La (So) Fa4 mi Fa2 
 }
-\bar"|."
+\bar"||"
 }
 
 bassMusic = \fasola Fa {
@@ -107,7 +108,13 @@ altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
-\set stanza = "2."
+\set stanza = "1."
+Haste, O sin -- ner, to the Sa -- viour!
+Seek his mer -- cy while you may;
+Soon the day of grace is o -- ver,
+Soon your life will pass a -- way;
+Haste, O sin -- ner!
+You must pe -- rish if you stay.
 
 
 }
@@ -118,7 +125,13 @@ tenorWordsTwo = \lyricmode {
 }
 
 bassWords = \lyricmode {
-\set stanza = "4."
+\set stanza = "2." 
+Hear, O sin -- ner! Mer -- cy hails you;
+Now with sweet -- est voice she calls;
+Bids you haste to seek the Sa -- viour,
+Ere the hand of jus -- tice falls.
+Hear, O sin -- ner!
+'Tis the voice of Mer -- cy calls.
 
 }
 bassWordsTwo = \lyricmode {
