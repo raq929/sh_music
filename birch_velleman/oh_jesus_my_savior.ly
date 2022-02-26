@@ -31,6 +31,10 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
+r2 la | Fa4.( la8) so8[ la] Fa4 | So2 La4 so | La2 Fa4 so' | La2. 
+Fa4 | Fa4.( la8) so8[ la] Fa4 | So2 La4 so | La2 Fa4 so' | La2. 
+So4 | Fa2 Fa8[ So] La4 | so4.( La8) So4 So | Fa2 Fa8[ la] so4 | la2.
+la4 | Fa2 Fa8[ So] La4 | so4.( La8) So4 So | Fa2 Fa4 So | La2.
 }
 
 altoMusic = \fasola Fa' {
@@ -53,6 +57,10 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+How firm a foun -- dat -- ion, ye saints of the lord,
+Is laid for your faith in his ex -- cell -- ent word.
+What more can he say than to you he hath said,
+You who un -- to Je -- sus for re -- fuge hath fled?
 
 }
 trebleWordsTwo = \lyricmode {
@@ -66,10 +74,6 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "1."
-Oh Je -- sus, my sa -- vior, I know thou art mine;
-For thee, all the plea -- sures of sin I re -- sign;
-Of ob -- jects most plea -- sing, I love thee the best;
-With -- out thee I'm wret -- ched, but with thee I'm bles’t.
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
