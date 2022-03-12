@@ -101,7 +101,7 @@ tenorWordsThree = \lyricmode {
 
 }
 bassWords = \lyricmode {
-
+\set stanza = "3."
 Go, hum -- ble swains, said he,
 To Da -- vid's ci -- ty fly;
 The pro -- mised in -- fant born to -- day
@@ -109,6 +109,7 @@ Doth in a man -- ger lie.
 
 }
 bassWordsTwo = \lyricmode {
+\set stanza = "4."
 Glo -- ry to God on high!
 And heav'n -- ly peace on earth;
 Good -- will to men, to an -- gels joy,
