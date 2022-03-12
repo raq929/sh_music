@@ -34,9 +34,10 @@ trebleMusic = \fasola Fa'' {
 r2. so8 so | La4 La so so | so2 La4
 so8 so | La4 La so Fa | so2.
 La8 so | la4 la so so | so2 La4
-so8 fa | La4 fa so fa | La2
+La8 fa | so4 fa so fa | La2
 
-\repeat volta 2 { So4 So | La2 La4. La8 | so so4.
+\repeat volta 2 { 
+So4 So | Fa2 La4. La8 | so so4.
 Fa4 la | la2 so4. Fa8 | Fa so4.
 so4 La | Fa2 La4. La8 | so Fa4.
 so4 la | la2 so2 | } 
@@ -71,7 +72,7 @@ tenorMusic = \fasola Fa' {
 r2. Fa8 La | so4 so so La | So2 Fa4
 Fa8 La | so4 so so La | So2.
 La8 so8 | fa4 fa so La | So2 Fa4
-La8 fa | Fa'4 Fa La, So | Fa2 
+so'8 fa | La4 fa La So | Fa2 
 \mark "Chorus"
 \repeat volta 2 { 
 So4 So | Fa2 Fa4. Fa8 | La8 La4.
