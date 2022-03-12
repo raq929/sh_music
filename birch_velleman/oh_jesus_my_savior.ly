@@ -7,10 +7,10 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = ""
+title = "Bowen’s Pond"
 meter = "11s"
-poet = ""
-pdate = ""
+poet = "H.L. Hastings"
+pdate = "1883"
 composer = "Leah Velleman and Lael Birch"
 cdate = "2022"
 
@@ -84,7 +84,7 @@ altoWordsTwo = \lyricmode {
 tenorWords = \lyricmode {
 \set stanza = "2."
 Your sins may like moun -- tains be -- fore you a -- rise,
-"But the" mer -- cy of God fils the earth and the skies,
+"But the" mer -- cy of God fills the earth and the skies,
 Ye wea -- ry and guil -- ty give heed to his call;
 There's par -- don for you, there is par -- don for all.
 }
@@ -93,6 +93,7 @@ tenorWordsTwo = \lyricmode {
 }
 
 bassWords = \lyricmode {
+\set stanza = "3."
 The moun -- tains shall shake and the hills shall de -- part,
 But no -- thing shal trou -- ble the san -- ti -- fied heart;
 For He who hath loved us, our Sa -- vior and Friend,
