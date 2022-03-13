@@ -7,19 +7,19 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "Behold the grace appears"
-meter = "6.6.8.6"
-poet = "Isaac Watts"
-pdate = "1770"
-composer = "Lael Birch and Leah Velleman"
+title = "Gill"
+meter = "C.M."
+poet = "Brady and Tate"
+pdate = "1696"
+composer = "Leah Velleman"
 cdate = "2020"
 
-pitch = a % The written pitch
+pitch = c % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
 
-timeSignature = 6/8
+timeSignature = 4/4
 
-midiTempo = 90
+midiTempo = 150
 midiInstrument = "piano"
 
 % systemCount = 1
@@ -30,33 +30,28 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleMusic = \fasola Fa' {
-r4. r4 Fa8 | La4 so8 so4 la8 | so4.~ so4
-so8 | Fa,4 So8 Fa4 So8 | so4.~ so4
-La8 | Fa4 La8 la[ so] fa | so[ fa] La | so4
-so8 | fa4 La8 fa [ La] so | so2. 
-
-
+trebleMusic = \fasola Fa'' {
+r2 Fa | La4 La La2 | So4.( La8) so4 so | La2 
+Fa | La4 La La8[ So] Fa[ mi] | la2.
+\repeat volta 2 {
+r4 | r2. La'4 | Fa Fa Fa La | So So so La8[ So] | Fa4 Fa Fa So | La2 La | Fa4 Fa La8[ So] Fa8[ So] }
+\alternative { { La2. } { La1 }}
 }
 
 altoMusic = \fasola Fa' {
+}
 
-
-} 
-
-tenorMusic = \fasola Fa' {
-r4. r4 so8 | Fa4 La8 So[ Fa] mi | Fa4.~ Fa4
-La8 | La4 so8 fa4 So8 | La4.~ La4
-La8 | so4 la8 fa[ La] So | La[ So] Fa So4
-so,8 | Fa4 La8 So[ Fa] mi | Fa2. 
-  \bar"|."
+tenorMusic = \fasola Fa'' {
+r2 so | so4 la Fa2 | So4.( La8) Fa4 la | so2 
+so | la4 so la Fa | So2.
+\repeat volta 2 {
+Fa4 | La La La so | fa fa fa La | So So So so | La4.( So8 Fa4) la | so2
+so | la4 so la Fa |
+}
+\alternative { { Fa2. } { Fa1 } }
 }
 
 bassMusic = \fasola Fa {
-r4. r4 Fa8 | so4 so8 so4 so8 | Fa4.~ 4 
-so8 | La4 so8 Fa4 la8 | so4.~ 4
-so8 | Fa4 Fa8 Fa4 so8 | la4 la8 so4
-La8 | fa4 la8 so4 so8 | Fa,2.
 }
 
 
@@ -66,54 +61,46 @@ La8 | fa4 la8 so4 so8 | Fa,2.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-Be -- hold, the grace ap -- pears!
-The pro -- mise is ful -- filled;
-Ma -- ry, the won -- drous vir -- gin, bears,
-And Je -- sus is the child.
-
+Through all the chang -- ing scenes of life,
+In trou -- ble and in joy,
+The prais -- es of my God and king,
+My heart and tongue em -- ploy,
+My heart and tongue em -- ploy.
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
+Fear him, ye saints, and you will then
+Have no -- thing else to fear;
+Make you his ser -- vice your de -- light:
+Your wants shall be his care,
+Your wants shall be his care.
 }
 
 altoWords = \lyricmode {
-\set stanza = "1."
-
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
-\set stanza = "2."
-To bring the glo -- rious news
-A heav'n -- ly form ap -- pears;
-He tells the shep -- herds of their joys,
-And ba -- ni -- shes their fears.
-
+\set stanza = "1."
+Through all the chang -- ing scenes of life,
+In trou -- ble and in joy,
+The prais -- es of my God and king,
+The prais -- es of my God and king,
+My heart and tongue em -- ploy.
 }
 tenorWordsTwo = \lyricmode {
-
-
-
-
+\set stanza = "2."
+Fear him, ye saints, and you will then
+Have no -- thing else to fear;
+Make you his ser -- vice your de -- light,
+Make you his ser -- vice your de -- light:
+Your wants shall be his care.
 }
-tenorWordsThree = \lyricmode {
 
-}
 bassWords = \lyricmode {
-\set stanza = "3."
-Go, hum -- ble swains, said he,
-To Da -- vid's ci -- ty fly;
-The pro -- mised in -- fant born to -- day
-Doth in a man -- ger lie.
-
 }
 bassWordsTwo = \lyricmode {
-\set stanza = "4."
-Glo -- ry to God on high!
-And heav'n -- ly peace on earth;
-Good -- will to men, to an -- gels joy,
-At the Re -- dee -- mer's birth!
 }
 
 

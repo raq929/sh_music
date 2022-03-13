@@ -1,3 +1,4 @@
+
 \version "2.19.2"
 \include "../templates/includes/setup.ily"
 \include "../templates/includes/fasola.ily"
@@ -7,19 +8,19 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "Behold the grace appears"
-meter = "6.6.8.6"
-poet = "Isaac Watts"
-pdate = "1770"
-composer = "Lael Birch and Leah Velleman"
-cdate = "2020"
+title = "Grown old"
+meter = "11s"
+poet = ""
+pdate = ""
+composer = "Lael Birch"
+cdate = "2022"
 
-pitch = a % The written pitch
-isMajor = ##t   % Use ##t for major and ##f for minor
+pitch = e % The written pitch
+isMajor = ##f  % Use ##t for major and ##f for minor
 
 timeSignature = 6/8
 
-midiTempo = 90
+midiTempo = 100
 midiInstrument = "piano"
 
 % systemCount = 1
@@ -31,32 +32,23 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-r4. r4 Fa8 | La4 so8 so4 la8 | so4.~ so4
-so8 | Fa,4 So8 Fa4 So8 | so4.~ so4
-La8 | Fa4 La8 la[ so] fa | so[ fa] La | so4
-so8 | fa4 La8 fa [ La] so | so2. 
-
-
+ 
 }
 
 altoMusic = \fasola Fa' {
 
 
-} 
-
+}
+ 
 tenorMusic = \fasola Fa' {
-r4. r4 so8 | Fa4 La8 So[ Fa] mi | Fa4.~ Fa4
-La8 | La4 so8 fa4 So8 | La4.~ La4
-La8 | so4 la8 fa[ La] So | La[ So] Fa So4
-so,8 | Fa4 La8 So[ Fa] mi | Fa2. 
-  \bar"|."
+r4.la | Fa8 So La La4. | La4 La8 La So Fa | la4. 
+la | Fa8 So La So4. | So4 So8 Fa So La | La4.
+la, | Fa8 So La La4. | So4( So8) La8 so la | La4.
+La4. | la8 so La So4. | So La8 Fa mi | la2. \bar"|."
 }
 
 bassMusic = \fasola Fa {
-r4. r4 Fa8 | so4 so8 so4 so8 | Fa4.~ 4 
-so8 | La4 so8 Fa4 la8 | so4.~ 4
-so8 | Fa4 Fa8 Fa4 so8 | la4 la8 so4
-La8 | fa4 la8 so4 so8 | Fa,2.
+
 }
 
 
@@ -66,10 +58,7 @@ La8 | fa4 la8 so4 so8 | Fa,2.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-Be -- hold, the grace ap -- pears!
-The pro -- mise is ful -- filled;
-Ma -- ry, the won -- drous vir -- gin, bears,
-And Je -- sus is the child.
+
 
 }
 trebleWordsTwo = \lyricmode {
@@ -77,43 +66,28 @@ trebleWordsTwo = \lyricmode {
 }
 
 altoWords = \lyricmode {
-\set stanza = "1."
-
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
 \set stanza = "2."
-To bring the glo -- rious news
-A heav'n -- ly form ap -- pears;
-He tells the shep -- herds of their joys,
-And ba -- ni -- shes their fears.
+The world is grown old and her plea -- sures are past;
+The world is grown old and her form may not last;
+The world is grown old and trem -- bles for fear:
+For sor -- rows a -- bound and judge -- ment is near.
 
 }
 tenorWordsTwo = \lyricmode {
-
-
-
+\set stanza = "2."
 
 }
-tenorWordsThree = \lyricmode {
 
-}
 bassWords = \lyricmode {
 \set stanza = "3."
-Go, hum -- ble swains, said he,
-To Da -- vid's ci -- ty fly;
-The pro -- mised in -- fant born to -- day
-Doth in a man -- ger lie.
 
 }
 bassWordsTwo = \lyricmode {
-\set stanza = "4."
-Glo -- ry to God on high!
-And heav'n -- ly peace on earth;
-Good -- will to men, to an -- gels joy,
-At the Re -- dee -- mer's birth!
 }
 
 

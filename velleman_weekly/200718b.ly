@@ -7,22 +7,22 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "Behold the grace appears"
-meter = "6.6.8.6"
-poet = "Isaac Watts"
-pdate = "1770"
-composer = "Lael Birch and Leah Velleman"
+title = ""
+meter = ""
+poet = "Leah Velleman"
+pdate = "2020"
+composer = "Leah Velleman and Lael Birch"
 cdate = "2020"
 
-pitch = a % The written pitch
+pitch = c % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
 
-timeSignature = 6/8
+timeSignature = 4/4
 
-midiTempo = 90
+midiTempo = 150
 midiInstrument = "piano"
 
-% systemCount = 1
+systemCount = 1
 
 staffSize = 20
 fontSize = 0
@@ -30,33 +30,22 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleMusic = \fasola Fa' {
-r4. r4 Fa8 | La4 so8 so4 la8 | so4.~ so4
-so8 | Fa,4 So8 Fa4 So8 | so4.~ so4
-La8 | Fa4 La8 la[ so] fa | so[ fa] La | so4
-so8 | fa4 La8 fa [ La] so | so2. 
-
-
+trebleMusic = \fasola Fa'' {
+r2.
+Fa4 | La La La Fa | so'4.( La8 So4) La | Fa2. r4 | r2. La4 | So8[ Fa] So[ La] so4 La8[ So] | Fa4 Fa Fa La | So So So So8[ La] | Fa2. la8[ so] | la4 Fa Fa So | La2.
 }
 
 altoMusic = \fasola Fa' {
-
-
-} 
-
-tenorMusic = \fasola Fa' {
-r4. r4 so8 | Fa4 La8 So[ Fa] mi | Fa4.~ Fa4
-La8 | La4 so8 fa4 So8 | La4.~ La4
-La8 | so4 la8 fa[ La] So | La[ So] Fa So4
-so,8 | Fa4 La8 So[ Fa] mi | Fa2. 
-  \bar"|."
 }
 
-bassMusic = \fasola Fa {
-r4. r4 Fa8 | so4 so8 so4 so8 | Fa4.~ 4 
-so8 | La4 so8 Fa4 la8 | so4.~ 4
-so8 | Fa4 Fa8 Fa4 so8 | la4 la8 so4
-La8 | fa4 la8 so4 so8 | Fa,2.
+tenorMusic = \fasola Fa'' {
+r2.
+r4 | r1 | r2. Fa4 | la la la so | Fa Fa Fa La4 | So1( | so2 La | So2.) So8[ La] | fa2. La8[ So] | Fa2 Fa | Fa2.
+}
+
+bassMusic = \fasola Fa' {
+r2.
+Fa4 | la la la so | Fa2 so | Fa,2. so'4 | Fa, Fa Fa8[ So] La[ fa] | so1( | Fa2 la | so2.) la8[ mi] | Fa2. la4 | fa2 so | Fa,2.
 }
 
 
@@ -65,11 +54,9 @@ La8 | fa4 la8 so4 so8 | Fa,2.
 %%                                 Verses                                    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
-\set stanza = "1."
-Be -- hold, the grace ap -- pears!
-The pro -- mise is ful -- filled;
-Ma -- ry, the won -- drous vir -- gin, bears,
-And Je -- sus is the child.
+"Through wind and fire and driving rain," _ _ _ _ _ _ _
+"Through wind and fire and driving rain, A shouting we'll go on," _ _ _ _ _ _ _ _ _ _ _ _ _
+"A shouting we'll go on." _
 
 }
 trebleWordsTwo = \lyricmode {
@@ -77,43 +64,25 @@ trebleWordsTwo = \lyricmode {
 }
 
 altoWords = \lyricmode {
-\set stanza = "1."
-
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
-\set stanza = "2."
-To bring the glo -- rious news
-A heav'n -- ly form ap -- pears;
-He tells the shep -- herds of their joys,
-And ba -- ni -- shes their fears.
-
+"Through wind and fire and driving rain, Go" _ _ _ _ _ _  _ _
+on __
+A shout -- ing we'll go on.
 }
 tenorWordsTwo = \lyricmode {
-
-
-
-
+\set stanza = "2."
 }
-tenorWordsThree = \lyricmode {
 
-}
 bassWords = \lyricmode {
-\set stanza = "3."
-Go, hum -- ble swains, said he,
-To Da -- vid's ci -- ty fly;
-The pro -- mised in -- fant born to -- day
-Doth in a man -- ger lie.
-
+"Through wind and fire and driving rain," _ _ _ _ _ _ _
+A shout -- ing we'll go on, __
+A shout -- ing we'll go on.
 }
 bassWordsTwo = \lyricmode {
-\set stanza = "4."
-Glo -- ry to God on high!
-And heav'n -- ly peace on earth;
-Good -- will to men, to an -- gels joy,
-At the Re -- dee -- mer's birth!
 }
 
 

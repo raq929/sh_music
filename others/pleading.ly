@@ -7,19 +7,19 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "Behold the grace appears"
-meter = "6.6.8.6"
-poet = "Isaac Watts"
-pdate = "1770"
-composer = "Lael Birch and Leah Velleman"
-cdate = "2020"
+title = ""
+meter = ""
+poet = ""
+pdate = ""
+composer = ""
+cdate = ""
 
 pitch = a % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
 
-timeSignature = 6/8
+timeSignature = 2/4
 
-midiTempo = 90
+midiTempo = 150
 midiInstrument = "piano"
 
 % systemCount = 1
@@ -31,32 +31,19 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-r4. r4 Fa8 | La4 so8 so4 la8 | so4.~ so4
-so8 | Fa,4 So8 Fa4 So8 | so4.~ so4
-La8 | Fa4 La8 la[ so] fa | so[ fa] La | so4
-so8 | fa4 La8 fa [ La] so | so2. 
-
-
 }
 
 altoMusic = \fasola Fa' {
-
-
-} 
+}
 
 tenorMusic = \fasola Fa' {
-r4. r4 so8 | Fa4 La8 So[ Fa] mi | Fa4.~ Fa4
-La8 | La4 so8 fa4 So8 | La4.~ La4
-La8 | so4 la8 fa[ La] So | La[ So] Fa So4
-so,8 | Fa4 La8 So[ Fa] mi | Fa2. 
-  \bar"|."
+Fa4 Fa | La La8[ So] | Fa4 Fa | Fa so | la so | Fa Fa8[ mi] | la4 so | so2
+
+La4 so | so4 so | Fa mi8[ la] | so4 so | La so | so4 la8[ mi] | Fa4 Fa | mi2
+Fa4 Fa | La La8[ So] | Fa4 Fa | Fa mi | la so | Fa Fa8[ mi] | la4 so | so2
 }
 
 bassMusic = \fasola Fa {
-r4. r4 Fa8 | so4 so8 so4 so8 | Fa4.~ 4 
-so8 | La4 so8 Fa4 la8 | so4.~ 4
-so8 | Fa4 Fa8 Fa4 so8 | la4 la8 so4
-La8 | fa4 la8 so4 so8 | Fa,2.
 }
 
 
@@ -65,55 +52,33 @@ La8 | fa4 la8 so4 so8 | Fa,2.
 %%                                 Verses                                    %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
-\set stanza = "1."
-Be -- hold, the grace ap -- pears!
-The pro -- mise is ful -- filled;
-Ma -- ry, the won -- drous vir -- gin, bears,
-And Je -- sus is the child.
-
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
 }
 
 altoWords = \lyricmode {
-\set stanza = "1."
-
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
-\set stanza = "2."
-To bring the glo -- rious news
-A heav'n -- ly form ap -- pears;
-He tells the shep -- herds of their joys,
-And ba -- ni -- shes their fears.
-
+Now the sav -- ior stands a plead -- ing
+At the sin -- ner's bolt -- ed heart;
+Sin -- ners, can you hate the sav -- ior?
+Will you thrust him from your arms?
+Once he died for your be -- hav -- ior,
+Now he calls you to his arms.
 }
 tenorWordsTwo = \lyricmode {
-
-
-
-
-}
-tenorWordsThree = \lyricmode {
+Now in heav’n he's in -- ter -- ced -- ing,
+Un -- der -- tak -- ing sin -- ners’ part. 
 
 }
+
 bassWords = \lyricmode {
-\set stanza = "3."
-Go, hum -- ble swains, said he,
-To Da -- vid's ci -- ty fly;
-The pro -- mised in -- fant born to -- day
-Doth in a man -- ger lie.
-
 }
 bassWordsTwo = \lyricmode {
-\set stanza = "4."
-Glo -- ry to God on high!
-And heav'n -- ly peace on earth;
-Good -- will to men, to an -- gels joy,
-At the Re -- dee -- mer's birth!
 }
 
 
