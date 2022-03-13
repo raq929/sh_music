@@ -8,14 +8,14 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = ""
+title = "Grown old"
 meter = "11s"
 poet = ""
 pdate = ""
 composer = "Lael Birch"
 cdate = "2022"
 
-pitch = f % The written pitch
+pitch = e % The written pitch
 isMajor = ##f  % Use ##t for major and ##f for minor
 
 timeSignature = 6/8
@@ -43,7 +43,7 @@ altoMusic = \fasola Fa' {
 tenorMusic = \fasola Fa' {
 r4.la | Fa8 So La La4. | La4 La8 La So Fa | la4. 
 la | Fa8 So La So4. | So4 So8 Fa So La | La4.
-La | La8 Fa mi la4. | Fa4( Fa8) La8 so la | La4.
+la, | Fa8 So La La4. | So4( So8) La8 so la | La4.
 La4. | la8 so La So4. | So La8 Fa mi | la2. \bar"|."
 }
 
