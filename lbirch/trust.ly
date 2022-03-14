@@ -64,8 +64,8 @@ So8 La4 so la  La Fa2 mi la1
  
 
 r1 r2. La'4 La fa so la mi4 (la2) so4 la4
-la La8 (So) Fa (mi) la4 Fa Fa mi la
-so Fa So4 La La4 so so So2.
+la La8 (So) Fa (mi) la4 Fa Fa mi la4.
+so8 Faf So4 La La4 so so So2.
 So4 La so la so La2 so la1
 
 
@@ -112,10 +112,10 @@ _ _ _ _ _ _ _ _
 
 
 \set stanza = "2."
-Then I shall hear thy chee -- ring voice;
+Yet I shall hear thy chee -- ring voice;
 In thee my soul shall yet re -- joice;
 Thou wilt rev -- eal thy smi -- ling face,
-And hence these gloo -- my hor -- rors chace.
+And hence these gloo -- my hor -- rors chase.
 
 }
 
@@ -140,10 +140,10 @@ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 
 \set stanza = "2."
-Then I shall hear thy chee -- ring voice;
+Yet I shall hear thy chee -- ring voice;
 In thee my soul shall yet re -- joice;
 Thou wilt rev -- eal thy smi -- ling face,
-And hence these gloo -- my hor -- rors chace.
+And hence these gloo -- my hor -- rors chase.
 }
 
 tenorWords = \lyricmode {
@@ -169,10 +169,10 @@ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 
 \set stanza = "2."
-Then I shall hear thy chee -- ring voice;
+Yet I shall hear thy chee -- ring voice;
 In thee my soul shall yet re -- joice;
 Thou wilt rev -- eal thy smi -- ling face,
-And hence these gloo -- my hor -- rors chace.
+And hence these gloo -- my hor -- rors chase.
 }
 
 bassWords = \lyricmode {
@@ -198,10 +198,10 @@ _ _ _ _ _ _ _ _
 
 
 \set stanza = "2."
-Then I shall hear thy chee -- ring voice;
+Yet I shall hear thy chee -- ring voice;
 In thee my soul shall yet re -- joice;
 Thou wilt rev -- eal thy smi -- ling face,
-And hence these gloo -- my hor -- rors chace.
+And hence these gloo -- my hor -- rors chase.
 }
 
 
