@@ -36,24 +36,24 @@ trebleMusic = \fasola Fa' {
 }
 
 altoMusic = \fasola Fa' {
-r4. la | Fa8 la la la4. | mi4 (mi8) mi la so | la4.
+r4. la | Fa8 la la la4. | mi4. mi8 la so | la4.
     la | Fa8 la la so4. | mi4 mi8 la mi Fa | mi4.
-	Fa | Fa8 la la la4. | so4 \(so8 \)la Fa So | La4.
+	Fa | Fa8 la la la4. | so4 so8 la Fa So | La4.
 	Fa | La8 So Fa mi4. | mi4. Fa8 la so | la2.
 
 }
  
 tenorMusic = \fasola Fa' {
-r4.la | Fa8 So La La4. | La4 (La8) La So Fa | la4. 
+r4.la | Fa8 So La La4. | La4. La8 So Fa | la4. 
 la | Fa8 So La So4. | So4 So8 Fa So La | La4.
-la, | Fa8 So La La4. | So4( So8) La8 so la | La4.
+la, | Fa8 So La La4. | So4 So8 La8 so la | La4.
 La4. | la8 so La So4. | So La8 Fa mi | la2. \bar"|."
 }
 
 bassMusic = \fasola Fa {
-r4. la | La'8 So Fa la4. | La4 (La8) so La so la4.  
+r4. la | La'8 So Fa la4. | La4. so8 La so la4.  
 Fa La8 So Fa so4. so4 so8 la La so La4.
-la4. La'8 So Fa la4. so4 (so8) la8 La So La4.
+la4. La'8 So Fa la4. so4 so8 la8 La So La4.
 la La'8 So Fa so4. so la8 La so la2.
 
 }
@@ -67,7 +67,7 @@ trebleWords = \lyricmode {
 \set stanza = "1."
 The world is grown old and her plea -- sures are past;
 The world is grown old and her form may not last;
-The world is grown old and trem -- bles for fear:
+The world is grown old and she trem -- bles for fear:
 For sor -- rows a -- bound and judge -- ment is near.
 
 
@@ -90,7 +90,7 @@ tenorWords = \lyricmode {
 \set stanza = "3."
 The king on his throne, the bride in her bower,
 The chil -- dren of plea -- sure all feel the sad hour;
-The roses are fa -- ded, and taste -- less the cheer,
+The ro -- ses are fa -- ded, and taste -- less the cheer,
 The world is grown old, and judg -- ment is near!
 
 }
@@ -103,7 +103,7 @@ bassWords = \lyricmode {
 \set stanza = "4."
 The world is grown old, but should we com -- plain?
 We tried her and know that her prom -- 'ses are vain.
-Our heart is in Heav'n, our home is not here:
+Our heart is in Hea -- ven, our home is not here:
 We look for our crown when judg -- ment is near!
 
 }
