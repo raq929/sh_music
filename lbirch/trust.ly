@@ -105,10 +105,11 @@ And seek in him a peace -- ful rest.
 }
 trebleWordsTwo = \lyricmode {
 
-_ _ _ _ _ _ _ _ _ _  
-_ _ _ _ _ _ _ _ _ _  
-_ _ _ _ _ _ _ _ _ _ 
-_ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _
+
 
 \set stanza = "2."
 Then I shall hear thy chee -- ring voice;
@@ -133,10 +134,10 @@ And seek in him a peace -- ful rest.
 }
 altoWordsTwo = \lyricmode {
 
-_ _ _ _ _ _ _ _ _ _  
-_ _ _ _ _ _ _ _ _ _  
-_ _ _ _ _ _ _ _ _ _ 
-_ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _
 
 \set stanza = "2."
 Then I shall hear thy chee -- ring voice;
@@ -162,10 +163,10 @@ And seek in him a peace -- ful rest.
 
 }
 tenorWordsTwo = \lyricmode {
-_ _ _ _ _ _ _ _ _ _  
-_ _ _ _ _ _ _ _ _ _  
-_ _ _ _ _ _ _ _ _ _ 
-_ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _
 
 \set stanza = "2."
 Then I shall hear thy chee -- ring voice;
@@ -190,10 +191,11 @@ And seek in him a peace -- ful rest.
 
 }
 bassWordsTwo = \lyricmode {
-_ _ _ _ _ _ _ _ _ _  
-_ _ _ _ _ _ _ _ _ _  
-_ _ _ _ _ _ _ _ _ _ 
-_ _
+_ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _ 
+_ _ _ _ _ _ _ _
+
 
 \set stanza = "2."
 Then I shall hear thy chee -- ring voice;
