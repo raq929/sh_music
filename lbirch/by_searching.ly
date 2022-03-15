@@ -46,7 +46,7 @@ So4 Fa4 (So) La4 la,2 mi4 Fa2.
 }
  
 tenorMusic = \fasola Fa' {
- r2 so'4 Fa2 so4 la2 La4 fa (La) So La2.
+ r2 so'4 Fa2 so4 la2 La4 fa (La) So Fa2.
  Fa'8 (mi4. Fa8 [so]) la2 so4 la2 La4 So2
  Fa4 La2 So4 so2 mi4 Fa2 fa,4 so2
  so4 Fa (mi) la La2 So4 Fa2.
