@@ -41,8 +41,8 @@ altoMusic = \fasola Fa' {
 tenorMusic = \fasola Fa' {
 r4. Fa4 La8 so4 so8 fa8 [La] So Fa4 mi8
 Fa8 [mi] Fa So4 So8 La8 [fa] La So4. 
-Fa4 La8 so4 so8 Fa8 [mi] la so4 so8
-fa [la] so La4 La8 So [Fa] mi Fa4.
+Fa4 So8 La4 so8 Fa4 La,8 So4 La8
+so8 (Fa) la so4 La8 So (Fa) mi Fa4.
 
 Fa4 So8 La4 La8 \tuplet 2/3 { Fa' mi } la4 so8 
 La4 fa8 so4 so8 \tuplet 2/3 { la so } so4.
