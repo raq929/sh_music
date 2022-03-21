@@ -37,7 +37,7 @@ trebleMusic = \fasola Fa'' {
  Fa8 Fa Fa4 Fa la8 so Fa4. r8
 
  Fa8 Fa Fa4. La8 So Fa So Fa4.
- Fa8 Fa La4. Fa8 Fa16[ So] La8 So2
+ Fa8 La La4. Fa8 Fa16[ So] La8 So2
  So8 la so4 la So8 La So Fa4. 
  Fa8 Fa Fa4 Fa Fa8 So La2.
 
