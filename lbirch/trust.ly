@@ -41,7 +41,7 @@ so8 La4 So La so la2 so La2.
 
   \repeat volta 2 { 
     r4 r1 r r2. la4 so la Fa la La La La4 
-    La8 (So) La4 La4 La8 So Fa mi la4. So8 La4 so la La So So so2.
+    La8 (So) La4 La4 La8 So Fa mi la4 So La4 so la La So So so2.
     so4 la so La So La2 La
   }
 
@@ -57,7 +57,7 @@ Fa2 la4 la so so so so so4. so8 la4 So La La La2 So Fa2.
 \repeat volta 2 { 
 la4 | la so Fa Fa la8 (so) la (mi) la4 
 la4 Fa2 so2 so4 la4 so2 (la2.) La4 la2. 
-so4 la4. mi8 Fa4 mi Fa Fa mi2 ~2.
+so4 la4 mi Fa4 mi Fa Fa mi2 ~2.
 mi4 Fa mi la so la2 La 
 } 
 \alternative { 
@@ -77,8 +77,8 @@ tenorMusic = \fasola Fa' {
  
   \repeat volta 2 { 
     r4 r1 r2. La'4 La fa so la mi4 (la2) so4 la4
-    la La8 (So) Fa (mi) la4 Fa Fa mi la4.
-    so8 Fa4 So4 La La4 so so So2.
+    la La8 (So) Fa (mi) la4 Fa Fa mi la4
+    so Fa4 So4 La La4 so so So2.
     So4 La so la so La2 so
   }
 
@@ -91,12 +91,12 @@ tenorMusic = \fasola Fa' {
 bassMusic = \fasola Fa {
 la2 Fa4 So La La la, So Fa4. 
 so8 la4 mi la la La so la2
-la la4 la Fa So So Fa so4. 
+la la4 la Fa So So Fa so4.
 so8 la4 so Fa la La2 so la2.
 
   \repeat volta 2 {
     r4 r2. la4 | la La la Fa | Fa8 (mi) la (so) La2 La La'4 La la,2. mi4 la
-    so4 la so Fa4. mi8 la4 so Fa la so2 ~2. so4 la so La' So La2 La, 
+    so4 la so Fa4 mi la4 so Fa la so2 ~2. so4 la so La' So La2 La, 
   }
   \alternative { 
     { \shortmeasure la2. \longmeasure} 
