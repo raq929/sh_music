@@ -11,8 +11,8 @@ title = "Montgomery"
 meter = "C.M."
 poet = "James Montgomery"
 pdate = "1825"
-composer = "Leah Velleman"
-cdate = "2019"
+composer = "Leah Velleman and Lael Birch"
+cdate = "2022"
 
 pitch = fs % The written pitch
 isMajor = ##f   % Use ##t for major and ##f for minor
@@ -31,6 +31,10 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
+La1 | Fa2 So So La la4 (so) La (So) La1
+r2 La2 Fa mi Fa La La1
+r2 La Fa So La La Fa La4 (So) La1
+r2 La4 (So) So2 La4 (so) la (so) La (So) La1  \bar"|."
 }
 
 altoMusic = \fasola Fa' {
