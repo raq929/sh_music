@@ -133,7 +133,7 @@ altoWords = \lyricmode {
 The plea -- sant, un -- ex -- huas -- ted theme
 Each ri -- sing morn my soul pur -- sues
 In fer -- vent prayer a -- scends to thee,
-And sitll her grate -- ful song re -- news.
+And still her grate -- ful song re -- news.
 
 Nor days, nor nights, nor months, nor years
 Nor cen -- tu -- ries would e’er suf -- fice
@@ -166,7 +166,7 @@ bassWords = \lyricmode {
 The plea -- sant, un -- ex -- huas -- ted theme
 Each ri -- sing morn my soul pur -- sues
 In fer -- vent prayer a -- scends to thee,
-And sitll her grate -- ful song re -- news.
+And still her grate -- ful song re -- news.
 
 Nor days, nor nights, nor months, nor years
 Nor cen -- tu -- ries would e’er suf -- fice
