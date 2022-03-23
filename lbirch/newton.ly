@@ -12,7 +12,7 @@ meter = "C.M."
 poet = "Anne Steele"
 pdate = "1760"
 composer = "L. Birch"
-cdate = "2019"
+cdate = "2019"/Users/lb/sh_music/lbirch/stone_road.ly
 
 pitch = g % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
@@ -31,9 +31,9 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
- La2 so4 fa so2 La4.( So8) Fa4 La8[ So] La2
+ La2 so4 fa so2 La4.( So8) Fa4 Fa8[ So] La2
  Fa so'4 fa La fa so la so2
- La2 so4 fa so2 La4.( So8) Fa4 So8 [Fa] | So2
+ La2 so4 fa so2 La4.( So8) Fa4 So8 [La] | So2
  La so4 so8 [la] mi2 la2 so4 so <so La>1 \bar "|."
 }
 
