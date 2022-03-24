@@ -36,7 +36,7 @@ r2.
     Fa8[ So] | La4 Fa Fa so | la Fa Fa La | So Fa Fa So | La2 La4
   }
   \repeat volta 2 {
-    Fa4 so2 so4 so | la Fa La so | so La So Fa 
+    Fa4 so2 so4 so | la Fa Fa La | so La So Fa 
   }
   \alternative {
     { La2 La4 }
@@ -49,7 +49,7 @@ r2.
 altoMusic = \fasola Fa' {
 r2.
    \repeat volta 2 { 
-     La8[ So] | La4 La La so | La La La8[ So] Fa4 | So La La So | La2 La4
+     Fa8[ So] | La4 La La so | La La La8[ So] Fa4 | So La La So | La2 La4
    }
    \repeat volta 2 { 
      Fa4 | so'2 so4 so | la so La8[ So] Fa4 | So La La So 
@@ -80,7 +80,7 @@ r2.
      Fa8[ la] | so4 so Fa, Fa | La4 so Fa, La | so so so La | Fa'2 Fa4
    }
    \repeat volta 2 { 
-     Fa4 | so2 so4 so | la so Fa, La | so so so La
+     Fa4 | so2 so4 so | la Fa Fa, La | so so so La
     }
   \alternative {
     { <Fa Fa'>2 <Fa Fa'>4 }
@@ -95,38 +95,38 @@ r2.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-Now let my faith and love in -- crease
-Sing glo -- ry, Hal -- le -- lu -- jah!
-We'll go on, we'll tra -- vel on,
-Sing glo -- ry, Hal -- le -- lu -- jah!
+Now let my faith "and love increase" _ _ _
+"Sing glory," _ _ Halle -- _ lu -- jah!
+We'll go "on, we'll" _ tra -- vel on,
+"Sing glory," _ _ Halle -- _ lu -- jah!
 }
 trebleWordsTwo = \lyricmode {
-I want to pray and nev -- er cease,
-Sing glo -- ry, Hal -- le -- lu -- jah!
+I "want to pray and never cease," _ _ _ _ _ _
+"Sing glory," _ _ Halle -- _ lu -- jah!
 }
 
 altoWords = \lyricmode {
 \set stanza = "2."
-But oft when I be -- gin to pray
-Sing glo -- ry, Hal -- le -- lu -- jah!
-We'll go on, we'll tra -- vel on,
-Sing glo -- ry, Hal -- le -- lu -- jah!
+"But oft when I begin to pray" _ _ _ _ _ _ _
+"Sing glory," _ _ Halle -- _ lu -- jah!
+We'll go "on, we'll" _ tra -- vel on,
+"Sing glory," _ _ Halle -- _ lu -- jah!
 }
 altoWordsTwo = \lyricmode {
 "My thoughts would rove to Earth away" _ _ _ _ _ _ _
-Sing glo -- ry, Hal -- le -- lu -- jah!
+"Sing glory," _ _ Halle -- _ lu -- jah!
 }
 
 tenorWords = \lyricmode {
 \set stanza = "3."
 "And when I reach that blessed abode" _ _ _ _ _ _ _
-Sing glo -- ry, Hal -- le -- lu -- jah!
-We'll go on, we'll tra -- vel on,
-Sing glo -- ry, Hal -- le -- lu -- jah!
+"Sing glory," _ _ Halle -- _ lu -- jah!
+We'll go "on, we'll" _ tra -- vel on,
+"Sing glory," _ _ Halle -- _ lu -- jah!
 }
 tenorWordsTwo = \lyricmode {
-"My thoughts no more shall rove abroad" _ _ _ _ _ _ _
-Sing glo -- ry, Hal -- le -- lu -- jah!
+"My thoughts no more shall rove abroad
+Sing glory," _ _ _ _ _ _ _ _ _ _ Halle -- _ lu -- jah!
 }
 
 bassWords = \lyricmode {
