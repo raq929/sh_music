@@ -18,7 +18,7 @@ cdate = "2022"
 pitch = e % The written pitch
 isMajor = ##f  % Use ##t for major and ##f for minor
 
-timeSignature = 6/8
+timeSignature = 9/8
 
 midiTempo = 100
 midiInstrument = "piano"
