@@ -34,7 +34,7 @@ trebleMusic = \fasola Fa'' {
  r2 so4 | so2 so8 [La] | so2 La8 [so] | La2 so4 | la2
  la4 | so2 la8 [mi] | Fa4.( mi8) Fa[ La] | so,2 
  La4 | Fa2 Fa4 | Fa2 Fa4 | Fa2 La4 | so2
- So4 | La2 la4 | so2 Fa8 [mi] | la4. (so8 la [Fa] | so2)
+ La4 | La2 la4 | so2 Fa8 [mi] | la4. (so8 la [Fa] | so2)
  Fa8[ La] | Fa2 la8[ Fa] | la2 so4 | <Fa so>2.
 }
 
