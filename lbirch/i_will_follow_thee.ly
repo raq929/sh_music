@@ -68,12 +68,12 @@ Fa8 fa La4 Fa La8 So Fa2.
 }
 
 bassMusic = \fasola Fa {
-r2 Fa8 Fa La4. Fa8 So La fa so4.
+r2 Fa8 Fa La4. Fa8 so' La fa so4.
 Fa,8 Fa La4. So8 Fa La so2 
 so8 fa so4 Fa, Fa8 La So Fa4.
-Fa8 Fa La4 fa so8 so Fa,4.
+Fa8 Fa La4 fa so8 so Fa4.
 
-r8 Fa8 So La4. fa8 so la so Fa,4. 
+r8 Fa8 So La4. fa8 so la so La4. 
 La8 so Fa4. Fa8 la so so2
 so8 fa so4 Fa, Fa8 la so Fa4.
 Fa8 Fa La4 fa so8 so Fa,2.

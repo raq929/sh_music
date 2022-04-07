@@ -40,7 +40,7 @@ r4. La | La8 So Fa La4. | La4 \(La8\) so8 La so | La4.
 }
 
 altoMusic = \fasola Fa' {
-r4. la | Fa8 la la la4. | mi4 (mi8) mi8 la so | la4.
+r4. la | Fa8 la la la4. | mi4 \(mi8\) mi8 la so | la4.
     la | Fa8 la la so4. | mi4 mi8 la mi Fa | mi4.
 	Fa | Fa8 la la la4. | so4 so8 la Fa So | La4.
 	Fa | La8 So Fa mi4. | mi4. Fa8 la so | la2.
@@ -82,7 +82,7 @@ trebleWordsTwo = \lyricmode {
 
 altoWords = \lyricmode {
 \set stanza = "2."
-The sun in the heav'n is lan -- guid and pale,
+The sun in the heav -- en is lan -- guid and pale,
 And fee -- ble and few are the fruits of the vale;
 The hearts of the na -- tions all fail them for fear,
 The world is grown old, and judg -- ment is near!
