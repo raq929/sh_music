@@ -39,7 +39,10 @@ trebleMusic = \fasola Fa'' {
 }
 
 altoMusic = \fasola Fa' {
-
+  La1 Fa4 So La2 Fa Fa4 Fa8[ So] La2
+  So Fa4 So Fa2 Fa Fa4 Fa mi1
+  Fa2 Fa4 So La2 Fa Fa4 Fa So2
+  r2 Fa Fa4 So La2 Fa Fa4 Fa8[ So] La1
 
 }
 
