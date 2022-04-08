@@ -72,9 +72,18 @@ tenorWords = \lyricmode {
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
+"My Father's house is built on high," _ _ _ _ _ _ _
+"Far, far above teh starry sky;" _ _ _ _ _ _ _
+"When from this prison I am free," _ _ _ _ _ _ _
+"That heavenly mansion mine shall be." _ _ _ _ _ _ _
 }
 
 bassWords = \lyricmode {
+\set stanza = "3." 
+"Then fail this earth; let stars decline," _ _ _ _ _ _ _
+"And sun and moon refuse to shine," _ _ _ _ _ _ _
+"All nature sink and cease to be:" _ _ _ _ _ _ _
+"That heavenly mansion stands for me." _
 }
 bassWordsTwo = \lyricmode {
 }
