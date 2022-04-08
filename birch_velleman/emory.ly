@@ -37,13 +37,17 @@ altoMusic = \fasola Fa' {
 }
 
 tenorMusic = \fasola Fa' {
-r2 so | so4 la Fa2 | la8( so4.) la4 Fa | So2\fermata 
+r2 so | so4 la Fa2 | la8( so4.) la4 Fa | So2\fermata
    Fa | La4 so La2 | Fa So4 Fa | la2\fermata
    Fa | La4 so La2 | Fa So4 La | So2\fermata
    so, | so4 la Fa2 | So8( Fa4.) la4 so | Fa1
 }
 
 bassMusic = \fasola Fa {
+   r2 Fa2 so4 so fa2 fa8 (so4.) Fa4 la so2\fermata
+   Fa2 so4 Fa la2 La so4 La la2\fermata
+   Fa so4 Fa la2 Fa so4 La so2\fermata
+   Fa2 so4 so fa2 so2 la4 so <Fa Fa,>1 \bar "|."
 }
 
 
@@ -65,10 +69,10 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "1."
-"My heavenly home is bright and fair:" _ _ _ _ _ _ _
+"My heav'nly home is bright and fair:" _ _ _ _ _ _ _
 "No pain nor death can enter there;" _ _ _ _ _ _ _
-"Its glittering towers the sun outshine;" _ _ _ _ _ _ _
-"That heavenly mansion shall be mine." _ _ _ _ _ _ _
+"Its glittering tow'rs the sun outshine;" _ _ _ _ _ _ _
+"That heav'nly mansion shall be mine." _ _ _ _ _ _ _
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
@@ -79,7 +83,7 @@ tenorWordsTwo = \lyricmode {
 }
 
 bassWords = \lyricmode {
-\set stanza = "3." 
+\set stanza = "3."
 "Then fail this earth; let stars decline," _ _ _ _ _ _ _
 "And sun and moon refuse to shine," _ _ _ _ _ _ _
 "All nature sink and cease to be:" _ _ _ _ _ _ _
