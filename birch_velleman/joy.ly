@@ -15,7 +15,7 @@ pdate = "1760"
 composer = "Leah Velleman and Lael Birch"
 cdate = "2022"
 
-pitch = e % The written pitch
+pitch = d % The written pitch
 isMajor = ##f   % Use ##t for major and ##f for minor
 
 timeSignature = 4/4
@@ -48,7 +48,9 @@ r2 so La4 so la2 La Fa4 mi la1  \bar "|."
 }
 
 bassMusic = \fasola Fa {
-
+la1 Fa4 mi la2 la Fa4 la La'2 So Fa4 mi la2 Fa Fa4 la so1
+la2 Fa4 mi la2 Fa La4 so la2
+r2 so La4 So Fa2 Fa Fa4 so la1
 }
 
 
