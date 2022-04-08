@@ -7,12 +7,12 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = ""
-meter = ""
-poet = ""
-pdate = ""
-composer = "Leah Velleman"
-cdate = "2019"
+title = "Emory"
+meter = "L.M."
+poet = "William Hunter"
+pdate = "1845"
+composer = "Leah Velleman & Lael Birch"
+cdate = "2022"
 
 pitch = a % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
@@ -39,8 +39,8 @@ altoMusic = \fasola Fa' {
 tenorMusic = \fasola Fa' {
 r2 so | so4 la Fa2 | la8( so4.) la4 Fa | So2\fermata 
    Fa | La4 so La2 | Fa So4 Fa | la2\fermata
-   Fa | La4 so La2 | Fa So4 La | so2\fermata
-   so, | so4 la Fa2 | So8( Fa4.) la4 so | Fa1
+   Fa | La4 so La2 | Fa So4 La | So2\fermata
+   so | so4 la Fa2 | So8( Fa4.) la4 so | Fa1
 }
 
 bassMusic = \fasola Fa {
