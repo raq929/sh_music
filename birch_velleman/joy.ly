@@ -102,6 +102,11 @@ And mix among the bliss -- ful choir:
 
 }
 bassWordsTwo = \lyricmode {
+My God, thy pre -- sence can imp -- art
+A gli -- mpse of heav'n to earth and night;
+O smile, and bless my mourn -- ful heart,
+Sweet fore -- taste of sin -- cere de -- light.
+
 }
 
 
