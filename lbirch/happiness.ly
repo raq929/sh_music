@@ -1,3 +1,5 @@
+
+
 \version "2.19.2"
 \include "../templates/includes/setup.ily"
 \include "../templates/includes/fasola.ily"
@@ -7,22 +9,22 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "Emory"
-meter = "L.M."
-poet = "William Hunter"
-pdate = "1845"
-composer = "Leah Velleman & Lael Birch"
+title = "Happiness"
+meter = ""
+poet = "Anne Steel"
+pdate = "1760"
+composer = "Lael Birch"
 cdate = "2022"
 
-pitch = a % The written pitch
-isMajor = ##t   % Use ##t for major and ##f for minor
+pitch = e % The written pitch
+isMajor = ##f   % Use ##t for major and ##f for minor
 
 timeSignature = 4/4
 
-midiTempo = 150
+midiTempo = 120
 midiInstrument = "piano"
 
-systemCount = 1
+% systemCount = 1
 
 staffSize = 20
 fontSize = 0
@@ -31,23 +33,20 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
+ \bar "|."
 }
 
 altoMusic = \fasola Fa' {
-}
 
+
+}
+ 
 tenorMusic = \fasola Fa' {
-r2 so | so4 la Fa2 | la8( so4.) la4 Fa | So2\fermata
-   Fa | La4 so La2 | Fa So4 Fa | la2\fermata
-   Fa | La4 so La2 | Fa So4 La | So2\fermata
-   so, | so4 la Fa2 | So8( Fa4.) la4 so | Fa1
+ \bar "|."
 }
 
 bassMusic = \fasola Fa {
-   r2 Fa2 so4 so fa2 fa8 (so4.) Fa4 la so2\fermata
-   Fa2 so4 Fa la2 La so4 La la2\fermata
-   Fa so4 Fa la2 Fa so4 La so2\fermata
-   Fa2 so4 so fa2 so2 la4 so <Fa Fa,>1 \bar "|."
+
 }
 
 
@@ -57,39 +56,51 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+ O happiness, thou pleasing dream,
+Where is thy substance found?
+Sought thro' the varying scenes in vain,
+Of earth's capacious round.
+
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
+
 }
 
 altoWords = \lyricmode {
+\set stanza = "2."
+The charms of granduer, pomp and shew,
+Are nought but gilded snares;
+Ambition's painful steep ascent,
+Thick set with thorny cares.
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
-\set stanza = "1."
-"My heav'nly home is bright and fair:" _ _ _ _ _ _ _
-"No pain nor death can enter there;" _ _ _ _ _ _ _
-"Its glittering tow'rs the sun outshine;" _ _ _ _ _ _ _
-"That heav'nly mansion shall be mine." _ _ _ _ _ _ _
+\set stanza = "3."
+The busy town, the crowded street,
+Where noise and discord reign,
+We gladly leave, and tir'd, retreat
+To breathe and think again.
+
 }
 tenorWordsTwo = \lyricmode {
-\set stanza = "2."
-"My Father's house is built on high," _ _ _ _ _ _ _
-"Far, far above the starry sky;" _ _ _ _ _ _ _
-"When from this prison I am free," _ _ _ _ _ _ _
-"That heavenly mansion mine shall be." _ _ _ _ _ _ _
+\set stanza = "3."
+
 }
 
 bassWords = \lyricmode {
-\set stanza = "3."
-"Then fail this earth; let stars decline," _ _ _ _ _ _ _
-"And sun and moon refuse to shine," _ _ _ _ _ _ _
-"All nature sink and cease to be:" _ _ _ _ _ _ _
-"That heavenly mansion stands for me." _
+\set stanza = "4."
+Yet if retirement's pleasing charms
+Detain the captive mind,
+The soft enchantment soon dissolves;
+'Tis empty all as wind.
+
 }
 bassWordsTwo = \lyricmode {
+
+
 }
 
 
