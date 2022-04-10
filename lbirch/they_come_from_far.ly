@@ -60,7 +60,7 @@ bassMusic = \fasola Fa {
 r4. Fa,8 | Fa4 so'4 la8 [so] so4 | Fa4. So8 | so,4.
 so8 | so4 fa8 [La] fa4 Fa | so'4. fa8 | so4.
 Fa,8 | La4 Fa' | so so | Fa,2
-r4. Fa8 | Fa4 so'4 la8 [so] so4 | Fa4. So8 | Fa4.
+r4. Fa8 | Fa4 so'4 Fa8 [mi] la4 | Fa4. So8 | Fa4.
 Fa,8 | so'4 fa4 | so so Fa mi Fa4.
 Fa,8 | Fa8 [So] La [Fa] so'4 so <Fa Fa,>2
 }
@@ -96,7 +96,7 @@ altoWordsTwo = \lyricmode {
 tenorWords = \lyricmode {
 \set stanza = "2."
 Bright gold one of -- fers now to Him,
-Whose mgl -- ory makes the fine gold dim,
+Whose gl -- ory makes the fine gold dim,
 His king -- ly state to show;
 And myrrh the bit -- ter hour of strife,
 When He, who gi -- veth all things life,
