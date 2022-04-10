@@ -32,11 +32,11 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
 r4. Fa8 | La4 So | La Fa | Fa4. So8 | Fa4.
-La8 So4 So8 [Fa] Fa4 Fa So4. Fa8 mi4.
+Fa8 So4 So8 [Fa] Fa4 Fa So4. Fa8 mi4.
 Fa8 La4 Fa So8 (La4) So8 La2
 
 r4. Fa8 La4 so so8 [fa] La4 so so so4.
-La8 Fa4 Fa Fa8 [mi8] la4 la8 [so] la [mi] Fa4.
+Fa,8 Fa4 Fa Fa8 [mi8] la4 la8 [so] la [mi] Fa4.
 Fa8 Fa4 La8 [so] la8 (so4) la8 so2
 
 }
@@ -96,7 +96,7 @@ altoWordsTwo = \lyricmode {
 tenorWords = \lyricmode {
 \set stanza = "2."
 Bright gold one of -- fers now to Him,
-Whose gl -- ory makes the fine gold dim,
+Whose mgl -- ory makes the fine gold dim,
 His king -- ly state to show;
 And myrrh the bit -- ter hour of strife,
 When He, who gi -- veth all things life,
