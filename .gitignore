@@ -2,3 +2,4 @@ intro.*
 *.midi
 *.pdf
 .DS_Store
+.vscode/
