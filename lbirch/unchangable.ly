@@ -31,10 +31,10 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-  r2. la4 Fa La So La8 [so] la2. 
-  La4 | La Fa So La | La2. 
-  La4 | Fa La La so | so2. 
-  La4 | La Fa So La | La2. \repeat volta 2 { r4 r1 
+  r2. la4 Fa La So La8 [so] la2.
+  La4 | La Fa So La | La2.
+  La4 | Fa La La so | so2.
+  La4 | La Fa So La | La2. \repeat volta 2 { r4 r1
   r4 La4 | la la la8 [mi] la [so] la4 so la
   La La (So) La2 La8 [fa] La [So] La4 fa La
   la4 Fa2 la so4 (fa) so (la) la2 so2 la2.~ } la4 \bar "|."
@@ -42,11 +42,11 @@ trebleMusic = \fasola Fa' {
 
 altoMusic = \fasola Fa' {
   r2. la4 la la mi mi la2.
-  la4 Fa la la so la2. 
-  la4 la Fa la mi so2. 
+  la4 Fa la la so la2.
+  la4 la Fa la mi so2.
   la4 la Fa mi so la2. \repeat volta 2 { r4
   r2. La4 | la la la8 [mi] la [so] la4 so la
-  la Fa2 Fa4 (la) so8 [la] Fa [So] La4 So La2. 
+  la Fa2 Fa4 (la) la8 [mi] Fa [So] La4 So La2.
   La4 la,2 la Fa2 Fa la so la2.~ } la4
 }
 
@@ -61,12 +61,12 @@ tenorMusic = \fasola Fa' {
 }
 
 bassMusic = \fasola Fa {
-  r2. la4 | la Fa mi so la2. la4 | Fa la La La | la2. 
-  la4 | Fa la so fa | La2. la4 | Fa la La La | la2. 
-  \repeat volta 2 { La4 | la la la8 [mi] la [so] la4 so la 
+  r2. la4 | la Fa mi so la2. la4 | Fa la La La | la2.
+  la4 | Fa la so fa | La2. la4 | Fa la La La | la2.
+  \repeat volta 2 { La4 | la la la8 [mi] la [so] la4 so la
   la | la2 La | la8 [so] La [So] La4 So La2 La la2.
   la4 Fa2 la Fa la La La la2.~ } la4
-  
+
 }
 
 
@@ -148,7 +148,7 @@ Thy spi -- rit will not let me go.
 
 bassWords = \lyricmode {
 \set stanza = "1."
-\plainTextOne 
+\plainTextOne
 My soul through ma -- ny chan -- ges goes;
 My soul through ma -- ny ma -- ny chan -- ges goes;
 His love no va -- ri -- a -- tion knows.

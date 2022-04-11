@@ -40,8 +40,11 @@ altoMusic = \fasola Fa' {
 
 
 }
- 
+
 tenorMusic = \fasola Fa' {
+  la1 so4 la so2 la Fa4 So la2
+  la Fa4 So La2 so la1
+  la
  \bar "|."
 }
 
@@ -56,11 +59,10 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
- O happiness, thou pleasing dream,
-Where is thy substance found?
-Sought thro' the varying scenes in vain,
-Of earth's capacious round.
-
+  O happiness, thou pleasing dream,
+  Where is thy substance found?
+  Sought thro' the varying scenes in vain,
+  Of earth's capacious round.
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
@@ -69,20 +71,20 @@ trebleWordsTwo = \lyricmode {
 
 altoWords = \lyricmode {
 \set stanza = "2."
-The charms of granduer, pomp and shew,
-Are nought but gilded snares;
-Ambition's painful steep ascent,
-Thick set with thorny cares.
+  The charms of granduer, pomp and shew,
+  Are nought but gilded snares;
+  Ambition's painful steep ascent,
+  Thick set with thorny cares.
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-The busy town, the crowded street,
-Where noise and discord reign,
-We gladly leave, and tir'd, retreat
-To breathe and think again.
+  The busy town, the crowded street,
+  Where noise and discord reign,
+  We gladly leave, and tir'd, retreat
+  To breathe and think again.
 
 }
 tenorWordsTwo = \lyricmode {

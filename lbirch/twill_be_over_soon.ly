@@ -34,7 +34,7 @@ trebleMusic = \fasola Fa' {
 r2 La4 La2 So4 Fa2 La4 so (la) so la2
 la4 so2 So4 Fa2 So4 So (La) so la2
 La4 La2 La4 So2 La4 La (fa) so so2
-so4 la2 la4 so2 so4 la2. 
+so4 la2 la4 so2 so4 la2.
  }
 
 altoMusic = \fasola Fa' {
@@ -92,7 +92,7 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-The sun may leave the vale be -- low 
+The sun may leave the vale be -- low
 Yet kiss the hills in soft -- est light;
 God's wis -- dom, which we all may know,
 Will lead us through the night.
@@ -109,7 +109,7 @@ bassWords = \lyricmode {
 \set stanza = "2."
 Oh for the strength of soul to rise
 A -- bove earth's deep -- est, dark -- est gloom,
-With eyes fixed on the match -- less prize 
+With eyes fixed on the match -- less prize
 Twill all be o -- ver soon.
 
 }
@@ -121,4 +121,3 @@ Twill all be o -- ver soon.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include "../templates/includes/layout.ily"
-
