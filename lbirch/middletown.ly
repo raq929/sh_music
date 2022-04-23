@@ -42,12 +42,12 @@ altoMusic = \fasola Fa' {
   Fa4 so8 la mi4 so4 la8 mi mi2
   r4 so4 so8 la mi4 | mi4 mi8 mi | mi4
   Fa4 Fa8 la Fa4 | la so8 so la2
-   
-  
+
+
 }
 
 tenorMusic = \fasola Fa {
- r4 La4 |  la8 mi Fa4 | So Fa8 mi | la4 
+ r4 La4 |  la8 mi Fa4 | So Fa8 mi | la4
   La4 Fa'8 So La4 Fa La8 fi La2
   r4 La La8 la so4 fi so8 So La4
   la, Fa8 So La4 So Fa8 mi la2

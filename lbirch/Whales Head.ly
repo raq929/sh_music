@@ -31,11 +31,11 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-r2 La Fa4 La Fa So La2 
+r2 La Fa4 La Fa So La2
 La la4 so fa so so2 r2
 La Fa4 La | Fa So La so | la so8  fa La4 so so1
 
-r1 r1 r2. so,4 | Fa La La so | so8[ fa] La[ So] Fa4 | 
+r1 r1 r2. so,4 | Fa La La so | so8[ fa] La[ So] Fa4 |
 Fa La8[ fa] so[ mi] Fa4 so la2 so so1
 
 }
@@ -45,11 +45,11 @@ r2 so2 so4 Fa so mi Fa2
 Fa | Fa4 Fa Fa Fa | mi2 r2
 so2 so4 Fa so mi Fa Fa Fa Fa8 la so4 mi Fa1
 
-r1 r2. Fa4 la8 [so] la[ mi] Fa4 so Fa( la) Fa2 | 
-so2. so4 | so8 (la) Fa (So) La4 | Fa la2 so so1
+r1 r2. Fa4 la8 [so] la[ mi] Fa4 so Fa( la) Fa2 |
+so2. so4 | so8 [la] Fa [So] La4 | Fa la2 so so1
 
 
-} 
+}
 
 tenorMusic = \fasola Fa' {
 r2 Fa | So4 La Fa mi | Fa2
@@ -57,7 +57,7 @@ La2 | fa4 La So Fa | mi2 r2
 Fa So4 La | Fa mi Fa La fa4 La8 So Fa4 mi | Fa1
 
 r2. Fa4 | so so Fa La | La2 so so2.
-Fa,4 La La La | so so8[ fa] La[ So] Fa4 Fa Fa2 mi Fa1 
+Fa,4 La La La | so so8[ fa] La[ So] Fa4 Fa Fa2 mi Fa1
 
   \bar"|."
 }
@@ -199,4 +199,3 @@ De -- clare His praise.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include "../templates/includes/layout.ily"
-

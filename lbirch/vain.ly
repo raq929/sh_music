@@ -56,6 +56,7 @@ trebleWords = \lyricmode {
 \set stanza = "1."
 Vainly, through night's weary hours,
 Keep we watch, lest foes alarm;
+
 Vain our bulwarks, and our towers,
 But for God's protecting arm.
 

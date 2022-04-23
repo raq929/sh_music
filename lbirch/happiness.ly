@@ -32,24 +32,35 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleMusic = \fasola Fa' {
- \bar "|."
+trebleMusic = \fasola Fa'' {
+  la1 La4 La so2 La Fa4 mi la2
+  La' La4 So Fa2 So La2
+  La La4 so la2 La La4 so so2
+  La La4 So La2  so la1
+
 }
 
 altoMusic = \fasola Fa' {
-
+La1 La4 Fa So2 La la,4 So La2
+la, la4 so la2 So la
+Fa Fa4 So La2 Fa mi4 mi mi2
+Fa Fa4 mi la2 so la1
 
 }
 
 tenorMusic = \fasola Fa' {
   la1 so4 la so2 la Fa4 So la2
-  la Fa4 So La2 so la1
-  la
+  la Fa4 So La2 so la2
+  la Fa4 mi la2 la so4 La So2
+  la Fa4 So la2 mi la1
  \bar "|."
 }
 
 bassMusic = \fasola Fa {
-
+  la1 La4 La La2 la Fa4 mi la2
+  la la4 so la2 So La
+  la, la4 so la2 la La4 La so2
+  la Fa4 So <La La,>2 La, la1
 }
 
 
@@ -59,10 +70,10 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-  O happiness, thou pleasing dream,
-  Where is thy substance found?
-  Sought thro' the varying scenes in vain,
-  Of earth's capacious round.
+  O hap -- pi -- ness, thou plea -- sing dream,
+  Where is thy sub -- stance found?
+  Sought thro' the var -- ying scenes in vain,
+  Of earth's cap -- a -- cious round.
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
@@ -71,20 +82,20 @@ trebleWordsTwo = \lyricmode {
 
 altoWords = \lyricmode {
 \set stanza = "2."
-  The charms of granduer, pomp and shew,
-  Are nought but gilded snares;
-  Ambition's painful steep ascent,
-  Thick set with thorny cares.
+  The charms of gran -- duer, pomp and show,
+  Are nought but gil -- ded snares;
+  Am -- bi -- tion's pain -- ful steep as -- cent,
+  Thick set with tho -- rny cares.
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-  The busy town, the crowded street,
-  Where noise and discord reign,
-  We gladly leave, and tir'd, retreat
-  To breathe and think again.
+  The bu -- sy town, the crow -- ded street,
+  Where noise and dis -- cord reign,
+  We gladl -- y leave, and tir'd, re -- treat
+  To breathe and think a -- gain.
 
 }
 tenorWordsTwo = \lyricmode {
@@ -94,10 +105,10 @@ tenorWordsTwo = \lyricmode {
 
 bassWords = \lyricmode {
 \set stanza = "4."
-Yet if retirement's pleasing charms
-Detain the captive mind,
-The soft enchantment soon dissolves;
-'Tis empty all as wind.
+Yet if re -- tire -- ment's plea -- sing charms
+De -- tain the cap -- tive mind,
+The soft en -- chant -- ment soon dis -- solves;
+'Tis em -- pty all as wind.
 
 }
 bassWordsTwo = \lyricmode {
