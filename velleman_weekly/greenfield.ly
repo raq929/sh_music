@@ -46,10 +46,10 @@ r2.
 
 }
 
-altoMusic = \fasola Fa'' {
+altoMusic = \fasola Fa' {
 r2.
    \repeat volta 2 { 
-     so8[ fa] | La4 La La so | La La La8[ So] Fa4 | So La La So | La2 La4
+     La8[ So] | La4 La La so | La La La8[ So] Fa4 | So La La So | La2 La4
    }
    \repeat volta 2 { 
      Fa4 | so'2 so4 so | la so La8[ So] Fa4 | So La La So 
