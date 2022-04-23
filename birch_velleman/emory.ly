@@ -31,6 +31,10 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
+r2 Fa | La4 Fa Fa2 | So8( Fa4.) La4 so | so2\fermata
+   La | so4 La La2 | La so4 Fa, | La2\fermata
+   Fa | La4 Fa Fa2 | La so4 la | so2\fermata
+   La | so4 La Fa'2 | la8( so4.) La4 So | Fa1
 }
 
 altoMusic = \fasola Fa' {
@@ -57,6 +61,10 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+"My heav'nly home is bright and fair:" _ _ _ _ _ _ _
+"No pain nor death can enter there;" _ _ _ _ _ _ _
+"Its glittering tow'rs the sun outshine;" _ _ _ _ _ _ _
+"That heav'nly mansion shall be mine." _ _ _ _ _ _ _
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
@@ -68,11 +76,6 @@ altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
-\set stanza = "1."
-"My heav'nly home is bright and fair:" _ _ _ _ _ _ _
-"No pain nor death can enter there;" _ _ _ _ _ _ _
-"Its glittering tow'rs the sun outshine;" _ _ _ _ _ _ _
-"That heav'nly mansion shall be mine." _ _ _ _ _ _ _
 }
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
