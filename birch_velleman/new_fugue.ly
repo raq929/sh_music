@@ -34,6 +34,7 @@ trebleMusic = \fasola Fa' {
 }
 
 altoMusic = \fasola Fa' {
+    r2. la4 La' La La Fa la Fa Fa Fa So2. so,4 la la La' La So2.
 }
 
 tenorMusic = \fasola Fa' {
@@ -56,6 +57,10 @@ trebleWordsTwo = \lyricmode {
 }
 
 altoWords = \lyricmode {
+    %Lord of the earth, and seas, and skies,
+%All nature owns thy sov'reign pow'r;
+At thy com -- mand the tem -- pests rise,
+At thy com -- mand the thun -- ders roar.
 }
 altoWordsTwo = \lyricmode {
 }
