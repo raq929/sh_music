@@ -53,8 +53,8 @@ r2 La4( fi) | so2 Fa,4( So) | La( So) Fa( mi) | la1
 
 bassMusic = \fasola Fa {
 la1 | Fa2 So | So Fa | La La | la,1
-r2 la2 la so Fa La La1
-r2 la, la so Fa La la, so Fa1
+r2 la2 la so Fa La La,1
+r2 la la so Fa La la, so Fa1
 r2 Fa4 (So) So2 La4( So Fa So) La2 la,1
 }
 
@@ -65,9 +65,18 @@ r2 Fa4 (So) So2 La4( So Fa So) La2 la,1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+A -- gain our ears have heard the voice 
+At which the dead shall live;
+O, May the sound our hearts re -- joice,
+And strength im -- mor -- tal give!
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
+
+And have we heard the word with joy?
+And have we felt its power?
+To keep it in our blest em -- ploy,
+Till life's ex -- trem -- est hour.
 }
 
 altoWords = \lyricmode {
