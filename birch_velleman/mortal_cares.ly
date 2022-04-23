@@ -32,6 +32,12 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
+r4. La4 La8 So4 So8 so[ so] so Fa4
+so8 so4 so8 so4 fa8 La4 la8 so4.
+La4 So8 so4 so8 so4 la8 so4 La8 Fa' ( so) la so4 so8 la4 so8 so4.
+La4 So8 Fa4 La8 \tuplet 2/3 {so so} la4 Fa8
+Fa4 Fa8 so4 so8 \tuplet 2/3 {Fa so} so4.
+La4 So8 so4 so8 so4 la8 so4 La8 Fa' ( so) la so4 so8 la4 so8 so2.
 }
 
 altoMusic = \fasola Fa' {
@@ -96,7 +102,7 @@ altoWords = \lyricmode {
     From the stains of guilt re -- fined.
     Bles -- sings all a  -- round be -- stow -- ing,
     God with -- holds his care from none,
-    Grace and mer -- cy ever flo -- wing
+    Grace and mer -- cy e -- ver flo -- wing
     From the foun -- tain of his throne.
 }
 altoWordsTwo = \lyricmode {
