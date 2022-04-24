@@ -39,7 +39,7 @@ trebleMusic = \fasola Fa'' {
         so4 | La La La Fa | La so la4 \bar""\break r | 
         r4 Fa Fa4 la8[ so] | La4 La La so | la Fa Fa2 | r4 Fa Fa2 | 
         r4 Fa Fa mi | la2. 
-        so4 | so2. la4 | la la La La | la2.~ \bar":|" la4 \bar"|."
+        so4 | so2. la4 | la la La La | la2.~ \bar":|." la4 \bar"|."
 }
 
 altoMusic = \fasola Fa' {
@@ -74,7 +74,9 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = #"1. "
-"Let me among Thy saints be found," _ _ _ _ _ _ _ 
+\once\override LyricText.self-alignment-X = #-0.9
+
+"Let me among Thy saints be found," "" _ _ _ _ _ _ 
 _ _ _ _ _ _ _ _ 
 "To see thy smiling face." _ _ _ _ _
 \once\override LyricText.self-alignment-X = #-0
@@ -97,9 +99,11 @@ _ _ _ _ _ _ _
 
 altoWords = \lyricmode {
 \set stanza = #"2. "
-"Thy pardoning voice, O let me hear, To still my unbelieving fear, nor let me fall, I pray."
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-_ _ _ 
+\once\override LyricText.self-alignment-X = #-0.9
+
+"Thy pardoning voice, O let me hear, To still my" "" _ _ _ _ _ _ _ _ _ un -- be -- liev -- ing fear,
+"nor let me fall, I pray."
+_ _ _ _ _ _ _ _ 
 \once\override LyricText.self-alignment-X = #1
 "Then loudest of"  
 "the crowd I'll sing, While heaven’s resounding" _ _ _ _ _ _ _ _ _ _ _
@@ -130,7 +134,8 @@ _ _
 
 tenorWords = \lyricmode {
 \set stanza = #"1. "
-"Let me among Thy saints be found," _ _ _ _ _ _ _ 
+\once\override LyricText.self-alignment-X = #-0.9
+"Let me among Thy saints be found," "" _ _ _ _ _ _ 
 _ _ _ _ _ _ _ _ 
 "To see thy smiling face." _ _ _ _ _
 "Then loudest of the crowd I'll sing," _ _ _ _ _ _  _
@@ -154,10 +159,12 @@ _ _ _ _ _ _ _
 
 bassWords = \lyricmode {
 \set stanza = #"2. "
-"Thy pardoning voice, O let me hear, To still my unbelieving fear, nor let me fall, I pray."
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
- 
-"Then loudest of the crowd I'll sing," _ _ _ _ _ _ _
+\once\override LyricText.self-alignment-X = #-0.9
+
+"Thy pardoning voice, O let me hear, To still my" "" _ _ _ _ _ _ _ _ _ un -- be -- liev -- ing fear,
+"nor let me fall, I pray."
+_ _ _ _ _
+"Then loudest of the crowd I'll sing," __ _ _ _ _ _ _ _
 \bar""\break
 "While heaven’s resounding" _ _ _ _
 man -- sions ring
