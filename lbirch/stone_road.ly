@@ -23,7 +23,7 @@ timeSignature = 4/4
 midiTempo = 150
 midiInstrument = "piano"
 
-% systemCount = 1
+systemCount = 1
 
 staffSize = 20
 fontSize = 0
@@ -67,10 +67,10 @@ so' Fa,4 (So) La2 La <so so,> <Fa Fa,>1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-Come, Ho -- ly Spi -- rit, come;
-Let thy bright beams a -- rise;
-Dis -- pel the dark -- ness from our minds,
-And o -- pen all our eyes.
+"Come, Holy Spirit, come;" _ _ _ _ _
+"Let thy bright beams arise;" _ _ _ _ _
+"Dispel the darkness from our minds," _ _ _ _ _ _ _
+"And open all our eyes." _ _ _ _ _
 
 
 }
@@ -81,10 +81,10 @@ trebleWordsTwo = \lyricmode {
 
 altoWords = \lyricmode {
 \set stanza = "2."
-Re -- vive our droo -- ping faith;
-Our doubts and fears re -- move;
-And kin -- dle in our breasts the flames
-Of ne -- ver- -- dy -- ing love.
+"Revive our drooping faith;" _ _ _ _ _
+"Our doubts and fears remove;" _ _ _ _ _
+"And kindle in our breasts the flames" _ _ _ _ _ _ _
+"Of never-dying love." _ _ _ _ _
 
 }
 altoWordsTwo = \lyricmode {
@@ -92,10 +92,10 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-Tis thine to cleanse the heart,
-To sanc -- ti -- fy the soul,
-To pour fresh life in ev -- 'ry part,
-And new cre --  ate the whole.
+"Tis thine to cleanse the heart," _ _ _ _ _
+"To sanctify the soul," _ _ _ _ _
+"To pour fresh life in ev'ry part," _ _ _ _ _ _ _
+"And new cre ate the whole." _ _ _ _ _
 
 }
 tenorWordsTwo = \lyricmode {
@@ -105,10 +105,10 @@ tenorWordsTwo = \lyricmode {
 
 bassWords = \lyricmode {
 \set stanza = "4."
-Come, Ho -- ly Spi -- rit, come;
-Our minds from bon -- dage free;
-Then we shall know and praise and love
-The Fa -- ther, Son, and Thee.
+"Come, Holy Spirit, come;" _ _ _ _ _
+"Our minds from bondage free;" _ _ _ _ _
+"Then we shall know and praise and love" _ _ _ _ _ _ _
+"The Father, Son, and Thee." _ _ _ _ _
 
 }
 bassWordsTwo = \lyricmode {

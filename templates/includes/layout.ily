@@ -76,6 +76,7 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
   }
   \context {
     \Staff
+    \remove "Volta_engraver" 
     \consists "Volta_engraver"
     \override VoltaBracket #'style = #'dashed-line
     \override VoltaBracket #'dash-period = #0

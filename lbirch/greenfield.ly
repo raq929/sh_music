@@ -24,7 +24,7 @@ timeSignature = 3/4
 midiTempo = 130
 midiInstrument = "piano"
 
-% systemCount = 1
+systemCount = 1
 
 staffSize = 20
 fontSize = 0
@@ -68,10 +68,10 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-  Come, wea -- ry souls, with sin dis -- tress'd,
-  Come, and ac -- cept the pro -- mis'd rest;
-  The Sa -- viour's gra -- cious call o -- bey,
-  And cast your gloo -- my fears a -- way.
+  "Come, weary souls, with sin distress'd," _ _ _ _ _ _ _
+  "Come, and accept the promis'd rest;" _ _ _ _ _ _ _
+  "The Saviour's gracious call obey," _ _ _ _ _ _ _
+  "And cast your gloomy fears away." _ _ _ _ _ _ _
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
@@ -80,20 +80,16 @@ trebleWordsTwo = \lyricmode {
 
 altoWords = \lyricmode {
 \set stanza = "2."
-  Op -- press'd with guilt, a pain -- ful load,
-  O come, and spread your woes a -- broad;
-  Di -- vine com -- pas -- sion, migh -- ty love,
-  Will all the pain -- ful load re -- move.
+  "Oppress'd with guilt, a painful load," _ _ _ _ _ _ _
+  "O come, and spread your woes abroad; Divine compassion, mighty love," _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+  "Will all the painful load remove." _ _ _ _ _ _ _
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-  Here mer -- cy's bound -- less o -- cean flows,
-  To cleanse your sins and heal your woes;
-  Par -- don and life and end -- less peace;
-  How rich the gift! how free the grace!
+  "Here mercy's boundless ocean flows, To cleanse your sins and heal your woes; Pardon and life and endless peace; How rich the gift! how free the grace!" _ _ _ _ _ _ _
 }
 
 tenorWordsTwo = \lyricmode {

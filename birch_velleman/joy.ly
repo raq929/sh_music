@@ -23,7 +23,7 @@ timeSignature = 4/4
 midiTempo = 120
 midiInstrument = "piano"
 
-% systemCount = 1
+systemCount = 1
 
 staffSize = 20
 fontSize = 0
@@ -66,11 +66,10 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-  Why should my spi -- rit cleave to earth,
-  This nest of worms, this vile a -- bode?
-  Why thus for -- get her no -- bler birth,
-  Nor wish to trace the heav'n -- ly road?
-
+  "Why should my spirit cleave to earth," _ _ _ _ _ _ _
+  "This nest of worms, this vile abode?" _ _ _ _ _ _ _
+  "Why thus forget her nobler birth," _ _ _ _ _ _ _
+  "Nor wish to trace the heav'nly road?" _ _ _ _ _ _ _
 
 }
 trebleWordsTwo = \lyricmode {
@@ -80,20 +79,19 @@ trebleWordsTwo = \lyricmode {
 
 altoWords = \lyricmode {
 \set stanza = "2."
-  How bar -- ren of sin -- cere de -- light,
-  Are all the fair -- est scenes be -- low!
-  Through beau -- teous co -- lors charms the sight,
-  They on -- ly var -- nish re -- al woe.
+  "How barren of sincere delight," _ _ _ _ _ _ _
+  "Are all the fairest scenes below!" _ _ _ _ _ _ _
+  "Through beauteous colors charms the sight, They only varnish real woe." _ _ _ _ _ _ _
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-  Were I to mount the fly -- ing wind,
-  And search the wide cre -- a -- tion round,
-  There's no -- thing here to suit the mind;
-  On earth no so -- lid joy is found.
+  "Were I to mount the flying wind," _ _ _ _ _ _ _
+  "And search the wide creation round," _ _ _ _ _ _ _
+  "There's nothing here to suit the mind;" _ _ _ _ _ _ _
+  "On earth no solid joy is found." _ _ _ _ _ _ _
 }
 
 tenorWordsTwo = \lyricmode {
@@ -102,18 +100,18 @@ tenorWordsTwo = \lyricmode {
 
 bassWords = \lyricmode {
 \set stanza = "4."
-  Oh! could my wea -- ry spi -- rit rise,
-  And pant -- ing with in -- tense de -- sire,
-  Reach the bright man -- sions in the skies,
-  And mix a -- mong the bliss -- ful choir.
+  "Oh! could my weary spirit rise," _ _ _ _ _ _ _
+  "And panting with intense desire," _ _ _ _ _ _ _
+  "Reach the bright mansions in the skies," _ _ _ _ _ _ _
+  "And mix among the blissful choir." _ _ _ _ _ _ _
 
 
 }
 bassWordsTwo = \lyricmode {
-  % My God, thy pre -- sence can imp -- art
+  % My God, thy presence can impart
   % A glimpse of heav'n to earth and night;
-  % O smile, and bless my mourn -- ful heart,
-  % Sweet fore -- taste of sin -- cere de -- light.
+  % O smile, and bless my mournful heart,
+  % Sweet foretaste of sincere delight.
 
 }
 

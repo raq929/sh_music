@@ -31,7 +31,8 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-r2 La | so8[ la] so4 La2 | So2 La4 La | La2
+r2 La |
+so8[ la] so4 La2 | So2 La4 La | La2
 la, | Fa8[ So] Fa4 la2 | la Fa4 La | so2
 La | Fa8[ So] Fa4 la2 | La' La4 so | la2
 La | so8[ la] so4 La2 | la La4 La | La1
@@ -52,7 +53,7 @@ bassMusic = \fasola Fa {
 r2 la | so8[ la] so4 La2 | so2 La4 La | la2
 La | so8[ la] Fa4 Fa2 | la2 Fa4 la | so2
 so | so8[ la] so4 La2 | la2 so4 so | Fa2
-la | so8[ la] Fa4 Fa2 | la2 La4 La | la1
+la | so8[ la] Fa4 Fa2 | la2 La4 La | la1 \bar"|."
 }
 
 
@@ -62,7 +63,7 @@ la | so8[ la] Fa4 Fa2 | la2 La4 La | la1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-Come, "ye redeem" --  _ _ ed of the lord,
+"Come, ye redeem-ed" _ _ _ _ of the lord,
 "Come and o" -- _ _ bey his sa -- cred word;
 He died and rose a -- gain for you.
 "What more could the redeemer do?" 
@@ -81,8 +82,7 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "2."
-"We to this place are come to show" _ _ _ _ _ _ _
-"What we to boundless mercy owe;" _ _ _ _ _ _ _
+"We to this place are come to show What we to boundless mercy owe;" _ _ _ _ _ _ _ _  _ _ _ _ _ _ _
 The sav -- ior's foot -- step's to ex -- plore,
 And tread the path he trod be -- fore.
 
@@ -94,8 +94,8 @@ tenorWordsTwo = \lyricmode {
 
 bassWords = \lyricmode {
 \set stanza = "3."
-E -- tern -- al spir -- it, "heav'nly dove, On these baptismal waters move," _ _ _ _ _ _ _ _ _ _ 
-"That, rising from the wat'ry tomb," _ _ _ _ _ _ _
+E -- tern -- al "spirit, heav'nly dove, On these baptismal waters move," _ _ _ _ _ _ _ _ _ _ _ _ 
+"That, rising from" _ _ _ "the wat'ry tomb," _ _ _ 
 Our souls may go re -- joic -- ing home.
 
 }
