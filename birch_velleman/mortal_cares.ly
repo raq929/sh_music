@@ -9,7 +9,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 title = ""
-meter = "7s"
+meter = "8s & 7s"
 poet = "John Taylor"
 pdate = "1812"
 composer = "Lael Birch and Leah Velleman"

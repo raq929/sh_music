@@ -72,9 +72,12 @@ At thy com -- mand the thun -- ders roar.
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
+ These dread -- ful glo -- ries of thy name
+With ter -- ror would o'er -- whelm our souls;
 }
 
 altoWords = \lyricmode {
+    \set stanza = "1."
 Lord of the earth, and seas, and skies,
 All na -- ture owns thy sov -- 'reign pow'r;
 At thy com -- mand the tem -- pests rise,
@@ -84,6 +87,9 @@ At thy com -- mand the tem -- pests rise,
 At thy com -- mand the thun -- ders roar.
 }
 altoWordsTwo = \lyricmode {
+    \set stanza = "2."
+   These dread -- ful glo -- ries of thy name
+With ter -- ror would o'er -- whelm our souls;
 }
 
 tenorWords = \lyricmode {
@@ -94,19 +100,28 @@ At thy com -- mand the tem -- pests rise,
 At thy com -- mand the thun -- ders roar.
 At thy com -- mand the tem -- pests rise,
 At thy com -- mand the thun -- ders roar.}
+
 tenorWordsTwo = \lyricmode {
 \set stanza = "2."
+ These dread -- ful glo -- ries of thy name
+With ter -- ror would o'er -- whelm our souls;
 }
 
 bassWords = \lyricmode {
+    \set stanza = "1."
     Lord of the earth, and seas, and skies,
 All na -- ture owns thy sov' -- reign pow'r;
 At thy com -- mand the tem -- pests rise,
 At thy com -- mand the thun -- ders roar.
 At thy com -- mand the thun -- ders roar.
 At thy com -- mand the tem -- pests rise,
-At thy com -- mand the thun -- ders roar.}
+At thy com -- mand the thun -- ders roar.
+}
+
 bassWordsTwo = \lyricmode {
+    \set stanza = "2."
+ These dread -- ful glo -- ries of thy name
+With ter -- ror would o'er -- whelm our souls;
 }
 
 
