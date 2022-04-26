@@ -3,3 +3,4 @@ intro.*
 *.pdf
 .DS_Store
 .vscode/
+*.tmp
