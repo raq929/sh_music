@@ -11,7 +11,7 @@ title = "Middletown"
 meter = "L.M."
 poet = "Anne Steel"
 pdate = "1860"
-composer = "Rachel Stevens"
+composer = "Lael Birch"
 cdate = "2019"
 
 pitch = g % The written pitch
