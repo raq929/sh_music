@@ -22,7 +22,7 @@ timeSignature = 4/4
 midiTempo = 80
 midiInstrument = "piano"
 
-systemCount = 1
+systemCount = 0
 
 staffSize = 20
 fontSize = 0
@@ -66,7 +66,7 @@ trebleWords = \lyricmode {
 "Come, ye redeem-ed" _ _ _ _ of the lord,
 "Come and o" -- _ _ bey his sa -- cred word;
 He died and rose a -- gain for you.
-"What more could the redeemer do?" 
+"What more could the redeemer do?"
 _ _ _ _ _ _ _
 }
 trebleWordsTwo = \lyricmode {
@@ -94,8 +94,8 @@ tenorWordsTwo = \lyricmode {
 
 bassWords = \lyricmode {
 \set stanza = "3."
-E -- tern -- al "spirit, heav'nly dove, On these baptismal waters move," _ _ _ _ _ _ _ _ _ _ _ _ 
-"That, rising from" _ _ _ "the wat'ry tomb," _ _ _ 
+E -- tern -- al "spirit, heav'nly dove, On these baptismal waters move," _ _ _ _ _ _ _ _ _ _ _ _
+"That, rising from" _ _ _ "the wat'ry tomb," _ _ _
 Our souls may go re -- joic -- ing home.
 
 }
@@ -109,8 +109,3 @@ bassWordsTwo = \lyricmode {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include "../templates/includes/layout.ily"
-
-
-
-
-
