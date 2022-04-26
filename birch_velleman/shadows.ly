@@ -1,47 +1,32 @@
 \version "2.13.18"
 
-global = {
-	\key bes \major % really g minor
-	\time 3/4
-	\sacredHarpHeads
-	\autoBeamOff
-}
+\include "../templates/includes/setup.ily"
+\include "../templates/includes/barlines.ily"
 
-\paper {
-	#(set-paper-size "letter" 'landscape)
-	line-width = 10\in
-	horizontal-shift = 0.175\in
-	top-margin = 0.3\in
-%	bottom-margin = 0.5\in
-	ragged-last = ##f
-	ragged-bottom = ##t
-%	system-count = #2 %Suggests to Lilypond how many braces to use for this piece.
-	evenHeaderMarkup = \markup {
-		\column {
-			\fill-line {
-			  \bold \fontsize #3 \on-the-fly #not-first-page \fromproperty #'header:title
-			}
-			\large \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-			" "
-		}
-	}
-	oddHeaderMarkup = \markup {
-		\column {
-			\fill-line {
-			  \bold \fontsize #3 \on-the-fly #not-first-page \fromproperty #'header:title
-			}
-			\large \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-			" "
-		}
-	}
-}
 
-\header {
-	title = \markup { \caps "Woolman Hill L.M." } %Tune name and hymn meter
-	poet = \markup { "G Minor.  Anon 1870" } %key and poet
-	composer = "L. Velleman & R. Stevens 2019" %Tune composer and date
-	tagline = ##f %Turns off annoying Lilypond version stamp on bottom of page
-}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                   Setup                                   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+title = "Woolman Hill"
+meter = "L.M."
+poet = "Anon"
+pdate = "1870"
+composer = "Lael Birch and Leah Velleman"
+cdate = "2019"
+
+pitch = g % The written pitch
+isMajor = ##f  % Use ##t for major and ##f for minor
+
+timeSignature = 3/4
+
+midiTempo = 120
+midiInstrument = "piano"
+
+systemCount = 1
+
+staffSize = 20
+fontSize = 1
 
 trebleMusic = \relative c''
 {
@@ -59,15 +44,15 @@ altoMusic = \relative c'
     d4 d2 f4 g (f) g a2 a4 bes2
     a4 g (d) ees f2 g4 d (ees) f g2
     f4 bes2 a4 g2 f4 d2 d4 d2.
-	
+
 }
 
 tenorMusic = \relative c''
 {
 	\partial 4
 	a4 g2 a4 g2 bes4 d2 bes4 g2
-    g4 f2 d4 g (a) d d2 c4 d2 
-    c4 d2 ees4 f2 g4 f (ees) c d2 
+    g4 f2 d4 g (a) d d2 c4 d2
+    c4 d2 ees4 f2 g4 f (ees) c d2
 	a4 g2 a4 g2 bes4 a (g) f g2.
 }
 
@@ -81,25 +66,26 @@ bassMusic = \relative f
     a4 bes2 f4 g2 f8 [ees] d2 d4 <g, g'>2.
 }
 
-verseTreble = \lyricmode
+trebleWords = \lyricmode
 {
 	\set stanza = "1."
-	 The man who once has found ab -- ode
-      With -- in the se -- cret place of God,
-      Shall with th'Al -- migh -- ty God a -- bide,
-      And in his sha -- dow safe -- ly hide.
-
-
+	"The man who once has found abode"_ _ _ _ _ _ _
+	\override LyricText.self-alignment-X = #RIGHT
+	"Within the"_ _ \override LyricText.self-alignment-X = #RIGHT se -- cret \override LyricText.self-alignment-X = #RIGHT "place of God,"_ _
+	\override LyricText.self-alignment-X = #RIGHT
+	"Shall with th'Almighty God abide,"_ _ _ _ _ _ _
+	"And in his shadow safely hide."_ _ _ _ _ _ _
 }
 
-verseAlto = \lyricmode
+altoWords = \lyricmode
 {
 	\set stanza = "2."
-	His out -- spread pi -- nions shall thee hide;
-      Be -- neath his wings shalt thou con -- fide;
-      His faith -- ful -- ness shall e -- ver be
-      A shield and buck -- ler un -- to thee.
-	
+	"His outspread pinions shall thee hide;"_ _ _ _ _ _ _
+	"Beneath his wings shalt thou confide;"_ _ _ _ _ _ _
+	\override LyricText.self-alignment-X = #RIGHT
+	"His faithfulness shall"_ _ _ _ e -- ver be
+	"A shield and buckler unto thee."_ _ _ _ _ _ _
+
 	% I of the Lord my God will say,
      % He is my re -- fuge and my stay;
      % To him for safe -- ty I will flee;
@@ -107,23 +93,27 @@ verseAlto = \lyricmode
 
 }
 
-verseTenor = \lyricmode
+tenorWords = \lyricmode
 {
 	\set stanza = "3."
-	O'er thee his an -- gels he com -- mands,
-      To bear thee safe -- ly in their hands;
-      To keep thee in thy ways each one,
-      Nor dash thy foot a -- gainst a stone.
+	"O'er thee his"_ _ an -- gels he com -- mands,
+	"To bear thee safely in their hands;"_ _ _ _ _ _ "To keep thee in thy ways each one,"_ _ _ _ _ _ _
+	"Nor dash thy foot against a stone."_ _ _ _ _ _ _
 
 }
 
-verseBass = \lyricmode
+bassWords = \lyricmode
 {
 	\set stanza = "4."
-	Thy foot shall crush the ad -- der's head,
-      On li -- ons and on dra -- gons tread;
-      And since on me he set his love,
-      I Will his con -- stant Sav -- ior prove.
+  \override LyricText.self-alignment-X = #RIGHT
+	"Thy foot shall crush the adder's head,"_ _ _ _ _ _ _
+	\override LyricText.self-alignment-X = #RIGHT
+	On li -- ons "and on"_ dra -- gons tread;
+
+\override LyricText.self-alignment-X = #RIGHT
+	"And since on me he set his love,"_ _ _ _ _ _ _
+	\override LyricText.self-alignment-X = #RIGHT
+	"I will his constant Savior prove."_ _ _ _ _ _ _
 
 	%Be -- cause to him my name is dear,
     %  I'll him ex -- alt a -- bove all fear.
@@ -131,37 +121,15 @@ verseBass = \lyricmode
     %  And I will an -- swer from on high.
 }
 
-\score 
-{
-	\new StaffGroup <<
-		\new Staff = "treble" {	\global \trebleMusic }
-		\addlyrics { \verseTreble }
-		\new Staff = "alto" { \global \altoMusic }
-		\addlyrics { \verseAlto }
-		\new Staff = "tenor" { \global \tenorMusic }
-		\addlyrics { \verseTenor }
-		\new Staff = "bass" { \global \bassMusic }
-		\addlyrics { \verseBass }
-	>> 
-	\layout {
-		#(layout-set-staff-size 20)    % target is 20
-		indent = #0
-		\context { \Score
-			\remove "Bar_number_engraver" %Gets rid of measure numbers at the beginning of each brace
-			\override SpanBar #'transparent = ##t %Turns off staff lines between staves
-			\override LyricText #'font-size = #-1.5
-			\override StanzaNumber #'font-size = #-1.5
-			\override StanzaNumber #'font-series = #'medium
-			\override VoltaBracket #'stencil = ##f
-		}
-		\context { \Staff
-			\override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 3)
-		}
-	}
-	\midi {
-		\context {
-			\Score
-			tempoWholesPerMinute = #(ly:make-moment 110 4) %Sets the metronome speed and value of the beat
-		}
-	}
-}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                 Score                                     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\include "../templates/includes/layout.ily"
+\layout {
+    \context {
+      \Lyrics
+      \override LyricText.self-alignment-X = #RIGHT
+    }
+  }
