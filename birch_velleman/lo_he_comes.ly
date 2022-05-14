@@ -1,49 +1,33 @@
-\version "2.13.18"
+\version "2.20.0"
+\include "../templates/includes/setup.ily"
+\include "../templates/includes/fasola.ily"
+\include "../templates/includes/barlines.ily"
 
-global = {
-	\key c \major % really a minor
-	\time 2/4
-	\sacredHarpHeads
-	\autoBeamOff
-}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                   Setup                                   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\paper {
-	#(set-paper-size "letter" 'landscape)
-	line-width = 10\in
-	horizontal-shift = 0.175\in
-	top-margin = 0.3\in
-%	bottom-margin = 0.5\in
-	ragged-last = ##f
-	ragged-bottom = ##t
-%	system-count = #2 %Suggests to Lilypond how many braces to use for this piece.
-	evenHeaderMarkup = \markup {
-		\column {
-			\fill-line {
-			  \bold \fontsize #3 \on-the-fly #not-first-page \fromproperty #'header:title
-			}
-			\large \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-			" "
-		}
-	}
-	oddHeaderMarkup = \markup {
-		\column {
-			\fill-line {
-			  \bold \fontsize #3 \on-the-fly #not-first-page \fromproperty #'header:title
-			}
-			\large \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
-			" "
-		}
-	}
-}
+title = "Lo! He Comes"
+meter = "L.M."
+poet = "C. Wesley"
+pdate = "1758"
+composer = "Lael Birch and Leah Velleman"
+cdate = "2019"
 
-\header {
-	title = \markup { \caps "Lo! He comes" } %Tune name and hymn meter
-	poet = \markup { "A Minor.  C. Wesley, 1758." } %key and poet
-	composer = "L. Birch & L. Velleman, 2019" %Tune composer and date
-	tagline = ##f %Turns off annoying Lilypond version stamp on bottom of page
-}
+pitch = a % The written pitch
+isMajor = ##f  % Use ##t for major and ##f for minor
 
-trebleMusic = \relative c''
+timeSignature = 2/2
+
+midiTempo = 120
+midiInstrument = "piano"
+
+systemCount = 0
+
+staffSize = 20
+fontSize = 1
+
+trebleMusic =  \fasola c'
 {
     a4. c8 e8 e e d a2 b
     c4. d8 e d e d e2
@@ -59,7 +43,7 @@ altoMusic = \relative c'
     e4. f8 g f e d e2
     e4. e8 d e d e e2 a
     a4. a8 g a a g a2
-    a2 a g8.[ a16 g8 e] a2 
+    a2 a g8.[ a16 g8 e] a2
     c4. a8 g a a g a2
 }
 
@@ -77,17 +61,16 @@ tenorMusic = \relative c''
 
 bassMusic = \relative f
 {
-	\clef bass
     a4. e8 g8 e d e a2 e
     e4. f8 g f e g a2
     a4. e8 g e d e a2 e
     e4. e8 g e d c d2
-    e8.[ f16 e8 d] c2 g'8.[ a16 g8 f] e2 
+    e8.[ f16 e8 d] c2 g'8.[ a16 g8 f] e2
     a4. e8 g e d e <a a,>2
-	
+
 }
 
-verseTreble = \lyricmode
+trebleWords = \lyricmode
 {
 	\set stanza = "1."
 	Lo! he comes with clouds de -- scen -- ding
@@ -95,13 +78,13 @@ verseTreble = \lyricmode
 	Thou -- sand thou -- sand saints at -- ten -- ding,
 	Swell the tri -- umph of his train!
 	Hal -- le -- lu -- jah!
-	Je -- sus comes and comes to reign.  
+	Je -- sus comes and comes to reign.
 
 
 }
 
 
-verseAlto = \lyricmode
+altoWords = \lyricmode
 {
 	\set stanza = "2."
 	Ev' -- ry eye shall now be -- hold him
@@ -113,64 +96,31 @@ verseAlto = \lyricmode
 
 }
 
-verseTenor = \lyricmode
+tenorWords = \lyricmode
 {
 	\set stanza = "3."
 	Ev' -- ry is -- land, sea and moun -- tain,
 	Heav'n and earth, shall flee a -- way;
-	All who hate him must, con -- foun -- ded, 
+	All who hate him must, con -- foun -- ded,
 	Hear the trump pro -- claim the day;
 	Come to judge -- ment!
 	Come to judge -- ment! come a -- way!
 }
 
 
-verseBass = \lyricmode
+bassWords = \lyricmode
 {
 	\set stanza = "4."
 	Now re -- demp -- tion, long ex -- pec -- ted,
 	See in sol -- emn pomp ap -- pear;
-	All his saints, by man re -- jec -- ted, 
-	Now shall meet him in the air: 
+	All his saints, by man re -- jec -- ted,
+	Now shall meet him in the air:
 	Hal -- le -- lu -- jah!
 	See the day of God ap -- pear!
 }
 
-\score 
-{
-	\new StaffGroup <<
-		\new Staff = "treble" {	\global \trebleMusic }
-		\addlyrics { \verseTreble }
-		\addlyrics { \verseAlto }
-		\new Staff = "alto" { \global \altoMusic }
-        \addlyrics { \verseTenor }
-		\addlyrics { \verseBass }
-		\new Staff = "tenor" { \global \tenorMusic }
-		\addlyrics { \verseTreble }
-		\addlyrics { \verseAlto }
-		\new Staff = "bass" { \global \bassMusic }
-        \addlyrics { \verseTenor }
-		\addlyrics { \verseBass }
-	>> 
-	\layout {
-		#(layout-set-staff-size 20)    % target is 20
-		indent = #0
-		\context { \Score
-			\remove "Bar_number_engraver" %Gets rid of measure numbers at the beginning of each brace
-			\override SpanBar #'transparent = ##t %Turns off staff lines between staves
-			\override LyricText #'font-size = #-1.5
-			\override StanzaNumber #'font-size = #-1.5
-			\override StanzaNumber #'font-series = #'medium
-			\override VoltaBracket #'stencil = ##f
-		}
-		\context { \Staff
-			\override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 3)
-		}
-	}
-	\midi {
-		\context {
-			\Score
-			tempoWholesPerMinute = #(ly:make-moment 120 4) %Sets the metronome speed and value of the beat
-		}
-	}
-}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                 Score                                     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include "../templates/includes/layout.ily"

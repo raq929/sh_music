@@ -22,7 +22,7 @@ timeSignature = 2/4
 midiTempo = 80
 midiInstrument = "piano"
 
-systemCount = 2
+systemCount = 1
 
 staffSize = 20
 fontSize = 0
@@ -57,7 +57,7 @@ so4 la8 mi Fa4 mi4 la2
 bassMusic = \fasola Fa {
 la4 la8 La16 [So] La4
 So8. [La16] So8 La la4
-so4 Fa8, So La8 la so4
+so4 Fa,8 So La8 la so4
 la la8 La16 [so] la4 la La8 So La4
 so la8 So, La4 La <la la,>2
 }
@@ -121,7 +121,3 @@ bassWordsTwo = \lyricmode {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include "../templates/includes/layout.ily"
-
-
-
-

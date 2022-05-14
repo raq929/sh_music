@@ -31,10 +31,10 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-r2 la4 | Fa2 So4 | La (So) La | So2 So4 | So2 
+r2 la4 | Fa2 So4 | La (So) La | So2 So4 | So2
 So4 | Fa4. (La8) so4 | so (fa) La | So4. (La8) So4 | La2
 La4 | Fa2 mi4 | Fa8. ([So16] La4) La | la2 so4 | Fa8. ([mi16] la2) |
-la2. | La2 La4 La2.  
+la2. | La2 La4 La2.
 
 
 
@@ -46,11 +46,11 @@ r2 la4 | Fa (la4) so | so2 Fa4 | so4.( la8) mi4 | la2 so4
 so2 so4 | so4 (Fa4) Fa | So( Fa) mi | la (Fa)
 Fa4 | Fa2 mi8[ la] | so8.[( la16] mi4) Fa | Fa2 mi8[ la] | la2.
 la2. | so2 so4 | la2.
-} 
+}
 
 tenorMusic = \fasola Fa' {
-r2 La,4 | la2 mi4 Fa (mi) Fa | So (Fa) mi la2 
-mi4 | Fa2 So4 | La2 so4 fa( La) So La2  
+r2 La,4 | la2 mi4 Fa (mi) Fa | So (Fa) mi la2
+mi4 | Fa2 So4 | La2 so4 fa( La) So La2
 La4 | la2 mi4 so2 la8 [so] | fa4. ( La8) So4 La2.
 La2. Fa2 mi4 | la2.
   \bar"|."

@@ -8,10 +8,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 title = "Northfield Mountain"
-meter = ""
+meter = "6s"
 poet = "Hammond"
 pdate = "by 1838"
-composer = "L. Birch"
+composer = "Lael Birch"
 cdate = "2020"
 
 pitch = e % The written pitch
@@ -32,10 +32,10 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
   r2. la4 Fa La So La8 [so] la2.
-  La4 | La Fa So La | La2.
-  La4 | Fa La La so | so2.
-  La4 | La Fa So La | La2. \repeat volta 2 { r4 r1
-  r4 La4 | la la la8 [mi] la [so] la4 so la
+  La4 La Fa So La La2.
+  La4 Fa La La so so2.
+  La4 La Fa So La La2. \repeat volta 2 { r4 r1
+  r4 La4 la la la8 [mi] la [so] la4 so la
   La La (So) La2 La8 [fa] La [So] La4 fa La
   la4 Fa2 la so4 (fa) so (la) la2 so2 la2.~ } la4 \bar "|."
 }

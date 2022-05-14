@@ -22,7 +22,7 @@ timeSignature = 6/8
 midiTempo = 90
 midiInstrument = "piano"
 
-% systemCount = 1
+systemCount = 1
 
 staffSize = 20
 fontSize = 0
@@ -34,7 +34,7 @@ trebleMusic = \fasola Fa' {
 r4. r4 Fa8 | La4 so8 so4 la8 | so4.~ so4
 so8 | Fa,4 So8 Fa4 So8 | so4.~ so4
 La8 | Fa4 La8 la[ so] fa | so[ fa] La | so4
-so8 | fa4 La8 fa [ La] so | so2. 
+so8 | fa4 La8 fa [ La] so | so2.
 
 
 }
@@ -42,18 +42,18 @@ so8 | fa4 La8 fa [ La] so | so2.
 altoMusic = \fasola Fa' {
 
 
-} 
+}
 
 tenorMusic = \fasola Fa' {
 r4. r4 so8 | Fa4 La8 So[ Fa] mi | Fa4.~ Fa4
 La8 | La4 so8 fa4 So8 | La4.~ La4
 La8 | so4 la8 fa[ La] So | La[ So] Fa So4
-so,8 | Fa4 La8 So[ Fa] mi | Fa2. 
+so,8 | Fa4 La8 So[ Fa] mi | Fa2.
   \bar"|."
 }
 
 bassMusic = \fasola Fa {
-r4. r4 Fa8 | so4 so8 so4 so8 | Fa4.~ 4 
+r4. r4 Fa8 | so4 so8 so4 so8 | Fa4.~ 4
 so8 | La4 so8 Fa4 la8 | so4.~ 4
 so8 | Fa4 Fa8 Fa4 so8 | la4 la8 so4
 La8 | fa4 la8 so4 so8 | Fa,2.

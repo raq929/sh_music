@@ -106,7 +106,7 @@ tenorWordsTwo = \lyricmode {
 
 
 bassWords = \lyricmode {
-\set stanza = "2."
+\set stanza = "4."
 Oh for the strength of soul to rise
 A -- bove earth's deep -- est, dark -- est gloom,
 With eyes fixed on the match -- less prize

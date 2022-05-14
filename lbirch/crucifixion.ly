@@ -22,7 +22,7 @@ timeSignature = 3/2
 midiTempo = 120
 midiInstrument = "piano"
 
-% systemCount = 1
+systemCount = 1
 
 staffSize = 20
 fontSize = 0
@@ -31,9 +31,9 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
- r2. La4 La4 So4 La2. La4 So4 Fa4 mi2. 
+ r2. La4 La4 So4 La2. La4 So4 Fa4 mi2.
  La4 fa so la la La2 La2 \break La2.
- La4 La4 So4 La2. La4 So4 Fa4 mi2. 
+ La4 La4 So4 La2. La4 So4 Fa4 mi2.
  La4 fa so la la La2 So2 La1. \bar "|."
 }
 
@@ -69,7 +69,7 @@ trebleWords = \lyricmode {
  Was cru -- ci -- fied;
  Be -- lit -- tled and de -- spised he died.
 
- The poun -- ding nails, 
+ The poun -- ding nails,
  The pier -- cing spear,
  His ling -- 'ring doubt that God was near.
 }
@@ -81,7 +81,7 @@ That I could feel
 His ho -- ly pain,
 The hurt that heals my guil -- ty stains.
 
-Would I could see, 
+Would I could see,
 And un -- der -- stand
 That in the dark he holds my hand.
 }
