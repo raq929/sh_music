@@ -14,7 +14,7 @@ pdate = "1830"
 composer = "Lael Birch"
 cdate = ""
 
-pitch = g % The written pitch
+pitch = f% The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
 
 timeSignature = 2/4
@@ -22,7 +22,7 @@ timeSignature = 2/4
 midiTempo = 100
 midiInstrument = "piano"
 
-systemCount = 2
+systemCount = 1
 
 staffSize = 20
 fontSize = 0
@@ -39,7 +39,10 @@ altoMusic = \fasola Fa' {
 }
 
 tenorMusic = \fasola Fa' {
-
+Fa4 La8 So Fa4 so' la8 fa so4
+so Fa8 so la4 mi Fa2
+r4 so4 la8 fa so4 so4 La8 Fa So4.
+La8 Fa'4. so8 La4 So Fa2
 \bar "|."
 }
 
