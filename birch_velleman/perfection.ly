@@ -19,7 +19,7 @@ isMajor = ##t   % Use ##t for major and ##f for minor
 
 timeSignature = 2/4
 
-midiTempo = 150
+midiTempo = 130
 midiInstrument = "piano"
 
 systemCount = 2
@@ -39,13 +39,20 @@ altoMusic = \fasola Fa' {
 tenorMusic = \fasola Fa'' {
   \repeat volta 2 {
     Fa4 La So so Fa, La So8[ Fa] la4 Fa La So8[ Fa] la4 so2
-  } 
+  }
   la4 Fa so La so la Fa So La so La So Fa8[ So] La4 So2
   Fa4 La So so Fa, La So La8 So Fa4 la4~ 4 so Fa2
   \bar"|."
 }
 
 bassMusic = \fasola Fa {
+  \repeat volta 2 {
+    Fa4 Fa so' so Fa, la so8[ la] Fa4
+    Fa la so8[ la] Fa4 So2
+  }
+  Fa4 Fa so' so La La Fa so' La La
+  La so so,8 [la] Fa4 So2
+  Fa4 Fa so' so Fa, la so la8 mi Fa4 La4~ 4 so, Fa2
 }
 
 
@@ -67,7 +74,7 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "1."
-Ev -- er faint -- ing with de -- sire, 
+Ev -- er faint -- ing with de -- sire,
 For thee Oh! Christ, I call,
 Je -- su, dear re -- deem -- ing lord,
 I wait thy com -- ing from a -- bove;
