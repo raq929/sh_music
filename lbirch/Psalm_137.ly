@@ -36,8 +36,8 @@ trebleMusic = \fasola Fa' {
 }
 
 altoMusic = \fasola Fa' {
- la4 Fa la la Fa So La2 La4 So Fa La So So La2
- Fa4 So La La So So La2 La4. Fa8 la4. la8 la4 so la2
+ la4 Fa la la Fa So La2 La4 So Fa La Fa mi la2
+ Fa4 So La La Fa mi8[ la] mi2 La4. Fa8 la4. la8 la4 so la2
 }
 
 tenorMusic = \fasola Fa' {
@@ -47,8 +47,8 @@ la4 mi so La so fi La2 la,4. la8 Fa4. Fa8 Fa4 mi la2
 }
 
 bassMusic = \fasola Fa {
-la4 la La La so so la2 Fa4 so la la so mi mi2
-Fa4 so La La  so mi mi2 la4. la8 La4. La8 La4 so la2
+la4 la La La so so la2 Fa4 so la la Fa mi la2
+Fa4 so La La  Fa' mi8[ la] La2 la4. la8 La4. La8 La4 so la2
 }
 
 
