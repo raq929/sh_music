@@ -65,25 +65,25 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
- My pre -- cious Lord
- Was cru -- ci -- fied;
- Be -- lit -- tled and de -- spised he died.
+" My precious Lord
+ Was crucified;
+ Belittled and despised he died.
 
- The poun -- ding nails,
- The pier -- cing spear,
- His ling -- 'ring doubt that God was near.
+ The pounding nails,
+ The piercing spear,
+ His ling'ring doubt that God was near."_
 }
 
 
 altoWords = \lyricmode {
 \set stanza = "2."
-That I could feel
-His ho -- ly pain,
-The hurt that heals my guil -- ty stains.
+"That I could feel
+His holy pain,
+The hurt that heals my guilty stains.
 
 Would I could see,
-And un -- der -- stand
-That in the dark he holds my hand.
+And" _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ un -- der -- stand
+"That in the dark he holds my hand."_
 }
 
 tenorWords = \trebleWords
