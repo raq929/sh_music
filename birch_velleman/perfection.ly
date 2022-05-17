@@ -41,6 +41,11 @@ trebleMusic = \fasola Fa' {
 }
 
 altoMusic = \fasola Fa' {
+  \repeat volta 2 {
+   La4 La So so so La so8 [fa] La4 La La so8 [fa] La4 So2
+  }
+  La4 La So La so La so so La La la so so8 [fa] La4 So2
+  La4 La So so so La so la8 so la4 la4~4 so La2
 }
 
 tenorMusic = \fasola Fa'' {
@@ -68,9 +73,17 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+\set stanza = "1."
+Ev -- er faint -- ing with de -- sire,
+For thee Oh! Christ, I call,
+Je -- su, dear re -- deem -- ing lord,
+I wait thy com -- ing from a -- bove;
+Help me, Sav -- ior, speak the word,
+And per -- fect me in love.
 }
 trebleWordsTwo = \lyricmode {
-\set stanza = "2."
+Thee I rest -- less -- ly re -- quire,
+  I want my God, my all.
 }
 
 altoWords = \lyricmode {
