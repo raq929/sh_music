@@ -40,10 +40,15 @@ tenorMusic = \fasola Fa {
     r2 La8[ so] la2 la8[ so] mi2 la8[ so] La2
     La8[ so] la2 la8[ so] mi2 so8[ mi] la2
     mi8[ So] La2 La8[ So] so2 So8[ La] So2 mi8[ la] so2
-    la8[ so] mi2 la8[ so] La2 so8[ La] la2.
+    la8[ so] mi2 la8[ so] La2 so8[ La] so2.
 }
 
 bassMusic = \fasola Fa {
+    r2 La,8 [so] la2 La8 [so] La2 La8 [So] so2
+    la8 [so] la2 La8 [so] La2 La4 la2
+    so8 [So] La2 la8 [mi] so2 so8 [La] So2 La8 [la] so2
+    la8 [so] La2 La8 [so] La2 So4 La2. \bar "|."
+
 }
 
 
@@ -74,15 +79,15 @@ tenorWordsTwo = \lyricmode {
 \set stanza = "2."
 To res -- cue me from woe,
 Thou didst with all things part,
-Didst lead a suff -- ring life be -- low 
-To gain my worth -- less heart. 
+Didst lead a suff -- ring life be -- low
+To gain my worth -- less heart.
 }
 tenorWordsThree = \lyricmode {
 \set stanza = "3."
 "Though late, I" _ _ all for -- sake,
 My life, my all re -- sign;
 Gra -- cious re -- deem -- er, take, oh, take,
-And seal me ev -- er thine. 
+And seal me ev -- er thine.
 }
 
 bassWords = \lyricmode {
