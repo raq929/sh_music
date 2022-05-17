@@ -14,7 +14,7 @@ pdate = "17??"
 composer = "Leah Velleman and Lael Birch"
 cdate = "2022"
 
-pitch = a % The written pitch
+pitch = e % The written pitch
 isMajor = ##f   % Use ##t for major and ##f for minor
 
 timeSignature = 3/4
@@ -36,18 +36,18 @@ trebleMusic = \fasola Fa' {
 altoMusic = \fasola Fa' {
 }
 
-tenorMusic = \fasola Fa {
-    r2 La8[ so] la2 la8[ so] mi2 la8[ so] La2
-    La8[ so] la2 la8[ so] mi2 so8[ mi] la2
-    mi8[ So] La2 La8[ So] so2 So8[ La] So2 mi8[ la] so2
-    la8[ so] mi2 la8[ so] La2 so8[ La] la2.
+tenorMusic = \fasola Fa' {
+    r2 la8[ Fa] So2 So8[ Fa] La2 So8[ Fa] la2
+    la8[ Fa] So2 So8[ Fa] La2 Fa8[ La] So2
+    La8[ so] la2 la8[ so] Fa2 so8[ la] so2 La8[ So] Fa2
+    So8[ Fa] La2 So8[ Fa] la2 Fa8[ la] Fa2.
 }
 
 bassMusic = \fasola Fa {
-    r2 La,8 [so] la2 La8 [so] La2 La8 [So] so2
-    la8 [so] la2 La8 [so] La2 La4 la2
-    so8 [So] La2 la8 [mi] so2 so8 [La] So2 La8 [la] so2
-    la8 [so] La2 La8 [so] La2 La4 la2. \bar "|."
+    r2 la8 [Fa] so2 la8 [Fa] la2 la8 [so] la2
+    la8 [Fa] so2 la8 [Fa] la2  la4 so2
+    Fa8 [so] la2 So8 [La] Fa2 Fa8 [la] so2 La8 [so] la2
+    So8 [Fa] la 2 la8 [so] La2  so4 la2. \bar "|."
 
 }
 
