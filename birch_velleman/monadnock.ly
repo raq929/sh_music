@@ -40,7 +40,7 @@ tenorMusic = \fasola Fa' {
     \repeat volta 2 {
         Fa2 | la4 la la so8[ la] | Fa4 Fa Fa Fa8 So | La La La La so4 La | So2 Fa2
     }
-       | la'8 la la la so4 la | Fa4.( la8) so2
+       | so'8 so so so so4 la | Fa4.( la8) so2
        | la8 la la la so4 La | So4.( Fa8) la2
        \mark "D.C."
 }
@@ -71,7 +71,7 @@ tenorWords = \lyricmode {
 "And he set it on the rock of a"  -- _ _ _ _ _ _ _ _ ges 
 }
 tenorWordsTwo = \lyricmode {
-"He made my rest" --  _ _ _ ing "place secure" _ _ 
+"He made my hid" --  _ _ _ ing "place secure" _ _ 
 "And he set it on the rock of a"  -- _ _ _ _ _ _ _ _ ges 
 "Set it on the rock of a"  -- _ _ _ _ _ _ ges 
 "Set it on the rock of a"  -- _ _ _ _ _ _ ges 
@@ -83,11 +83,11 @@ tenorWordsThree = \lyricmode {
 }
 
 bassWords = \lyricmode {
-"His city's built from" _ _ _ _ "precious stone" _ _
+"Beneath his wing I" _ _ _ _ "made my home" _ _
 "And he set it on the rock of a"  -- _ _ _ _ _ _ _ _ ges 
 }
 bassWordsTwo = \lyricmode {
-"He made it our e" -- _ _ _ _ "ternal home" _ _ 
+"I wait the buliding" _ _ _ _ "yet to come" _ _ 
 "And he set it on the rock of a"  -- _ _ _ _ _ _ _ _ ges 
 "Set it on the rock of a"  -- _ _ _ _ _ _ ges 
 "Set it on the rock of a"  -- _ _ _ _ _ _ ges 
