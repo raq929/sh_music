@@ -38,6 +38,10 @@ trebleMusic = \fasola Fa' {
 }
 
 altoMusic = \fasola Fa' {
+    r2
+    \repeat volta 2 { Fa | la4 La La so | la mi Fa2 | Fa2 so4 La | so so  so8 [ la] so4 | Fa2 }
+    Fa Fa4 so so so La so la2 la so4 la so La so Fa so2
+    so la4 La La so | la mi Fa2 | Fa2 so4 La | so so  so8 [ la] so4 | la1
 }
 
 tenorMusic = \fasola Fa' {
@@ -49,11 +53,11 @@ tenorMusic = \fasola Fa' {
 }
 
 bassMusic = \fasola Fa {
-    r2 
-    \repeat volta 2 { 
+    r2
+    \repeat volta 2 {
         so | la4 la la so | La so Fa2 | la so4 la | Fa la La La | la2
     }
-    so | Fa,4 Fa so' so | Fa mi la2 | La La4 la | so so so La | so2
+    so | Fa,4 Fa Fa so' | Fa mi la2 | La La4 la | so so so La | so2
     so | la4 la la so | La so Fa2 | la so4 la | Fa la La La | la1
 }
 
@@ -78,12 +82,12 @@ Which must my soul and bod -- y part?
 
 altoWords = \lyricmode {
     \set stanza = "2."
-    O could I know my sins forgiv'n,
-    Soon would these terrors disappear;
-    With chearful heart I then shall sing,
-    And triumph o'er my vanquish'd foe—
-    O death, where is thy pointed sting?
-    My Saviour wards the fatal blow.
+    O could I know my sins for -- giv'n,
+    Soon would these ter -- rors dis -- a -- pear;
+    With cheer -- ful heart I then shall sing,
+    And tri -- umph o'er my van -- quish'd foe—
+    O death, where is thy poi -- nted sting?
+    My Sa -- viour wards the fa -- tal blow.
 
 }
 altoWordsTwo = \lyricmode {

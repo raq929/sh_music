@@ -97,7 +97,7 @@ tenorWordsThree = \lyricmode {
 
 }
 bassWords = \lyricmode {
-\set stanza = "3."
+\set stanza = "4."
 All crea -- tures, with in -- stinct -- ive cry,
 From God im -- plore their food;
 His boun -- ty grants a rich sup -- ply,
