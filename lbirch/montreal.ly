@@ -8,11 +8,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 title = "Montreal"
-meter = "S.M."
-poet = ""
-pdate = ""
+meter = "C.M."
+poet = "Isaac Watts"
+pdate = "1719"
 composer = "Lael Birch"
-cdate = ""
+cdate = "2022"
 
 pitch = g % The written pitch
 isMajor = ##t   % Use ##t for major and ##f for minor
@@ -45,8 +45,8 @@ trebleMusic = \fasola Fa' {
 }
 
 altoMusic = \fasola Fa' {
- r4 Fa Fa so so8 [la] mi[ Fa] Fa4 So Fa
- So Fa So Fa So So2
+ r4 Fa Fa so so8 [la] mi[ Fa] Fa4 So La
+ So Fa so la so so2
  r4 Fa So Fa Fa8 [ mi] la [so] so4 so Fa
  So So Fa8[ So] La4 So Fa2
 
@@ -58,7 +58,7 @@ altoMusic = \fasola Fa' {
 
 tenorMusic = \fasola Fa
 ' {
-r4 Fa4 La So so8 [fa] La[ So] Fa4 mi Fa
+r4 Fa4 La So so8 [fa] La[ So] Fa4 So Fa
 So4 La So La so so2
 r4 la4 so fa so8 [fa] La[ So] Fa4 So La
 so4 so La8[ So] Fa4 mi Fa2
@@ -91,10 +91,17 @@ la4 so Fa Fa Fa so la Fa la4. so8 so4 so Fa2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+  Not all the bles -- sings of a feast
+  Can please my soul so well
+  As when thy ri -- cher grace I taste,
+  And in thy pre -- sence dwell.
 
-
-
+  I am co -- ming, Lord
+  Co -- ming now to thee
+  Wash me, cleanse me in thy blood
+  that flowed on Cal -- va -- ry.
 }
+
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
 
@@ -102,24 +109,32 @@ trebleWordsTwo = \lyricmode {
 
 altoWords = \lyricmode {
 \set stanza = "2."
+  Not life it -- self with all her joys,
+  Can my best pas -- sions move,
+  Or raise so high my cheer -- ful voice,
+  As thy for -- gi -- ving love.
 
+  I am co -- ming, Lord
+  Co -- ming now to thee
+  Wash me, cleanse me in thy blood
+  that flowed on Cal -- va -- ry.
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-Not all the bles -- sings of a feast
-Can please my soul so well
-As when thy ri -- cher grace I taste,
-And in thy pre -- sence dwell
+  Thus til my last ex -- pi -- ring day,
+  I'll bless my God and King;
+  Thus will I lift my hands to pray,
+  And tune my lips to sing.
 
-I am co -- ming, Lord
-Co -- ming now to thee
-Wash me, cleanse me in thy blood
-that flowed on Cal -- va -- ry
-
+  I am co -- ming, Lord
+  Co -- ming now to thee
+  Wash me, cleanse me in thy blood
+  that flowed on Cal -- va -- ry.
 }
+
 tenorWordsTwo = \lyricmode {
 
 
