@@ -22,7 +22,7 @@ timeSignature = 2/4
 midiTempo = 150
 midiInstrument = "piano"
 
-systemCount = 2
+systemCount = 1
 
 staffSize = 20
 fontSize = 0
@@ -32,17 +32,24 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
   \repeat volta 2 {
-    so'4 so La8[ so] La[ So] Fa4 Fa La8[ So] Fa4
-    so' la so8[ La] Fa4 Fa So La2
+    so'4 so la8[ mi] Fa[ So] La4 So La8 [So] Fa4
+    Fa la La'8 [So] Fa4 Fa4 So Fa2
   }
   \repeat volta 2 {
-    Fa4 La so so so So Fa so'
-    La la so8[ La] Fa4 Fa So La2
+    La4 Fa mi mi mi Fa4 La so
+    Fa, la La'8 [So] Fa4 Fa4 So La2
   }
 }
 
 altoMusic = \fasola Fa' {
-
+  \repeat volta 2 {
+    so'4 so la8[ so] La[ So] Fa4 Fa La8[ So] Fa4
+    so' la so8[ La] Fa4 la' so so2
+  }
+  \repeat volta 2 {
+    Fa,4 La so so so so la so
+    La la so8[ La] Fa4 la' so so2
+  }
 }
 
 tenorMusic = \fasola Fa'' {
@@ -56,7 +63,12 @@ tenorMusic = \fasola Fa'' {
 }
 
 bassMusic = \fasola Fa {
-
+  \repeat volta 2 {
+    Fa4 Fa La so la so La8[ So] Fa4 Fa Fa La so la so Fa,2
+  }
+  \repeat volta 2 {
+    Fa'4 Fa so so so La la so la Fa Fa so la so Fa,2
+  }
 }
 
 
@@ -82,9 +94,15 @@ By his own al -- migh -- ty power
 
 altoWords = \lyricmode {
 \set stanza = "2."
+Count -- less bands of an -- gels glo -- rious,
+Clothed in bright e -- the -- real blue
 
+Christ tri -- ump -- hant, Christ tri -- ump -- hant
+Ri -- ses, con -- queror o'er the tomb.
 }
 altoWordsTwo = \lyricmode {
+  Straight the sound of Christ vic -- to -- rious
+From their sil -- ver trum -- pets flew:
 }
 
 tenorWords = \lyricmode {
