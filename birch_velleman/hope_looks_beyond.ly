@@ -9,7 +9,7 @@
 
 title = "Hope looks beyond"
 meter = ""
-poet = "Anne Steel"
+poet = "Anne Steele"
 pdate = "1760"
 composer = "Lael Birch and Leah Velleman"
 cdate = "2023"
@@ -31,12 +31,13 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-
+ r2 Fa8[ La] | Fa2 So8[ La] | La2 so4 | La2 La4 | So2 La4 | so2 so8[ La8] Fa2 La4 so2
+ Fa,8[ La] so2 so4 La2 Fa4 La8( so4.) la4 Fa8( la4.) so4 la2 so8[ La] So2 mi4 Fa2.
 }
 
 altoMusic = \fasola Fa' {
   r2 so8[ la] | so2 la8[ so] | la2 so8[ la] | Fa2 la4 | so2 La4 | so2 so8[ la] | Fa2 la4 | so2
-     so8[ la] | so2 la8[ so] | Fa2 so8[ la] | Fa2 Fa4 | Fa2 so4 | la2 so8[ la] | so2 so4 | so
+     so8[ la] | so2 la8[ so] | Fa2 so8[ la] | Fa2 Fa4 | Fa2 so4 | la2 so8[ la] | so2 so4 | so2.
 }
 
 tenorMusic = \fasola Fa' {
@@ -59,6 +60,10 @@ Fa8 [La] so,2 so4 Fa2 La4 La8( Fa4.) Fa4 so8( la4.) so4 la2 la8[ Fa] So2 so,4 Fa
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+The once loved form, now cold and dead,
+Each mourn -- ful thought em -- ploys;
+And na -- ture weeps her com -- forts fled,
+And wi -- thered all her joys.
 
 
 
@@ -66,10 +71,15 @@ trebleWords = \lyricmode {
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
 
+
 }
 
 altoWords = \lyricmode {
 \set stanza = "2."
+Hope looks be -- yond the bounds of time,
+When what we now de -- plore
+Shall rise in full, im -- mor -- tal prime,
+And bloom to fade no more.
 
 }
 altoWordsTwo = \lyricmode {
@@ -77,15 +87,6 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-The once loved form, now cold and dead,
-Each mourn -- ful thought em -- ploys;
-And na -- ture weeps her com -- forts fled,
-And wi -- thered all her joys.
-
-Hope looks be -- yond the bounds of time,
-When what we now de -- plore
-Shall rise in full, im -- mor -- tal prime,
-And bloom to fade no more.
 
 Cease, then, fond na -- ture, cease thy tears!
 Re -- li -- gion points on high;
