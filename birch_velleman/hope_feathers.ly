@@ -31,7 +31,7 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-r2. La4 so La8 [So] Fa [So] La [so] la4 so2
+r2. La4 so La8 [So] Fa [So] La [so] la4( so2)
 so4 La4. Fa8 Fa4 Fa So2 r4
 Fa La so so Fa la la  so2~2
 La2 la8 so4. Fa, So8 La1
@@ -42,7 +42,7 @@ altoMusic = \fasola Fa' {
 }
 
 tenorMusic = \fasola Fa' {
-r2. so4 Fa4 Fa8 [So] La [So] Fa [mi] la4 so2
+r2. so4 Fa4 Fa8 [So] La [So] Fa [mi] la4 (so2)
 so4 La'4. La8 so4 La So2
 r4 so Fa so La4 Fa La Fa So2~So2
 Fa La8 So4. Fa4.la8 Fa1
@@ -61,7 +61,8 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-“Hope” is the thing with fea -- thers
+
+“Hope” is the thing with \set Lyrics.ignoreMelismata = ##t fea -- thers \set Lyrics.ignoreMelismata = ##f
 That per -- ches in the soul
 And sings the tune with -- out the words
 And ne -- ver stops at all
@@ -76,13 +77,21 @@ trebleWordsTwo = \lyricmode {
 altoWords = \lyricmode {
 \set stanza = "2."
 
+And swee -- "test in the" Gale is heard
+And sore must be the storm
+That could a -- bash the lit -- tle Bird
+That kept so ma -- ny warm
+
 }
 altoWordsTwo = \lyricmode {
 }
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-
+I've heard "it in the" chil -- lest land_
+And on the stran -- gest Sea
+Yet ne -- ver in Ex -- tre -- mi -- ty,
+It asked a crumb of me.
 
 }
 tenorWordsTwo = \lyricmode {
