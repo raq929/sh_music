@@ -22,6 +22,7 @@ relativeFaPitchNames = #`(
   (bs . ,(ly:make-pitch -1 6 SHARP))
   (Fa . ,(ly:make-pitch -1 0 NATURAL))
   (So . ,(ly:make-pitch -1 1 NATURAL))
+  (Si . ,(ly:make-pitch -1 1 SHARP))
   (La . ,(ly:make-pitch -1 2 NATURAL))
   (fa . ,(ly:make-pitch -1 3 NATURAL))
   (fi . ,(ly:make-pitch -1 3 SHARP))
@@ -36,11 +37,10 @@ pitchnames = \relativeFaPitchNames
 
 fasola =
   #(define-music-function (parser location k m)
-                          (ly:pitch? ly:music?) 
+                          (ly:pitch? ly:music?)
     (let* ((transposePitch (if isMajor #{ Fa #} #{ la, #})))
      #{
        \transpose #transposePitch \pitch { \relative $k { $m } }
      #}
     )
   )
-
