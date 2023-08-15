@@ -56,6 +56,13 @@ Fa8 La So4 Fa Fa8 la Fa2
 
 bassMusic = \fasola Fa {
 
+r2
+\repeat volta 2 {
+so8 la | Fa4 Fa la8 Fa | So4 La la,8 Fa | So4 La Fa8 la | so2
+}
+La8 fa | so4 so la8 mi | Fa4 Fa Fa8 So | La4 La So8 Fa | la2
+so8 la | Fa4 Fa la8 Fa | So4 La Fa8 la | so4 la so8 la | Fa2
+
 }
 
 
