@@ -44,7 +44,7 @@ so8 [la] Fa4 la8 la so4 so8 so so1
 
 altoMusic = \fasola Fa' {
 r2. La4 so La8 La La4 Fa8 So La2.
-Fa4 So4 Fa8 Fa La4 La8 La so2.
+Fa4 so'4 Fa,8 Fa La4 La8 La so2.
 so4 La La8 La La4 So8 La Fa2.
 La4 La4 fa8 la so4 Fa,8 So La2.
 
@@ -58,13 +58,13 @@ La4 La4 fa8 La so4 Fa,8 So La1
 tenorMusic = \fasola Fa' {
 r2. Fa4 La La8 La so4 fa8 La so2.
 La8 [fa] so4 so8 so Fa4 La,8 La So2.
-so8 mi Fa4 Fa8 Fa La4 So8 Fa la2.
-Fa8 [la]] so4 fa8 La So4 La8 So Fa2.
+so8[ mi] Fa4 Fa8 Fa La4 So8 Fa la2.
+Fa8 [la] so4 fa8 La So4 La8 So Fa2.
 
 Fa8 So La2. La8 La so2.
 so8 [mi] Fa4 Fa8 Fa La4 So8 Fa So2.
 Fa4 Fa Fa8 Fa La4 So8 Fa la2.
-Fa8 [la]] so4 fa8 La So4 La8 So Fa1
+Fa8 [la] so4 fa8 La So4 La8 So Fa1
 \bar "|."
 }
 
@@ -74,7 +74,7 @@ Fa4 La4 La8 La Fa4 so8 so so2.
 so4 Fa Fa8 Fa so'4 so8 so fa2.
 Fa8 [La] Fa4 Fa8 La So4 <so so,>8 <so so,> Fa,2.
 
-r4 r4 La8 La Fa2 ~4 Fa'8 Fa Fa4
+r4 r4 Fa8 Fa Fa2 ~4 Fa'8 Fa Fa4
 Fa4 Fa,4 Fa8 So La4 So8 La So2.
 So4 Fa Fa8 Fa so'4 so8 so fa2.
 Fa8 [La] Fa4 Fa8 La So4 <so so,>8 <so so,> Fa,1
@@ -121,8 +121,8 @@ altoWordsTwo = \lyricmode {
 tenorWords = \lyricmode {
 \set stanza = "3."
 We speak of the path -- ways of gold,
-Of its walls decked with je -- wels so rare,
-Of its won -- ders and plea -- sures un -- told,
+Of walls decked with je -- wels so rare,
+Of won -- ders and plea -- sures un -- told,
 But what must it be to be there!
 
 To be there, to be there!
