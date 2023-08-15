@@ -83,16 +83,24 @@ trebleWordsTwo = \lyricmode {
 
 altoWords = \lyricmode {
 \set stanza = "2."
+Lone -- ly seems the vale of sha -- dow;
+Sinks my heart with trou -- bled fear;
 
+
+Fee -- ble, trem -- bling, faint -- ing, dy -- ing,
+Lord, I cast my -- self on Thee;
+Tar -- ry with me through the dark -- ness;
+While I sleep, still watch by me.
 }
 altoWordsTwo = \lyricmode {
+Give me faith for clear -- er vi -- sion,
+Speak Thou, Lord, in words of cheer.
 }
 
 tenorWords = \lyricmode {
 \set stanza = "3."
 Tar -- ry with me, O my Sa -- vior!
 For the day is pas -- sing by;
-
 
 Ma -- ny friends were ga -- ther'd round me
 In the bright days of the past;
@@ -109,12 +117,19 @@ tenorWordsThree = \lyricmode {
 }
 bassWords = \lyricmode {
 \set stanza = "3."
+Deep -- er, deep -- er grow the sha -- dows,
+Pa -- ler now the glo --- wing west,
 
+Tar -- ry with me, O my Sa -- vior!
+Lay my head u -- pon Thy breast
+Till the mor -- ning; then aw -- ake me!
+Mor -- ning of e --- ter -- nal rest.
 
 
 }
 bassWordsTwo = \lyricmode {
-
+Swift the night of death ad -- van -- ces;
+Shall it be the night of rest?
 }
 
 
