@@ -30,8 +30,15 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleMusic = \fasola Fa' {
-
+trebleMusic = \fasola Fa'' {
+\repeat volta 2 {
+\partial 4 {so8 La} Fa4 Fa La8 La So8 (Fa) la4
+Fa8 La so4 so so8 So La2
+}
+Fa8 So16[ La] so4 so La8 So
+La (so) la4 so8 so so4 so La8 So La2
+so8 La Fa4 Fa La8 La So8 (Fa) la4
+Fa8 La so4 so so8 So La2
 }
 
 altoMusic = \fasola Fa' {
@@ -39,10 +46,8 @@ altoMusic = \fasola Fa' {
 }
 
 tenorMusic = \fasola Fa' {
-
-r2
 \repeat volta 2 {
-Fa8 la Fa4 Fa La8 so la (so) La4
+\partial 4 {Fa8 la} Fa4 Fa La8 so la (so) La4
 Fa8 La So4 Fa Fa8 la Fa2
 }
 
@@ -55,10 +60,8 @@ Fa8 La So4 Fa Fa8 la Fa2
 }
 
 bassMusic = \fasola Fa {
-
-r2
 \repeat volta 2 {
-so8 la | Fa4 Fa la8 Fa | So4 La la,8 Fa | So4 La Fa8 la | so2
+\partial 4 { so8 la } | Fa4 Fa la8 Fa | So4 La la,8 Fa | So4 La Fa8 la | so2
 }
 La8 fa | so4 so la8 mi | Fa4 Fa Fa8 So | La4 La So8 Fa | la2
 so8 la | Fa4 Fa la8 Fa | So4 La Fa8 la | so4 la so8 la | Fa2
@@ -72,13 +75,19 @@ so8 la | Fa4 Fa la8 Fa | So4 La Fa8 la | so4 la so8 la | Fa2
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+Tar -- ry with me, O my Sa -- vior!
+For the day is pas -- sing by;
 
+Ma -- ny friends were ga -- ther'd round me
+In the bright days of the past;
+But the grave has closed a -- bove them,
+And I lin -- ger here at last.
 
 
 }
 trebleWordsTwo = \lyricmode {
-\set stanza = "2."
-
+See! the shades of eve -- ning ga -- ther,
+And the night is draw -- ing nigh.
 }
 
 altoWords = \lyricmode {
@@ -99,37 +108,30 @@ Speak Thou, Lord, in words of cheer.
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-Tar -- ry with me, O my Sa -- vior!
-For the day is pas -- sing by;
+Deep -- er, deep -- er grow the sha -- dows,
+Pa -- ler now the glo -- wing west,
 
-Ma -- ny friends were ga -- ther'd round me
-In the bright days of the past;
-But the grave has closed a -- bove them,
-And I lin -- ger here at last.
+Tar -- ry with me, O my Sa -- vior!
+Lay my head u -- pon Thy breast
+Till the mor -- ning; then aw -- ake me!
+Mor -- ning of e -- ter -- nal rest.
 
 }
 tenorWordsTwo = \lyricmode {
-See! the shades of eve -- ning ga -- ther,
-And the night is draw -- ing nigh.
+Swift the night of death ad -- van -- ces;
+Shall it be the night of rest?
 }
 tenorWordsThree = \lyricmode {
 
 }
 bassWords = \lyricmode {
 \set stanza = "3."
-Deep -- er, deep -- er grow the sha -- dows,
-Pa -- ler now the glo --- wing west,
 
-Tar -- ry with me, O my Sa -- vior!
-Lay my head u -- pon Thy breast
-Till the mor -- ning; then aw -- ake me!
-Mor -- ning of e --- ter -- nal rest.
 
 
 }
 bassWordsTwo = \lyricmode {
-Swift the night of death ad -- van -- ces;
-Shall it be the night of rest?
+
 }
 
 
