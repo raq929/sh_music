@@ -11,7 +11,7 @@ title = "Center"
 meter = "C.M."
 poet = "Anne Steel"
 pdate = "1760"
-composer = "R. Stevens and L. Velleman"
+composer = "Lael Birch and Leah Velleman"
 cdate = "2019"
 
 pitch = bf % The written pitch
@@ -37,7 +37,7 @@ r2 So | La4 fa so2 | Fa, La8[ So] Fa [So] | La2 La |  fa4 La8[ So] Fa4 So | La1
 
 altoMusic = \fasola Fa' {
 r2 so | La4 So so2 | la2 so4 so La2 | so so4 La so la so1
-r2 la | Fa4 la so2 | so La8 [fa] so4 | la2 mi2 | Fa4 la so so so1 
+r2 la | Fa4 la so2 | so La8 [fa] so4 | la2 mi2 | Fa4 la so so so1
 }
 
 tenorMusic = \fasola Fa' {
@@ -47,7 +47,7 @@ r2 fa | La4 So Fa2 | so'2 La8[ So] Fa[ mi] | la2 so | Fa4 So La So | Fa1
 
 bassMusic = \fasola Fa {
 r2 so | Fa,4 So La2 | So2 La4 so | la2 Fa | so4 so Fa la | so1
-r2 fa | so4 la Fa2 | so2 La8[ fa] so4 | la2 so | Fa4 la so so | Fa,1
+r2 fa | so4 la Fa2 | so2 La8[ fa] so4 | la2 so | Fa4 la so so | Fa,1 \bar "|."
 }
 
 
