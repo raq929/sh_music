@@ -106,7 +106,3 @@ bassWordsTwo = \lyricmode {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \include "../templates/includes/layout.ily"
-
-
-
-
