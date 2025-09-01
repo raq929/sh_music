@@ -7,8 +7,8 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "In our sorrow"
-meter = ""
+title = "Sorrow"
+meter = "P.M."
 poet = "Amanda Udis-Kessler"
 pdate = "2021"
 composer = "Lael Birch"
@@ -17,7 +17,7 @@ cdate = "2025"
 pitch = d % The written pitch
 isMajor = ##f   % Use ##t for major and ##f for minor
 
-timeSignature = 3/4
+timeSignature = 2/4
 
 midiTempo = 80
 midiInstrument = "piano"
@@ -31,28 +31,28 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-r2 \repeat volta 2 { Fa8 [So] La4 La So8 La so4 la La8 [Fa] La4 so La8 La La2 }
-La8 (Fa) Fa4 Fa La8 so Fa4 la so4 so La4 Fa8 La So2
-Fa8 [So] La4 La So8 La so4 la La8 [Fa] La4 so La8 La La2.
+\repeat volta 2 { Fa8 [So] La4 La So8 La so4 la La8 [Fa] La4 so La8 La La2 }
+La8 (Fa) Fa4 Fa La8 so Fa4 la so4 so La4 Fa16 [So] La8 So2
+Fa8 [So] La4 La So8 La so4 la La8 [Fa] La4 so La8 La La2
 }
 
 altoMusic = \fasola Fa' {
-r2 \repeat volta 2 {  la8 [so] la4 Fa mi8 Fa So4 Fa4 Fa8 [la] Fa4 Fa So8 mi la2 }
-Fa4 La La La8 So La4 La La8 [Fa] Fa4 La Fa16 [So] La8 So2
-la8 [so] la4 Fa mi8 Fa So4 Fa4 Fa8 [la] Fa4 Fa So8 mi  la2.
+\repeat volta 2 {  la8 [so] la4 Fa mi8 Fa So4 Fa4 Fa8 [la] Fa4 Fa So8 mi la2 }
+Fa4 La La La8 So La4 La La8 [Fa] Fa4 La La16 [So] Fa8 mi2
+la8 [so] la4 Fa mi8 Fa So4 Fa4 Fa8 [la] Fa4 Fa So8 mi  la2
 }
 
 tenorMusic = \fasola Fa' {
-r2 \repeat volta 2 { la8 [mi] Fa4 Fa So8 Fa mi4 la la8 [Fa] La4 La so,8 so la2 }
-Fa8 (La) so4 so4 la8 so La4 Fa Fa8 (La) so4 Fa,4 La16 [So] Fa8 So2
-la8 (mi) Fa4 Fa So8 Fa mi4 la la8 [Fa] La4 La so,8 so la2.
+\repeat volta 2 { la8 [mi] Fa4 Fa So8 Fa mi4 la la8 [Fa] La4 La so,8 so la2 }
+Fa8 (La) so4 la4 la8 so so4 La Fa8 (La) so4 Fa,4 La16 [So] Fa8 So2
+la8 [mi] Fa4 Fa So8 Fa mi4 la la8 [Fa] La4 La so,8 so la2
 \bar "|."
 }
 
 bassMusic = \fasola Fa {
-r2 \repeat volta 2 { la4 la4 Fa mi8 (Fa) so4 la4 la Fa so La8 La la2 }
-Fa4 Fa La La8 So Fa4 la Fa4 Fa la Fa8 la mi2
-la4 la4 Fa mi8 (Fa) so4 la4 la Fa so La8 La la2.
+\repeat volta 2 { la8 [so] la4 Fa mi8 (Fa) so4 la4 la Fa so La8 La la2 }
+la8 [Fa] Fa4 La La8 So Fa4 la Fa4 Fa la Fa16 [mi] la8 mi2
+la8 [so] la4 Fa mi8 Fa so4 la4 la Fa so La8 La la2
 }
 
 
