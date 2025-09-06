@@ -43,7 +43,7 @@ tenorMusic = \fasola Fa' {
 
 \repeat volta 2 {la4 la La' La So So mi mi Fa( So8[ La]) So4 mi4 la2}
 La'4 La so so La La la la so so mi mi  Fa mi la so
-la so La So Fa8[ So] La[ fa] so4 So La( fa8[ so]) la4 La la2
+la so La So Fa8[ So] La[ fa] so4 So La( Fa) So4 mi la2
 
 }
 
