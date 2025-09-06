@@ -40,7 +40,10 @@ altoMusic = \fasola Fa' {
 
 tenorMusic = \fasola Fa' {
 
-\bar "|."
+\repeat volta 2 {la la La' La So So mi mi Fa( So8[ La]) So4 mi4 la2}
+La'4 La so so La La la la so so mi mi Fa mi la so
+la so La So Fa8[ So] La[ fa] so4 So La( fa8[ so]) la4 La la2
+
 }
 
 bassMusic = \fasola Fa {
@@ -82,15 +85,15 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-In the beau -- ty all- -- sur -- roun -- ding, God speaks to -- day.
-In the love that keeps as -- toun -- ding, God speaks to -- day.
-As we live the in -- vi -- tation
+In the beau -- ty all -- sur -- roun -- ding, God speaks to -- day.
+As we live the in -- vi -- ta -- tion
 To res -- tore each soul and na -- tion,
 As we strive to heal cre -- a -- tion, God speaks to -- day.
 
 
 }
 tenorWordsTwo = \lyricmode {
+In the love that keeps as -- toun -- ding, God speaks to -- day.
 
 
 
