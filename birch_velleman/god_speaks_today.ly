@@ -1,4 +1,4 @@
-\version "2.19.2"
+\version "2.24.4"
 \include "../templates/includes/setup.ily"
 \include "../templates/includes/fasola.ily"
 \include "../templates/includes/barlines.ily"
@@ -35,13 +35,14 @@ trebleMusic = \fasola Fa' {
 }
 
 altoMusic = \fasola Fa' {
-
+\repeat volta 2 { la4 Fa La8[ So] Fa4 mi4 mi so so la( so8 [la]) so4 so la2 }
+la4 Fa mi mi Fa Fa La La So So mi so so so so so la So Fa mi la8 [mi] Fa [ So] La4 So Fa (Fa8 [mi]) la4 so la2
 }
 
 tenorMusic = \fasola Fa' {
 
-\repeat volta 2 {la la La' La So So mi mi Fa( So8[ La]) So4 mi4 la2}
-La'4 La so so La La la la so so mi mi Fa mi la so
+\repeat volta 2 {la4 la La' La So So mi mi Fa( So8[ La]) So4 mi4 la2}
+La'4 La so so La La la la so so mi mi  Fa mi la so
 la so La So Fa8[ So] La[ fa] so4 So La( fa8[ so]) la4 La la2
 
 }
@@ -74,13 +75,14 @@ trebleWordsTwo = \lyricmode {
 altoWords = \lyricmode {
 \set stanza = "2."
 In the hope that keeps us bur -- ning, God speaks to -- day.
-In the les -- sons we are learn -- ing, God speaks to -- day.
+
 As we heal and make con -- fes -- sion,
-Nur -- ture peace, re -- ject ag -- gres -- sion,
+nur -- ture peace, re -- ject ag -- gres -- sion,
 Share our prayers and share pos -- ses -- sions, God speaks to -- day.
 
 }
 altoWordsTwo = \lyricmode {
+    In the les -- sons we are learn -- ing, God speaks to -- day.
 }
 
 tenorWords = \lyricmode {
