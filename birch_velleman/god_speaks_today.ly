@@ -7,10 +7,10 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = ""
-meter = ""
-poet = ""
-pdate = ""
+title = "God Speaks Today"
+meter = "P.M."
+poet = "Amanda Udis-Kessler"
+pdate = "2021"
 composer = "Lael Birch and Leah Velleman"
 cdate = "2025"
 
@@ -31,7 +31,8 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-
+\repeat volta 2 { La4 Fa la8[ mi] Fa4 So so so so La (So8 [Fa]) So4 La La2 }
+La4 Fa La so so so la La So so so so so So La So La So la' so La8 [So] Fa4 so'4 so La (So8 [Fa]) So4 La La2  \bar"|."
 }
 
 altoMusic = \fasola Fa' {
@@ -48,8 +49,8 @@ la so La So Fa8[ So] La[ fa] so4 So Fa( So8[ La]) So4 mi4 la2
 }
 
 bassMusic = \fasola Fa {
-\repeat volta 2 {la4 la La la mi mi so mi Fa( la) so so la2}
-La4 La La' So Fa Fa la Fa so so La so Fa Fa la so La La La' So Fa8[ mi] la4 so so Fa( la) so so la2
+\repeat volta 2 {la4 la La la mi mi so mi Fa( mi8 [la]) so4 so la2}
+La4 La La' So Fa Fa la Fa so so La so Fa so la so La La La' So Fa8[ mi] la4 so so Fa( mi8 [la]) so4 so la2
 }
 
 
@@ -60,17 +61,17 @@ La4 La La' So Fa Fa la Fa so so La so Fa Fa la so La La La' So Fa8[ mi] la4 so s
 trebleWords = \lyricmode {
 \set stanza = "1."
 In our year -- ning, joy, and won -- der, God speaks to -- day.
-In the care we show each other, God speaks to -- day.
+
 As we tend each friend and neigh -- bor,
-Work for jus -- tice, wel -- come strangers,
+Work for jus -- tice, wel -- come stran -- gers,
 Seek to shield the poor from dan -- ger, God speaks to -- day.
 
 
 
 }
 trebleWordsTwo = \lyricmode {
-\set stanza = "2."
 
+In the care we show each o -- ther, God speaks to -- day.
 }
 
 altoWords = \lyricmode {
