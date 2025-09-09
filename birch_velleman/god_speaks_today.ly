@@ -10,7 +10,7 @@
 title = "God Speaks Today"
 meter = "P.M."
 poet = "Amanda Udis-Kessler"
-pdate = "2021"
+pdate = "2022"
 composer = "Lael Birch and Leah Velleman"
 cdate = "2025"
 
@@ -32,12 +32,12 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
 \repeat volta 2 { La4 Fa la8[ mi] Fa4 So so so so La (So8 [Fa]) So4 La La2 }
-La4 Fa La so so so la La So so so so so So La So La So la' so La8 [So] Fa4 so'4 so La (So8 [Fa]) So4 La La2  \bar"|."
+La4 Fa La so so so la La So so so so so So La So La so la so La8 [So] Fa4 so'4 so La (So8 [Fa]) So4 La La2  \bar"|."
 }
 
 altoMusic = \fasola Fa' {
 \repeat volta 2 { la4 Fa La8[ So] Fa4 mi4 mi so so la( so8 [la]) so4 so la2 }
-la4 Fa mi mi Fa Fa La La So So mi so so so so so la So Fa mi la8 [mi] Fa [ So] La4 So la( so8 [la]) so4 so la2
+la4 Fa mi mi Fa Fa La La So So mi so so so so so La' So Fa mi la8 [mi] Fa [ So] La4 So la( so8 [la]) so4 so la2
 }
 
 tenorMusic = \fasola Fa' {
@@ -49,7 +49,7 @@ la so La So Fa8[ So] La[ fa] so4 So Fa( So8[ La]) So4 mi4 la2
 }
 
 bassMusic = \fasola Fa {
-\repeat volta 2 {la4 la La la mi mi so mi Fa( mi8 [la]) so4 so la2}
+\repeat volta 2 {la4 la La la so so so mi Fa( mi8 [la]) so4 so la2}
 La4 La La' So Fa Fa la Fa so so La so Fa so la so La La La' So Fa8[ mi] la4 so so Fa( mi8 [la]) so4 so la2
 }
 
