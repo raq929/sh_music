@@ -31,13 +31,13 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-r4. Fa8 | La4 So | La Fa | Fa4. So8 | Fa4.
+r4. Fa8 | La4 So | Fa La | Fa4. So8 | Fa4.
 Fa8 So4 So8 [Fa] Fa4 Fa So4. Fa8 mi4.
 Fa8 La4 Fa So8 (La4) So8 La2
 
 r4. Fa8 La4 so so8 [fa] La4 so so so4.
-Fa,8 Fa4 Fa Fa8 [mi8] la4 la8 [so] la [mi] Fa4.
-Fa8 Fa4 La8 [so] la8 (so4) la8 so2
+Fa,8 Fa4 Fa  Fa8 [mi8] la4 la8 [so] la [mi] Fa4.
+Fa8 Fa4 La4 So8 (La4) So8 La2
 
 }
 
@@ -58,11 +58,11 @@ Fa8 | so'4 la So,8 (Fa4) So8 Fa2
 
 bassMusic = \fasola Fa {
 r4. Fa,8 | Fa4 so'4 la8 [so] so4 | Fa4. So8 | so,4.
-so8 | so4 fa8 [La] fa4 Fa | so'4. fa8 | so4.
-Fa,8 | La4 Fa' | so so | Fa,2
+so8 | so4 fa8 [La] fa4 Fa | so'4. so8 | so4.
+Fa,8 | so'4 Fa | so8 (La4) so8 | Fa,2
 r4. Fa8 | Fa4 so'4 Fa8 [mi] la4 | Fa4. So8 | Fa4.
 Fa,8 | so'4 fa4 | so so Fa mi Fa4.
-Fa,8 | Fa8 [So] La [Fa] so'4 so <Fa Fa,>2
+Fa,8 | Fa8 [So] La [fa] so8 (La4) so8 <Fa Fa,>2
 }
 
 
