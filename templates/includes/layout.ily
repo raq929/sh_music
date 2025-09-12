@@ -48,19 +48,19 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
       }
       \fill-line {
         \fontsize #0 \concat {
-          \bold \fromproperty #'header:key "    " 
-          \bold \fromproperty #'header:poet 
+          \bold \fromproperty #'header:key "    "
+          \bold \fromproperty #'header:poet
           \maybeHymnal
-          ", " \bold \fromproperty #'header:pdate "." 
+          ", " \bold \fromproperty #'header:pdate "."
         }
         \null
         \fontsize #0 \concat {
-          \bold \fromproperty #'header:composer ", " 
-          \bold \fromproperty #'header:cdate "." 
+          \bold \fromproperty #'header:composer ", "
+          \bold \fromproperty #'header:cdate "."
         }
       }
     }
-  }  
+  }
   tagline = ##f
 }
 
@@ -68,15 +68,15 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
   indent = #0
   \context {
     \Score
-    \remove "Bar_number_engraver" 
-    \remove "Volta_engraver" 
-    \omit SpanBar 
+    \remove "Bar_number_engraver"
+    \remove "Volta_engraver"
+    \omit SpanBar
     startRepeatType = ":"
     doubleRepeatType = ":|:"
   }
   \context {
     \Staff
-    \remove "Volta_engraver" 
+    \remove "Volta_engraver"
     \consists "Volta_engraver"
     \override VoltaBracket #'style = #'dashed-line
     \override VoltaBracket #'dash-period = #0
@@ -165,7 +165,7 @@ global = {
         #(string (string-ref "CDEFGAB" (ly:pitch-notename pitch)))
         #(cond ((= -1/2 (ly:pitch-alteration pitch)) #{ \textFlat #})
                ((= 1/2 (ly:pitch-alteration pitch)) #{ \textSharp #})
-               (else "")) 
+               (else ""))
         " "
         #(if isMajor "Major" "minor")
         }
@@ -186,9 +186,9 @@ global = {
 % AUDIBLE SCORE
 %%%%%%%%%%%%%%%
 
-#(load "../templates/includes/swing.scm")
+% #(load "../templates/includes/swing.scm")
 \score {
-  \unfoldRepeats { <<                                                                              
+  \unfoldRepeats { <<
     \new Staff {\time\timeSignature\trebleMusic}
     \new Staff {\time\timeSignature\altoMusic}
     \new Staff {\time\timeSignature\tenorMusic}
