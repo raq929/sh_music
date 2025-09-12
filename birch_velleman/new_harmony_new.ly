@@ -40,7 +40,13 @@ so2 La4 Fa Fa2 So La4 so2. So2 La4 Fa La2 So2 La4 Fa La2 Fa2 La4 so La2 So Fa4 L
 
 }
 
-altoMusic = \fasola Fa' {}
+altoMusic = \fasola Fa' {
+La2 La4 so La2 so so4 so so2 la la4 so la2 so so4 La2.
+La2 La4 so La2 so so4 La So2
+so2 La4 La La2 so so4 so2.
+so2 La4 La La2 so Fa4 Fa Fa2 la la4 so la2 so so4 La2.
+
+}
 
 tenorMusic = \fasola Fa'' {
 \repeat volta 2 {
