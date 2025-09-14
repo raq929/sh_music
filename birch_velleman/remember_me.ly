@@ -34,11 +34,11 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
     \repeat volta 2 {
-        la2 La'4 Fa mi Fa mi8 [Fa] So [La] So4
-        So Fa So8 [La] La4 La La2
+        la2 La'4 La so so so8 [La] So [La] So4
+        La8 [So] Fa4 So8 [La] La4 La La2
     }
-    r4 La4 la, la la8 [mi] la4 so4. (la8 so8 la) mi4 Fa La Fa8 [So] La [fa] so2
-    r4 La4 La4 La Fa La so8 [La] So [La] So4 So Fa So8 [La] La4 La La2
+    r4 La4 Fa Fa Fa8 [mi] la4 so4. (la8 so8 la) mi4 Fa La Fa8 [So] La [fa] so2
+    r4 la,4 La'4 La so so so8 [La] So [La] So4 La8 [So] Fa4 So8 [La] La4 La La2
 
 }
 
@@ -57,10 +57,10 @@ mi Fa mi8 [la] La4 so la2 }
 }
 
 bassMusic = \fasola Fa, {
-
-La2 la4 la La Fa So8[ La] so4 so4 La8[ So] Fa4 So La La la,2 
-
-r4 La'4 la la la8[ so] La4 so4.( la8 so4) La Fa4 Fa La8[ so] la8[ so] La2
+ \repeat volta 2 {
+La2 la4 la La Fa So8[ La] so4 so4 La8[ So] Fa4 So La La la,2
+ }
+r4 La'4 Fa Fa Fa8 [So] La4 so4.( la8 so4) La Fa4 Fa La8[ so] la8[ so] La2
 r4 La4 la4 la La Fa So8[ La] so4 La La8[ so] la4 so8[ la] La4 La la,2
 
 }
@@ -107,7 +107,7 @@ tenorWords = \lyricmode {
 When worn with pain, di -- sease, and grief,
 This fee -- ble bo -- dy see;
 Good Lord, re -- mem -- ber me, Good Lord, re -- mem -- ber me.
-Grant pa --tience, rest, and kind relief;
+Grant pa -- tience, rest, and kind re -- lief;
 Good Lord, re -- mem -- ber me.
 
 }
@@ -123,7 +123,7 @@ tenorWordsThree = \lyricmode {
 }
 bassWords = \lyricmode {
 \set stanza = "3."
-When in the so --lemn hour of death
+When in the so -- lemn hour of death
 I wait Thy just de -- cree,
 Good Lord, re -- mem -- ber me, Good Lord, re -- mem -- ber me.
 Be this the prayer of my last breath,
