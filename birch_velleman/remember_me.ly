@@ -11,7 +11,7 @@ title = "Remember Me"
 meter = "8.6.8.6"
 poet = "Thomas Haweis"
 pdate = "1791"
-composer = "Lael Birch"
+composer = "Lael Birch and Leah Velleman"
 cdate = "2025"
 
 pitch = a % The written pitch
@@ -32,9 +32,13 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleMusic = \fasola Fa {
-
-
+trebleMusic = \fasola Fa' {
+    \repeat volta 2 {
+        la2 La'4 Fa mi Fa mi8 [Fa] So [La] So4
+        So Fa So8 [La] La4 La La2
+    }
+    r4 La4 la, la la8 [mi] la4 so4. (la8 so8 la) mi4 Fa La Fa8 [So] La [fa] so2
+    r4 La4 La4 La Fa La so8 [La] So [La] So4 So Fa So8 [La] La4 La La2
 
 }
 
