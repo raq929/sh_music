@@ -15,6 +15,8 @@ textFlat = \markup { \hspace #0.2 \raise #0.3 \smaller \smaller \flat }
 
 textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp }
 
+font = "Crimson"
+
 
 % PAGE LAYOUT AND HEADER
 %%%%%%%%%%%%%%%%%%%%%%%%
@@ -34,29 +36,28 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
   score-markup-spacing = #'((basic-distance . 20) (minimum-distance . 10) (padding . 3) (stretchability . 5))
   last-bottom-spacing = #'((basic-distance . 20) (minimum-distance . 5) (padding . 1) (stretchability . 5))
   system-system-spacing = #'((basic-distance . 20) (minimum-distance . 5) (padding . 1) (stretchability . 5))
-  #(define fonts
-    (make-pango-font-tree "Times New Roman"
-                          "Nimbus Sans"
-                          "Luxi Mono"
-                          (/ staff-height pt 20)))
+
+
   scoreTitleMarkup = \markup {
     \column{
       \fill-line {
         \null
+	\override #'((font-name . "Crimson Bold"))
         \fontsize #6 \bold \concat{ \fromproperty #'header:title . " " \fromproperty #'header:meter }
         \null
       }
+      \override #'((font-name . "Crimson"))
       \fill-line {
         \fontsize #0 \concat {
-          \bold \fromproperty #'header:key "    "
-          \bold \fromproperty #'header:poet
+          \fromproperty #'header:key "    "
+          \fromproperty #'header:poet
           \maybeHymnal
-          ", " \bold \fromproperty #'header:pdate "."
+          ", " \fromproperty #'header:pdate "."
         }
         \null
         \fontsize #0 \concat {
-          \bold \fromproperty #'header:composer ", "
-          \bold \fromproperty #'header:cdate "."
+          \fromproperty #'header:composer ", "
+          \fromproperty #'header:cdate "."
         }
       }
     }
@@ -71,17 +72,19 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
     \remove "Bar_number_engraver"
     \remove "Volta_engraver"
     \omit SpanBar
-    startRepeatType = ":"
-    doubleRepeatType = ":|:"
+    \override Score.startRepeatType = ":"
+    \override Score.doubleRepeatType = ":|:"
   }
   \context {
     \Staff
-    \remove "Volta_engraver"
     \consists "Volta_engraver"
     \override VoltaBracket.style = #'dashed-line
     \override VoltaBracket.dash-period = #0
-    \override VoltaBracket.extra-offset = #'(-0 . -0.5)
-    \override VoltaBracket.font-name = "Times New Roman,"
+    \override VoltaBracket.extra-offset = #'(-1 . -0.25)
+    \override VoltaBracket.padding = #10
+    \override VoltaBracket.edge-height = #'(0 . 0)
+    \override VoltaBracket.font-name = "Crimson Bold"
+    \override VoltaBracket.font-size = \fontSize
     \override VoltaBracket.font-size = \fontSize
     \override TimeSignature.style = #'numbered
     \override TimeSignature.break-visibility = #end-of-line-invisible
@@ -92,14 +95,14 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
   }
   \context {
     \Lyrics
-    \override StanzaNumber.font-size = 0
-    \override StanzaNumber.font-name = "Times New Roman,"
+    \override StanzaNumber.font-size = \fontSize
+    \override StanzaNumber.font-name = \font
     \override StanzaNumber.font-series = #'medium
     \override LyricText.font-size = \fontSize
-    \override LyricText.font-name = "Times New Roman,"
+    \override LyricText.font-name = \font
     \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 5) (padding . 0.5) (stretchability . 0.5))
     \override VerticalAxisGroup.nonstaff-nonstaff-spacing = #'((basic-distance . 0) (minimum-distance . 2) (padding . 0.2) (stretchability . 0))
-    \override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing = #'((padding . 0.5))
+    \override VerticalAxisGroup.nonstaff-unrelatedstaff-spacing = #'((padding . 2))
   }
 }
 
