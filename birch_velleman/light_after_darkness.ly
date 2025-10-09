@@ -46,10 +46,10 @@ la2 la4 so la Fa mi2
 
 tenorMusic = \fasola Fa' {
 \repeat volta 2 {
-La2 La4 So Fa la2. Fa2 So4 Fa la1
+La2 La4 So Fa la4 (la2) Fa2 So4 Fa la1
 }
 la2 Fa4 La la so2. la2 la8 [so] La4 so1
-La2 La4 So Fa la2. Fa2 So4 Fa la1
+La2 La4 So Fa la4 (la2) Fa2 So4 Fa la1
 
 la2 Fa4 La la so2. la2 so4 la Fa8 [mi] la2.
 la,2 Fa4 La la4 so La2 Fa2 So4 Fa la2.
@@ -67,24 +67,6 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-
-
-
-}
-trebleWordsTwo = \lyricmode {
-\set stanza = "2."
-
-}
-
-altoWords = \lyricmode {
-\set stanza = "2."
-
-}
-altoWordsTwo = \lyricmode {
-}
-
-tenorWords = \lyricmode {
-\set stanza = "3."
 Light a -- fter dark -- ness, gain a -- fter loss,
 
 Sweet a -- fter bit -- ter, hope a -- fter fears,
@@ -92,16 +74,37 @@ Home a -- fter wand --  'ring, praise a -- fter tears;
 
 now comes the weep -- ing then the glad rea -- ping;
 now comes the la -- bor hard then the re -- ward.
+}
+trebleWordsTwo = \lyricmode {
+\set stanza = "2."
+Strength a -- fter weak -- ness, crown a -- fter cross;
+}
 
+altoWords = \lyricmode {
+\set stanza = "2."
+Light a -- fter dark -- ness, gain a -- fter loss,
 
+Joy after sor -- row, calm a -- fter blast,
+Rest after wear -- iness, sweet rest at last.
 
+now comes the weep -- ing then the glad rea -- ping;
+now comes the la -- bor hard then the re -- ward.
+}
+altoWordsTwo = \lyricmode {
+ Sight a -- fter mys -- t'ry, peace a -- fter pain;
+}
 
+tenorWords = \lyricmode {
+\set stanza = "3."
+near a -- fter dis -- tant, gleam a -- fter gloom,
+A -- fter long a -- gony rap -- ture of bliss—
+Right was the path -- way lead -- ing to this.
 
-
+now comes the weep -- ing then the glad rea -- ping;
+now comes the la -- bor hard then the re -- ward.
 }
 tenorWordsTwo = \lyricmode {
-Strength a -- fter weak -- ness, crown a -- fter cross;
-
+Love a -- fter lone -- liness, life a -- fter tomb;
 
 
 }
