@@ -42,7 +42,7 @@ altoMusic = \fasola Fa' {
 r2 so so so fa so4 (So) La2.
 so4 La2 La La So4 (Fa) So1
 r2 So La so Fa so fa la4 (so) la2.
-so4 so2 so fa fa4. so8 so1
+so4 so2 so fa fa4. (so8) so1
 }
 
 tenorMusic = \fasola Fa' {
@@ -56,8 +56,8 @@ Fa4 Fa2 Fa Fa mi4. (Fa8) Fa1
 bassMusic = \fasola Fa, {
 r2 Fa La La fa so4 (so,) Fa2.
 Fa4 la2 la la So4 (Fa) so1
-r2 so Fa Fa Fa Fa Fa la'4 (so) la2.
-La4 Fa2 La fa so4. (Fa8) <Fa Fa,>1
+r2 so Fa Fa Fa Fa Fa La4 (so) la2.
+La4 Fa2 La fa so4 (so,) Fa1
 }
 
 
@@ -91,7 +91,7 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-Ne'er think the vic -- t'ry won,
+ne'er think the vic -- t'ry won,
 nor once at ease sit down;
 the ar -- duous work will not be done
 till thou hast got the crown.
