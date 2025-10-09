@@ -87,13 +87,13 @@ bassMusic = \fasola Fa, {
 \repeat volta 2 {
 
 r2
-Fa4. (La8) | so4 la la4 la | Fa8[ So] Fa4 so so | Fa,4 La La so, | \alternative {
+Fa4. (La8) | so4 la la4 la | Fa8[ So] Fa4 so so | Fa,4 La so so, | \alternative {
       \volta 1 { Fa1 }
       \volta 2 { Fa2 Fa }
     }
 }
 La4 so so so | la8[ so] fa4 so Fa, | so'2. La8[ so] Fa4 so8 [La] | Fa2 (La4 so Fa)
-Fa La La Fa Fa | la2 (fa2 | La8 [So Fa So] La4) Fa | la4. (so8 la2 Fa4 La4 so,) Fa4 Fa La La so, | Fa1
+Fa La La Fa Fa | la2 (fa2 | La8 [So Fa So] La4) Fa | La4. (So8 La2 Fa4 La4 so,) Fa4 Fa La so so, | Fa1
 }
 
 
