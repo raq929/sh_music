@@ -48,7 +48,7 @@ tenorMusic = \fasola Fa' {
 \repeat volta 2 {
 La2 La4 So Fa la4 (la2) Fa2 So4 Fa la1
 }
-la2 Fa4 La la so2. la2 la8 [so] La4 so1
+la2 Fa4 La la so4 (so2) la2 la8 [so] La4 so1
 La2 La4 So Fa la4 (la2) Fa2 So4 Fa la1
 
 la2 Fa4 La la so2. la2 so4 la Fa8 [mi] la2.
@@ -84,8 +84,8 @@ altoWords = \lyricmode {
 \set stanza = "2."
 Light a -- fter dark -- ness, gain a -- fter loss,
 
-Joy after sor -- row, calm a -- fter blast,
-Rest after wear -- iness, sweet rest at last.
+Joy af -- ter sor -- row, calm a -- fter blast,
+Rest a -- fter wear -- iness, sweet rest at last.
 
 now comes the weep -- ing then the glad rea -- ping;
 now comes the la -- bor hard then the re -- ward.
