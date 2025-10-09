@@ -36,12 +36,12 @@ trebleMusic = \fasola Fa' {
 
 altoMusic = \fasola Fa' {
 \repeat volta 2 {
-la2 la4 so la Fa2. Fa2 so4 la la1
+la2 la4 so la Fa2. Fa2 la4 so la1
 }
-Fa2 Fa4 so Fa Fa2. Fa2 Fa8[ mi] la4 so1
-Fa2 Fa4 Fa la Fa2. Fa2 so4 la la1
-la2 la4 so la Fa2. So2 So4 La Fa8[ mi] la2.
-la2 la4 so la Fa mi2
+Fa2 Fa4 Fa la Fa2. Fa2 Fa8[ mi] la4 so1
+Fa2 Fa4 Fa la Fa2. Fa2 la4 so la1
+la2 la4 so la Fa2. Fa2 La4 So Fa8[ mi] la2.
+la2 la4 so la Fa mi2 Fa2 la4 so la1
 }
 
 tenorMusic = \fasola Fa' {
@@ -52,12 +52,18 @@ la2 Fa4 La la so4 (so2) la2 la8 [so] La4 so1
 La2 La4 So Fa la4 (la2) Fa2 So4 Fa la1
 
 la2 Fa4 La la so2. la2 so4 la Fa8 [mi] la2.
-la,2 Fa4 La la4 so La2 Fa2 So4 Fa la2.
+la,2 Fa4 La la4 so La2 Fa2 So4 Fa la1
 \bar "|."
 }
 
 bassMusic = \fasola Fa {
-
+\repeat volta 2 {
+la2 la4 so Fa la2. Fa2 La,4 so la1
+}
+Fa2 Fa4 so la Fa2. la2 La4 la so1
+La2 La4 so la Fa2. Fa2 La,4 so la1
+Fa2 Fa4 so la Fa2. la2 La4 la so La2.
+la2 La4 so la Fa La2 La, La4 so la1
 }
 
 
