@@ -189,7 +189,6 @@ global = {
 % AUDIBLE SCORE
 %%%%%%%%%%%%%%%
 
-% #(load "../templates/includes/swing.scm")
 \score {
   \unfoldRepeats { <<
     \new Staff {\time\timeSignature\trebleMusic}
