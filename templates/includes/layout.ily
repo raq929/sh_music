@@ -15,7 +15,7 @@ textFlat = \markup { \hspace #0.2 \raise #0.3 \smaller \smaller \flat }
 
 textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp }
 
-font = "Crimson"
+font = "Crimson Text"
 
 
 % PAGE LAYOUT AND HEADER
@@ -42,11 +42,11 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
     \column{
       \fill-line {
         \null
-	\override #'((font-name . "Crimson Bold"))
+	\override #'((font-name . "Crimson Text Bold"))
         \fontsize #6 \bold \concat{ \fromproperty #'header:title . " " \fromproperty #'header:meter }
         \null
       }
-      \override #'((font-name . "Crimson"))
+      \override #'((font-name . "Crimson Text"))
       \fill-line {
         \fontsize #0 \concat {
           \fromproperty #'header:key "    "
@@ -83,7 +83,7 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
     \override VoltaBracket.extra-offset = #'(-1 . -0.25)
     \override VoltaBracket.padding = #10
     \override VoltaBracket.edge-height = #'(0 . 0)
-    \override VoltaBracket.font-name = "Crimson Bold"
+    \override VoltaBracket.font-name = "Crimson Text Bold"
     \override VoltaBracket.font-size = \fontSize
     \override VoltaBracket.font-size = \fontSize
     \override TimeSignature.style = #'numbered
