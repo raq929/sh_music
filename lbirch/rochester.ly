@@ -38,10 +38,10 @@ so4 so2 so2 Fa2. Fa4 la2 so so1
 }
 
 altoMusic = \fasola Fa' {
- r2. Fa4 | so4. so8 so4 so Fa2. Fa4 | So8 ([Fa la mi] Fa4) Fa mi2.
+ r2. Fa4 | so4. so8 mi4 mi Fa2. Fa4 | So8 ([Fa la mi] Fa4) Fa mi2.
  mi4 Fa2 Fa Fa Fa Fa4 Fa so la so2.
  so4 Fa2 mi4 (Fa) mi2. Fa4  So8 [Fa] la [mi] Fa4 Fa mi2.
- Fa4 Fa2 Fa La2. Fa4 Fa2 mi Fa1
+ Fa4 Fa2 La La2. Fa4 Fa2 mi Fa1
 
 }
 
@@ -59,7 +59,7 @@ bassMusic = \fasola Fa {
  r2. Fa4 | La4. La8 so4 so, Fa2.
  so4 | fa8 ([so la mi] Fa4) Fa so2.
  so4 | Fa2 so | fa la fa4 La so la | so2.
- Fa4 | so2 La'4 (Fa) La2. Fa4 fa,8 [so] la [mi] Fa4 Fa so2.
+ Fa4 | so2 so4 (Fa) La2. Fa4 fa,8 [so] la [mi] Fa4 Fa so2.
  so4 La'2 Fa2 Fa2. Fa4 | la2 so <Fa Fa,>1
 }
 
