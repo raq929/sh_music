@@ -14,8 +14,8 @@ pdate = "1823"
 composer = "Lael Birch"
 cdate = "2025"
 
-pitch = g % The written pitch
-isMajor = ##t   % Use ##t for major and ##f for minor
+pitch = e % The written pitch
+isMajor = ##f   % Use ##t for major and ##f for minor
 
 timeSignature = 2/4
 
