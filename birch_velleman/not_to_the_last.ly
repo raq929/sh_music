@@ -7,22 +7,22 @@
 %%                                   Setup                                   %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-title = "Persuasion"
-meter = "L.M."
-poet = ""
-pdate = ""
+title = "Remember Me"
+meter = "8.6.8.6"
+poet = "Thomas Haweis"
+pdate = "1791"
 composer = "Lael Birch and Leah Velleman"
 cdate = "2025"
 
-pitch = c % The written pitch
-isMajor = ##t   % Use ##t for major and ##f for minor
+pitch = a % The written pitch
+isMajor = ##f   % Use ##t for major and ##f for minor
 
-timeSignature = 4/4
+timeSignature = 3/4
 
 midiTempo = 100
 midiInstrument = "piano"
 
-systemCount = 1
+systemCount = 2
 
 staffSize = 20
 fontSize = 0
@@ -40,10 +40,8 @@ altoMusic = \fasola Fa {
 }
 
 tenorMusic = \fasola Fa {
-Fa''2 Fa4 mi | la so La fa | so2 la4( mi) | Fa4 So8[ La] fa4 La | So2 Fa | So1
-So2 La8[ So] La[ fa] | so4 Fa, So La | la,2 so4( fa) | La4 La8[ fa] so4 so8[ la] | Fa2 mi | Fa1
-
-\bar "|."
+r2 so4 | Fa2 Fa4 | Fa2 La4 | So2 Fa4 | la2 Fa4 | So2 So4 | Fa2 la4 | la2
+so4 | la2 Fa4 | so2 Fa4 | So2 Fa4 | La2 Fa4 | la2 so4 | Fa2 Fa4 | Fa2.
 }
 
 bassMusic = \fasola Fa, {
@@ -56,36 +54,49 @@ bassMusic = \fasola Fa, {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-Ab -- surd and vain at -- tempt, to bind
-With i -- ron chains the free born mind!
-To force con -- vic -- tion and re -- claim
-The wand' -- ring by de -- struct -- ive flame!
+When on my a -- ching, bur -- den'd heart
+My sins lie heav -- i -- ly,
+
+Good Lord, re -- mem -- ber me, Good Lord, re -- mem -- ber me.
+Thy par -- don grant, new peace im -- part;
+Good Lord, re -- mem -- ber me.
+
 
 }
 trebleWordsTwo = \lyricmode {
 
+Thy par -- don grant, new peace im -- part;
+Good Lord, re -- mem -- ber me.
 }
 
 altoWords = \lyricmode {
 \set stanza = "2."
+When tri -- als sore ob -- struct my way,
+And ills I can -- not flee,
 
-Bold ar -- ro -- gance! to snatch from heav'n
-Do -- min -- ion not to mor -- tals giv'n;
-O'er con -- science to u -- surp the throne,
-Ac -- count -- a -- ble to God a -- lone.
+Good Lord, re -- mem -- ber me, Good Lord, re -- mem -- ber me.
+O let my strength be as my day;
+Good Lord, re -- mem -- ber me.
 
 }
 altoWordsTwo = \lyricmode {
+    O let my strength be as my day;
+ Good Lord, re -- mem -- ber me.
 }
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-Je -- sus, thy gen -- tle law of love
-Doth no such cru -- el -- ties ap -- prove;
-Mild as thy -- self, thy doc -- trine wields
-No arms but what per -- sua -- sion yields.
+When worn with pain, di -- sease, and grief,
+This fee -- ble bo -- dy see;
+Good Lord, re -- mem -- ber me, Good Lord, re -- mem -- ber me.
+Grant pa -- tience, rest, and kind re -- lief;
+Good Lord, re -- mem -- ber me.
+
 }
 tenorWordsTwo = \lyricmode {
+Grant pa -- tience, rest, and kind re -- lief;
+Good Lord, re -- mem -- ber me.
+
 
 
 }
@@ -94,10 +105,17 @@ tenorWordsThree = \lyricmode {
 }
 bassWords = \lyricmode {
 \set stanza = "3."
+When in the so -- lemn hour of death
+I wait Thy just de -- cree,
+Good Lord, re -- mem -- ber me, Good Lord, re -- mem -- ber me.
+Be this the prayer of my last breath,
+Good Lord, re -- mem -- ber me.
 
 
 }
 bassWordsTwo = \lyricmode {
+Be this the prayer of my last breath,
+Good Lord, re -- mem -- ber me.
 }
 
 
