@@ -14,8 +14,8 @@ pdate = "1875"
 composer = "Lael Birch and Leah Velleman"
 cdate = "2025"
 
-pitch = g % The written pitch
-isMajor = ##t   % Use ##t for major and ##f for minor
+pitch = e % The written pitch
+isMajor = ##f   % Use ##t for major and ##f for minor
 
 timeSignature = 4/4
 
@@ -32,13 +32,13 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
     \repeat volta 2 {
-La2 La4 so la4 La2. La2 La4 La La1
+La2 La4 so la4 La2. La2 La4 So La1
     }
 La2 Fa4 La So La2. La2 La8 [So] Fa4 So1
-La2 La4 so la4 La2. La2 La4 La La1
+La2 La4 so la4 La2. La2 La4 So La1
 \repeat volta 2 {
     La2 Fa4 La So La2. La2 so4 la so8 [fa] La2.
-    La2 la4 so la4 Fa mi2 La,2 La4 La La1
+    La2 la4 so la4 Fa mi2 La,2 La4 So La1
 }
 }
 
