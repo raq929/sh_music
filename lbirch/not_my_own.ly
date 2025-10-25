@@ -33,24 +33,24 @@ fontSize = 0
 trebleMusic = \fasola Fa'' {
 r2 so8 so La4 Fa4 La8 so so La4.
 Fa'8 Fa so4 La Fa'16 [mi] Fa8 so2
-Fa8 so La4 So La8 so so La4.
+so8 so Fa4 so La8 so so La4.
 so8 la la4 fa La8 so so2.
 
 r2 Fa8 la so4. (la8) so la Fa (so4.)
-so8 la so4 so Fa8 Fa mi2
-Fa8 so so4 so la8 so Fa mi4.
+so8 la so4 so Fa16 [mi] Fa8 mi2
+Fa8 so fa4 so la8 so la Fa4.
 so8 la Fa4 Fa la8 so so2.
 }
 
 altoMusic = \fasola Fa' {
  r2 La8 Fa Fa4 La4 Fa8 Fa mi Fa4.
  Fa8 La La4 Fa la16 [mi] Fa8 mi2
- Fa8 Fa La4 So Fa8 Fa mi Fa4.
- so8 la la4 Fa Fa8 mi Fa2.
+ Fa8 Fa Fa4 So Fa8 Fa mi Fa4.
+ so8 la la4 la Fa8 mi Fa2.
 
  r2 so8 Fa La4. (Fa8) La8 Fa So (La4.)
  So8 La La4 La Fa16 [So] La8 So2
- Fa8 So La4 So Fa8 La La8 So4.
+ Fa8 Fa la4 so Fa8 Fa Fa8 La4.
  So8 Fa Fa4 La Fa8 So La2.
 }
 
@@ -69,13 +69,13 @@ so8 fa La4 Fa La8 So Fa2.
 
 bassMusic = \fasola Fa {
 r2 Fa8 Fa La4 Fa so8 so so Fa4.
-la8 so Fa4 Fa la16 [so] fa8 so2
-Fa8 La La4 So Fa8 Fa so8 Fa4.
-so8 fa la4 Fa so8 so Fa2.
+la8 so Fa4 so la16 [so] fa8 so2
+Fa8 La fa4 So Fa8 Fa so8 Fa4.
+so8 Fa La4 Fa so8 so Fa2.
 
 r2 La8 La Fa4. (La8) Fa la8 so (Fa4.)
-so8 so Fa4 so Fa16 [mi] la8 so2
-Fa8 La Fa4 so La'8 La Fa so4. so8 Fa8 La4 Fa so8 so Fa2.
+so8 la Fa4 so Fa16 [mi] la8 so2
+Fa8 La fa4 so La8 La Fa so4. so8 Fa8 La4 Fa so8 so Fa2.
 }
 
 
@@ -104,6 +104,15 @@ trebleWordsTwo = \lyricmode {
 
 altoWords = \lyricmode {
 \set stanza = "2."
+Not my own; my time, my ta -- lents,
+Free -- ly all to Christ I bring,
+To be used in joy -- ful ser -- vice
+For the glo -- ry of my King.
+
+Not my own, not my own,
+Sa -- viour, I be -- long to thee;
+All I have and all I hope for,
+Thine for all e -- ter -- ni -- ty.
 
 }
 altoWordsTwo = \lyricmode {
@@ -111,10 +120,11 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "3."
-Not my own, but saved by Je -- sus,
-Who re -- deemed me by his blood;
-Glad -- ly I ac -- cept the mes -- sage,
-I be -- long to Christ the Lord.
+
+Not my own; the Lord ac -- cepts me,
+One a -- mong the ran -- somed throng
+Who in Heav'n shall see his glo -- ry,
+And to Je -- sus Christ be -- long.
 
 Not my own, not my own,
 Sa -- viour, I be -- long to thee;
@@ -132,9 +142,7 @@ tenorWordsThree = \lyricmode {
 
 }
 bassWords = \lyricmode {
-\set stanza = "3."
-
-
+\set stanza = "4."
 
 }
 bassWordsTwo = \lyricmode {
