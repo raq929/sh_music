@@ -31,7 +31,7 @@ fontSize = 0
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleMusic = \fasola Fa' {
-r2. Fa4 La4. so8 la [so] Fa8 [la] so4 la so4.
+r2. Fa4 La4. so8 la [so] fa8 [La] so4 la so4.
 so8 Fa4. so8 La4 So Fa2.
 Fa4 so'4. la8 mi4 Fa la so La4.
 so8 La4. fa8 so4. so8 so1
@@ -41,22 +41,22 @@ altoMusic = \fasola Fa' {
 r2. so4 so4. so8  Fa [So] Fa8 [la] so4 Fa Fa4.
 so8 so4. so8 la4 so Fa2.
 Fa4 La4. Fa8 So4 Fa Fa mi Fa4.
-Fa8 Fa4. Fa8 mi4. so8 so1
+so8 la4. la8 mi4. mi8 Fa1
 }
 
 tenorMusic = \fasola Fa' {
 r2. so4 Fa4. So8 La[ So] Fa8 [La] so4 fa La4.
 Fa8 so'4. so8 la4 so La2.
 so4 Fa4. la8 so4 fa La So Fa4.
-Fa8 La4. fa8 So4. Fa8 Fa1
+Fa8 La4. fa8 So4. So8 Fa1
 \bar "|."
 }
 
 bassMusic = \fasola Fa {
-r2. Fa4 Fa4. so8 la [so] la [Fa] Fa4 Fa Fa4.
+r2. Fa4 Fa4. so8 la [so] la [mi] Fa4 Fa Fa4.
 Fa8 so4. Fa8 La4 So Fa2.
 so4 Fa4. La8 so,4 fa la so Fa4.
-Fa8 Fa4. So8 so,4. Fa8 Fa1
+Fa8 Fa4. So8 so,4. so8 Fa1
 \bar "|."
 }
 
@@ -67,17 +67,22 @@ Fa8 Fa4. So8 so,4. Fa8 Fa1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
-
-
+ When waves of trou -- ble round me swell,
+My soul is not dis -- mayed'
+I hear a voice I know full well:
+'Tis I, be not a -- fraid.
 
 }
 trebleWordsTwo = \lyricmode {
 \set stanza = "2."
-
 }
 
 altoWords = \lyricmode {
 \set stanza = "2."
+When black the threat -- 'ning skies ap -- pear,
+And storms my path in -- vade,
+Those ac -- cents tran -- qui -- lize each fear:
+'Tis I, be not a -- fraid.
 
 }
 altoWordsTwo = \lyricmode {
@@ -85,10 +90,10 @@ altoWordsTwo = \lyricmode {
 
 tenorWords = \lyricmode {
 \set stanza = "3."
- When waves of trou -- ble round me swell,
-My soul is not dis -- mayed'
-I hear a voice I know full well:
-'Tis I, be not a -- fraid;
+ There is a gulf that must be crossed;
+Sa -- vior, be near to aid!
+Whis -- per, when my frail boat is tossed,
+'Tis I, be not a -- fraid.
 
 }
 tenorWordsTwo = \lyricmode {
@@ -102,7 +107,10 @@ tenorWordsThree = \lyricmode {
 }
 bassWords = \lyricmode {
 \set stanza = "3."
-
+There is a dark and fear -- ful vale,
+Death hides wi -- thin its shade;
+Oh, say, when flesh and heart shall fail,
+'Tis I, be not a -- fraid.
 
 
 }
