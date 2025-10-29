@@ -10,9 +10,9 @@
 title = "Logan"
 meter = ""
 poet = "Unknown"
-pdate = "1830"
+pdate = "1812"
 composer = "Lael Birch"
-cdate = "1812"
+cdate = "2025"
 
 pitch = d % The written pitch
 isMajor = ##f   % Use ##t for major and ##f for minor
