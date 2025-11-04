@@ -15,7 +15,7 @@ textFlat = \markup { \hspace #0.2 \raise #0.3 \smaller \smaller \flat }
 
 textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp }
 
-font = "Crimson Text"
+font = "Crimson"
 
 
 % PAGE LAYOUT AND HEADER
@@ -42,11 +42,11 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
     \column{
       \fill-line {
         \null
-	\override #'((font-name . "Crimson Text Bold"))
+	\override #'((font-name . "Crimson Bold"))
         \fontsize #6 \bold \concat{ \fromproperty #'header:title . " " \fromproperty #'header:meter }
         \null
       }
-      \override #'((font-name . "Crimson Text"))
+      \override #'((font-name . "Crimson"))
       \fill-line {
         \fontsize #0 \concat {
           \fromproperty #'header:key "    "
