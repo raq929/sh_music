@@ -31,18 +31,22 @@ fontSize = 0
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                 Music                                     %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-trebleMusic = \fasola Fa'' {
+trebleMusic = \fasola Fa' {
+   \repeat volta 2 { La4 La La Fa mi la Fa So Fa8 [mi] la4 Fa So La La La2 }
+   Fa4 Fa La La so La So Fa Fa La La So Fa8 [So] La4 La2
 }
 
 altoMusic = \fasola Fa' {
 }
 
 tenorMusic = \fasola Fa' {
-\repeat volta 2 {la la Fa La So Fa La so La8[ So] Fa4 la so la Fa la2}
+\repeat volta 2 {la4 la Fa La So Fa La so La8[ So] Fa4 la so la Fa la2}
 la4 la Fa la La' La so La La La la so La8[ So] Fa4 la2
 }
 
-bassMusic = \fasola Fa' {
+bassMusic = \fasola Fa {
+    \repeat volta 2 {la,4 Fa Fa La So La la so la8 mi Fa4 la so La La la,2}
+    la4 Fa Fa Fa la La' So La La Fa la' so La8 [ So] La4 la,2
 }
 
 
