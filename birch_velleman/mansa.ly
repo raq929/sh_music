@@ -10,8 +10,8 @@
 
 title = "Mansa"
 meter = "8.7.8.7"
-poet = "Neil Barham"
-pdate = "2005"
+poet = "Horatius Bonar"
+pdate = "1845"
 composer = "Lael Birch and Leah Velleman"
 cdate = "2025"
 
