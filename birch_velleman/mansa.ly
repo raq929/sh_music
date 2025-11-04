@@ -45,8 +45,8 @@ la4 la Fa la La' La so La La La la so La8[ So] Fa4 la2
 }
 
 bassMusic = \fasola Fa {
-    \repeat volta 2 {la,4 Fa Fa La So La la so la8 mi Fa4 la so La La la,2}
-    la4 Fa Fa Fa la La' So La La Fa la' so La8 [ So] La4 la,2
+    \repeat volta 2 {la,4 Fa Fa La So La la so la8 [mi] Fa4 la so La La <la la,>2}
+    la,4 Fa Fa La la La So La La Fa la' so La8 [ So] La4 <la la,>2
 }
 
 
