@@ -37,6 +37,8 @@ trebleMusic = \fasola Fa' {
 }
 
 altoMusic = \fasola Fa' {
+\repeat volta 2 {la4 La La la so La La so La8[ So] Fa4 La so La La la2}
+la4 La La la so La So Fa La8[ So] Fa4 La so La8[ So] La4 la2
 }
 
 tenorMusic = \fasola Fa' {
@@ -56,28 +58,42 @@ bassMusic = \fasola Fa {
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 trebleWords = \lyricmode {
 \set stanza = "1."
+This is not a place of rest -- ing;
+"Mine's a" _ cit -- y yet to come.
+"Shout, Oh glory!" _ _ _
+"Shout, Oh glory!" _ _ _
+On to my e -- tern -- al home.
 }
 trebleWordsTwo = \lyricmode {
-\set stanza = "2."
+"Onward to" _ _ it I am hast -- 'ning,
+On to my e -- tern -- al home.
 }
 
 altoWords = \lyricmode {
+\set stanza = "2."
+In that "land of light and" _ _ _ glo -- ry
+"O'er it" _ "shines etern" _ _ -- al day.
+"Shout, Oh glory!" _ _ _
+"Shout, Oh glory!" _ _ _
+"All the curse has passed" _ _ _ _ a -- way.
 }
 altoWordsTwo = \lyricmode {
+Ev -- 'ry "tear from sin's sad" _ _ _ sto -- ry,
+"All the curse has passed" _ _ _ _ a -- way.
 }
 
 tenorWords = \lyricmode {
-\set stanza = "1."
-This is not a place of rest -- ing;
-Mine's a cit -- y yet to come.
-On to glor -- y,
-On to glor -- y,
-On to my e -- tern -- al home.
+\set stanza = "3."
+"There the Lamb and Shepherd leads us" _ _ _ _ _ _ _
+"By the streams of" _ _ _ life  a -- long
+"Shout, Oh glory!" _ _ _
+"Shout, Oh glory!" _ _ _
+Turn our sigh -- ing in -- to song!
 
 }
 tenorWordsTwo = \lyricmode {
-On -- ward to it I am hast -- 'ning,
-On to my e -- tern -- al home.
+"On the freshest pastures feeds us," _ _ _ _ _ _ _
+"Turns our sighing" _ _ _ in -- to song.
 }
 
 bassWords = \lyricmode {
