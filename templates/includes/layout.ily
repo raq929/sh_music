@@ -15,8 +15,8 @@ textFlat = \markup { \hspace #0.2 \raise #0.3 \smaller \smaller \flat }
 
 textSharp = \markup { \hspace #0.2 \raise #0.7 \smaller \smaller \smaller \sharp }
 
-font = "Crimson Text, Crimson"
-
+font = "Century"
+fontSize = #-1
 
 % PAGE LAYOUT AND HEADER
 %%%%%%%%%%%%%%%%%%%%%%%%
@@ -32,30 +32,31 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
   print-page-number = ##f
   max-systems-per-page = 2
   min-systems-per-page = 2
-  markup-system-spacing = #'((basic-distance . 0) (minimum-distance . 0) (padding . 1) (stretchability . 0))
-  score-markup-spacing = #'((basic-distance . 20) (minimum-distance . 10) (padding . 3) (stretchability . 5))
-  last-bottom-spacing = #'((basic-distance . 20) (minimum-distance . 5) (padding . 1) (stretchability . 5))
-  system-system-spacing = #'((basic-distance . 20) (minimum-distance . 5) (padding . 1) (stretchability . 5))
+%  markup-system-spacing = #'((basic-distance . 0) (minimum-distance . 0) (padding . 1) (stretchability . 0))
+%  score-markup-spacing = #'((basic-distance . 20) (minimum-distance . 10) (padding . 3) (stretchability . 5))
+%  last-bottom-spacing = #'((basic-distance . 20) (minimum-distance . 5) (padding . 1) (stretchability . 5))
+%  system-system-spacing = #'((basic-distance . 20) (minimum-distance . 5) (padding . 1) (stretchability . 5))
 
 
   scoreTitleMarkup = \markup {
     \column{
       \fill-line {
         \null
-	\override #'((font-name . "Crimson Text Bold, Crimson Bold"))
-        \fontsize #6 \bold \concat{ \fromproperty #'header:title . " " \fromproperty #'header:meter }
+	\override #'((font-name . "Century-Old-Style-Caps"))
+        \fontsize #6 \concat{ \fromproperty #'header:title . " " \fromproperty #'header:meter }
         \null
       }
-      \override #'((font-name . "Crimson Text, Crimson"))
+      \override #'((font-name . \font))
       \fill-line {
-        \fontsize #0 \concat {
+        \fontsize #-1 \concat {
           \fromproperty #'header:key "    "
           \fromproperty #'header:poet
           \maybeHymnal
           ", " \fromproperty #'header:pdate "."
         }
         \null
-        \fontsize #0 \concat {
+        \override #'((font-name . \font))
+        \fontsize #-1 \concat {
           \fromproperty #'header:composer ", "
           \fromproperty #'header:cdate "."
         }
@@ -77,21 +78,21 @@ maybeHymnal = #(if (equal? hymnal "") "" (markup " " #:italic hymnal))
   }
   \context {
     \Staff
-    \consists "Volta_engraver"
+%    \consists "Volta_engraver"
     \override VoltaBracket.style = #'dashed-line
     \override VoltaBracket.dash-period = #0
     \override VoltaBracket.extra-offset = #'(-1 . -0.25)
     \override VoltaBracket.padding = #10
     \override VoltaBracket.edge-height = #'(0 . 0)
-    \override VoltaBracket.font-name = "Crimson Text Bold, Crimson Bold"
-    \override VoltaBracket.font-size = \fontSize
+    \override VoltaBracket.font-name = "Crimson"
     \override VoltaBracket.font-size = \fontSize
     \override TimeSignature.style = #'numbered
     \override TimeSignature.break-visibility = #end-of-line-invisible
     \override BarLine.stencil = #with-shapenote-repeats
     \override BarLine.hair-thickness = #0.7
     \override NoteHead.font-size = #0.5
-    \override VerticalAxisGroup.staff-staff-spacing = #'((basic-distance . 14) (minimum-distance . 7) (padding . 1) (stretchability . 5))
+    \override VerticalAxisGroup #'minimum-Y-extent = #'(-3 . 3)
+%    \override VerticalAxisGroup.staff-staff-spacing = #'((basic-distance . 14) (minimum-distance . 7) (padding . 1) (stretchability . 5))
   }
   \context {
     \Lyrics
